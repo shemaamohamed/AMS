@@ -89,7 +89,7 @@ export function Navbar() {
           </div>
           <div className={`hidden lg:flex flex-col border-slate-300 dark:border-white/20 ${isRtl ? 'border-r pr-3' : 'border-l pl-3'}`}>
             <span className="text-xs font-black text-[#041c2c] dark:text-white tracking-widest leading-tight">
-              SOVEREIGN SUBSEA
+              {isRtl ? 'هندسة الأعماق السيادية' : 'SOVEREIGN SUBSEA'}
             </span>
             <span className="text-[10px] text-[#2f7c4c] dark:text-[#3bd879] font-bold tracking-tight">
               Alpha OMQ × OSC Marine

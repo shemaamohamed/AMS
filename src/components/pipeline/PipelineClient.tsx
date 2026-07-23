@@ -80,7 +80,7 @@ export function PipelineClient() {
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-200 dark:border-white/10 pb-6">
             <div>
               <span className="text-xs font-bold text-[#0a66a0] dark:text-sky-400 uppercase tracking-widest">{isRtl ? 'تحالف الكشط والفحص الذكي' : 'In-Line Inspection Alliance'}</span>
-              <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-slate-900 dark:text-white">{isRtl ? 'فحص الأنابيب الذكي المباشر مع بايبكير (PIPECARE)' : 'PIPECARE Smart Pigging & In-Line Inspection'}</h2>
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-slate-900 dark:text-white">{isRtl ? 'فحص الأنابيب الذكي المباشر مع PIPECARE' : 'PIPECARE Smart Pigging & In-Line Inspection'}</h2>
             </div>
             <span className="text-xs font-bold text-[#0a66a0] dark:text-sky-300 bg-[#0a66a0]/10 dark:bg-[#0a66a0]/20 px-3 py-1 rounded border border-[#0a66a0]/30">
               MFL / UT / EMAT / Geometry
@@ -119,7 +119,7 @@ export function PipelineClient() {
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-200 dark:border-white/10 pb-6">
             <div>
               <span className="text-xs font-bold text-[#2f7c4c] dark:text-emerald-400 uppercase tracking-widest">{isRtl ? 'تحالف المعدات والأدوات بدون غواصين' : 'Diverless Subsea Tooling Alliance'}</span>
-              <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-slate-900 dark:text-white">{isRtl ? 'مجموعة أدوات الإصلاح من كونيكتور سابسي (CSS)' : 'Connector Subsea Solutions (CSS) Repair Suite'}</h2>
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-slate-900 dark:text-white">{isRtl ? 'مجموعة أدوات الإصلاح من Connector Subsea Solutions (CSS)' : 'Connector Subsea Solutions (CSS) Repair Suite'}</h2>
             </div>
             <span className="text-xs font-bold text-[#2f7c4c] dark:text-emerald-300 bg-[#2f7c4c]/10 dark:bg-[#2f7c4c]/20 px-3 py-1 rounded border border-[#2f7c4c]/30">
               Norway Technology Track Record

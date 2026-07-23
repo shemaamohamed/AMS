@@ -3,11 +3,11 @@ import { TechPartner } from '@/types';
 export const partnersData: TechPartner[] = [
   {
     name: 'PIPECARE (formerly LINSCAN)',
-    nameAr: 'بايبكير (PIPECARE - لينسكان سابقاً)',
+    nameAr: 'PIPECARE (formerly LINSCAN)',
     tagline: 'Global Leader in In-Line Inspection (ILI) & Smart Pigging',
     taglineAr: 'الرائد العالمي في الفحص المباشر للأنابيب (ILI) والكشط الذكي',
     description: 'PIPECARE brings decades of intelligent pipeline diagnostic expertise, supplying state-of-the-art MFL, Ultrasonic, Geometry, and EMAT smart pigs to inspect and protect critical hydrocarbon transmission pipelines across the Middle East and worldwide.',
-    descriptionAr: 'توفر بايبكير عقوداً من الخبرة التشخيصية الذكية للأنابيب، حيث تزود مكاشط MFL والموجات فوق الصوتية و EMAT الذكية لفحص وحماية خطوط نقل الهيدروكربونات البحرية في الشرق الأوسط والعالم.',
+    descriptionAr: 'توفر شركة PIPECARE عقوداً من الخبرة التشخيصية الذكية للأنابيب، حيث تزود مكاشط MFL والموجات فوق الصوتية و EMAT الذكية لفحص وحماية خطوط نقل الهيدروكربونات البحرية في الشرق الأوسط والعالم.',
     technologies: [
       'Magnetic Flux Leakage (MFL & MFL-TFI)',
       'Ultrasonic Wall Thickness & Crack Detection (UTWM & UTCD)',
@@ -39,11 +39,11 @@ export const partnersData: TechPartner[] = [
   },
   {
     name: 'Connector Subsea Solutions (CSS)',
-    nameAr: 'كونيكتور سابسي سلوشنز (CSS النرويج)',
+    nameAr: 'Connector Subsea Solutions (CSS)',
     tagline: 'Norway Deepwater Repair & Diverless Subsea Tooling Pioneer',
     taglineAr: 'الرائد النرويجي في حلول إصلاح الأعماق والأدوات بدون غواصين',
     description: 'Headquartered in Norway with global operational hubs, Connector Subsea Solutions supplies high-specification diverless clamps, Morgrip permanent connectors, pipe handling frames, and subsea installation tooling engineered for extreme deepwater environments up to 1,300m MWD.',
-    descriptionAr: 'تزود Connector Subsea Solutions مشابك الأنابيب بدون غواصين، وتوصيلات Morgrip الدائمة، وإطارات رفع الأنابيب، وأدوات التركيبات البحرية المصممة للعمل في البيئات القاسية حتى عمق 1300م.',
+    descriptionAr: 'تزود شركة Connector Subsea Solutions (CSS) مشابك الأنابيب بدون غواصين، وتوصيلات Morgrip الدائمة، وإطارات رفع الأنابيب، وأدوات التركيبات البحرية المصممة للعمل في البيئات القاسية حتى عمق 1300م.',
     technologies: [
       'Morgrip DNV-GL Approved Pipeline Connectors (up to 42" OD)',
       'ROV-Operated "H" Frames & Handling Systems',

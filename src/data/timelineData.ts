@@ -105,7 +105,7 @@ export const timelineData: TimelineMilestone[] = [
     titleAr: 'المشروع المشترك الاستراتيجي لـ AMS Marine في المملكة',
     entity: 'AMS Marine KSA',
     description: 'Strategic Joint Venture combining Alpha OMQ (Saudi Arabia sovereign subsea authority) & OSC Marine Group, aligned with Saudi Vision 2030.',
-    descriptionAr: 'مشروع مشترك استراتيجي يجمع الفاع و إم كيو ومجموعة أوشين سابسي مارين، اتساقاً مع رؤية السعودية 2030.',
+    descriptionAr: 'مشروع مشترك استراتيجي يجمع Alpha OMQ و OSC Marine Group، اتساقاً مع رؤية السعودية 2030.',
     badge: 'Vision 2030 Sovereign JV',
     badgeAr: 'مشروع سيادي ورؤية 2030'
   }

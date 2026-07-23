@@ -26,7 +26,7 @@ export function AboutClient() {
             {isRtl ? 'التراث السيادي ورؤية 2030' : 'Sovereign Heritage & Vision 2030'}
           </div>
           <h1 className="text-2xl sm:text-3xl md:text-5xl font-black text-slate-900 dark:text-white">
-            {isRtl ? 'تحالف الفاع و إم كيو × مجموعة أوشين سابسي مارين' : 'Alpha OMQ × OSC Marine Group Alliance'}
+            {isRtl ? 'تحالف Alpha OMQ × OSC Marine Group' : 'Alpha OMQ × OSC Marine Group Alliance'}
           </h1>
           <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 max-w-3xl mx-auto leading-relaxed">
             {isRtl
@@ -41,7 +41,7 @@ export function AboutClient() {
             <div className="flex items-center justify-between border-b border-slate-200 dark:border-white/10 pb-4">
               <div>
                 <span className="text-xs font-bold text-[#2f7c4c] dark:text-emerald-400 uppercase tracking-widest">{t('alphaOmqPartner')}</span>
-                <h2 className="text-2xl font-black text-slate-900 dark:text-white">{isRtl ? 'قيادة الفاع و إم كيو (Alpha OMQ)' : 'Alpha OMQ Leadership'}</h2>
+                <h2 className="text-2xl font-black text-slate-900 dark:text-white">{isRtl ? 'قيادة Alpha OMQ' : 'Alpha OMQ Leadership'}</h2>
               </div>
               <Building className="w-8 h-8 text-[#2f7c4c] dark:text-emerald-400" />
             </div>

@@ -137,13 +137,13 @@ export function Footer() {
             <li>
               <Link href="/pipeline-integrity#pipecare" className="hover:text-[#0a66a0] dark:hover:text-sky-400 transition-colors flex items-center gap-1.5">
                 <ExternalLink className="w-3 h-3 text-[#2f7c4c] dark:text-emerald-400" />
-                <span>{isRtl ? 'شراكة بايبكير (PIPECARE MFL/UT)' : 'PIPECARE Smart Pigging (MFL/UT)'}</span>
+                <span>{isRtl ? 'شراكة PIPECARE (MFL/UT)' : 'PIPECARE Smart Pigging (MFL/UT)'}</span>
               </Link>
             </li>
             <li>
               <Link href="/pipeline-integrity#css" className="hover:text-[#0a66a0] dark:hover:text-sky-400 transition-colors flex items-center gap-1.5">
                 <ExternalLink className="w-3 h-3 text-[#2f7c4c] dark:text-emerald-400" />
-                <span>{isRtl ? 'كونيكتور سابسي (CSS Morgrip)' : 'Connector Subsea Solutions (Morgrip)'}</span>
+                <span>{isRtl ? 'أدوات Connector Subsea Solutions (CSS)' : 'Connector Subsea Solutions (Morgrip)'}</span>
               </Link>
             </li>
             <li>

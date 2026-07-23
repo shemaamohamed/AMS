@@ -85,7 +85,7 @@ export const translations = {
   AR: {
     // Top Banner & Navbar
     sovereignJv: 'مشروع مشترك سيادي في المملكة العربية السعودية',
-    jvSubtitle: 'الفاع و إم كيو × مجموعة أوشين سابسي مارين (تأسست ١٩٦٢)',
+    jvSubtitle: 'Alpha OMQ × OSC Marine Group (Est. 1962)',
     emergencyDispatch: 'طوارئ التدخل السريع تحت الماء على مدار ٢٤/٧:',
     emergencyCalloutBtn: 'استجابة الطوارئ الفورية',
     navHome: 'الرئيسية',
@@ -96,7 +96,7 @@ export const translations = {
     navContact: 'تواصل معنا',
 
     // Hero Section
-    heroTag: 'الفاع و إم كيو × مجموعة أوشين سابسي مارين (تأسست ١٩٦٢)',
+    heroTag: 'Alpha OMQ × OSC Marine Group (Est. 1962)',
     heroTitlePrefix: 'الهندسة البحرية ',
     heroTitleGradient: 'السيادية والتميز',
     heroTitleSuffix: ' في الأعماق عبر الخليج العربي',
@@ -116,12 +116,12 @@ export const translations = {
     jvTitle: 'السيادة السعودية تلتقي مع ٦٠+ عاماً من التراث البحري العالمي',
     jvDesc: 'تجمع شركة الخدمات البحرية العربية (AMS Marine) بين تاريخ الهندسة البحرية العالمية والتنفيذ الوطني السعودي، تماشياً مع رؤية السعودية ٢٠٣٠ لبناء الاستقلالية البحرية السيادية.',
     alphaOmqPartner: 'الشريك السيادي',
-    alphaOmqTitle: 'الفاع و إم كيو (Alpha OMQ)',
+    alphaOmqTitle: 'Alpha OMQ',
     alphaOmqTag: 'الرائد الوطني بالمملكة',
     alphaOmqDesc: 'الهيئة الوطنية الرائدة للغوص التجاري والأعمال البحرية في المملكة العربية السعودية، المحرك لتطوير الكوادر الوطنية والتوطين والتنفيذ السيادي للأصول البحرية.',
     oscPartner: 'شريك التراث العالمي',
-    oscTitle: 'مجموعة أوشين سابسي (OSC Marine)',
-    oscTag: 'تأسست عام ١٩٦٢',
+    oscTitle: 'OSC Marine Group',
+    oscTag: 'Est. 1962',
     oscDesc: 'يمتد تاريخها إلى كيب دايفينغ (١٩٦٢)، وتوفر أكثر من ٦٠ عاماً من الخبرة العالمية في الغوص التشبعي، وأنظمة ROV، واللحام تحت الماء، وعضوية مجلس إدارة IMCA.',
     btnExploreTimeline: 'استكشف تاريخ الشراكة وجدول رؤية 2030 (1962 - 2026)',
 

@@ -228,13 +228,13 @@ export function ContactClient() {
               <div className="space-y-3">
                 {locationsData.slice(1).map((loc) => (
                   <div key={loc.id} className="bg-slate-50 dark:bg-[#041c2c] p-3.5 rounded-xl border border-slate-200 dark:border-white/5 space-y-1">
-                    <div className="flex items-center justify-between">
-                      <span className="text-xs font-bold text-slate-900 dark:text-white">{loc.city}</span>
-                      <span className="text-[9px] px-2 py-0.5 rounded bg-slate-200 dark:bg-white/10 text-[#0a66a0] dark:text-sky-300">{loc.country}</span>
+                    <div className="flex items-center justify-between gap-2">
+                      <span className="text-xs font-bold text-slate-900 dark:text-white">{isRtl ? loc.cityAr : loc.city}</span>
+                      <span className="text-[9px] px-2 py-0.5 rounded bg-slate-200 dark:bg-white/10 text-[#0a66a0] dark:text-sky-300 shrink-0">{isRtl ? loc.countryAr : loc.country}</span>
                     </div>
                     <div className="text-[11px] text-slate-500 dark:text-slate-400 flex items-center gap-2">
-                      <PhoneCall className="w-3 h-3 text-[#2f7c4c] dark:text-[#3bd879]" />
-                      <span>{loc.phone}</span>
+                      <PhoneCall className="w-3 h-3 text-[#2f7c4c] dark:text-[#3bd879] shrink-0" />
+                      <span dir="ltr" className="inline-block font-mono">{loc.phone}</span>
                     </div>
                   </div>
                 ))}

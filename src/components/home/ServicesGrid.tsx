@@ -91,10 +91,10 @@ export function ServicesGrid() {
                 <div className="pt-6 border-t border-slate-200 dark:border-white/10 mt-6 flex items-center justify-between">
                   <button
                     onClick={() => setSelectedService(service)}
-                    className="text-xs font-bold text-[#0a66a0] dark:text-sky-400 hover:opacity-80 flex items-center gap-1 transition-colors"
+                    className="text-xs font-bold text-[#0a66a0] dark:text-sky-400 hover:opacity-80 inline-flex items-center gap-1.5 transition-colors shrink-0"
                   >
                     <span>{t('btnSpecsDialog')}</span>
-                    <ArrowIcon className="w-3.5 h-3.5" />
+                    <ArrowIcon className="w-3.5 h-3.5 shrink-0" />
                   </button>
                   <span className="text-[10px] text-slate-400 font-mono">0{idx + 1}</span>
                 </div>
