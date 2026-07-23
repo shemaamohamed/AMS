@@ -57,11 +57,11 @@ export function ServicesGrid() {
             return (
               <div
                 key={service.id}
-                className="bg-white dark:bg-[#051826] border border-slate-200 dark:border-white/10 hover:border-[#0a66a0] rounded-2xl p-6 transition-all duration-300 flex flex-col justify-between group hover:shadow-xl shadow-md dark:shadow-none"
+                className="bg-white/75 dark:bg-[#051826] backdrop-blur-md border border-slate-200/80 dark:border-white/10 hover:border-[#0a66a0] dark:hover:border-sky-400 rounded-2xl p-6 transition-all duration-300 flex flex-col justify-between group hover:shadow-xl hover:shadow-slate-200/60 dark:hover:shadow-none shadow-md shadow-slate-200/30"
               >
                 <div className="space-y-4">
                   <div className="flex items-center justify-between">
-                    <div className="p-3 rounded-xl bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 group-hover:bg-[#0a66a0]/10 dark:group-hover:bg-[#0a66a0]/20 transition-colors">
+                    <div className="p-3 rounded-xl bg-slate-100/80 dark:bg-white/5 border border-slate-200/60 dark:border-white/10 group-hover:bg-[#0a66a0]/10 dark:group-hover:bg-[#0a66a0]/20 transition-colors">
                       {iconMap[service.iconName] || <Cpu className="w-6 h-6 text-[#0a66a0]" />}
                     </div>
                     {maxDepth && (
@@ -81,14 +81,14 @@ export function ServicesGrid() {
 
                   <div className="pt-2 flex flex-wrap gap-1.5">
                     {methods.slice(0, 3).map((m, i) => (
-                      <span key={i} className="text-[10px] px-2 py-0.5 rounded bg-slate-100 dark:bg-white/5 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-white/5">
+                      <span key={i} className="text-[10px] px-2 py-0.5 rounded bg-slate-100/80 dark:bg-white/5 text-slate-700 dark:text-slate-300 border border-slate-200/60 dark:border-white/5">
                         {m}
                       </span>
                     ))}
                   </div>
                 </div>
 
-                <div className="pt-6 border-t border-slate-200 dark:border-white/10 mt-6 flex items-center justify-between">
+                <div className="pt-6 border-t border-slate-200/80 dark:border-white/10 mt-6 flex items-center justify-between">
                   <button
                     onClick={() => setSelectedService(service)}
                     className="text-xs font-bold text-[#0a66a0] dark:text-sky-400 hover:opacity-80 inline-flex items-center gap-1.5 transition-colors shrink-0"
@@ -107,8 +107,8 @@ export function ServicesGrid() {
 
       {/* Dialog Modal for Technical Specs */}
       {selectedService && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-md animate-in fade-in duration-200">
-          <div className="bg-white dark:bg-[#041c2c] border border-[#0a66a0] rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto p-4 sm:p-6 md:p-8 space-y-4 sm:space-y-6 text-slate-900 dark:text-white relative shadow-2xl">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 dark:bg-black/70 backdrop-blur-md animate-in fade-in duration-200">
+          <div className="bg-white/90 dark:bg-[#041c2c] backdrop-blur-xl border border-slate-200/90 dark:border-[#0a66a0] rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto p-4 sm:p-6 md:p-8 space-y-4 sm:space-y-6 text-slate-900 dark:text-white relative shadow-2xl shadow-slate-900/20">
             
             <button
               onClick={() => setSelectedService(null)}

@@ -35,7 +35,7 @@ export function ServicesClient() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
         
         {/* Page Hero Header */}
-        <div className="bg-gradient-to-r from-slate-100 via-sky-50 to-slate-100 dark:from-[#051826] dark:via-[#0a66a0]/20 dark:to-[#051826] border border-slate-200 dark:border-[#0a66a0]/40 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-12 text-center space-y-3 sm:space-y-4 shadow-xl dark:shadow-2xl relative overflow-hidden">
+        <div className="bg-white/70 dark:bg-gradient-to-r dark:from-[#051826] dark:via-[#0a66a0]/20 dark:to-[#051826] backdrop-blur-xl border border-slate-200/80 dark:border-[#0a66a0]/40 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-12 text-center space-y-3 sm:space-y-4 shadow-xl shadow-slate-200/50 dark:shadow-2xl relative overflow-hidden">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#0a66a0]/10 dark:bg-[#0a66a0]/20 text-[#0a66a0] dark:text-sky-300 border border-[#0a66a0]/30 text-xs font-bold uppercase tracking-wider">
             <Layers className="w-3.5 h-3.5 text-[#2f7c4c] dark:text-emerald-400" />
             {isRtl ? 'دليل الهندسة البحرية الشامل' : 'Comprehensive Engineering Catalog'}
@@ -54,7 +54,7 @@ export function ServicesClient() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           
           {/* Left Column: Selectable Sidebar Tabs */}
-          <div className="lg:col-span-4 bg-white dark:bg-[#051826] border border-slate-200 dark:border-white/10 rounded-2xl p-3 sm:p-4 space-y-2 lg:sticky lg:top-28 shadow-md dark:shadow-none">
+          <div className="lg:col-span-4 bg-white/75 dark:bg-[#051826] backdrop-blur-xl border border-slate-200/80 dark:border-white/10 rounded-2xl p-3 sm:p-4 space-y-2 lg:sticky lg:top-28 shadow-xl shadow-slate-200/40 dark:shadow-none">
             <h3 className="text-xs font-bold text-slate-400 uppercase tracking-widest px-3 py-2 hidden lg:block">
               {isRtl ? 'قائمة فئات الخدمات' : 'Service Category Switcher'}
             </h3>
@@ -71,7 +71,7 @@ export function ServicesClient() {
                     className={`w-auto lg:w-full text-left p-2.5 sm:p-3.5 rounded-xl border transition-all flex items-center justify-between group shrink-0 lg:shrink min-w-[180px] lg:min-w-0 ${
                       isActive
                         ? 'bg-[#0a66a0] border-sky-400 text-white font-bold shadow-lg shadow-[#0a66a0]/30'
-                        : 'bg-slate-50 dark:bg-[#041c2c] border-slate-200 dark:border-white/5 hover:border-slate-300 dark:hover:border-white/20 text-slate-700 dark:text-slate-300'
+                        : 'bg-white/70 dark:bg-[#041c2c] backdrop-blur-md border-slate-200/80 dark:border-white/5 hover:border-slate-300 dark:hover:border-white/20 text-slate-700 dark:text-slate-300'
                     }`}
                   >
                     <div className="flex items-center gap-3" dir={isRtl ? 'rtl' : 'ltr'}  >
@@ -91,7 +91,7 @@ export function ServicesClient() {
           </div>
 
           {/* Right Column: In-Depth Technical Specification Sheet */}
-          <div className="lg:col-span-8 space-y-6 sm:space-y-8 bg-white dark:bg-[#051826] border border-slate-200 dark:border-[#0a66a0]/40 rounded-2xl p-4 sm:p-6 md:p-8 backdrop-blur-md shadow-xl dark:shadow-2xl">
+          <div className="lg:col-span-8 space-y-6 sm:space-y-8 bg-white/85 dark:bg-[#051826] backdrop-blur-xl border border-slate-200/90 dark:border-[#0a66a0]/40 rounded-2xl p-4 sm:p-6 md:p-8 shadow-xl shadow-slate-200/40 dark:shadow-2xl">
             
             {/* Category Header */}
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-200 dark:border-white/10 pb-6">

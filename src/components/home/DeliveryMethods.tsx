@@ -161,7 +161,7 @@ export function DeliveryMethods() {
                 className={`p-3 sm:p-4 rounded-xl text-left border transition-all flex flex-col justify-between space-y-2 sm:space-y-3 min-w-[140px] sm:min-w-0 shrink-0 sm:shrink ${
                   isActive
                     ? 'bg-[#0a66a0] border-sky-400 text-white shadow-lg shadow-[#0a66a0]/30 scale-[1.02]'
-                    : 'bg-slate-50 dark:bg-[#041c2c] border-slate-200 dark:border-white/10 hover:border-slate-300 dark:hover:border-white/20 text-slate-700 dark:text-slate-300'
+                    : 'bg-white/70 dark:bg-[#041c2c] backdrop-blur-md border-slate-200/80 dark:border-white/10 hover:border-slate-300 dark:hover:border-white/20 text-slate-700 dark:text-slate-300'
                 }`}
               >
                 <div className="flex items-center justify-between">
@@ -178,7 +178,7 @@ export function DeliveryMethods() {
         </div>
 
         {/* Active Tab Content Card */}
-        <div className="bg-slate-50 dark:bg-[#041c2c] border border-slate-200 dark:border-[#0a66a0]/50 rounded-2xl p-5 sm:p-8 backdrop-blur-md grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-center shadow-lg dark:shadow-none">
+        <div className="bg-white/80 dark:bg-[#041c2c] border border-slate-200/80 dark:border-[#0a66a0]/50 rounded-2xl p-5 sm:p-8 backdrop-blur-xl grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-center shadow-xl shadow-slate-200/40 dark:shadow-none">
           <div className="lg:col-span-7 space-y-4">
             <div className="flex items-center gap-3">
               <span className="text-xs font-mono font-bold text-[#0a66a0] dark:text-sky-400 bg-[#0a66a0]/10 dark:bg-[#0a66a0]/20 px-2.5 py-1 rounded border border-[#0a66a0]/30">

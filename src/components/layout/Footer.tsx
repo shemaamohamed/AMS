@@ -23,9 +23,9 @@ export function Footer() {
   const ChevronIcon = isRtl ? ChevronLeft : ChevronRight;
 
   return (
-    <footer className="bg-slate-100 dark:bg-[#03131e] border-t border-slate-300 dark:border-[#0a66a0]/30 text-slate-700 dark:text-slate-300 text-sm transition-colors duration-300">
+    <footer className="bg-slate-100/90 dark:bg-[#03131e] backdrop-blur-md border-t border-slate-200/80 dark:border-[#0a66a0]/30 text-slate-700 dark:text-slate-300 text-sm transition-colors duration-300">
       {/* Top Footer Callout Banner */}
-      <div className="bg-slate-200/80 dark:bg-[#041c2c] border-b border-slate-300 dark:border-white/5 py-6 sm:py-8 px-4 sm:px-6 lg:px-8">
+      <div className="bg-white/60 dark:bg-[#041c2c] backdrop-blur-xl border-b border-slate-200/80 dark:border-white/5 py-6 sm:py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-4">
             <div className="p-3 rounded-full bg-[#2f7c4c]/20 border border-[#2f7c4c]/40 text-[#2f7c4c] dark:text-[#3bd879]">

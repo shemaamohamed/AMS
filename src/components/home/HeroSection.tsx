@@ -57,7 +57,7 @@ export function HeroSection() {
             transition={{ duration: 0.6 }}
           >
             {/* Sovereign Badge */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-200/80 dark:bg-white/5 border border-slate-300 dark:border-[#0a66a0]/40 backdrop-blur-md shadow-sm">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/70 dark:bg-white/5 border border-slate-200/80 dark:border-[#0a66a0]/40 backdrop-blur-md shadow-sm">
               <span className="w-2 h-2 rounded-full bg-[#2f7c4c] dark:bg-[#3bd879] animate-pulse"></span>
               <span className="text-xs font-bold text-[#0a66a0] dark:text-sky-300 tracking-wide uppercase">
                 {t('heroTag')}
@@ -82,7 +82,7 @@ export function HeroSection() {
             <div className="pt-2 flex flex-wrap items-center gap-4">
               <Link
                 href="/services"
-                className="bg-[#0a66a0] hover:bg-[#085282] text-white px-7 py-3.5 rounded-xl font-extrabold text-xs sm:text-sm transition-all shadow-lg shadow-[#0a66a0]/30 hover:scale-105 flex items-center gap-2 border border-sky-400/30"
+                className="bg-[#0a66a0] hover:bg-[#085282] text-white px-7 py-3.5 rounded-xl font-extrabold text-xs sm:text-sm transition-all shadow-lg shadow-[#0a66a0]/25 hover:scale-105 flex items-center gap-2 border border-sky-400/30"
               >
                 <span>{t('btnExploreServices')}</span>
                 <ArrowIcon className="w-4 h-4" />
@@ -90,7 +90,7 @@ export function HeroSection() {
 
               <Link
                 href="/contact"
-                className="bg-[#2f7c4c] hover:bg-[#25643d] text-white px-6 py-3.5 rounded-xl font-extrabold text-xs sm:text-sm transition-all shadow-md shadow-[#2f7c4c]/30 hover:scale-105 flex items-center gap-2 border border-emerald-400/30"
+                className="bg-[#2f7c4c] hover:bg-[#25643d] text-white px-6 py-3.5 rounded-xl font-extrabold text-xs sm:text-sm transition-all shadow-md shadow-[#2f7c4c]/25 hover:scale-105 flex items-center gap-2 border border-emerald-400/30"
               >
                 <PhoneCall className="w-4 h-4 text-emerald-200 animate-bounce" />
                 <span>{t('btnEmergencySupport')}</span>
@@ -100,7 +100,7 @@ export function HeroSection() {
                 href="/assets/Arabian Marine Services Profile.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white hover:bg-slate-100 dark:bg-white/5 dark:hover:bg-white/10 text-slate-800 dark:text-slate-200 hover:text-slate-900 dark:hover:text-white px-5 py-3.5 rounded-xl font-semibold text-xs sm:text-sm transition-all border border-slate-300 dark:border-white/10 flex items-center gap-2 shadow-sm"
+                className="bg-white/80 hover:bg-white dark:bg-white/5 dark:hover:bg-white/10 backdrop-blur-md text-slate-800 dark:text-slate-200 hover:text-slate-900 dark:hover:text-white px-5 py-3.5 rounded-xl font-semibold text-xs sm:text-sm transition-all border border-slate-200/80 dark:border-white/10 flex items-center gap-2 shadow-sm"
               >
                 <Download className="w-4 h-4 text-[#0a66a0] dark:text-sky-400" />
                 <span>{t('btnDownloadPdf')}</span>
@@ -108,7 +108,7 @@ export function HeroSection() {
             </div>
 
             {/* Micro Highlights */}
-            <div className="pt-4 flex flex-wrap items-center gap-6 text-xs text-slate-500 dark:text-slate-400 border-t border-slate-200 dark:border-white/10">
+            <div className="pt-4 flex flex-wrap items-center gap-6 text-xs text-slate-500 dark:text-slate-400 border-t border-slate-200/80 dark:border-white/10">
               <span className="flex items-center gap-1.5">
                 <ShieldCheck className="w-4 h-4 text-[#0a66a0] dark:text-sky-400" />
                 {isRtl ? 'عضو IMCA وشهادة IRATA' : 'IMCA Member & IRATA Certified'}
@@ -131,7 +131,7 @@ export function HeroSection() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <div className="relative rounded-2xl overflow-hidden border border-slate-200 dark:border-white/15 shadow-2xl bg-white dark:bg-gradient-to-b dark:from-slate-900 dark:to-[#041c2c] group">
+            <div className="relative rounded-2xl overflow-hidden border border-slate-200/80 dark:border-white/15 shadow-2xl bg-white/80 dark:bg-gradient-to-b dark:from-slate-900 dark:to-[#041c2c] backdrop-blur-md group">
               <div className="relative h-64 sm:h-80 lg:h-96 w-full">
                 <Image
                   src="/assets/photos/image (30).png"
@@ -165,7 +165,7 @@ export function HeroSection() {
 
         {/* Stats Counter Bar */}
         <motion.div
-          className="mt-10 sm:mt-16 grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 bg-white dark:bg-white/5 border border-slate-200 dark:border-white/10 rounded-2xl p-4 sm:p-6 shadow-md dark:shadow-none backdrop-blur-md"
+          className="mt-10 sm:mt-16 grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 bg-white/70 dark:bg-white/5 border border-slate-200/80 dark:border-white/10 rounded-2xl p-4 sm:p-6 shadow-xl shadow-slate-200/50 dark:shadow-none backdrop-blur-xl"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}

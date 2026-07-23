@@ -32,11 +32,11 @@ export function JvSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 items-stretch">
           
           {/* Card 1: Alpha OMQ */}
-          <div className="bg-slate-50 dark:bg-[#041c2c]/80 border border-slate-200 dark:border-[#0a66a0]/40 rounded-2xl p-5 sm:p-8 backdrop-blur-md relative overflow-hidden flex flex-col justify-between group hover:border-[#0a66a0] shadow-md dark:shadow-none transition-all">
+          <div className="bg-white/80 dark:bg-[#041c2c]/80 border border-slate-200/80 dark:border-[#0a66a0]/40 rounded-2xl p-5 sm:p-8 backdrop-blur-xl relative overflow-hidden flex flex-col justify-between group hover:border-[#0a66a0] shadow-xl shadow-slate-200/40 dark:shadow-none transition-all">
             <div className="absolute top-0 right-0 w-32 h-32 bg-[#0a66a0]/10 rounded-full blur-2xl pointer-events-none" />
 
             <div className="space-y-6">
-              <div className="flex items-center justify-between border-b border-slate-200 dark:border-white/10 pb-4">
+              <div className="flex items-center justify-between border-b border-slate-200/80 dark:border-white/10 pb-4">
                 <div>
                   <span className="text-xs font-bold text-[#2f7c4c] dark:text-emerald-400 uppercase tracking-widest">{t('alphaOmqPartner')}</span>
                   <h3 className="text-2xl font-black text-slate-900 dark:text-white">{t('alphaOmqTitle')}</h3>
@@ -66,14 +66,14 @@ export function JvSection() {
               </ul>
             </div>
 
-            <div className="pt-6 border-t border-slate-200 dark:border-white/10 mt-6 flex items-center justify-between">
+            <div className="pt-6 border-t border-slate-200/80 dark:border-white/10 mt-6 flex items-center justify-between">
               <span className="text-xs text-slate-500 dark:text-slate-400">{isRtl ? 'القيادة البحرية بالمملكة' : 'Saudi Arabia Subsea Leadership'}</span>
               <Award className="w-5 h-5 text-[#2f7c4c] dark:text-emerald-400" />
             </div>
           </div>
 
           {/* Card 2: OSC Marine Group */}
-          <div className="bg-slate-50 dark:bg-[#041c2c]/80 border border-slate-200 dark:border-[#2f7c4c]/40 rounded-2xl p-5 sm:p-8 backdrop-blur-md relative overflow-hidden flex flex-col justify-between group hover:border-[#2f7c4c] shadow-md dark:shadow-none transition-all">
+          <div className="bg-white/80 dark:bg-[#041c2c]/80 border border-slate-200/80 dark:border-[#2f7c4c]/40 rounded-2xl p-5 sm:p-8 backdrop-blur-xl relative overflow-hidden flex flex-col justify-between group hover:border-[#2f7c4c] shadow-xl shadow-slate-200/40 dark:shadow-none transition-all">
             <div className="absolute top-0 right-0 w-32 h-32 bg-[#2f7c4c]/10 rounded-full blur-2xl pointer-events-none" />
 
             <div className="space-y-6">

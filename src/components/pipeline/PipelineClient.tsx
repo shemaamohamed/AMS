@@ -29,7 +29,7 @@ export function PipelineClient() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
         
         {/* Page Hero */}
-        <div className="bg-gradient-to-r from-slate-100 via-sky-50 to-slate-100 dark:from-[#051826] dark:via-[#0a66a0]/30 dark:to-[#051826] border border-slate-200 dark:border-[#0a66a0]/40 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-12 text-center space-y-3 sm:space-y-4 shadow-xl dark:shadow-2xl relative overflow-hidden">
+        <div className="bg-white/70 dark:bg-gradient-to-r dark:from-[#051826] dark:via-[#0a66a0]/30 dark:to-[#051826] backdrop-blur-xl border border-slate-200/80 dark:border-[#0a66a0]/40 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-12 text-center space-y-3 sm:space-y-4 shadow-xl shadow-slate-200/50 dark:shadow-2xl relative overflow-hidden">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#0a66a0]/10 dark:bg-[#0a66a0]/20 text-[#0a66a0] dark:text-sky-300 border border-[#0a66a0]/30 text-xs font-bold uppercase tracking-wider">
             <Activity className="w-3.5 h-3.5 text-amber-600 dark:text-amber-400" />
             {isRtl ? 'حلول سلامة الأنابيب الاستراتيجية' : 'Strategic Pipeline Solutions'}
@@ -45,8 +45,8 @@ export function PipelineClient() {
         </div>
 
         {/* 24/7 EPRS System Spotlight */}
-        <div className="bg-white dark:bg-[#051826] border border-[#2f7c4c]/40 rounded-2xl p-5 sm:p-8 backdrop-blur-md space-y-6 sm:space-y-8 shadow-xl dark:shadow-2xl">
-          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-200 dark:border-white/10 pb-6">
+        <div className="bg-white/80 dark:bg-[#051826] border border-[#2f7c4c]/40 rounded-2xl p-5 sm:p-8 backdrop-blur-xl space-y-6 sm:space-y-8 shadow-xl shadow-slate-200/40 dark:shadow-2xl">
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-200/80 dark:border-white/10 pb-6">
             <div className="space-y-1">
               <div className="inline-flex items-center gap-2 px-2.5 py-0.5 rounded bg-[#2f7c4c]/10 dark:bg-[#2f7c4c]/20 text-[#2f7c4c] dark:text-[#3bd879] border border-[#2f7c4c]/30 text-xs font-bold uppercase">
                 <ShieldAlert className="w-4 h-4 text-[#2f7c4c] dark:text-[#3bd879]" />
@@ -66,7 +66,7 @@ export function PipelineClient() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
             {eprsFeatures.map((feat, idx) => (
-              <div key={idx} className="bg-slate-50 dark:bg-[#041c2c] p-5 rounded-xl border border-slate-200 dark:border-white/10 space-y-2">
+              <div key={idx} className="bg-white/70 dark:bg-[#041c2c] backdrop-blur-md p-5 rounded-xl border border-slate-200/80 dark:border-white/10 space-y-2">
                 <div className="text-xs font-mono font-bold text-[#2f7c4c] dark:text-emerald-400">0{idx + 1} EPRS Pillar</div>
                 <h3 className="text-base font-bold text-slate-900 dark:text-white">{feat.title}</h3>
                 <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">{feat.desc}</p>
@@ -76,7 +76,7 @@ export function PipelineClient() {
         </div>
 
         {/* PIPECARE Partnership Section */}
-        <div id="pipecare" className="bg-white dark:bg-[#051826] border border-slate-200 dark:border-[#0a66a0]/40 rounded-2xl p-5 sm:p-8 backdrop-blur-md space-y-6 sm:space-y-8 shadow-xl dark:shadow-2xl">
+        <div id="pipecare" className="bg-white/80 dark:bg-[#051826] border border-slate-200/80 dark:border-[#0a66a0]/40 rounded-2xl p-5 sm:p-8 backdrop-blur-xl space-y-6 sm:space-y-8 shadow-xl shadow-slate-200/40 dark:shadow-2xl">
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-200 dark:border-white/10 pb-6">
             <div>
               <span className="text-xs font-bold text-[#0a66a0] dark:text-sky-400 uppercase tracking-widest">{isRtl ? 'تحالف الكشط والفحص الذكي' : 'In-Line Inspection Alliance'}</span>

@@ -34,9 +34,9 @@ export function Navbar() {
   const isRtl = direction === 'rtl';
 
   return (
-    <header className="sticky top-0 z-50 w-full backdrop-blur-md bg-white/90 dark:bg-[#041c2c]/90 border-b border-slate-200 dark:border-[#0a66a0]/30 transition-colors duration-300 shadow-md">
+    <header className="sticky top-0 z-50 w-full backdrop-blur-xl bg-white/80 dark:bg-[#041c2c]/85 border-b border-slate-200/80 dark:border-[#0a66a0]/30 transition-colors duration-300 shadow-sm dark:shadow-md">
       {/* Top Banner - Emergency Hotline & Co-Branding Notice */}
-      <div className="bg-slate-100 dark:bg-[#041320] border-b border-slate-200 dark:border-[#0a66a0]/20 text-xs py-1.5 px-3 sm:px-4 text-slate-700 dark:text-slate-300 transition-colors">
+      <div className="bg-slate-100/70 dark:bg-[#041320]/80 backdrop-blur-md border-b border-slate-200/60 dark:border-[#0a66a0]/20 text-xs py-1.5 px-3 sm:px-4 text-slate-700 dark:text-slate-300 transition-colors">
         <div className="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-1.5 sm:gap-2">
           <div className="flex items-center gap-2 sm:gap-3 min-w-0">
             <span className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded bg-[#2f7c4c]/15 text-[#2f7c4c] dark:text-[#3bd879] border border-[#2f7c4c]/30 font-semibold text-[10px] tracking-wide uppercase shrink-0">

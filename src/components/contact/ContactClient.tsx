@@ -29,7 +29,7 @@ export function ContactClient() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
         
         {/* Page Hero Header */}
-        <div className="bg-gradient-to-r from-slate-100 via-sky-50 to-slate-100 dark:from-[#051826] dark:via-[#0a66a0]/30 dark:to-[#051826] border border-slate-200 dark:border-[#0a66a0]/40 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-12 text-center space-y-3 sm:space-y-4 shadow-xl dark:shadow-2xl relative overflow-hidden">
+        <div className="bg-white/70 dark:bg-gradient-to-r dark:from-[#051826] dark:via-[#0a66a0]/30 dark:to-[#051826] backdrop-blur-xl border border-slate-200/80 dark:border-[#0a66a0]/40 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-12 text-center space-y-3 sm:space-y-4 shadow-xl shadow-slate-200/50 dark:shadow-2xl relative overflow-hidden">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#2f7c4c]/10 dark:bg-[#2f7c4c]/20 text-[#2f7c4c] dark:text-emerald-300 border border-[#2f7c4c]/30 text-xs font-bold uppercase tracking-wider">
             <PhoneCall className="w-3.5 h-3.5 animate-bounce text-[#2f7c4c] dark:text-emerald-300" />
             {isRtl ? 'مصفوفة الاتصال والاستجابة الفورية 24/7' : '24/7 Rapid Incident Callout & B2B Inquiry Matrix'}
@@ -45,7 +45,7 @@ export function ContactClient() {
         </div>
 
         {/* 24/7 Emergency Dispatch Callout Box */}
-        <div className="bg-gradient-to-r from-[#2f7c4c]/20 via-slate-100 to-[#0a66a0]/20 dark:from-[#2f7c4c]/30 dark:via-[#051826] dark:to-[#0a66a0]/30 border-2 border-[#2f7c4c] rounded-2xl p-5 sm:p-8 backdrop-blur-md flex flex-col md:flex-row items-center justify-between gap-4 sm:gap-6 shadow-xl">
+        <div className="bg-gradient-to-r from-[#2f7c4c]/10 via-white/80 to-[#0a66a0]/10 dark:from-[#2f7c4c]/30 dark:via-[#051826] dark:to-[#0a66a0]/30 border-2 border-[#2f7c4c] rounded-2xl p-5 sm:p-8 backdrop-blur-xl flex flex-col md:flex-row items-center justify-between gap-4 sm:gap-6 shadow-xl shadow-slate-200/40 dark:shadow-2xl">
           <div className="flex items-center gap-4">
             <div className="p-4 rounded-full bg-[#2f7c4c] text-white shrink-0 shadow-lg animate-pulse">
               <ShieldAlert className="w-8 h-8" />
@@ -70,7 +70,7 @@ export function ContactClient() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           
           {/* Left Column: B2B Dispatch & Inquiry Form */}
-          <div className="lg:col-span-7 bg-white dark:bg-[#051826] border border-slate-200 dark:border-[#0a66a0]/40 rounded-2xl p-4 sm:p-6 md:p-8 backdrop-blur-md space-y-4 sm:space-y-6 shadow-xl dark:shadow-2xl">
+          <div className="lg:col-span-7 bg-white/85 dark:bg-[#051826] border border-slate-200/80 dark:border-[#0a66a0]/40 rounded-2xl p-4 sm:p-6 md:p-8 backdrop-blur-xl space-y-4 sm:space-y-6 shadow-xl shadow-slate-200/40 dark:shadow-2xl">
             <div className="border-b border-slate-200 dark:border-white/10 pb-4">
               <h2 className="text-2xl font-black text-slate-900 dark:text-white">{isRtl ? 'نموذج إرسال الطلبات والاستفسارات' : 'Dispatch Inquiry Form'}</h2>
               <p className="text-xs text-slate-500 dark:text-slate-300">{isRtl ? 'اختر فئة الطلب للتوجيه المباشر إلى مكتب المهندسين في الخبر.' : 'Select inquiry type to route directly to our engineering team in Al Khobar.'}</p>

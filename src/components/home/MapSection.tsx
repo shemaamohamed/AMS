@@ -39,8 +39,8 @@ export function MapSection() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-start">
           
           {/* Left Column: Interactive Gulf Map Display */}
-          <div className="lg:col-span-7 bg-slate-50 dark:bg-[#051826] border border-slate-200 dark:border-[#0a66a0]/40 rounded-2xl p-4 sm:p-6 backdrop-blur-md space-y-4 sm:space-y-6 relative overflow-hidden shadow-lg dark:shadow-none">
-            <div className="flex items-center justify-between border-b border-slate-200 dark:border-white/10 pb-4">
+          <div className="lg:col-span-7 bg-white/75 dark:bg-[#051826] border border-slate-200/80 dark:border-[#0a66a0]/40 rounded-2xl p-4 sm:p-6 backdrop-blur-xl space-y-4 sm:space-y-6 relative overflow-hidden shadow-xl shadow-slate-200/40 dark:shadow-none">
+            <div className="flex items-center justify-between border-b border-slate-200/80 dark:border-white/10 pb-4">
               <div className="flex items-center gap-2">
                 <Navigation className="w-5 h-5 text-[#0a66a0] dark:text-sky-400" />
                 <span className="text-sm font-extrabold text-slate-900 dark:text-white">{t('mapTitle')}</span>
@@ -51,7 +51,7 @@ export function MapSection() {
             </div>
 
             {/* Map Graphic Box */}
-            <div className="relative w-full h-[250px] sm:h-[320px] lg:h-[380px] rounded-xl overflow-hidden border border-slate-200 dark:border-white/10 group">
+            <div className="relative w-full h-[250px] sm:h-[320px] lg:h-[380px] rounded-xl overflow-hidden border border-slate-200/80 dark:border-white/10 group">
               <Image
                 src="/assets/map/gulf_map.png"
                 alt="Arabian Gulf Operational Map"
@@ -108,14 +108,14 @@ export function MapSection() {
                     className={`w-full text-left p-3 rounded-xl border transition-all flex items-center justify-between ${
                       isSelected
                         ? 'bg-[#0a66a0] border-sky-400 text-white font-bold shadow-md shadow-[#0a66a0]/30'
-                        : 'bg-slate-50 dark:bg-[#051826] border-slate-200 dark:border-white/10 hover:border-slate-300 dark:hover:border-white/20 text-slate-700 dark:text-slate-300'
+                        : 'bg-white/70 dark:bg-[#051826] backdrop-blur-md border-slate-200/80 dark:border-white/10 hover:border-slate-300 dark:hover:border-white/20 text-slate-700 dark:text-slate-300'
                     }`}
                   >
                     <div className="flex items-center gap-2">
                       <MapPin className={`w-4 h-4 ${isSelected ? 'text-white' : 'text-[#0a66a0] dark:text-sky-400'}`} />
                       <span className="text-xs font-semibold">{locName}</span>
                     </div>
-                    <span className="text-[10px] px-2 py-0.5 rounded bg-slate-200 dark:bg-white/10 text-slate-700 dark:text-slate-300">
+                    <span className="text-[10px] px-2 py-0.5 rounded bg-slate-200/80 dark:bg-white/10 text-slate-700 dark:text-slate-300">
                       {locBadge}
                     </span>
                   </button>
@@ -124,7 +124,7 @@ export function MapSection() {
             </div>
 
             {/* Selected Hub Detail Card */}
-            <div className="bg-slate-50 dark:bg-[#051826] border border-slate-200 dark:border-sky-500/40 rounded-xl p-4 sm:p-6 space-y-4 shadow-xl">
+            <div className="bg-white/85 dark:bg-[#051826] border border-slate-200/90 dark:border-sky-500/40 rounded-xl p-4 sm:p-6 space-y-4 shadow-xl backdrop-blur-xl">
               <div className="flex items-center justify-between border-b border-slate-200 dark:border-white/10 pb-3">
                 <div>
                   <span className="text-[10px] font-bold text-[#2f7c4c] dark:text-emerald-400 uppercase tracking-widest">{hubType}</span>

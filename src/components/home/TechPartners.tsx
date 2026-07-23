@@ -39,7 +39,7 @@ export function TechPartners() {
             return (
               <div
                 key={idx}
-                className="bg-white dark:bg-[#051826] border border-slate-200 dark:border-[#0a66a0]/40 rounded-2xl p-5 sm:p-8 backdrop-blur-md flex flex-col justify-between space-y-4 sm:space-y-6 hover:border-[#0a66a0] transition-all shadow-xl dark:shadow-none"
+                className="bg-white/80 dark:bg-[#051826] border border-slate-200/80 dark:border-[#0a66a0]/40 rounded-2xl p-5 sm:p-8 backdrop-blur-xl flex flex-col justify-between space-y-4 sm:space-y-6 hover:border-[#0a66a0] transition-all shadow-xl shadow-slate-200/40 dark:shadow-none"
               >
                 <div className="space-y-4">
                   <div className="flex items-center justify-between border-b border-slate-200 dark:border-white/10 pb-4">

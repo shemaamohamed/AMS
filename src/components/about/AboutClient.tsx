@@ -20,7 +20,7 @@ export function AboutClient() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
         
         {/* Page Hero */}
-        <div className="bg-gradient-to-r from-slate-100 via-sky-50 to-slate-100 dark:from-[#051826] dark:via-[#0a66a0]/20 dark:to-[#051826] border border-slate-200 dark:border-[#0a66a0]/40 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-12 text-center space-y-3 sm:space-y-4 shadow-xl dark:shadow-2xl relative overflow-hidden">
+        <div className="bg-white/70 dark:bg-gradient-to-r dark:from-[#051826] dark:via-[#0a66a0]/20 dark:to-[#051826] backdrop-blur-xl border border-slate-200/80 dark:border-[#0a66a0]/40 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-12 text-center space-y-3 sm:space-y-4 shadow-xl shadow-slate-200/50 dark:shadow-2xl relative overflow-hidden">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#0a66a0]/10 dark:bg-[#0a66a0]/20 text-[#0a66a0] dark:text-sky-300 border border-[#0a66a0]/30 text-xs font-bold uppercase tracking-wider">
             <Flag className="w-3.5 h-3.5 text-[#2f7c4c] dark:text-emerald-400" />
             {isRtl ? 'التراث السيادي ورؤية 2030' : 'Sovereign Heritage & Vision 2030'}
@@ -37,8 +37,8 @@ export function AboutClient() {
 
         {/* Strategic JV Narrative Cards */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
-          <div className="bg-white dark:bg-[#051826] border border-slate-200 dark:border-[#0a66a0]/40 rounded-2xl p-5 sm:p-8 backdrop-blur-md space-y-4 sm:space-y-6 shadow-xl">
-            <div className="flex items-center justify-between border-b border-slate-200 dark:border-white/10 pb-4">
+          <div className="bg-white/80 dark:bg-[#051826] border border-slate-200/80 dark:border-[#0a66a0]/40 rounded-2xl p-5 sm:p-8 backdrop-blur-xl space-y-4 sm:space-y-6 shadow-xl shadow-slate-200/40">
+            <div className="flex items-center justify-between border-b border-slate-200/80 dark:border-white/10 pb-4">
               <div>
                 <span className="text-xs font-bold text-[#2f7c4c] dark:text-emerald-400 uppercase tracking-widest">{t('alphaOmqPartner')}</span>
                 <h2 className="text-2xl font-black text-slate-900 dark:text-white">{isRtl ? 'قيادة Alpha OMQ' : 'Alpha OMQ Leadership'}</h2>
@@ -66,7 +66,7 @@ export function AboutClient() {
             </ul>
           </div>
 
-          <div className="bg-white dark:bg-[#051826] border border-slate-200 dark:border-[#2f7c4c]/40 rounded-2xl p-5 sm:p-8 backdrop-blur-md space-y-4 sm:space-y-6 shadow-xl">
+          <div className="bg-white/80 dark:bg-[#051826] border border-slate-200/80 dark:border-[#2f7c4c]/40 rounded-2xl p-5 sm:p-8 backdrop-blur-xl space-y-4 sm:space-y-6 shadow-xl shadow-slate-200/40">
             <div className="flex items-center justify-between border-b border-slate-200 dark:border-white/10 pb-4">
               <div>
                 <span className="text-xs font-bold text-[#0a66a0] dark:text-sky-400 uppercase tracking-widest">{t('oscPartner')}</span>

@@ -15,7 +15,7 @@ export function AccreditationsClient() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
         
         {/* Page Hero Header */}
-        <div className="bg-gradient-to-r from-slate-100 via-sky-50 to-slate-100 dark:from-[#051826] dark:via-[#0a66a0]/20 dark:to-[#051826] border border-slate-200 dark:border-[#0a66a0]/40 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-12 text-center space-y-3 sm:space-y-4 shadow-xl dark:shadow-2xl relative overflow-hidden">
+        <div className="bg-white/70 dark:bg-gradient-to-r dark:from-[#051826] dark:via-[#0a66a0]/20 dark:to-[#051826] backdrop-blur-xl border border-slate-200/80 dark:border-[#0a66a0]/40 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-12 text-center space-y-3 sm:space-y-4 shadow-xl shadow-slate-200/50 dark:shadow-2xl relative overflow-hidden">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#0a66a0]/10 dark:bg-[#0a66a0]/20 text-[#0a66a0] dark:text-sky-300 border border-[#0a66a0]/30 text-xs font-bold uppercase tracking-wider">
             <Award className="w-3.5 h-3.5 text-[#2f7c4c] dark:text-emerald-400" />
             {isRtl ? 'السلامة والامتثال وتأكيد الجودة' : 'Safety, Compliance & Quality Assurance'}
@@ -31,8 +31,8 @@ export function AccreditationsClient() {
         </div>
 
         {/* Zero Harm HSE Policy Banner */}
-        <div className="bg-white dark:bg-[#051826] border border-[#2f7c4c]/40 rounded-2xl p-5 sm:p-8 backdrop-blur-md space-y-4 sm:space-y-6 shadow-xl dark:shadow-2xl">
-          <div className="flex items-center gap-3 border-b border-slate-200 dark:border-white/10 pb-4">
+        <div className="bg-white/80 dark:bg-[#051826] border border-[#2f7c4c]/40 rounded-2xl p-5 sm:p-8 backdrop-blur-xl space-y-4 sm:space-y-6 shadow-xl shadow-slate-200/40 dark:shadow-2xl">
+          <div className="flex items-center gap-3 border-b border-slate-200/80 dark:border-white/10 pb-4">
             <HeartPulse className="w-8 h-8 text-[#2f7c4c] dark:text-[#3bd879]" />
             <div>
               <span className="text-xs font-bold text-[#2f7c4c] dark:text-[#3bd879] uppercase tracking-widest">{isRtl ? 'ثقافة الصحة والسلامة والبيئة' : 'HSE Culture'}</span>
@@ -47,19 +47,19 @@ export function AccreditationsClient() {
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-2">
-            <div className="bg-slate-50 dark:bg-[#041c2c] p-5 rounded-xl border border-slate-200 dark:border-white/10 space-y-1">
+            <div className="bg-white/70 dark:bg-[#041c2c] backdrop-blur-md p-5 rounded-xl border border-slate-200/80 dark:border-white/10 space-y-1">
               <div className="text-2xl font-black text-[#2f7c4c] dark:text-emerald-400">Zero LTI</div>
               <div className="text-xs font-bold text-slate-900 dark:text-white">{isRtl ? 'سجل صفر حوادث خاسرة للوقت' : 'Lost Time Injury Record'}</div>
               <p className="text-[11px] text-slate-500 dark:text-slate-400">{isRtl ? 'فلسفة الهدف صفر عبر جميع فرق الغوص ومركبات ROV.' : 'Target zero philosophy across all diving and ROV spreads.'}</p>
             </div>
 
-            <div className="bg-slate-50 dark:bg-[#041c2c] p-5 rounded-xl border border-slate-200 dark:border-white/10 space-y-1">
+            <div className="bg-white/70 dark:bg-[#041c2c] backdrop-blur-md p-5 rounded-xl border border-slate-200/80 dark:border-white/10 space-y-1">
               <div className="text-2xl font-black text-[#0a66a0] dark:text-sky-400">IMCA Audited</div>
               <div className="text-xs font-bold text-slate-900 dark:text-white">{isRtl ? 'عضوية مدققة بالكامل' : 'Full Member Compliance'}</div>
               <p className="text-[11px] text-slate-500 dark:text-slate-400">{isRtl ? 'مفحوصة وفقاً لقواعد السلامة IMCA D014 & D024.' : 'Audited to IMCA D014 & D024 diving spread safety codes.'}</p>
             </div>
 
-            <div className="bg-slate-50 dark:bg-[#041c2c] p-5 rounded-xl border border-slate-200 dark:border-white/10 space-y-1">
+            <div className="bg-white/70 dark:bg-[#041c2c] backdrop-blur-md p-5 rounded-xl border border-slate-200/80 dark:border-white/10 space-y-1">
               <div className="text-2xl font-black text-amber-600 dark:text-amber-400">IRATA Reg 7020</div>
               <div className="text-xs font-bold text-slate-900 dark:text-white">{isRtl ? 'مشغل معتمد للوصول بالحبال' : 'Rope Access Operator'}</div>
               <p className="text-[11px] text-slate-500 dark:text-slate-400">{isRtl ? 'معتمدة لفحوصات الهياكل البحرية CAT III & IV.' : 'Certified for CAT III & IV topside structure inspections.'}</p>
@@ -87,7 +87,7 @@ export function AccreditationsClient() {
               return (
                 <div
                   key={item.id}
-                  className="bg-white dark:bg-[#051826] border border-slate-200 dark:border-white/10 hover:border-[#0a66a0] rounded-2xl p-6 transition-all flex flex-col justify-between space-y-4 shadow-md dark:shadow-none group"
+                  className="bg-white/75 dark:bg-[#051826] backdrop-blur-md border border-slate-200/80 dark:border-white/10 hover:border-[#0a66a0] rounded-2xl p-6 transition-all flex flex-col justify-between space-y-4 shadow-md shadow-slate-200/30 dark:shadow-none group"
                 >
                   <div className="space-y-4">
                     <div className="flex items-center justify-between">
