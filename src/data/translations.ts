@@ -6,11 +6,11 @@ export const translations = {
     emergencyDispatch: '24/7 Subsea Incident Dispatch:',
     emergencyCalloutBtn: 'Emergency Response',
     navHome: 'Home',
-    navServices: 'Services Hub',
-    navPipeline: 'Pipeline Integrity & EPRS',
-    navAbout: 'About JV & Heritage',
-    navAccreditations: 'Safety & Accreditations',
-    navContact: 'Contact & Hotline',
+    navServices: 'Services',
+    navPipeline: 'Pipeline Integrity',
+    navAbout: 'About Us',
+    navAccreditations: 'Accreditations',
+    navContact: 'Contact Us',
 
     // Hero Section
     heroTag: 'ALPHA OMQ × OSC MARINE GROUP (EST. 1962)',
@@ -89,11 +89,11 @@ export const translations = {
     emergencyDispatch: 'طوارئ التدخل السريع تحت الماء على مدار ٢٤/٧:',
     emergencyCalloutBtn: 'استجابة الطوارئ الفورية',
     navHome: 'الرئيسية',
-    navServices: 'دليل الخدمات البحرية',
-    navPipeline: 'سلامة الأنابيب وإصلاح الطوارئ EPRS',
-    navAbout: 'الشراكة والتراث والتاريخ',
-    navAccreditations: 'السلامة والاعتماد وتصنيف الفئات',
-    navContact: 'الاتصال والخط الساخن',
+    navServices: 'الخدمات البحرية',
+    navPipeline: 'سلامة الأنابيب',
+    navAbout: 'عن التحالف',
+    navAccreditations: 'الاعتمادات والسلامة',
+    navContact: 'تواصل معنا',
 
     // Hero Section
     heroTag: 'الفاع و إم كيو × مجموعة أوشين سابسي مارين (تأسست ١٩٦٢)',

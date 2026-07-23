@@ -176,7 +176,7 @@ export function HeroSection() {
                 {stat.value}
               </div>
               <div className="text-xs font-bold text-slate-900 dark:text-white uppercase tracking-wider">{stat.label}</div>
-              <div className="text-[11px] text-slate-500 dark:text-slate-400">{stat.sub}</div>
+              <div className="text-[11px] text-slate-600 dark:text-slate-200 font-medium">{stat.sub}</div>
             </div>
           ))}
         </motion.div>

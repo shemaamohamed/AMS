@@ -207,20 +207,20 @@ export function DeliveryMethods() {
             </div>
           </div>
 
-          <div className="lg:col-span-5 bg-slate-100 dark:bg-gradient-to-br dark:from-[#051826] dark:to-[#0a66a0]/20 p-6 rounded-xl border border-slate-200 dark:border-white/10 space-y-4">
+          <div className="lg:col-span-5 bg-slate-100 dark:bg-gradient-to-br dark:from-[#051826] dark:to-[#0a66a0]/30 p-6 rounded-xl border border-slate-200 dark:border-sky-500/30 space-y-4 shadow-md">
             <h4 className="text-xs font-bold text-[#0a66a0] dark:text-sky-300 uppercase tracking-wider">{isRtl ? 'المقاييس التشغيلية للركيزة' : 'Pillar Operational Metrics'}</h4>
             <div className="space-y-3 text-xs">
-              <div className="flex justify-between border-b border-slate-200 dark:border-white/10 pb-2">
-                <span className="text-slate-500 dark:text-slate-400">{isRtl ? 'معايير IMCA / IRATA' : 'IMCA / IRATA Standard'}</span>
-                <span className="font-bold text-slate-900 dark:text-white">{isRtl ? 'مفحوصة ومُعتمدة' : 'Audited & Certified'}</span>
+              <div className="flex justify-between items-center border-b border-slate-200 dark:border-white/10 pb-2.5">
+                <span className="text-slate-700 dark:text-slate-200 font-bold">{isRtl ? 'معايير IMCA / IRATA' : 'IMCA / IRATA Standard'}</span>
+                <span className="font-extrabold text-slate-900 dark:text-white bg-slate-200/80 dark:bg-white/10 px-2 py-0.5 rounded text-[11px]">{isRtl ? 'مفحوصة ومُعتمدة' : 'Audited & Certified'}</span>
               </div>
-              <div className="flex justify-between border-b border-slate-200 dark:border-white/10 pb-2">
-                <span className="text-slate-500 dark:text-slate-400">{isRtl ? 'حالة الجاهزية للتعبئة' : 'Deployment Status'}</span>
-                <span className="font-bold text-[#2f7c4c] dark:text-emerald-400">{isRtl ? 'تعبئة سريعة 24/7' : '24/7 Rapid Mobilization'}</span>
+              <div className="flex justify-between items-center border-b border-slate-200 dark:border-white/10 pb-2.5">
+                <span className="text-slate-700 dark:text-slate-200 font-bold">{isRtl ? 'حالة الجاهزية للتعبئة' : 'Deployment Status'}</span>
+                <span className="font-extrabold text-[#2f7c4c] dark:text-emerald-400 bg-[#2f7c4c]/10 dark:bg-[#2f7c4c]/20 px-2 py-0.5 rounded border border-[#2f7c4c]/30 text-[11px]">{isRtl ? 'تعبئة سريعة 24/7' : '24/7 Rapid Mobilization'}</span>
               </div>
-              <div className="flex justify-between border-b border-slate-200 dark:border-white/10 pb-2">
-                <span className="text-slate-500 dark:text-slate-400">{isRtl ? 'التغطية الجغرافية' : 'Geographic Coverage'}</span>
-                <span className="font-bold text-slate-900 dark:text-white">{isRtl ? 'حقول طاقة المملكة والخليج' : 'KSA & GCC Offshore Blocks'}</span>
+              <div className="flex justify-between items-center border-b border-slate-200 dark:border-white/10 pb-2.5">
+                <span className="text-slate-700 dark:text-slate-200 font-bold">{isRtl ? 'التغطية الجغرافية' : 'Geographic Coverage'}</span>
+                <span className="font-extrabold text-slate-900 dark:text-white bg-slate-200/80 dark:bg-white/10 px-2 py-0.5 rounded text-[11px]">{isRtl ? 'حقول طاقة المملكة والخليج' : 'KSA & GCC Offshore Blocks'}</span>
               </div>
             </div>
           </div>
