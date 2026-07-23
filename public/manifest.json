@@ -1,0 +1,24 @@
+{
+  "name": "AMS Marine (Arabian Marine Services)",
+  "short_name": "AMS Marine",
+  "description": "Sovereign Subsea Engineering & Deepwater Excellence Across the Arabian Gulf",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#041c2c",
+  "theme_color": "#0a66a0",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/faviconams.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/faviconams.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

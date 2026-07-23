@@ -9,9 +9,41 @@ import { MapSection } from '@/components/home/MapSection';
 import Link from 'next/link';
 import { ShieldAlert, ArrowRight } from 'lucide-react';
 
-export const metadata = {
-  title: 'AMS Marine | Sovereign Subsea Engineering & Deepwater Excellence Across the Arabian Gulf',
-  description: 'AMS Marine (Arabian Marine Services) is a Joint Venture between Alpha OMQ & OSC Marine Group. Providing deepwater ROV (3,000m), saturation diving (300m), pipeline integrity, and 24/7 EPRS emergency response in Saudi Arabia & the GCC.',
+import type { Metadata } from 'next';
+import { SITE_URL, defaultSEO } from '@/lib/seo';
+
+export const metadata: Metadata = {
+  title: defaultSEO.title,
+  description: defaultSEO.description,
+  keywords: defaultSEO.keywords,
+  alternates: {
+    canonical: SITE_URL,
+    languages: {
+      'en-US': `${SITE_URL}?lang=EN`,
+      'ar-SA': `${SITE_URL}?lang=AR`,
+    },
+  },
+  openGraph: {
+    type: 'website',
+    url: SITE_URL,
+    title: defaultSEO.title,
+    description: defaultSEO.description,
+    siteName: defaultSEO.siteName,
+    images: [
+      {
+        url: `${SITE_URL}/assets/photos/image (30).png`,
+        width: 1200,
+        height: 630,
+        alt: 'AMS Marine Deepwater ROV Operations',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: defaultSEO.title,
+    description: defaultSEO.description,
+    images: [`${SITE_URL}/assets/photos/image (30).png`],
+  },
 };
 
 export default function HomePage() {
