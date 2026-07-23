@@ -5,20 +5,25 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { ThemeProvider } from "@/components/theme/ThemeProvider";
 import { LanguageProvider } from "@/context/LanguageContext";
-import { SITE_URL, defaultSEO, generateOrganizationSchema, generateLocalBusinessSchema } from "@/lib/seo";
+import { SITE_URL, defaultSEO, defaultOGImages, generateOrganizationSchema, generateLocalBusinessSchema } from "@/lib/seo";
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800"],
   variable: "--font-jakarta",
 });
 
 const cairo = Cairo({
   subsets: ["arabic", "latin"],
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
   variable: "--font-cairo",
 });
 
 export const viewport: Viewport = {
-  themeColor: "#041c2c",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f8fafc" },
+    { media: "(prefers-color-scheme: dark)", color: "#041c2c" },
+  ],
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
@@ -58,20 +63,16 @@ export const metadata: Metadata = {
     title: defaultSEO.title,
     description: defaultSEO.description,
     siteName: defaultSEO.siteName,
-    images: [
-      {
-        url: `${SITE_URL}/assets/photos/image (30).png`,
-        width: 1200,
-        height: 630,
-        alt: "AMS Marine Subsea ROV Operations & Saturation Diving",
-      },
-    ],
+    images: defaultOGImages,
   },
   twitter: {
     card: "summary_large_image",
     title: defaultSEO.title,
     description: defaultSEO.description,
-    images: [`${SITE_URL}/assets/photos/image (30).png`],
+    images: [
+      `${SITE_URL}/assets/photos/image (30).png`,
+      `${SITE_URL}/assets/logo/ams_logo_dark.png`,
+    ],
   },
   robots: {
     index: true,

@@ -1,6 +1,6 @@
 import React from 'react';
 import type { Metadata } from 'next';
-import { SITE_URL } from '@/lib/seo';
+import { SITE_URL, defaultOGImages } from '@/lib/seo';
 import { ServicesClient } from '@/components/services/ServicesClient';
 
 export const metadata: Metadata = {
@@ -32,20 +32,16 @@ export const metadata: Metadata = {
     description:
       'Technical specifications for 3,000m ROV intervention, 300m saturation diving, pipeline integrity, and subsea construction.',
     siteName: 'AMS Marine',
-    images: [
-      {
-        url: `${SITE_URL}/assets/photos/image (30).png`,
-        width: 1200,
-        height: 630,
-        alt: 'AMS Subsea Services Catalog',
-      },
-    ],
+    images: defaultOGImages,
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Subsea Services & Asset Integrity Catalog | AMS Marine',
     description: 'Detailed specs for offshore asset IRM, deepwater ROVs, and saturation diving.',
-    images: [`${SITE_URL}/assets/photos/image (30).png`],
+    images: [
+      `${SITE_URL}/assets/photos/image (30).png`,
+      `${SITE_URL}/assets/logo/ams_logo_dark.png`,
+    ],
   },
 };
 

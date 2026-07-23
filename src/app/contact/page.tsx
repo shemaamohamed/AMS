@@ -1,6 +1,6 @@
 import React from 'react';
 import type { Metadata } from 'next';
-import { SITE_URL } from '@/lib/seo';
+import { SITE_URL, defaultOGImages } from '@/lib/seo';
 import { ContactClient } from '@/components/contact/ContactClient';
 
 export const metadata: Metadata = {
@@ -29,20 +29,16 @@ export const metadata: Metadata = {
     title: '24/7 Emergency Support & Contact Matrix | AMS Marine',
     description: 'Direct priority dispatch lines for Khobar Headquarters and emergency subsea incident callouts.',
     siteName: 'AMS Marine',
-    images: [
-      {
-        url: `${SITE_URL}/assets/photos/image (30).png`,
-        width: 1200,
-        height: 630,
-        alt: 'AMS Marine Khobar Headquarters & Emergency Dispatch',
-      },
-    ],
+    images: defaultOGImages,
   },
   twitter: {
     card: 'summary_large_image',
     title: '24/7 Emergency Incident Hotline | AMS Marine',
     description: 'Call +966 13 800 2470 for immediate subsea & pipeline incident dispatch across KSA & GCC.',
-    images: [`${SITE_URL}/assets/photos/image (30).png`],
+    images: [
+      `${SITE_URL}/assets/photos/image (30).png`,
+      `${SITE_URL}/assets/logo/ams_logo_dark.png`,
+    ],
   },
 };
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import type { Metadata } from 'next';
-import { SITE_URL } from '@/lib/seo';
+import { SITE_URL, defaultOGImages } from '@/lib/seo';
 import { PipelineClient } from '@/components/pipeline/PipelineClient';
 
 export const metadata: Metadata = {
@@ -32,20 +32,16 @@ export const metadata: Metadata = {
     description:
       '24/7 Emergency Pipeline Incident Callout, PIPECARE Smart Pigging, CSS Diverless Clamps, and IO-Cofferdams.',
     siteName: 'AMS Marine',
-    images: [
-      {
-        url: `${SITE_URL}/assets/photos/image (30).png`,
-        width: 1200,
-        height: 630,
-        alt: 'AMS Marine 24/7 Emergency Pipeline Repair System',
-      },
-    ],
+    images: defaultOGImages,
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Pipeline Integrity & 24/7 EPRS | AMS Marine',
     description: 'Rapid mobilization subsea pipeline damage containment & diverless repair tools across KSA & GCC.',
-    images: [`${SITE_URL}/assets/photos/image (30).png`],
+    images: [
+      `${SITE_URL}/assets/photos/image (30).png`,
+      `${SITE_URL}/assets/logo/ams_logo_dark.png`,
+    ],
   },
 };
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import type { Metadata } from 'next';
-import { SITE_URL } from '@/lib/seo';
+import { SITE_URL, defaultOGImages } from '@/lib/seo';
 import { AboutClient } from '@/components/about/AboutClient';
 
 export const metadata: Metadata = {
@@ -31,20 +31,16 @@ export const metadata: Metadata = {
     title: 'About AMS Marine | Sovereign JV & Vision 2030 Heritage',
     description: 'Uniting Saudi commercial diving leadership with over 60 years of international subsea engineering legacy.',
     siteName: 'AMS Marine',
-    images: [
-      {
-        url: `${SITE_URL}/assets/photos/image (30).png`,
-        width: 1200,
-        height: 630,
-        alt: 'Alpha OMQ and OSC Marine Group Sovereign Alliance',
-      },
-    ],
+    images: defaultOGImages,
   },
   twitter: {
     card: 'summary_large_image',
     title: 'About AMS Marine | Sovereign Subsea Excellence',
     description: 'Alpha OMQ & OSC Marine Group (Est. 1962). Building subsea autonomy across KSA.',
-    images: [`${SITE_URL}/assets/photos/image (30).png`],
+    images: [
+      `${SITE_URL}/assets/photos/image (30).png`,
+      `${SITE_URL}/assets/logo/ams_logo_dark.png`,
+    ],
   },
 };
 

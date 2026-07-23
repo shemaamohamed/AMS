@@ -10,7 +10,7 @@ import Link from 'next/link';
 import { ShieldAlert, ArrowRight } from 'lucide-react';
 
 import type { Metadata } from 'next';
-import { SITE_URL, defaultSEO } from '@/lib/seo';
+import { SITE_URL, defaultSEO, defaultOGImages } from '@/lib/seo';
 
 export const metadata: Metadata = {
   title: defaultSEO.title,
@@ -29,20 +29,16 @@ export const metadata: Metadata = {
     title: defaultSEO.title,
     description: defaultSEO.description,
     siteName: defaultSEO.siteName,
-    images: [
-      {
-        url: `${SITE_URL}/assets/photos/image (30).png`,
-        width: 1200,
-        height: 630,
-        alt: 'AMS Marine Deepwater ROV Operations',
-      },
-    ],
+    images: defaultOGImages,
   },
   twitter: {
     card: 'summary_large_image',
     title: defaultSEO.title,
     description: defaultSEO.description,
-    images: [`${SITE_URL}/assets/photos/image (30).png`],
+    images: [
+      `${SITE_URL}/assets/photos/image (30).png`,
+      `${SITE_URL}/assets/logo/ams_logo_dark.png`,
+    ],
   },
 };
 

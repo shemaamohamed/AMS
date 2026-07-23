@@ -31,6 +31,30 @@ export const defaultSEO = {
   ]
 };
 
+export const defaultOGImages = [
+  {
+    url: `${SITE_URL}/assets/photos/image (30).png`,
+    width: 1200,
+    height: 630,
+    alt: 'AMS Marine Sovereign Subsea Engineering & Deepwater ROV Operations',
+    type: 'image/png',
+  },
+  {
+    url: `${SITE_URL}/assets/logo/ams_logo_dark.png`,
+    width: 1200,
+    height: 630,
+    alt: 'AMS Marine Official Brand Logo (Alpha OMQ x OSC Marine)',
+    type: 'image/png',
+  },
+  {
+    url: `${SITE_URL}/faviconams.png`,
+    width: 512,
+    height: 512,
+    alt: 'AMS Marine Icon',
+    type: 'image/png',
+  },
+];
+
 export function generateOrganizationSchema() {
   return {
     '@context': 'https://schema.org',

@@ -2,6 +2,11 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+@theme {
+  --font-sans: var(--font-jakarta), var(--font-cairo), system-ui, -apple-system, sans-serif;
+  --font-cairo: var(--font-cairo), system-ui, -apple-system, sans-serif;
+}
+
 @layer base {
   :root {
     --primary: #0a66a0;
@@ -12,8 +17,12 @@
   }
 
   html[lang="ar"],
-  html[dir="rtl"] {
-    font-family: var(--font-cairo), var(--font-jakarta), system-ui, -apple-system, sans-serif;
+  html[lang="ar"] *,
+  html[dir="rtl"],
+  html[dir="rtl"] *,
+  [dir="rtl"],
+  [dir="rtl"] * {
+    font-family: var(--font-cairo), system-ui, -apple-system, sans-serif !important;
   }
 }
 

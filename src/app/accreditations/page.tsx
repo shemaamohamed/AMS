@@ -1,6 +1,6 @@
 import React from 'react';
 import type { Metadata } from 'next';
-import { SITE_URL } from '@/lib/seo';
+import { SITE_URL, defaultOGImages } from '@/lib/seo';
 import { AccreditationsClient } from '@/components/accreditations/AccreditationsClient';
 
 export const metadata: Metadata = {
@@ -30,20 +30,16 @@ export const metadata: Metadata = {
     title: 'Safety Standards & Class Approvals | AMS Marine',
     description: 'IMCA Member, IRATA Certified, ISO 9001/14001/45001, and DNV GL/ABS Marine Class Approvals.',
     siteName: 'AMS Marine',
-    images: [
-      {
-        url: `${SITE_URL}/assets/photos/image (30).png`,
-        width: 1200,
-        height: 630,
-        alt: 'AMS Marine Certifications & Class Approvals',
-      },
-    ],
+    images: defaultOGImages,
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Accreditations & Class Approvals | AMS Marine',
     description: 'Full IMCA Member, IRATA 7020, and certified UWILD Class Approvals across DNV, ABS, BV, and LR.',
-    images: [`${SITE_URL}/assets/photos/image (30).png`],
+    images: [
+      `${SITE_URL}/assets/photos/image (30).png`,
+      `${SITE_URL}/assets/logo/ams_logo_dark.png`,
+    ],
   },
 };
 
