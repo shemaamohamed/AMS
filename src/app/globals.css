@@ -9,11 +9,21 @@
 
 @layer base {
   :root {
+    color-scheme: light;
     --primary: #0a66a0;
     --secondary: #2f7c4c;
     --dark-canvas: #041c2c;
     --dark-surface: #051826;
     --text-body: #545454;
+  }
+
+  html {
+    color-scheme: light;
+  }
+
+  html.dark,
+  .dark {
+    color-scheme: dark;
   }
 
   html[lang="ar"],
