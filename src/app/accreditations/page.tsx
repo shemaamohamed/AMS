@@ -37,7 +37,8 @@ export const metadata: Metadata = {
     title: 'Accreditations & Class Approvals | AMS Marine',
     description: 'Full IMCA Member, IRATA 7020, and certified UWILD Class Approvals across DNV, ABS, BV, and LR.',
     images: [
-      `${SITE_URL}/assets/photos/image (30).png`,
+      `${SITE_URL}/og-preview.png`,
+      `${SITE_URL}/og-preview-hero.jpg`,
       `${SITE_URL}/assets/logo/ams_logo_dark.png`,
     ],
   },

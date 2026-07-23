@@ -14,8 +14,8 @@ export const metadata: Metadata = {
     'Saudi Subsea Sovereignty',
     'Saudi Vision 2030 Maritime Autonomy',
     'عن AMS Marine',
-    'الفاع و إم كيو',
-    'أوشين سابسي مارين',
+    'Alpha OMQ',
+    'OSC Marine Group',
     'تاريخ الغوص التجاري السعودية'
   ],
   alternates: {
@@ -38,7 +38,8 @@ export const metadata: Metadata = {
     title: 'About AMS Marine | Sovereign Subsea Excellence',
     description: 'Alpha OMQ & OSC Marine Group (Est. 1962). Building subsea autonomy across KSA.',
     images: [
-      `${SITE_URL}/assets/photos/image (30).png`,
+      `${SITE_URL}/og-preview.png`,
+      `${SITE_URL}/og-preview-hero.jpg`,
       `${SITE_URL}/assets/logo/ams_logo_dark.png`,
     ],
   },

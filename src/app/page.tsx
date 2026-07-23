@@ -35,7 +35,8 @@ export const metadata: Metadata = {
     title: defaultSEO.title,
     description: defaultSEO.description,
     images: [
-      `${SITE_URL}/assets/photos/image (30).png`,
+      `${SITE_URL}/og-preview.png`,
+      `${SITE_URL}/og-preview-hero.jpg`,
       `${SITE_URL}/assets/logo/ams_logo_dark.png`,
     ],
   },

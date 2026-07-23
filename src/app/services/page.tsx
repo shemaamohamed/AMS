@@ -39,7 +39,8 @@ export const metadata: Metadata = {
     title: 'Subsea Services & Asset Integrity Catalog | AMS Marine',
     description: 'Detailed specs for offshore asset IRM, deepwater ROVs, and saturation diving.',
     images: [
-      `${SITE_URL}/assets/photos/image (30).png`,
+      `${SITE_URL}/og-preview.png`,
+      `${SITE_URL}/og-preview-hero.jpg`,
       `${SITE_URL}/assets/logo/ams_logo_dark.png`,
     ],
   },

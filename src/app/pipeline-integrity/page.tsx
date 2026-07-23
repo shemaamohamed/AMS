@@ -39,7 +39,8 @@ export const metadata: Metadata = {
     title: 'Pipeline Integrity & 24/7 EPRS | AMS Marine',
     description: 'Rapid mobilization subsea pipeline damage containment & diverless repair tools across KSA & GCC.',
     images: [
-      `${SITE_URL}/assets/photos/image (30).png`,
+      `${SITE_URL}/og-preview.jpg`,
+      `${SITE_URL}/og-preview-hero.jpg`,
       `${SITE_URL}/assets/logo/ams_logo_dark.png`,
     ],
   },

@@ -74,7 +74,7 @@ export function ServicesClient() {
                         : 'bg-slate-50 dark:bg-[#041c2c] border-slate-200 dark:border-white/5 hover:border-slate-300 dark:hover:border-white/20 text-slate-700 dark:text-slate-300'
                     }`}
                   >
-                    <div className="flex items-center gap-3">
+                    <div className="flex items-center gap-3" dir={isRtl ? 'rtl' : 'ltr'}  >
                       <div className={`p-2 rounded-lg ${isActive ? 'bg-white/10' : 'bg-slate-200/60 dark:bg-white/5'}`}>
                         {iconMap[s.iconName]}
                       </div>

@@ -8,7 +8,7 @@ export const defaultSEO = {
   description:
     'AMS Marine (Arabian Marine Services) is a sovereign Joint Venture between Alpha OMQ & OSC Marine Group (Est. 1962). Delivering 3,000m deepwater ROV intervention, 300m saturation diving, pipeline integrity, and 24/7 EPRS emergency response across KSA & the GCC.',
   descriptionAr:
-    'شركة الخدمات البحرية العربية (AMS Marine) مشروع مشترك سيادي بين الفاع و إم كيو (Alpha OMQ) ومجموعة أوشين سابسي مارين (تأسست 1962). نقدم خدمات مركبات الأعماق ROV حتى 3000م، الغوص التشبعي حتى 300م، سلامة الأنابيب، و 24/7 EPRS للتدخل الطارئ.',
+    'شركة الخدمات البحرية العربية (AMS Marine) مشروع مشترك سيادي بين Alpha OMQ و OSC Marine Group (تأسست 1962). نقدم خدمات مركبات الأعماق ROV حتى 3000م، الغوص التشبعي حتى 300م، سلامة الأنابيب، و 24/7 EPRS للتدخل الطارئ.',
   keywords: [
     'Subsea Engineering Saudi Arabia',
     'Saturation Diving 300m GCC',
@@ -25,19 +25,26 @@ export const defaultSEO = {
     'مركبات الأعماق ROV 3000م',
     'إصلاح الأنابيب البحرية 24/7 الخبر',
     'صيانة المنصات البحرية الخليج العربي',
-    'الفاع و إم كيو',
-    'أوشين سابسي مارين',
+    'Alpha OMQ',
+    'OSC Marine Group',
     'AMS Marine'
   ]
 };
 
 export const defaultOGImages = [
   {
-    url: `${SITE_URL}/assets/photos/image (30).png`,
+    url: `${SITE_URL}/og-preview.png`,
     width: 1200,
     height: 630,
-    alt: 'AMS Marine Sovereign Subsea Engineering & Deepwater ROV Operations',
+    alt: 'AMS Marine - Sovereign Subsea Engineering & Deepwater Excellence',
     type: 'image/png',
+  },
+  {
+    url: `${SITE_URL}/og-preview-hero.jpg`,
+    width: 1200,
+    height: 630,
+    alt: 'AMS Marine Hero Operations Preview',
+    type: 'image/jpeg',
   },
   {
     url: `${SITE_URL}/assets/logo/ams_logo_dark.png`,

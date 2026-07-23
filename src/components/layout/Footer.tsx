@@ -69,7 +69,7 @@ export function Footer() {
           <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed pr-4">
             {isRtl ? (
               <>
-                <strong>شركة الخدمات البحرية العربية (AMS Marine)</strong> هي مشروع مشترك سيادي بين <strong>الفاع و إم كيو (Alpha OMQ)</strong> و <strong>مجموعة أوشين سابسي مارين (OSC Marine Group)</strong>. تقدم خدمات الهندسة البحرية، مركبات الأعماق (3000م)، الغوص التشبعي (300م)، وسلامة الأنابيب عبر الخليج العربي.
+                <strong>AMS Marine (شركة الخدمات البحرية العربية)</strong> هي مشروع مشترك سيادي بين <strong>Alpha OMQ</strong> و <strong>OSC Marine Group</strong>. تقدم خدمات الهندسة البحرية، مركبات الأعماق (3000م)، الغوص التشبعي (300م)، وسلامة الأنابيب عبر الخليج العربي.
               </>
             ) : (
               <>
@@ -185,7 +185,7 @@ export function Footer() {
             </div>
             <div className="flex items-center gap-2">
               <PhoneCall className="w-4 h-4 text-[#2f7c4c] dark:text-[#3bd879] shrink-0" />
-              <span>+966 13 800 2470</span>
+              <span dir="ltr" className="inline-block font-mono">+966 13 800 2470</span>
             </div>
             <div className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-[#0a66a0] dark:text-sky-400 shrink-0" />
@@ -199,7 +199,7 @@ export function Footer() {
       <div className="bg-slate-200 dark:bg-[#020b12] py-4 sm:py-6 border-t border-slate-300 dark:border-white/5 text-xs text-slate-600 dark:text-slate-500">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-4 text-center sm:text-left">
           <div>
-            © {new Date().getFullYear()} AMS Marine. {isRtl ? 'جميع الحقوق محفوظة. مشروع مشترك بين الفاع و إم كيو ومجموعة أوشين سابسي مارين.' : 'All rights reserved. Strategic Joint Venture between Alpha OMQ & OSC Marine Group.'}
+            © {new Date().getFullYear()} AMS Marine. {isRtl ? 'جميع الحقوق محفوظة. مشروع مشترك استراتيجي بين Alpha OMQ و OSC Marine Group.' : 'All rights reserved. Strategic Joint Venture between Alpha OMQ & OSC Marine Group.'}
           </div>
           <div className="flex gap-6 text-slate-600 dark:text-slate-400">
             <Link href="/about" className="hover:text-slate-900 dark:hover:text-white">{isRtl ? 'رؤية 2030' : 'Vision 2030'}</Link>

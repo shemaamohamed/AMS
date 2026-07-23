@@ -36,7 +36,8 @@ export const metadata: Metadata = {
     title: '24/7 Emergency Incident Hotline | AMS Marine',
     description: 'Call +966 13 800 2470 for immediate subsea & pipeline incident dispatch across KSA & GCC.',
     images: [
-      `${SITE_URL}/assets/photos/image (30).png`,
+      `${SITE_URL}/og-preview.png`,
+      `${SITE_URL}/og-preview-hero.jpg`,
       `${SITE_URL}/assets/logo/ams_logo_dark.png`,
     ],
   },
