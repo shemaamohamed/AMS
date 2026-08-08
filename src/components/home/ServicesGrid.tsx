@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useLanguage } from '@/context/LanguageContext';
 import { servicesData } from '@/data/servicesData';
 import { ServiceCategory } from '@/types';
-import { ShieldCheck, Building2, Bot, Anchor, Activity, Waves, ArrowRight, ArrowLeft, X, CheckCircle2, Cpu } from 'lucide-react';
+import { ShieldCheck, Building2, Bot, Anchor, Activity, Waves, Wrench, LifeBuoy, Flame, Search, ArrowRight, ArrowLeft, X, CheckCircle2, Cpu } from 'lucide-react';
 
 const iconMap: Record<string, React.ReactNode> = {
   ShieldCheck: <ShieldCheck className="w-6 h-6 text-[#0a66a0] dark:text-sky-400" />,
@@ -14,6 +14,10 @@ const iconMap: Record<string, React.ReactNode> = {
   Anchor: <Anchor className="w-6 h-6 text-[#2f7c4c] dark:text-[#3bd879]" />,
   Activity: <Activity className="w-6 h-6 text-amber-600 dark:text-amber-400" />,
   Waves: <Waves className="w-6 h-6 text-cyan-600 dark:text-cyan-400" />,
+  Wrench: <Wrench className="w-6 h-6 text-[#0a66a0] dark:text-sky-400" />,
+  LifeBuoy: <LifeBuoy className="w-6 h-6 text-rose-600 dark:text-rose-400" />,
+  Flame: <Flame className="w-6 h-6 text-amber-500 dark:text-amber-400" />,
+  Search: <Search className="w-6 h-6 text-[#2f7c4c] dark:text-emerald-400" />,
 };
 
 export function ServicesGrid() {

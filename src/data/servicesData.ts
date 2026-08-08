@@ -222,6 +222,7 @@ export const servicesData: ServiceCategory[] = [
     deliveryMethodsAr: ['سدود الكوفركس IO', 'اللحام تحت الضغط', 'الكشط الذكي', 'مشابك Morgrip'],
     keyCapabilities: [
       '24/7 Rapid Incident Callout & Pipeline Repair Response',
+      'RBI (Risk-Based Inspection) for Pipelines & Asset Integrity Management',
       'IO-Cofferdam deployment for dry subsea welding on active lines',
       'In-line smart pigging (MFL, UT, Geometry, EMAT, Combo)',
       'Diverless pipeline structural clamps (up to 42" OD)',
@@ -230,6 +231,7 @@ export const servicesData: ServiceCategory[] = [
     ],
     keyCapabilitiesAr: [
       'استجابة سريعة للنوازل وإصلاح الأنابيب البحرية على مدار 24/7',
+      'تقييم التفتيش القائم على المخاطر للأنابيب (RBI for Pipelines)',
       'نشر سدود IO-Cofferdam للحام الجاف على الخطوط النشطة',
       'الفحص الذكي المباشر بالكشط (MFL, UT, Geometry, EMAT)',
       'مشابك الأنابيب الهيكلية بدون غواصين (حتى قطر 42 بوصة)',
@@ -306,6 +308,208 @@ export const servicesData: ServiceCategory[] = [
       descriptionAr: 'تنفيذ عمليات الشفط والصيانة لميناء بحري رئيسي بالخليج وتثبيت 3 وحدات Croc-Dock لإزالة البلاستيك العائم.',
       impact: 'Removed 14 tons of harbour plastic waste annually while restoring port navigation depth.',
       impactAr: 'إزالة 14 طناً من نفايات البلاستيك سنوياً مع استعادة عمق الملاحة بالميناء.'
+    },
+    datasheetUrl: '#'
+  },
+  {
+    id: 'subsea-pipeline-engineering',
+    title: 'Subsea and Pipeline Engineering',
+    titleAr: 'هندسة خطوط الأنابيب والأنظمة البحرية',
+    shortDesc: 'Front-end subsea engineering, structural analysis, pipeline routing, hydrodynamic modeling, and Risk-Based Inspection (RBI).',
+    shortDescAr: 'الهندسة البحرية الأساسية، التحليل الهيكلي، مسارات الأنابيب، النمذجة الهيدروديناميكية، والتفتيش القائم على المخاطر (RBI).',
+    fullDesc: 'AMS Marine delivers end-to-end Subsea and Pipeline Engineering solutions for offshore oil & gas developments. Our engineering teams perform stress analysis, free-span fatigue evaluation, pipeline route optimization, and Risk-Based Inspection (RBI) programs to ensure long-term structural integrity and flow assurance.',
+    fullDescAr: 'تقدم AMS Marine حلولاً هندسية متكاملة للأنظمة والبحرية وخطوط الأنابيب لمشاريع النفط والغاز البحرية. ينفذ مهندسونا تحليل الإجهادات، تقييم الإجهاد للأجزاء المعلقة من الأنابيب، تحسين مسارات الخطوط، وبرامج التفتيش القائم على المخاطر (RBI) لضمان السلامة الهيكلية وتدفق الإنتاج.',
+    iconName: 'Wrench',
+    maxDepth: 'Full Field Engineering Range',
+    maxDepthAr: 'تغطية هندسية كاملة للحقول البحرية',
+    deliveryMethods: ['Front-End Engineering Design (FEED)', 'RBI Modeling', 'FEA & Dynamic Analysis'],
+    deliveryMethodsAr: ['التصميم الهندسي الأولي FEED', 'نمذجة RBI', 'التحليل الديناميكي والعناصر المحدودة'],
+    keyCapabilities: [
+      'Subsea pipeline route optimization and seabed bathymetry analysis',
+      'Risk-Based Inspection (RBI) for subsea pipelines & hydrocarbon risers',
+      'Pipeline stress, buckling, and free-span fatigue assessment',
+      'Subsea tie-in spool & riser mechanical design calculations',
+      'Cathodic Protection (CP) system design and life extension modeling',
+      'Subsea integrity management system (SIMS) database setup'
+    ],
+    keyCapabilitiesAr: [
+      'تحسين مسارات الأنابيب البحرية وتحليل تضاريس القاع',
+      'برامج التفتيش القائم على المخاطر (RBI for Pipelines) لصواعد الهيدروكربون',
+      'تحليل إجهادات الأنابيب والانبعاج والإجهاد التراكمي للأجزاء المعلقة',
+      'الحسابات الميكانيكية لروابط الأنابيب (Spools) والصواعد',
+      'تصميم أنظمة الحماية الكاثودية (CP) وتمديد عمر الحقول',
+      'تأسيس قواعد بيانات إدارة سلامة الأصول البحرية (SIMS)'
+    ],
+    equipmentList: [
+      'AutoPIPE & OFFPIPE Subsea Pipeline Analysis Packages',
+      'DNV-RP-F105 & DNV-RP-F110 Free-Span Evaluation Tooling',
+      'Subsea 3D CAD & Finite Element Analysis (FEA) Software'
+    ],
+    equipmentListAr: [
+      'برامج تحليل الأنابيب البحرية AutoPIPE & OFFPIPE',
+      'معدات وأدوات تقييم الأجزاء المعلقة وفق DNV-RP-F105',
+      'برمجيات التصميم ثلاثي الأبعاد والتحليل بالعناصر المحدودة (FEA)'
+    ],
+    caseStudy: {
+      title: 'Arabian Gulf Offshore Pipeline Integrity & RBI Assessment',
+      titleAr: 'تقييم سلامة خطوط الأنابيب والتفتيش القائم على المخاطر بالخليج',
+      description: 'Executed comprehensive RBI audit and free-span fatigue re-assessment for 140km offshore trunkline network.',
+      descriptionAr: 'تنفيذ تدقيق شامل للتفتيش القائم على المخاطر (RBI) وتقييم الأجزاء المعلقة لشبكة أنابيب بطول 140 كم.',
+      impact: 'Optimized inspection intervals, saving operator 30% in operational maintenance expenditure.',
+      impactAr: 'تحسين الفترات الزمنية للفحص وتوفير 30٪ من مصاريف الصيانة التشغيلية.'
+    },
+    datasheetUrl: '#'
+  },
+  {
+    id: 'salvage-emergency-response',
+    title: 'Salvage and Emergency Response across the ME and Africa',
+    titleAr: 'الإنقاذ والاستجابة للطوارئ في الشرق الأوسط وأفريقيا',
+    shortDesc: '24/7 wreck removal, emergency towing, subsea hull patching, pollution containment, and rapid incident dispatch across the ME & Africa.',
+    shortDescAr: 'استجابة طوارئ 24/7 لإزالة الحطام، القطر الطارئ، سد الهياكل تحت الماء، احتواء التلوث، والتدخل السريع في الشرق الأوسط وأفريقيا.',
+    fullDesc: 'Operating emergency response spreads across the Middle East and Africa, AMS Marine provides immediate mobilization for vessel salvage, stranded offshore asset recovery, subsea hydrocarbon leak containment, and emergency wreck removal in full alignment with international maritime salvage conventions.',
+    fullDescAr: 'من خلال تشغيل فرق طوارئ متخصصة في الشرق الأوسط وأفريقيا، توفر AMS Marine استجابة فورية لإنقاذ السفن، استعادة الأصول البحرية العالقة، احتواء تسربات الهيدروكربون تحت الماء، وإزالة الحطام الطارئة وفقاً للاتفاقيات الدولية لإنقاذ السفن.',
+    iconName: 'LifeBuoy',
+    maxDepth: '24/7 Rapid Regional Dispatch',
+    maxDepthAr: 'استجابة وإرسال إقليمي سريع 24/7',
+    deliveryMethods: ['Emergency Salvage Diving', 'Pumping & Lightering', 'Heavy Lift Rescue', 'Wreck Demolition'],
+    deliveryMethodsAr: ['غوص الإنقاذ الطارئ', 'تفريغ وحقن السوائل', 'الرفع الثقيل للإنقاذ', 'تفكيك وإزالة الحطام'],
+    keyCapabilities: [
+      '24/7 emergency incident dispatch across Middle East & Africa ports/offshore blocks',
+      'Marine vessel salvage, re-floating, and emergency towing support',
+      'Subsea hull patching, cofferdam sealing, and underwater damage assessment',
+      'Emergency oil spill lightering, pumping, and environmental containment',
+      'Heavy subsea wreck cutting, wire saw demolition, and debris clearance',
+      'Lloyd’s Open Form (LOF) and commercial salvage contract execution'
+    ],
+    keyCapabilitiesAr: [
+      'إرسال طوارئ 24/7 عبر موانئ وحقول الشرق الأوسط وأفريقيا',
+      'إنقاذ السفن البحرية، إعادة التعويم، ودعم القطر الطارئ',
+      'سد ثقوب الهياكل تحت الماء، سدود الكوفركس، وتقييم الأضرار',
+      'تفريغ النفط في حالات الطوارئ، الضخ، والحماية البيئية',
+      'قطع حطام السفن بالمنشار الألماسي وإزالة الأنقاض البحرية',
+      'تنفيذ عقود الإنقاذ البحرية المعتمدة (LOF) والعقود التجارية'
+    ],
+    equipmentList: [
+      'High-Capacity Subsea Salvage Pumping & De-watering Spreads',
+      'Subsea Diamond Wire Cutting Saws & Hydraulic Shear Tooling',
+      'Heavy Duty Inflatable Lift Bags (up to 50-Ton Modules)',
+      'Oil Spill Containment Booms & Skimmers'
+    ],
+    equipmentListAr: [
+      'معدات ضخ وتفريغ المياه عالية الطاقة لإنقاذ السفن',
+      'منشار السلك الألماسي وأدوات القص الهيدروليكية للحطام',
+      'وسائد الرفع العائمة الثقيلة (وحدات حتى 50 طناً)',
+      'حواجز ومكاشط احتواء التلوث النفطي'
+    ],
+    caseStudy: {
+      title: 'Emergency Red Sea Vessel Salvage & Fuel Lightering',
+      titleAr: 'إنقاذ سفينة طارئ بالبحر الأحمر وتفريغ الوقود',
+      description: 'Successfully refloated 12,000 DWT grounded cargo vessel and safely lightered 400 tons of heavy fuel oil within 48 hours.',
+      descriptionAr: 'إعادة تعويم سفينة شحن حمولة 12000 طن وتفريغ 400 طن من الوقود بنجاح خلال 48 ساعة دون تسرب بيئي.',
+      impact: 'Zero environmental contamination and saved vessel from structural breakup.',
+      impactAr: 'حماية البيئة بنسبة 100٪ وإنقاذ السفنة من التفكك الهيكلي.'
+    },
+    datasheetUrl: '#'
+  },
+  {
+    id: 'hyperbaric-welding-dry-space',
+    title: 'Hyperbaric Welding and Dry Space Engineering and installations',
+    titleAr: 'اللحام الجاف تحت الضغط وهندسة وتركيبات المساحات المغلقة',
+    shortDesc: 'Class-certified hyperbaric welding habitats, dry space engineering, IO-Cofferdam deployments, and structural repairs on active lines.',
+    shortDescAr: 'مغلفات اللحام الجاف المعتمدة، هندسة المساحات الجافة، سدود الكوفركس، والإصلاحات الهيكلية للخطوط النشطة.',
+    fullDesc: 'AMS Marine provides specialized Hyperbaric Welding and Dry Space Engineering solutions for high-pressure subsea pipelines and offshore structures. By deploying custom-engineered hyperbaric habitats and IO-Cofferdams, our certified welding technicians execute structural dry welds underwater without shutting down critical hydrocarbon production.',
+    fullDescAr: 'تقدم AMS Marine حلولاً متخصصة في اللحام الجاف تحت الضغط وهندسة المساحات المغلقة للأنابيب والهياكل البحرية مرتفعة الضغط. من خلال نشر بيئات اللحام المعزولة وسدود IO-Cofferdams، ينفذ فنيو اللحام المعتمدون لدينا لحامات جافة عالية الدقة تحت الماء دون الحاجة لإيقاف إنتاج الهيدروكربون.',
+    iconName: 'Flame',
+    maxDepth: '300m Sat / Near-shore Cofferdams',
+    maxDepthAr: 'غوص تشبعي 300م / سدود جافة ساحلية',
+    deliveryMethods: ['Hyperbaric Habitat Welding', 'IO-Cofferdam Deployment', 'Dry Space Structural Engineering'],
+    deliveryMethodsAr: ['اللحام داخل المغلفات الجافة', 'نشر سدود IO-Cofferdam', 'هندسة المساحات الجافة الهيكلية'],
+    keyCapabilities: [
+      'Class-certified hyperbaric dry welding habitat setup and environmental control',
+      'Near-shore and platform riser repair using custom IO-Cofferdam systems',
+      'Structural dry welding on live hydrocarbon lines and offshore jackets',
+      'Pre-heating, post-weld heat treatment (PWHT), and subsea NDT inspection',
+      'Dry space engineering & habitat life-support atmospheric monitoring',
+      'AWS D3.6 Class A subsea dry weld procedure qualification'
+    ],
+    keyCapabilitiesAr: [
+      'تثبيت بيئات اللحام الجاف تحت الضغط والتحكم بالبيئة الداخلية',
+      'إصلاح صواعد المنصات والأنابيب القريبة من الشاطئ باستخدام سدود IO-Cofferdam',
+      'اللحام الجاف الهيكلي على خطوط الهيدروكربون النشطة وقواعد المنصات',
+      'التسخين المسبق والمعالجة الحرارية بعد اللحام (PWHT) والفحص اللاهدمي NDT',
+      'هندسة المساحات الجافة ومراقبة أجهزة دعم الحياة داخل غرف اللحام',
+      'تأهيل إجراءات اللحام الجاف المعتمدة وفق معيار AWS D3.6 Class A'
+    ],
+    equipmentList: [
+      'Modular Subsea Hyperbaric Welding Habitat & Gas Control Van',
+      'IO-Cofferdams for Riser & HDPE/Steel Pipeline Repair',
+      'Subsea Pre-Heating & Post-Weld Heat Treatment (PWHT) Units',
+      'Radiographic & Ultrasonic Weld Inspection Equipment'
+    ],
+    equipmentListAr: [
+      'غرف وغطاء اللحام الجاف الحاوية مع كابينة التحكم بالغازات',
+      'سدود IO-Cofferdam لإصلاح الصواعد والأنابيب الفولاذية و HDPE',
+      'وحدات التسخين المسبق والمعالجة الحرارية بعد اللحام تحت الماء',
+      'معدات الفحص الشعاعي والموجات فوق الصوتية للحامات'
+    ],
+    caseStudy: {
+      title: 'Offshore Riser Hyperbaric Dry Weld Repair & Tie-In',
+      titleAr: 'إصلاح وربط صاعد بحري باللحام الجاف تحت الضغط',
+      description: 'Deployed IO-Cofferdam habitat to perform Class A dry welding repair on a 20" gas riser without disrupting oilfield throughput.',
+      descriptionAr: 'نشر بيئة IO-Cofferdam لتنفيذ إصلاح باللحام الجاف درجة A على صاعد غاز قطر 20 بوصة دون إيقاف الإنتاج.',
+      impact: '100% NDT weld pass rate and avoided $4M in field shutdown losses.',
+      impactAr: 'نجاح فحص اللحام بنسبة 100٪ وتجنب خسائر توقف الحقل البالغة 4 ملايين دولار.'
+    },
+    datasheetUrl: '#'
+  },
+  {
+    id: 'ili-external-inspections',
+    title: 'In line Inspections (ILI) and External Pipeline inspections using Intelligent Pigging together with Pipecare',
+    titleAr: 'الفحص المباشر (ILI) والفحص الخارجي للأنابيب بالكشط الذكي بالتعاون مع Pipecare',
+    shortDesc: 'Comprehensive ILI intelligent pigging (MFL, UT, EMAT, Geometry) and external pipeline flaw detection delivered with PIPECARE.',
+    shortDescAr: 'الفحص المباشر الشامل (ILI) بالكشط الذكي (MFL, UT, EMAT) واكتشاف عيوب الأنابيب الخارجية بالشراكة مع PIPECARE.',
+    fullDesc: 'AMS Marine, together with technology partner PIPECARE, provides industry-leading In-Line Inspection (ILI) and external subsea pipeline inspection services. Utilizing state-of-the-art intelligent pigging tools (MFL, Ultrasonic Thickness, EMAT, Geo-pigs), we deliver high-resolution metal loss mapping, crack detection, geometry profiling, and external NDT evaluations.',
+    fullDescAr: 'تقدم AMS Marine بالتكامل مع شريك التكنولوجيا PIPECARE خدمات الفحص المباشر (ILI) والفحص الخارجي للأنابيب البحرية المعتمدة عالمياً. باستخدام أحدث مكاشط الفحص الذكية (MFL, UT, EMAT, مكاشط الهندسة)، نوفر خريطة دقيقة لفقدان المعدن، اكتشاف التشققات، قياس الأبعاد، والتقييمات اللاهدمية الخارجية.',
+    iconName: 'Search',
+    maxDepth: 'Full Offshore Pipeline Network',
+    maxDepthAr: 'تغطية شبكات الأنابيب البحرية بالكامل',
+    deliveryMethods: ['Intelligent Pigging (MFL/UT/EMAT)', 'External Subsea NDT', '4D Integrity Profiling'],
+    deliveryMethodsAr: ['الكشط الذكي MFL/UT/EMAT', 'الفحص اللاهدمي الخارجي تحت الماء', 'نمذجة السلامة رباعية الأبعاد'],
+    keyCapabilities: [
+      'In-Line Inspection (ILI) using PIPECARE MFL (Magnetic Flux Leakage) smart pigs',
+      'Ultrasonic Thickness (UT) & EMAT intelligent pigging for internal/external corrosion mapping',
+      'Caliper & Geometry pigging for dent, ovality, and deformation detection',
+      'Subsea external pipeline NDT inspection (laser profiling, ultrasonic wall measurement)',
+      'Subsea pipeline free-span and external coating defect identification',
+      'Comprehensive Fitness-For-Service (FFS) & pipeline remaining life reporting'
+    ],
+    keyCapabilitiesAr: [
+      'الفحص المباشر (ILI) باستخدام مكاشط PIPECARE الذكية المجهزة بتقنية MFL',
+      'الفحص بالموجات فوق الصوتية (UT) و EMAT لتحديد التآكل الداخلي والخارجي',
+      'مكاشط قياس الأبعاد والقُطر لاكتشاف الانبعاجات والتشوهات',
+      'الفحص اللاهدمي الخارجي للأنابيب (التجميع الليزري وسمك الجدران)',
+      'تحديد عيوب الطلاء الخارجي والأجزاء المعلقة من الأنابيب البحرية',
+      'تقارير الصلاحية للخدمة (FFS) وتحديد العمر المتبقي للأنابيب'
+    ],
+    equipmentList: [
+      'PIPECARE High-Resolution MFL & Combo Smart Inspection Pigs',
+      'Ultrasonic Thickness (UT) & EMAT Crack Detection Pigs',
+      'Subsea Hydro-Acoustic Pig Tracking & Locating Equipment',
+      'External Subsea Laser Corrosion Profilers & UT Thickness Probes'
+    ],
+    equipmentListAr: [
+      'مكاشط PIPECARE الذكية المدمجة عالية الدقة MFL',
+      'مكاشط الموجات فوق الصوتية (UT) و EMAT لاكتشاف التشققات',
+      'أجهزة التتبع الصوتي والتحديد لمكاشط الأنابيب تحت الماء',
+      'أجهزة مسح التآكل بالموجات فوق الصوتية والليزر الخارجي'
+    ],
+    caseStudy: {
+      title: '110km Offshore Gas Trunkline ILI Inspection Campaign',
+      titleAr: 'حملة الفحص المباشر ILI لخط أنابيب غاز بحري بطول 110 كم',
+      description: 'Completed seamless ILI smart pigging campaign identifying internal corrosion anomalies and wall thinning across 110km subsea gas line.',
+      descriptionAr: 'إكمال حملة فحص مباشر ILI بالكشط الذكي واكتشاف شذوذ التآكل الداخلي وترقق الجدران لخط غاز بحري.',
+      impact: 'Provided high-precision corrosion map enabling targeted clamp repair without production interruption.',
+      impactAr: 'توفير خريطة تآكل عالية الدقة أتاحت تثبيت المشابك المستهدفة دون إيقاف الإنتاج.'
     },
     datasheetUrl: '#'
   }

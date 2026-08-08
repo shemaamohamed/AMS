@@ -57,14 +57,36 @@ export const accreditationsData: AccreditationItem[] = [
     scopeAr: 'إدارة السلامة المتكاملة عبر عمليات الغوص التشبعي عالية المخاطر، تشغيل مركبات الأعماق ROV، والإنشاءات البحرية.'
   },
   {
-    id: 'class_approvals',
-    title: 'Marine Class Approvals (UWILD & Hull IRM)',
-    titleAr: 'اعتمادات هيئات التصنيف البحرية (UWILD وصيانة السفن)',
+    id: 'dnv_class',
+    title: 'DNV Marine Class Approval',
+    titleAr: 'اعتماد هيئة DNV الدولية للتصنيف البحري',
     category: 'Class Approval',
-    issuer: 'DNV GL, ABS, Bureau Veritas, Lloyd’s Register, RINA, ClassNK, CCS',
-    issuerAr: 'DNV GL، ABS، Bureau Veritas، Lloyd’s Register، RINA، ClassNK، CCS',
+    issuer: 'DNV (Det Norske Veritas)',
+    issuerAr: 'هيئة DNV العالمية للتصنيف البحري',
     imageSrc: '/assets/accreditation/image (39).png',
-    scope: 'Certified for In-Water Surveys (UWILD), Subsea Hull NDT Inspections, Thruster Recoveries & Cofferdam Welding.',
-    scopeAr: 'معتمدة لمعاينات السفن تحت الماء بدلاً من الأحواض الجافة (UWILD)، الفحص اللاهدمي للهياكل، استبدال الدوافع، واللحام الجاف.'
+    scope: 'Class Certified for In-Water Surveys (UWILD), Subsea Hull NDT Inspections, Morgrip Pipeline Connectors & Cofferdam Welding.',
+    scopeAr: 'معتمدة لمعاينات السفن تحت الماء بدلاً من الأحواض الجافة (UWILD)، الفحص اللاهدمي، وتوصيلات الأنابيب واللحام الجاف.'
+  },
+  {
+    id: 'abs_class',
+    title: 'ABS Marine Class Approval',
+    titleAr: 'اعتماد هيئة ABS الأمريكية للتصنيف البحري',
+    category: 'Class Approval',
+    issuer: 'American Bureau of Shipping (ABS)',
+    issuerAr: 'المكتب الأمريكي للشحن والتصنيف البحري (ABS)',
+    imageSrc: '/assets/accreditation/image (39).png',
+    scope: 'Recognized External Specialist for In-Water Hull Surveys (UWILD), Subsea Flaw Detection & Deepwater Asset Integrity.',
+    scopeAr: 'مزود خدمات معتمد لمعاينات السفن تحت الماء بدلاً من الأحواض الجافة (UWILD)، واكتشاف فجوات الهياكل وسلامة الأصول البحرية.'
+  },
+  {
+    id: 'osc_class_certs',
+    title: 'OSC Group Class Certificates (BV, LR, RINA, ClassNK, CCS)',
+    titleAr: 'شهادات اعتمادات التصنيف لمجموعة OSC البحرية',
+    category: 'Class Approval',
+    issuer: 'Bureau Veritas (BV), Lloyd’s Register (LR), RINA, ClassNK, CCS',
+    issuerAr: 'Bureau Veritas، Lloyd’s Register، RINA، ClassNK، CCS',
+    imageSrc: '/assets/accreditation/image (39).png',
+    scope: 'Full international class approvals covering UWILD surveys, thruster recoveries, subsea cofferdam repairs & NDT.',
+    scopeAr: 'اعتمادات تصنيف دولية شاملة تفطي معاينات UWILD، استبدال المحركات والدوافع، وإصلاحات سدود الكوفركس الجافة.'
   }
 ];

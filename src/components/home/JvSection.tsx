@@ -94,15 +94,11 @@ export function JvSection() {
               <ul className="space-y-2.5 text-xs text-slate-700 dark:text-slate-200">
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#0a66a0] dark:text-sky-400 shrink-0 mt-0.5" />
-                  <span>{isRtl ? 'أكثر من ٦٠ عاماً من التاريخ الدولي في الغوص التجاري والأعماق' : '60+ years of international subsea & commercial diving legacy'}</span>
+                  <span>{isRtl ? 'أكثر من ٦٠ عاماً من التميز الدولي في الغوص التجاري والهندسة البحرية' : '60+ years of international subsea engineering & commercial diving excellence'}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#0a66a0] dark:text-sky-400 shrink-0 mt-0.5" />
-                  <span>{isRtl ? 'تمثيل عالي المستوى في مجلس إدارة قسم الغوص التابع لـ IMCA' : 'Senior representation on IMCA Diving Division Management Board'}</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-[#0a66a0] dark:text-sky-400 shrink-0 mt-0.5" />
-                  <span>{isRtl ? 'الريادة في عمليات الغوص التشبعي (300m) وسدود الكوفركس (IO-Cofferdam)' : 'Pioneered 300m Saturation Diving & IO-Cofferdam deployments'}</span>
+                  <span>{isRtl ? 'حلول هندسية متكاملة لسلامة الأنابيب والاستجابة للطوارئ واللحام الجاف' : 'Integrated pipeline integrity, salvage, emergency response & hyperbaric welding spreads'}</span>
                 </li>
               </ul>
             </div>
