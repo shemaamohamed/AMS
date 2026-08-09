@@ -82,11 +82,11 @@ export function AboutClient() {
             <ul className="space-y-2 text-xs text-slate-700 dark:text-slate-200">
               <li className="flex items-start gap-2">
                 <CheckCircle2 className="w-4 h-4 text-[#0a66a0] dark:text-sky-400 shrink-0 mt-0.5" />
-                <span>{isRtl ? 'أكثر من ٦٠ عاماً من عمليات الغوص التشبعي والخدمات البحرية المعتمدة' : 'Over 60 years of certified deepwater saturation diving and subsea operations'}</span>
+                <span>{isRtl ? 'سجل ناجح في سلامة الأنابيب والإنقاذ والاستجابة للطوارئ واللحام الجاف عبر الشرق الأوسط وأفريقيا' : 'Proven pipeline integrity, hyperbaric welding, salvage & emergency response track record across ME & Africa'}</span>
               </li>
               <li className="flex items-start gap-2">
                 <CheckCircle2 className="w-4 h-4 text-[#0a66a0] dark:text-sky-400 shrink-0 mt-0.5" />
-                <span>{isRtl ? 'سجل نجاح دولي ممتد عبر أفريقيا والشرق الأوسط والمملكة العربية السعودية' : 'International track record across Africa, Middle East & KSA'}</span>
+                <span>{isRtl ? 'سجل دولي ممتد عبر أفريقيا والشرق الأوسط والمملكة العربية السعودية' : 'International track record across Africa, Middle East & KSA'}</span>
               </li>
             </ul>
           </div>

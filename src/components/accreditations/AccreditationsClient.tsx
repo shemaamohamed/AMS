@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { useLanguage } from '@/context/LanguageContext';
 import { accreditationsData } from '@/data/accreditationsData';
-import { Award, FileCheck, Download, HeartPulse } from 'lucide-react';
+import { Award, FileCheck, HeartPulse } from 'lucide-react';
 
 export function AccreditationsClient() {
   const { direction, t } = useLanguage();
@@ -97,14 +97,18 @@ export function AccreditationsClient() {
                       <FileCheck className="w-5 h-5 text-[#2f7c4c] dark:text-emerald-400" />
                     </div>
 
-                    {item.imageSrc && (
+                    {item.imageSrc ? (
                       <div className="relative w-full h-20 bg-slate-50 dark:bg-white/5 rounded-xl border border-slate-200 dark:border-white/10 p-2 flex items-center justify-center">
                         <Image
                           src={item.imageSrc}
                           alt={item.title}
                           fill
-                          className="object-contain p-2"
+                          className="object-contain p-3"
                         />
+                      </div>
+                    ) : (
+                      <div className="w-full h-20 bg-[#0a66a0]/10 dark:bg-[#0a66a0]/20 rounded-xl border border-[#0a66a0]/30 flex items-center justify-center">
+                        <span className="text-sm font-black text-[#0a66a0] dark:text-sky-300 tracking-widest">ClassNK</span>
                       </div>
                     )}
 
@@ -119,18 +123,6 @@ export function AccreditationsClient() {
                     <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
                       {accScope}
                     </p>
-                  </div>
-
-                  <div className="pt-4 border-t border-slate-200 dark:border-white/10">
-                    <a
-                      href="/assets/Arabian Marine Services Profile.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 text-xs font-bold text-[#0a66a0] dark:text-sky-400 hover:underline transition-colors"
-                    >
-                      <Download className="w-3.5 h-3.5" />
-                      <span>{isRtl ? 'تحميل ملف الشهادات (PDF)' : 'Download Certificate Record (PDF)'}</span>
-                    </a>
                   </div>
                 </div>
               );
@@ -149,10 +141,22 @@ export function AccreditationsClient() {
               : 'AMS Marine holds official class approval certificates from all major international classification societies to conduct certified underwater in-lieu of drydocking (UWILD) surveys, NDT hull flaw detection, thruster recoveries, and cofferdam repairs:'}
           </p>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4 text-center">
-            {['DNV GL', 'American Bureau of Shipping (ABS)', 'Bureau Veritas (BV)', 'Lloyd’s Register (LR)', 'RINA', 'ClassNK', 'China Classification Society (CCS)'].map((cls, i) => (
-              <div key={i} className="bg-slate-50 dark:bg-[#041c2c] p-4 rounded-xl border border-slate-200 dark:border-white/10 text-xs font-bold text-[#0a66a0] dark:text-sky-300 flex items-center justify-center">
-                {cls}
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4">
+            {[
+              { name: 'DNV', logo: '/assets/accreditation/DNV_GL_logo.webp' },
+              { name: 'American Bureau of Shipping (ABS)', logo: '/assets/accreditation/image (39).png' },
+              { name: 'Bureau Veritas (BV)', logo: '/assets/accreditation/image (40).png' },
+              { name: "Lloyd's Register (LR)", logo: '/assets/accreditation/image (42).png' },
+              { name: 'RINA', logo: '/assets/accreditation/image (38).png' },
+              { name: 'ClassNK', logo: null },
+              { name: 'CCS', logo: '/assets/accreditation/image (41).png' },
+            ].map((cls, i) => (
+              <div key={i} className="bg-slate-50 dark:bg-[#041c2c] p-3 rounded-xl border border-slate-200 dark:border-white/10 flex items-center justify-center h-16 relative">
+                {cls.logo ? (
+                  <Image src={cls.logo} alt={cls.name} fill className="object-contain p-2" />
+                ) : (
+                  <span className="text-xs font-black text-[#0a66a0] dark:text-sky-300 tracking-widest">ClassNK</span>
+                )}
               </div>
             ))}
           </div>

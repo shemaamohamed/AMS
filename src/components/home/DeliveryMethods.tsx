@@ -14,25 +14,25 @@ export function DeliveryMethods() {
     {
       id: 'rov',
       number: '01',
-      title: isRtl ? 'أنظمة ROV للأعماق' : 'ROV Systems',
-      subtitle: isRtl ? 'التدخل البعيد في المياه العميقة' : 'Deepwater Remote Intervention',
+      title: isRtl ? 'أنظمة ROV للمسح والتفتيش' : 'ROV Inspection & Survey',
+      subtitle: isRtl ? 'مراقبة الأنابيب والهياكل البحرية' : 'Pipeline & Structural Survey',
       icon: <Bot className="w-5 h-5 text-indigo-600 dark:text-indigo-400" />,
-      depth: isRtl ? 'حتى عمق 3000 متر' : 'Up to 3,000m Depth',
+      depth: isRtl ? 'فئة المسح والتفتيش' : 'Survey & Inspection Class',
       description: isRtl
-        ? 'مركبات الأعماق الفائقة والمجهزة بسونار عالي الدقة، ومقابض هيدروليكية متعددة المحاور، وزلاجات قطع الأنابيب بدون غواصين.'
-        : 'Work-Class and Inspection ROVs equipped with high-definition sonar, multi-axis hydraulic manipulators, subsea cutting skids, and diverless clamp installation frames.',
+        ? 'مركبات ROV للمراقبة والمسح مجهزة بسونار عالي الدقة وأنظمة USBL ومسابير الحماية الكاثودية لفحص الأنابيب والهياكل في الخليج العربي والبحر الأحمر.'
+        : 'Observation and survey-class ROVs equipped with high-definition sonar, USBL positioning, and CP probe attachments for pipeline and structural inspections across the Arabian Gulf and Red Sea.',
       points: isRtl
         ? [
-            'التدخل في الأعماق حتى عمق 3000 متر تحت سطح البحر',
-            'مسوحات التصوير السوناري والموجات الصوتية 3D',
-            'عمليات إغلاق وهجر آبار النفط البحرية (P&A)',
-            'دعم تمديد الأنابيب والسلاسل المرنة تحت الماء'
+            'فحص بصري للأنابيب ومسح الأجزاء المعلقة',
+            'مسوحات الحماية الكاثودية (CP) وتقييم الأنودات',
+            'التصوير السوناري وتخطيط قاع البحر 3D',
+            'دعم الفحص الهيكلي GVI/CVI للمنصات'
           ]
         : [
-            '3,000m deepwater subsea intervention',
-            '3D photogrammetry and acoustic multibeam surveys',
-            'Wellhead Plug & Abandonment (P&A) operations',
-            'Flexible flowline & umbilical lay support'
+            'Visual pipeline inspection and free-span survey',
+            'Cathodic protection (CP) surveys and anode assessment',
+            'Multibeam sonar seabed profiling and 3D mapping',
+            'Structural GVI/CVI inspection support'
           ]
     },
     {

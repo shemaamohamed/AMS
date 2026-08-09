@@ -59,7 +59,7 @@ export interface AccreditationItem {
   category: 'ISO' | 'IMCA' | 'IRATA' | 'Class Approval';
   issuer: string;
   issuerAr?: string;
-  imageSrc?: string;
+  imageSrc?: string | null;
   scope: string;
   scopeAr?: string;
 }

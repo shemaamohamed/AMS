@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useLanguage } from '@/context/LanguageContext';
 import { servicesData } from '@/data/servicesData';
 import { ServiceCategory } from '@/types';
-import { ShieldCheck, Building2, Bot, Anchor, Activity, Waves, CheckCircle2, Download, PhoneCall, ArrowRight, ArrowLeft, Layers, FileText } from 'lucide-react';
+import { ShieldCheck, Building2, Bot, Anchor, Activity, Waves, CheckCircle2, PhoneCall, ArrowRight, ArrowLeft, Layers, FileText } from 'lucide-react';
 
 const iconMap: Record<string, React.ReactNode> = {
   ShieldCheck: <ShieldCheck className="w-5 h-5 text-[#0a66a0] dark:text-sky-400" />,
@@ -106,16 +106,6 @@ export function ServicesClient() {
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-slate-900 dark:text-white">{activeTitle}</h2>
               </div>
-
-              <a
-                href="/assets/Arabian Marine Services Profile.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-slate-100 dark:bg-white/10 hover:bg-slate-200 dark:hover:bg-white/20 text-slate-800 dark:text-white px-4 py-2.5 rounded-xl text-xs font-bold transition-all border border-slate-200 dark:border-white/10 flex items-center gap-2 shrink-0 self-start sm:self-auto"
-              >
-                <Download className="w-4 h-4 text-[#0a66a0] dark:text-sky-400" />
-                <span>{isRtl ? 'نشرة فنية (PDF)' : 'Datasheet (PDF)'}</span>
-              </a>
             </div>
 
             {/* Comprehensive Description */}

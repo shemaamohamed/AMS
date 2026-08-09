@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useLanguage } from '@/context/LanguageContext';
-import { ShieldCheck, Anchor, ArrowRight, ArrowLeft, Activity, Award, Download, PhoneCall } from 'lucide-react';
+import { ShieldCheck, Anchor, ArrowRight, ArrowLeft, Activity, Award, PhoneCall } from 'lucide-react';
 
 export function HeroSection() {
   const { direction, t } = useLanguage();
@@ -20,14 +20,14 @@ export function HeroSection() {
       sub: isRtl ? 'تأسست عام ١٩٦٢' : 'Operating Since 1962'
     },
     {
-      value: '3,000m',
-      label: t('statRovDepth'),
-      sub: isRtl ? 'مركبات الأعماق الفائقة' : 'Work-Class Intervention'
-    },
-    {
       value: '300m',
       label: t('statSatDepth'),
       sub: isRtl ? 'غوص تشبعي معتمد' : 'IMCA Member Compliant'
+    },
+    {
+      value: 'IRM',
+      label: isRtl ? 'خدمات سلامة الأنابيب' : 'Pipeline Integrity',
+      sub: isRtl ? 'فحص وإصلاح وصيانة متكاملة' : 'ILI, RBI & Repair Services'
     },
     {
       value: '24/7',
@@ -95,16 +95,6 @@ export function HeroSection() {
                 <PhoneCall className="w-4 h-4 text-emerald-200 animate-bounce" />
                 <span>{t('btnEmergencySupport')}</span>
               </Link>
-
-              <a
-                href="/assets/Arabian Marine Services Profile.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-white/80 hover:bg-white dark:bg-white/5 dark:hover:bg-white/10 backdrop-blur-md text-slate-800 dark:text-slate-200 hover:text-slate-900 dark:hover:text-white px-5 py-3.5 rounded-xl font-semibold text-xs sm:text-sm transition-all border border-slate-200/80 dark:border-white/10 flex items-center gap-2 shadow-sm"
-              >
-                <Download className="w-4 h-4 text-[#0a66a0] dark:text-sky-400" />
-                <span>{t('btnDownloadPdf')}</span>
-              </a>
             </div>
 
             {/* Micro Highlights */}

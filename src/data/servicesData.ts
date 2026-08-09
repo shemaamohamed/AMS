@@ -107,52 +107,52 @@ export const servicesData: ServiceCategory[] = [
   },
   {
     id: 'rov',
-    title: 'Deepwater ROV Systems & Remote Systems',
-    titleAr: 'أنظمة ROV والتحكم عن بعد في المياه العميقة',
-    shortDesc: 'Work-class and inspection ROV spreads capable of intervention, survey, umbilical installation, and P&A up to 3,000m depth.',
-    shortDescAr: 'مركبات الأعماق ROV الفائقة ومسح الأعماق، قادرة على التدخل، المسح، تركيب السلاسل، وإغلاق الآبار حتى عمق 3000م.',
-    fullDesc: 'AMS Marine operates a modern fleet of Work-Class ROVs (WCROV) and Observation-Class ROVs tailored for deepwater subsea intervention. Backed by in-house engineering and project management, our ROV spreads perform high-definition multibeam surveys, valve override activation, subsea cutting, well plug & abandonment (P&A), and diverless pipeline clamp placement.',
-    fullDescAr: 'تدير AMS Marine أسطولاً حديثاً من مركبات الأعماق الفائقة (Work-Class ROV) ومركبات المراقبة المصممة للتدخل في المياه العميقة. مدعومة بفرق هندسية وإدارة مشاريع، تنفذ مركباتنا المسوحات الصوتية، تشغيل الصمامات، القطع تحت الماء، إغلاق وهجر الآبار (P&A)، وتركيب المشابك بدون غواصين.',
+    title: 'ROV Inspection & Survey Systems',
+    titleAr: 'أنظمة ROV للمسح والتفتيش البحري',
+    shortDesc: 'Observation and survey-class ROV spreads for pipeline inspection, structural survey, CP assessment, and subsea asset monitoring.',
+    shortDescAr: 'مركبات ROV للمراقبة والمسح البحري لفحص الأنابيب، مسح الهياكل، تقييم الحماية الكاثودية، ومراقبة الأصول تحت الماء.',
+    fullDesc: 'AMS Marine deploys Observation-Class and Survey-Class ROV spreads for offshore pipeline inspection, structural integrity monitoring, cathodic protection (CP) assessment, and subsea visual surveys. Our ROV teams provide high-definition visual documentation, acoustic positioning, and sonar profiling in support of IRM campaigns across the Arabian Gulf and Red Sea.',
+    fullDescAr: 'تنشر AMS Marine مركبات ROV للمراقبة والمسح لفحص الأنابيب البحرية، ومراقبة سلامة الهياكل، وتقييم الحماية الكاثودية (CP)، والمسوحات البصرية تحت الماء. تقدم فرقنا توثيقاً بصرياً عالي الدقة، وتحديد مواقع صوتياً، ومسوحات سونار لدعم حملات IRM في الخليج العربي والبحر الأحمر.',
     iconName: 'Bot',
-    maxDepth: '3,000m Operational Depth',
-    maxDepthAr: 'عمق التشغيل 3000 متر',
-    deliveryMethods: ['Work-Class ROV', 'Survey ROV Skid', 'Diverless Remote Tooling'],
-    deliveryMethodsAr: ['مركبات ROV الفائقة', 'زلاجات المسح السوناري', 'أدوات التحكم عن بعد بدون غواصين'],
+    maxDepth: 'Survey & Inspection Class',
+    maxDepthAr: 'فئة المسح والتفتيش',
+    deliveryMethods: ['Observation ROV', 'Survey ROV Skid', 'CP & NDT Assessment'],
+    deliveryMethodsAr: ['مركبات ROV للمراقبة', 'زلاجات المسح السوناري', 'تقييم CP والفحص اللاهدمي'],
     keyCapabilities: [
-      'Deepwater subsea intervention and manipulator operations up to 3,000m',
-      'Full suite of remote cutting, grinding, and coating removal skids',
-      'Flexible flowline, cable, and umbilical lay monitoring',
-      'Decommissioning support & Well Plug & Abandonment (P&A)',
-      'Subsea 3D photogrammetry and HD sonar profiling',
-      'Subsea tree and manifold valve actuation'
+      'Visual pipeline inspection and free-span survey',
+      'Cathodic protection (CP) potential surveys and anode assessment',
+      'High-definition subsea video documentation and reporting',
+      'Acoustic positioning and USBL tracking during survey campaigns',
+      'Multibeam sonar seabed profiling and 3D mapping',
+      'Structural GVI/CVI inspection support for offshore jackets'
     ],
     keyCapabilitiesAr: [
-      'التدخل البحري وتشغيل المقابض الهيدروليكية حتى عمق 3000م',
-      'مجموعة كاملة من زلاجات القطع والجلخ وإزالة الطلاء عن بعد',
-      'مراقبة تمديد الخطوط المرنة والكابلات والسلاسل البحرية',
-      'دعم تفكيك المنصات وإغلاق وهجر الآبار البحرية (P&A)',
-      'التصوير ثلاثي الأبعاد ومسوحات السونار عالية الدقة',
-      'تشغيل وتنشيط صمامات رؤوس الآبار والمجمعات البحرية'
+      'الفحص البصري للأنابيب ومسح الأجزاء المعلقة',
+      'مسوحات جهد الحماية الكاثودية وتقييم الأنودات',
+      'التوثيق البصري بالفيديو عالي الدقة تحت الماء وإعداد التقارير',
+      'تحديد المواقع الصوتي وتتبع USBL خلال حملات المسح',
+      'التصوير السوناري متعدد الأشعة وتخطيط قاع البحر ثلاثي الأبعاد',
+      'دعم الفحص البصري الهيكلي GVI/CVI للمنصات البحرية'
     ],
     equipmentList: [
-      '150HP Heavy Duty Work-Class ROV Systems',
-      'High-Definition Multibeam Sonar & Acoustic Tracking (USBL)',
-      'Hydraulic Cutters, Grinders & Torque Tools (Class 1-4)',
-      'Subsea Sampling Skids & CP Probes'
+      'Observation-Class & Survey-Class ROV Spreads',
+      'High-Definition Multibeam Sonar & USBL Acoustic Positioning',
+      'CP Voltmeter Probes & Subsea NDT Attachments',
+      'Subsea Camera Systems & HD Video Recording Units'
     ],
     equipmentListAr: [
-      'أنظمة ROV الفائقة بقدرة 150 حصان للأعمال الثقيلة',
-      'سونار متعدد الأشعة ونظام التتبع الصوت السطحي (USBL)',
-      'قواطع هيدروليكية ومجالخ وأدوات عزم الدوران (Class 1-4)',
-      'زلاجات أخذ العينات وقوابس الحماية الكاثودية'
+      'مركبات ROV للمراقبة والمسح',
+      'سونار متعدد الأشعة ونظام التتبع الصوتي USBL',
+      'مسابير قياس جهد الحماية الكاثودية وملحقات الفحص اللاهدمي',
+      'أنظمة التصوير تحت الماء ووحدات التسجيل بالفيديو عالي الدقة'
     ],
     caseStudy: {
-      title: '3,000m Deepwater Subsea Inspection & Valve Actuation',
-      titleAr: 'فحص وتشغيل صمامات على عمق 3000 متر في المياه العميقة',
-      description: 'Deployed Work-Class ROV system for deepwater asset health audit and emergency isolation valve actuation in remote Gulf block.',
-      descriptionAr: 'نشر نظام ROV فائق لفحص أصول الأعماق وتشغيل صمام العزل الطارئ في حقل بحري نائي.',
-      impact: 'Restored subsea flow assurance without requiring costly vessel intervention.',
-      impactAr: 'استعادة تدفق النفط تحت الماء دون الحاجة لسفن تفتيش مكلفة.'
+      title: 'Arabian Gulf Pipeline Free-Span & CP Survey Campaign',
+      titleAr: 'حملة مسح الأجزاء المعلقة والحماية الكاثودية بالخليج العربي',
+      description: 'Deployed observation ROV spread for comprehensive pipeline free-span and cathodic protection survey across 80km subsea network.',
+      descriptionAr: 'نشر منظومة ROV للمراقبة لإجراء مسح شامل للأجزاء المعلقة والحماية الكاثودية لشبكة أنابيب بحرية بطول 80 كم.',
+      impact: 'Identified 12 critical free-span anomalies and 6 anode replacement zones, enabling targeted maintenance planning.',
+      impactAr: 'تحديد 12 شذوذاً حرجاً في الأجزاء المعلقة و6 مناطق تتطلب استبدال الأنودات، مما أتاح تخطيطاً دقيقاً للصيانة.'
     },
     datasheetUrl: '#'
   },

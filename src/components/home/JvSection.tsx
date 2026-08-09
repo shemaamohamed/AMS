@@ -94,11 +94,11 @@ export function JvSection() {
               <ul className="space-y-2.5 text-xs text-slate-700 dark:text-slate-200">
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#0a66a0] dark:text-sky-400 shrink-0 mt-0.5" />
-                  <span>{isRtl ? 'أكثر من ٦٠ عاماً من التميز الدولي في الغوص التجاري والهندسة البحرية' : '60+ years of international subsea engineering & commercial diving excellence'}</span>
+                  <span>{isRtl ? 'حلول هندسية متكاملة لسلامة الأنابيب والاستجابة للطوارئ واللحام الجاف' : 'Integrated pipeline integrity, salvage, emergency response & hyperbaric welding spreads'}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#0a66a0] dark:text-sky-400 shrink-0 mt-0.5" />
-                  <span>{isRtl ? 'حلول هندسية متكاملة لسلامة الأنابيب والاستجابة للطوارئ واللحام الجاف' : 'Integrated pipeline integrity, salvage, emergency response & hyperbaric welding spreads'}</span>
+                  <span>{isRtl ? 'فحص الأنابيب الذكي ILI بالتعاون مع Pipecare عبر الشرق الأوسط وأفريقيا' : 'ILI smart pigging partnership with PIPECARE across ME & Africa pipeline networks'}</span>
                 </li>
               </ul>
             </div>
