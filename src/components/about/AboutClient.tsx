@@ -30,8 +30,8 @@ export function AboutClient() {
           </h1>
           <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 max-w-3xl mx-auto leading-relaxed">
             {isRtl
-              ? 'تجميع الهيئة الوطنية الرائدة للغوص التجاري في المملكة العربية السعودية مع أكثر من ٦٠ عاماً من التاريخ العالمي في الهندسة البحرية (تأسست ١٩٦٢). بناء الاستقلالية البحرية السيادية اتساقاً مع رؤية السعودية ٢٠٣٠.'
-              : 'Uniting Saudi Arabia’s premier national commercial diving authority with over 60 years of global subsea engineering legacy (est. 1962). Building sovereign maritime independence in alignment with Saudi Vision 2030.'}
+              ? 'تجميع الهيئة الوطنية الرائدة للغوص التجاري في المملكة العربية السعودية مع الخبرات العالمية في الهندسة البحرية. بناء الاستقلالية البحرية السيادية اتساقاً مع رؤية السعودية ٢٠٣٠.'
+              : 'Uniting Saudi Arabia’s premier national commercial diving authority with international subsea engineering excellence. Building sovereign maritime independence in alignment with Saudi Vision 2030.'}
           </p>
         </div>
 
@@ -70,7 +70,7 @@ export function AboutClient() {
             <div className="flex items-center justify-between border-b border-slate-200 dark:border-white/10 pb-4">
               <div>
                 <span className="text-xs font-bold text-[#0a66a0] dark:text-sky-400 uppercase tracking-widest">{t('oscPartner')}</span>
-                <h2 className="text-2xl font-black text-slate-900 dark:text-white">{isRtl ? 'مجموعة أوشين سابسي (تأسست ١٩٦٢)' : 'OSC Marine Group (Est. 1962)'}</h2>
+                <h2 className="text-2xl font-black text-slate-900 dark:text-white">{isRtl ? 'مجموعة أوشين سابسي (OSC Marine)' : 'OSC Marine Group'}</h2>
               </div>
               <History className="w-8 h-8 text-[#0a66a0] dark:text-sky-400" />
             </div>
@@ -94,12 +94,25 @@ export function AboutClient() {
 
         {/* Saudi Vision 2030 Alignment Banner */}
         <div className="bg-gradient-to-r from-[#2f7c4c]/10 via-slate-100 to-[#0a66a0]/10 dark:from-[#2f7c4c]/20 dark:via-[#051826] dark:to-[#0a66a0]/20 border border-[#2f7c4c]/30 rounded-2xl p-5 sm:p-8 backdrop-blur-md space-y-4 sm:space-y-6 shadow-md">
-          <div className="flex items-center gap-3">
-            <GraduationCap className="w-8 h-8 text-[#2f7c4c] dark:text-emerald-400" />
-            <div>
-              <span className="text-xs font-bold text-[#2f7c4c] dark:text-emerald-400 uppercase tracking-widest">{isRtl ? 'بناء القدرات الوطنية' : 'National Capability Building'}</span>
-              <h2 className="text-2xl font-black text-slate-900 dark:text-white">{isRtl ? 'التوافق مع رؤية السعودية 2030 وتوطين الوظائف' : 'Saudi Vision 2030 Alignment & Saudization'}</h2>
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div className="flex items-center gap-3">
+              <GraduationCap className="w-8 h-8 text-[#2f7c4c] dark:text-emerald-400 shrink-0" />
+              <div>
+                <span className="text-xs font-bold text-[#2f7c4c] dark:text-emerald-400 uppercase tracking-widest">{isRtl ? 'بناء القدرات الوطنية' : 'National Capability Building'}</span>
+                <h2 className="text-2xl font-black text-slate-900 dark:text-white">{isRtl ? 'التوافق مع رؤية السعودية 2030 وتوطين الوظائف' : 'Saudi Vision 2030 Alignment & Saudization'}</h2>
+              </div>
             </div>
+
+            <a
+              href="https://www.vision2030.gov.sa/ar"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-4 py-2 rounded-xl bg-white dark:bg-white/10 border border-emerald-500/40 hover:border-emerald-500 transition-all hover:scale-105 shadow-sm shrink-0 self-start sm:self-auto"
+              title="رؤية السعودية 2030"
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/saudi-vision.png" alt="Saudi Vision 2030" className="h-10 w-auto object-contain" />
+            </a>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 pt-2">
@@ -120,15 +133,15 @@ export function AboutClient() {
           </div>
         </div>
 
-        {/* Interactive History Timeline (1962 - 2026) */}
+        {/* Interactive History Timeline */}
         <div className="bg-white dark:bg-[#051826] border border-slate-200 dark:border-[#0a66a0]/40 rounded-2xl p-5 sm:p-8 backdrop-blur-md space-y-6 sm:space-y-8 shadow-xl dark:shadow-2xl">
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-200 dark:border-white/10 pb-6">
             <div>
               <span className="text-xs font-bold text-[#0a66a0] dark:text-sky-400 uppercase tracking-widest">{isRtl ? 'تاريخ الشركة التفاعلي' : 'Interactive Corporate Heritage'}</span>
-              <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-slate-900 dark:text-white">{isRtl ? 'جدول المحطات التاريخية (1962 — الحاضر)' : 'History Timeline (1962 — Present)'}</h2>
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-slate-900 dark:text-white">{isRtl ? 'جدول المحطات التاريخية (تاريخ الأعماق — الحاضر)' : 'History Timeline (Subsea Legacy — Present)'}</h2>
             </div>
             <span className="text-xs font-bold text-[#0a66a0] dark:text-sky-300 bg-[#0a66a0]/10 dark:bg-[#0a66a0]/20 px-3 py-1 rounded border border-[#0a66a0]/30">
-              60+ Years Evolution
+              {isRtl ? 'تطور متوافق مع رؤية 2030' : 'Vision 2030 Aligned Evolution'}
             </span>
           </div>
 

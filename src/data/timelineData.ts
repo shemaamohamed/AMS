@@ -2,16 +2,6 @@ import { TimelineMilestone } from '@/types';
 
 export const timelineData: TimelineMilestone[] = [
   {
-    year: '1962',
-    title: 'Company Foundation',
-    titleAr: 'تأسيس الشركة',
-    entity: 'Cape Diving',
-    description: 'Cape Diving founded in South Africa, laying the bedrock for 60+ years of subsea engineering, commercial diving, and offshore marine operations.',
-    descriptionAr: 'تأسيس شركة كيب دايفينغ (Cape Diving)، لوضع الحجر الأساس لأكثر من 60 عاماً من التميز في الهندسة البحرية والغوص التجاري.',
-    badge: '60+ Years Heritage',
-    badgeAr: '٦٠+ عاماً من التراث'
-  },
-  {
     year: '1967',
     title: 'Vessel Husbandry Expansion',
     titleAr: 'التوسع في خدمات السفن والموانئ',
@@ -70,7 +60,7 @@ export const timelineData: TimelineMilestone[] = [
   {
     year: '2016',
     title: 'AMS Ghana & Kpone Marine Project',
-    titleAr: 'تأسيس AMS غانا ومثروع كبوني البحري',
+    titleAr: 'تأسيس AMS غانا ومشرع كبوني البحري',
     entity: 'AMS Ghana',
     description: 'AMS Ghana established as Marine Contractor for Group 5 Kpone project; 3-year diving contract extension with PetroSA.',
     descriptionAr: 'تأسيس AMS غانا كمقاول بحري لمشروع كبوني وتمديد عقد الغوص لمدة 3 سنوات مع بترو إس إيه.'

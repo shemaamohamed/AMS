@@ -6,9 +6,9 @@ export const defaultSEO = {
   title: 'AMS Marine | Sovereign Subsea Engineering & Deepwater Excellence Across the Arabian Gulf',
   titleAr: 'AMS Marine | خدمات الهندسة البحرية السيادية والتدخل الفني بالأعماق في الخليج العربي',
   description:
-    'AMS Marine (Arabian Marine Services) is a sovereign Joint Venture between Alpha OMQ & OSC Marine Group (Est. 1962). Delivering 3,000m deepwater ROV intervention, 300m saturation diving, pipeline integrity, and 24/7 EPRS emergency response across KSA & the GCC.',
+    'AMS Marine (Arabian Marine Services) is a sovereign Joint Venture between Alpha OMQ & OSC Marine Group. Delivering ROV inspection & survey, 300m saturation diving, pipeline integrity, and 24/7 EPRS emergency response across KSA & the GCC.',
   descriptionAr:
-    'شركة الخدمات البحرية العربية (AMS Marine) مشروع مشترك سيادي بين Alpha OMQ و OSC Marine Group (تأسست 1962). نقدم خدمات مركبات الأعماق ROV حتى 3000م، الغوص التشبعي حتى 300م، سلامة الأنابيب، و 24/7 EPRS للتدخل الطارئ.',
+    'شركة الخدمات البحرية العربية (AMS Marine) مشروع مشترك سيادي بين Alpha OMQ و OSC Marine Group. نقدم خدمات مركبات ROV للمسح والتفتيش، الغوص التشبعي حتى 300م، سلامة الأنابيب، و 24/7 EPRS للتدخل الطارئ.',
   keywords: [
     'Subsea Engineering Saudi Arabia',
     'Saturation Diving GCC',
@@ -77,7 +77,6 @@ export function generateOrganizationSchema() {
     logo: `${SITE_URL}/assets/logo/ams_logo_white.png`,
     image: `${SITE_URL}/assets/photos/image (30).png`,
     description: defaultSEO.description,
-    foundingDate: '1962',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'King Fahd Road, Enterprise Tower, Level 14',

@@ -15,9 +15,9 @@ export function HeroSection() {
 
   const stats = [
     {
-      value: '60+',
-      label: t('statLegacy'),
-      sub: isRtl ? 'تأسست عام ١٩٦٢' : 'Operating Since 1962'
+      value: '2030',
+      label: isRtl ? 'رؤية السعودية 2030' : 'Saudi Vision 2030',
+      sub: isRtl ? 'مشروع سيادي ورؤية للمملكة' : 'Sovereign KSA Alignment'
     },
     {
       value: '300m',
@@ -56,12 +56,25 @@ export function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            {/* Sovereign Badge */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/70 dark:bg-white/5 border border-slate-200/80 dark:border-[#0a66a0]/40 backdrop-blur-md shadow-sm">
-              <span className="w-2 h-2 rounded-full bg-[#2f7c4c] dark:bg-[#3bd879] animate-pulse"></span>
-              <span className="text-xs font-bold text-[#0a66a0] dark:text-sky-300 tracking-wide uppercase">
-                {t('heroTag')}
-              </span>
+            {/* Sovereign Badge & Saudi Vision 2030 Badge */}
+            <div className="flex flex-wrap items-center gap-3">
+              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/70 dark:bg-white/5 border border-slate-200/80 dark:border-[#0a66a0]/40 backdrop-blur-md shadow-sm">
+                <span className="w-2 h-2 rounded-full bg-[#2f7c4c] dark:bg-[#3bd879] animate-pulse"></span>
+                <span className="text-xs font-bold text-[#0a66a0] dark:text-sky-300 tracking-wide uppercase">
+                  {t('heroTag')}
+                </span>
+              </div>
+
+              <a
+                href="https://www.vision2030.gov.sa/ar"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-3 py-1 rounded-full bg-white/80 dark:bg-white/10 border border-emerald-500/40 hover:border-emerald-500 backdrop-blur-md shadow-sm transition-all hover:scale-105"
+                title={isRtl ? 'الموقع الرسمي لرؤية السعودية 2030' : 'Saudi Vision 2030 Official Website'}
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/saudi-vision.png" alt="Saudi Vision 2030" className="h-6 w-auto object-contain" />
+              </a>
             </div>
 
             {/* Main Headline */}

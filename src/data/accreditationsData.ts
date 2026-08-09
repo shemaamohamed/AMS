@@ -8,7 +8,7 @@ export const accreditationsData: AccreditationItem[] = [
     category: 'IMCA',
     issuer: 'International Marine Contractors Association',
     issuerAr: 'الجمعية الدولية للمقاولين البحريين (IMCA)',
-    imageSrc: '/assets/accreditation/image (40).png',
+    imageSrc: null,
     scope: 'Full Contractor Member for Saturation Diving, Surface Supplied Air Diving, Nitrox Diving, TUP Diving, and ROV Operations.',
     scopeAr: 'عضو مقاول كامل لعمليات الغوص التشبعي، غوص الهواء من السطح، غوص النيتروكس، غوص TUP، ومركبات التفتيش ROV.'
   },
@@ -19,7 +19,7 @@ export const accreditationsData: AccreditationItem[] = [
     category: 'IRATA',
     issuer: 'Industrial Rope Access Trade Association',
     issuerAr: 'الجمعية الدولية للوصول بالحبال الصناعية (IRATA)',
-    imageSrc: '/assets/accreditation/image (41).png',
+    imageSrc: null,
     scope: 'Operator, Trainer & Equipment Supplier. CAT III & CAT IV Structure Inspections, Confined Space Rescue & DROPS Surveys.',
     scopeAr: 'مشغل ومدرب ومزود معدات معتمد. معاينات الهياكل CAT III & IV، الإنقاذ من الأماكن المحصورة، ومسوحات الأجسام المتساقطة.'
   },
@@ -30,7 +30,7 @@ export const accreditationsData: AccreditationItem[] = [
     category: 'ISO',
     issuer: "ISO / Lloyd's Register Quality Assurance",
     issuerAr: 'منظمة ISO / هيئة لويدز رجيستر للجودة',
-    imageSrc: '/assets/accreditation/image (36).png',
+    imageSrc: '/assets/accreditation/iso_badge.png',
     scope: 'Quality Management Systems for Subsea Engineering, Commercial Diving, Offshore Construction & Marine Support.',
     scopeAr: 'نظام إدارة الجودة للهندسة البحرية، الغوص التجاري، الإنشاءات البحرية، والدعم اللوجستي للعمليات تحت الماء.'
   },
@@ -41,7 +41,7 @@ export const accreditationsData: AccreditationItem[] = [
     category: 'ISO',
     issuer: 'ISO Certification Body',
     issuerAr: 'هيئة إعتماد شهادات ISO العالمية',
-    imageSrc: '/assets/accreditation/image (36).png',
+    imageSrc: '/assets/accreditation/iso_badge.png',
     scope: 'Environmental Protection Protocols for Marine Operations, Subsea Leak Prevention & Zero-Emission Hull Cleaning.',
     scopeAr: 'بروتوكولات الحماية البيئية للعمليات البحرية، منع تسربات الأنابيب تحت الماء، وتنظيف هياكل السفن بدون انبعاثات.'
   },
@@ -52,7 +52,7 @@ export const accreditationsData: AccreditationItem[] = [
     category: 'ISO',
     issuer: 'ISO Certification Body',
     issuerAr: 'هيئة إعتماد شهادات ISO العالمية',
-    imageSrc: '/assets/accreditation/image (36).png',
+    imageSrc: '/assets/accreditation/iso_badge.png',
     scope: 'Comprehensive Safety Management across Saturation Diving, ROV Operations & Subsea Construction.',
     scopeAr: 'إدارة السلامة المتكاملة عبر عمليات الغوص التشبعي، تشغيل مركبات ROV، والإنشاءات البحرية.'
   },
@@ -63,7 +63,7 @@ export const accreditationsData: AccreditationItem[] = [
     category: 'Class Approval',
     issuer: 'DNV (Det Norske Veritas)',
     issuerAr: 'هيئة DNV العالمية للتصنيف البحري',
-    imageSrc: '/assets/accreditation/DNV_GL_logo.webp',
+    imageSrc: '/assets/accreditation/dnv_logo.webp',
     scope: 'Class Certified for In-Water Surveys (UWILD), Subsea Hull NDT Inspections, Morgrip Pipeline Connectors & Cofferdam Welding.',
     scopeAr: 'معتمدة لمعاينات السفن تحت الماء بدلاً من الأحواض الجافة (UWILD)، الفحص اللاهدمي، وتوصيلات الأنابيب واللحام الجاف.'
   },
@@ -74,7 +74,7 @@ export const accreditationsData: AccreditationItem[] = [
     category: 'Class Approval',
     issuer: 'American Bureau of Shipping (ABS)',
     issuerAr: 'المكتب الأمريكي للشحن والتصنيف البحري (ABS)',
-    imageSrc: '/assets/accreditation/image (39).png',
+    imageSrc: '/assets/accreditation/abs_logo.png',
     scope: 'Recognized External Specialist for In-Water Hull Surveys (UWILD), Subsea Hull Flaw Detection & Asset Integrity Inspections.',
     scopeAr: 'مزود خدمات معتمد لمعاينات السفن تحت الماء بدلاً من الأحواض الجافة (UWILD)، واكتشاف فجوات الهياكل وسلامة الأصول البحرية.'
   },
@@ -85,7 +85,7 @@ export const accreditationsData: AccreditationItem[] = [
     category: 'Class Approval',
     issuer: 'Bureau Veritas (BV)',
     issuerAr: 'Bureau Veritas (BV) — هيئة التصنيف البحري الدولية',
-    imageSrc: '/assets/accreditation/image (40).png',
+    imageSrc: '/assets/accreditation/bv_logo.png',
     scope: 'OSC Group BV Class Certification for UWILD in-water surveys, thruster recoveries, subsea cofferdam repairs & structural NDT.',
     scopeAr: 'اعتماد BV لمجموعة OSC لمعاينات UWILD، استبدال المحركات، إصلاحات سدود الكوفركس، والفحص اللاهدمي الهيكلي.'
   },
@@ -96,7 +96,7 @@ export const accreditationsData: AccreditationItem[] = [
     category: 'Class Approval',
     issuer: "Lloyd's Register (LR)",
     issuerAr: "Lloyd's Register (LR) — هيئة التصنيف البحرية",
-    imageSrc: '/assets/accreditation/image (42).png',
+    imageSrc: '/assets/accreditation/lr_logo.png',
     scope: 'OSC Group LR Class Certification for underwater hull inspections (UWILD), offshore structural NDT & subsea cofferdam welding.',
     scopeAr: 'اعتماد LR لمجموعة OSC لمعاينات هياكل السفن تحت الماء (UWILD)، الفحص اللاهدمي البحري، ولحام سدود الكوفركس.'
   },
@@ -107,7 +107,7 @@ export const accreditationsData: AccreditationItem[] = [
     category: 'Class Approval',
     issuer: 'RINA (Registro Italiano Navale)',
     issuerAr: 'RINA — هيئة التصنيف البحري الإيطالية',
-    imageSrc: '/assets/accreditation/image (38).png',
+    imageSrc: '/assets/accreditation/rina_logo.png',
     scope: 'OSC Group RINA Class Certification for in-water hull surveys (UWILD), subsea NDT inspections & marine asset integrity.',
     scopeAr: 'اعتماد RINA لمجموعة OSC لمعاينات السفن تحت الماء (UWILD)، الفحص اللاهدمي البحري، وسلامة الأصول البحرية.'
   },
@@ -129,7 +129,7 @@ export const accreditationsData: AccreditationItem[] = [
     category: 'Class Approval',
     issuer: 'China Classification Society (CCS)',
     issuerAr: 'هيئة التصنيف البحري الصينية (CCS)',
-    imageSrc: '/assets/accreditation/image (41).png',
+    imageSrc: '/assets/accreditation/ccs_logo.png',
     scope: 'OSC Group CCS Class Certification for underwater hull inspections (UWILD), offshore NDT & subsea asset integrity services.',
     scopeAr: 'اعتماد CCS لمجموعة OSC لمعاينات السفن تحت الماء (UWILD)، الفحص اللاهدمي البحري، وخدمات سلامة الأصول.'
   }

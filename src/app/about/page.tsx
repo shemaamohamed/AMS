@@ -4,19 +4,19 @@ import { SITE_URL, defaultOGImages } from '@/lib/seo';
 import { AboutClient } from '@/components/about/AboutClient';
 
 export const metadata: Metadata = {
-  title: 'About AMS Marine | Sovereign Joint Venture & Vision 2030 Heritage',
+  title: 'About AMS Marine | Sovereign Joint Venture & Vision 2030 Alignment',
   description:
-    'Discover AMS Marine (Alpha OMQ × OSC Marine Group alliance). 60+ years of deepwater commercial diving heritage, Saudi Arabia subsea autonomy, and Saudi Vision 2030 alignment.',
+    'Discover AMS Marine (Alpha OMQ × OSC Marine Group alliance). International subsea engineering excellence, Saudi Arabia subsea autonomy, and Saudi Vision 2030 alignment.',
   keywords: [
     'About AMS Marine',
     'Alpha OMQ Joint Venture',
-    'OSC Marine Group History 1962',
+    'OSC Marine Group Alliance',
     'Saudi Subsea Sovereignty',
     'Saudi Vision 2030 Maritime Autonomy',
     'عن AMS Marine',
     'Alpha OMQ',
     'OSC Marine Group',
-    'تاريخ الغوص التجاري السعودية'
+    'الغوص التجاري السعودية'
   ],
   alternates: {
     canonical: `${SITE_URL}/about`,
@@ -28,15 +28,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: `${SITE_URL}/about`,
-    title: 'About AMS Marine | Sovereign JV & Vision 2030 Heritage',
-    description: 'Uniting Saudi commercial diving leadership with over 60 years of international subsea engineering legacy.',
+    title: 'About AMS Marine | Sovereign JV & Vision 2030 Alignment',
+    description: 'Uniting Saudi commercial diving leadership with international subsea engineering excellence.',
     siteName: 'AMS Marine',
     images: defaultOGImages,
   },
   twitter: {
     card: 'summary_large_image',
     title: 'About AMS Marine | Sovereign Subsea Excellence',
-    description: 'Alpha OMQ & OSC Marine Group (Est. 1962). Building subsea autonomy across KSA.',
+    description: 'Alpha OMQ & OSC Marine Group alliance. Building subsea autonomy across KSA.',
     images: [
       `${SITE_URL}/og-preview.png`,
       `${SITE_URL}/og-preview-hero.jpg`,

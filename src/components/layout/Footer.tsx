@@ -69,17 +69,29 @@ export function Footer() {
           <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed pr-4">
             {isRtl ? (
               <>
-                <strong>AMS Marine (شركة الخدمات البحرية العربية)</strong> هي مشروع مشترك سيادي بين <strong>Alpha OMQ</strong> و <strong>OSC Marine Group</strong>. تقدم خدمات الهندسة البحرية، مركبات الأعماق (3000م)، الغوص التشبعي (300م)، وسلامة الأنابيب عبر الخليج العربي.
+                <strong>AMS Marine (شركة الخدمات البحرية العربية)</strong> هي مشروع مشترك سيادي بين <strong>Alpha OMQ</strong> و <strong>OSC Marine Group</strong>. تقدم خدمات الهندسة البحرية، مركبات ROV للمسح والتفتيش، الغوص التشبعي (300م)، وسلامة الأنابيب عبر الخليج العربي.
               </>
             ) : (
               <>
-                <strong>AMS Marine</strong> (Arabian Marine Services) is a sovereign Joint Venture between <strong>Alpha OMQ</strong> (Saudi Arabia subsea authority) and <strong>OSC Marine Group</strong> (est. 1962). Providing subsea engineering, deepwater ROV (3,000m), saturation diving (300m), and pipeline integrity across the Arabian Gulf.
+                <strong>AMS Marine</strong> (Arabian Marine Services) is a sovereign Joint Venture between <strong>Alpha OMQ</strong> (Saudi Arabia subsea authority) and <strong>OSC Marine Group</strong>. Providing subsea engineering, ROV inspection, saturation diving (300m), and pipeline integrity across the Arabian Gulf.
               </>
             )}
           </p>
-          <div className="pt-2 flex items-center gap-2 text-xs text-[#2f7c4c] dark:text-emerald-400 font-semibold">
-            <Award className="w-4 h-4 text-[#2f7c4c] dark:text-emerald-400" />
-            <span>{t('footerVisionNotice')}</span>
+          <div className="pt-2 flex flex-wrap items-center gap-3">
+            <a
+              href="https://www.vision2030.gov.sa/ar"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-3 py-1.5 rounded-lg bg-white/90 dark:bg-white/10 border border-emerald-500/40 hover:border-emerald-500 transition-all hover:scale-105"
+              title="رؤية السعودية 2030 — Saudi Vision 2030"
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/saudi-vision.png" alt="Saudi Vision 2030" className="h-8 w-auto object-contain" />
+            </a>
+            <div className="flex items-center gap-1.5 text-xs text-[#2f7c4c] dark:text-emerald-400 font-semibold">
+              <Award className="w-4 h-4 text-[#2f7c4c] dark:text-emerald-400" />
+              <span>{t('footerVisionNotice')}</span>
+            </div>
           </div>
         </div>
 

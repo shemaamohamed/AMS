@@ -119,6 +119,17 @@ export function Navbar() {
 
         {/* Header Right Action & Theme Toggle */}
         <div className="hidden sm:flex items-center gap-2 sm:gap-3 shrink-0">
+          <a
+            href="https://www.vision2030.gov.sa/ar"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center px-2 py-1 rounded-lg bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 hover:border-emerald-500 transition-all hover:scale-105"
+            title="رؤية السعودية 2030 — Saudi Vision 2030"
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/saudi-vision.png" alt="Saudi Vision 2030" className="h-7 w-auto object-contain" />
+          </a>
+
           <ThemeToggle />
 
           <Link
