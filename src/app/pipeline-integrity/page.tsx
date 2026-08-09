@@ -4,16 +4,16 @@ import { SITE_URL, defaultOGImages } from '@/lib/seo';
 import { PipelineClient } from '@/components/pipeline/PipelineClient';
 
 export const metadata: Metadata = {
-  title: 'Pipeline Integrity & 24/7 Emergency Repair System (EPRS) | AMS Marine',
+  title: 'Pipeline Integrity & Emergency Repair System (EPRS) | AMS Marine',
   description:
-    'AMS Marine delivers 4D condition monitoring, PIPECARE smart pigging (MFL/UT/EMAT), diverless subsea repair tools (CSS Morgrip), IO-Cofferdams, and 24/7 emergency pipeline repair across Saudi Arabia & the GCC.',
+    'AMS Marine delivers 4D condition monitoring, PIPECARE smart pigging (MFL/UT/EMAT), diverless subsea repair tools (CSS Morgrip), IO-Cofferdams, and emergency pipeline repair across Saudi Arabia & the GCC.',
   keywords: [
     'Subsea Pipeline Integrity Saudi Arabia',
-    '24/7 EPRS Emergency Pipeline Repair System',
+    'EPRS Emergency Pipeline Repair System',
     'PIPECARE Smart Pigging MFL UT',
     'Connector Subsea Solutions Morgrip Clamps',
     'Subsea IO-Cofferdams Hyperbaric Welding',
-    'سلامة الأنابيب البحرية 24/7 الخبر',
+    'سلامة الأنابيب البحرية الخبر',
     'إصلاح طوارئ الأنابيب البحرية',
     'كشط الأنابيب الذكي بايبكير',
     'مشابك Morgrip المعتمدة'
@@ -28,15 +28,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: `${SITE_URL}/pipeline-integrity`,
-    title: 'Pipeline Integrity & 24/7 EPRS Incident Support | AMS Marine',
+    title: 'Pipeline Integrity & EPRS Incident Support | AMS Marine',
     description:
-      '24/7 Emergency Pipeline Incident Callout, PIPECARE Smart Pigging, CSS Diverless Clamps, and IO-Cofferdams.',
+      'Emergency Pipeline Incident Callout, PIPECARE Smart Pigging, CSS Diverless Clamps, and IO-Cofferdams.',
     siteName: 'AMS Marine',
     images: defaultOGImages,
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pipeline Integrity & 24/7 EPRS | AMS Marine',
+    title: 'Pipeline Integrity & EPRS | AMS Marine',
     description: 'Rapid mobilization subsea pipeline damage containment & diverless repair tools across KSA & GCC.',
     images: [
       `${SITE_URL}/og-preview.jpg`,
@@ -54,7 +54,7 @@ export default function PipelineIntegrityPage() {
     serviceType: 'Subsea Emergency Repair',
     provider: { '@id': `${SITE_URL}/#organization` },
     areaServed: ['SA', 'AE', 'KW', 'QA', 'BH', 'OM'],
-    description: '24/7 rapid incident callout for hydrocarbon subsea pipeline leaks, smart pigging (MFL/UT), and diverless Morgrip clamp installation.'
+    description: 'Rapid incident callout for hydrocarbon subsea pipeline leaks, smart pigging (MFL/UT), and diverless Morgrip clamp installation.'
   };
 
   const breadcrumbSchema = {

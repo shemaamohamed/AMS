@@ -17,10 +17,10 @@ export function DeliveryMethods() {
       title: isRtl ? 'أنظمة ROV للمسح والتفتيش' : 'ROV Inspection & Survey',
       subtitle: isRtl ? 'مراقبة الأنابيب والهياكل البحرية' : 'Pipeline & Structural Survey',
       icon: <Bot className="w-5 h-5 text-indigo-600 dark:text-indigo-400" />,
-      depth: isRtl ? 'فئة المسح والتفتيش' : 'Survey & Inspection Class',
+      depth: isRtl ? 'المسح والتفتيش' : 'Inspection & Survey',
       description: isRtl
-        ? 'مركبات ROV للمراقبة والمسح مجهزة بسونار عالي الدقة وأنظمة USBL ومسابير الحماية الكاثودية لفحص الأنابيب والهياكل في الخليج العربي والبحر الأحمر.'
-        : 'Observation and survey-class ROVs equipped with high-definition sonar, USBL positioning, and CP probe attachments for pipeline and structural inspections across the Arabian Gulf and Red Sea.',
+        ? 'مركبات ROV مجهزة بسونار عالي الدقة وأنظمة USBL ومسابير الحماية الكاثودية لفحص الأنابيب والهياكل في الخليج العربي والبحر الأحمر.'
+        : 'ROVs equipped with high-definition sonar, USBL positioning, and CP probe attachments for pipeline and structural inspections across the Arabian Gulf and Red Sea.',
       points: isRtl
         ? [
             'فحص بصري للأنابيب ومسح الأجزاء المعلقة',
@@ -216,7 +216,7 @@ export function DeliveryMethods() {
               </div>
               <div className="flex justify-between items-center border-b border-slate-200 dark:border-white/10 pb-2.5">
                 <span className="text-slate-700 dark:text-slate-200 font-bold">{isRtl ? 'حالة الجاهزية للتعبئة' : 'Deployment Status'}</span>
-                <span className="font-extrabold text-[#2f7c4c] dark:text-emerald-400 bg-[#2f7c4c]/10 dark:bg-[#2f7c4c]/20 px-2 py-0.5 rounded border border-[#2f7c4c]/30 text-[11px]">{isRtl ? 'تعبئة سريعة 24/7' : '24/7 Rapid Mobilization'}</span>
+                <span className="font-extrabold text-[#2f7c4c] dark:text-emerald-400 bg-[#2f7c4c]/10 dark:bg-[#2f7c4c]/20 px-2 py-0.5 rounded border border-[#2f7c4c]/30 text-[11px]">{isRtl ? 'تعبئة سريعة' : 'Rapid Mobilization'}</span>
               </div>
               <div className="flex justify-between items-center border-b border-slate-200 dark:border-white/10 pb-2.5">
                 <span className="text-slate-700 dark:text-slate-200 font-bold">{isRtl ? 'التغطية الجغرافية' : 'Geographic Coverage'}</span>

@@ -32,7 +32,7 @@ export function ContactClient() {
         <div className="bg-white/70 dark:bg-gradient-to-r dark:from-[#051826] dark:via-[#0a66a0]/30 dark:to-[#051826] backdrop-blur-xl border border-slate-200/80 dark:border-[#0a66a0]/40 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-12 text-center space-y-3 sm:space-y-4 shadow-xl shadow-slate-200/50 dark:shadow-2xl relative overflow-hidden">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#2f7c4c]/10 dark:bg-[#2f7c4c]/20 text-[#2f7c4c] dark:text-emerald-300 border border-[#2f7c4c]/30 text-xs font-bold uppercase tracking-wider">
             <PhoneCall className="w-3.5 h-3.5 animate-bounce text-[#2f7c4c] dark:text-emerald-300" />
-            {isRtl ? 'مصفوفة الاتصال والاستجابة الفورية 24/7' : '24/7 Rapid Incident Callout & B2B Inquiry Matrix'}
+            {isRtl ? 'مصفوفة الاتصال والاستجابة الفورية' : 'Rapid Incident Callout & B2B Inquiry Matrix'}
           </div>
           <h1 className="text-2xl sm:text-3xl md:text-5xl font-black text-slate-900 dark:text-white">
             {isRtl ? 'دعم الطوارئ البحرية ومصفوفة الاتصال' : 'Emergency Subsea Support & Contact Matrix'}
@@ -44,7 +44,7 @@ export function ContactClient() {
           </p>
         </div>
 
-        {/* 24/7 Emergency Dispatch Callout Box */}
+        {/* Emergency Dispatch Callout Box */}
         <div className="bg-gradient-to-r from-[#2f7c4c]/10 via-white/80 to-[#0a66a0]/10 dark:from-[#2f7c4c]/30 dark:via-[#051826] dark:to-[#0a66a0]/30 border-2 border-[#2f7c4c] rounded-2xl p-5 sm:p-8 backdrop-blur-xl flex flex-col md:flex-row items-center justify-between gap-4 sm:gap-6 shadow-xl shadow-slate-200/40 dark:shadow-2xl">
           <div className="flex items-center gap-4">
             <div className="p-4 rounded-full bg-[#2f7c4c] text-white shrink-0 shadow-lg animate-pulse">
@@ -52,8 +52,8 @@ export function ContactClient() {
             </div>
             <div className="space-y-1">
               <span className="text-xs font-bold text-amber-600 dark:text-amber-400 uppercase tracking-widest">{isRtl ? 'الخط الساخن لنوازل الحوادث البحرية' : 'High Priority Incident Hotline'}</span>
-              <h2 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white">{isRtl ? 'خط استجابة الحوادث الطارئة 24/7' : '24/7 Subsea Incident Callout Line'}</h2>
-              <p className="text-xs text-slate-600 dark:text-slate-300">{isRtl ? 'متاح على مدار ٢٤ ساعة يومياً، ٣٦٥ يوماً في السنة للتعبئة السريعة عبر حقول النفط والغاز بالخليج.' : 'Available 24 hours a day, 365 days a year for immediate mobilization across KSA & GCC oilfield blocks.'}</p>
+              <h2 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white">{isRtl ? 'خط استجابة الحوادث الطارئة' : 'Subsea Incident Callout Line'}</h2>
+              <p className="text-xs text-slate-600 dark:text-slate-300">{isRtl ? 'متاح على مدار الساعة، ٣٦٥ يوماً في السنة للتعبئة السريعة عبر حقول النفط والغاز بالخليج.' : 'Available 24 hours a day, 365 days a year for immediate mobilization across KSA & GCC oilfield blocks.'}</p>
             </div>
           </div>
 
@@ -155,7 +155,7 @@ export function ContactClient() {
                     onChange={(e) => setFormData({ ...formData, requestType: e.target.value })}
                     className="w-full bg-slate-50 dark:bg-[#041c2c] border border-slate-200 dark:border-white/10 rounded-lg px-4 py-2.5 text-xs text-slate-900 dark:text-white focus:outline-none focus:border-[#0a66a0] dark:focus:border-sky-400"
                   >
-                    <option value="Emergency Incident">{isRtl ? '🚨 طوارئ 24/7 (تسرب أو تلف في الأنابيب)' : '🚨 24/7 Emergency Incident Callout (Pipeline Leak / Damage)'}</option>
+                    <option value="Emergency Incident">{isRtl ? '🚨 طوارئ (تسرب أو تلف في الأنابيب)' : '🚨 Emergency Incident Callout (Pipeline Leak / Damage)'}</option>
                     <option value="Subsea IRM Project">{isRtl ? 'مشروع فحص وصيانة المنصات والأعماق (IRM)' : 'Subsea IRM & Platform Inspection'}</option>
                     <option value="Rig / Vessel Husbandry">{isRtl ? 'صيانة السفن والحفارات ومعاينات UWILD' : 'Rig & Vessel Husbandry / UWILD Survey'}</option>
                     <option value="EPIC Bidding">{isRtl ? 'مناقصة مشاريع وتأهيل شركاء' : 'EPIC Bidding / Commercial Tender Request'}</option>
@@ -214,7 +214,7 @@ export function ContactClient() {
                 </div>
                 <div className="flex items-center gap-2.5">
                   <Clock className="w-4 h-4 text-amber-600 dark:text-amber-400 shrink-0" />
-                  <span>{isRtl ? 'ساعات المقر: الأحد — الخميس (08:00 — 17:00) | مكتب العمليات 24/7' : 'HQ Hours: Sun — Thu (08:00 — 17:00) | 24/7 Operations Desk'}</span>
+                  <span>{isRtl ? 'ساعات المقر: الأحد — الخميس (08:00 — 17:00) | مكتب العمليات' : 'HQ Hours: Sun — Thu (08:00 — 17:00) | Operations Desk'}</span>
                 </div>
               </div>
             </div>

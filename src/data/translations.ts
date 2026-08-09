@@ -3,7 +3,7 @@ export const translations = {
     // Top Banner & Navbar
     sovereignJv: 'Sovereign KSA Joint Venture',
     jvSubtitle: 'Alpha OMQ × OSC Marine Group',
-    emergencyDispatch: '24/7 Subsea Incident Dispatch:',
+    emergencyDispatch: 'Subsea Incident Dispatch:',
     emergencyCalloutBtn: 'Emergency Response',
     navHome: 'Home',
     navServices: 'Services',
@@ -19,7 +19,7 @@ export const translations = {
     heroTitleSuffix: ' & Deepwater Excellence',
     heroSub: 'Combining international subsea engineering excellence with Saudi Arabia’s premier sovereign commercial diving capabilities. Delivering IMCA-compliant ROV intervention and saturation diving up to 300m.',
     btnExploreServices: 'Explore Subsea Catalog',
-    btnEmergencySupport: '24/7 Emergency Support',
+    btnEmergencySupport: 'Emergency Support',
     btnDownloadPdf: 'Download Profile (PDF)',
     heroHighlight: 'Integrated Subsea & Pipeline Engineering Excellence',
     heroHighlightDesc: 'Equipped with advanced hyperbaric welding, smart pigging ILI, diverless intervention, and rapid incident response spreads.',
@@ -71,7 +71,7 @@ export const translations = {
     btnDispatchRequestTo: 'Dispatch Request to',
 
     // Footer
-    footerTitle: '24/7 Subsea Incident Hotline & EPRS Call-Out',
+    footerTitle: 'Subsea Incident Hotline & EPRS Call-Out',
     footerSub: 'Direct dispatch lines for offshore pipeline leaks, vessel salvage, and platform emergency IRM.',
     footerCall: 'Call +966 13 800 2470',
     footerSubmitReq: 'Submit Emergency Request',
@@ -80,13 +80,13 @@ export const translations = {
 
     // Pages common
     calloutBannerTitle: 'Need Immediate Subsea Support or Emergency Pipeline Repair?',
-    calloutBannerSub: 'Our engineering dispatch team is available 24/7 for rapid mobilization across KSA & GCC offshore blocks.',
+    calloutBannerSub: 'Our engineering dispatch team is available for rapid mobilization across KSA & GCC offshore blocks.',
   },
   AR: {
     // Top Banner & Navbar
     sovereignJv: 'مشروع مشترك سيادي في المملكة العربية السعودية',
     jvSubtitle: 'Alpha OMQ × OSC Marine Group',
-    emergencyDispatch: 'طوارئ التدخل السريع تحت الماء على مدار ٢٤/٧:',
+    emergencyDispatch: 'طوارئ التدخل السريع تحت الماء:',
     emergencyCalloutBtn: 'استجابة الطوارئ الفورية',
     navHome: 'الرئيسية',
     navServices: 'الخدمات البحرية',
@@ -102,10 +102,10 @@ export const translations = {
     heroTitleSuffix: ' في الأعماق عبر الخليج العربي',
     heroSub: 'دمج خبرات الهندسة البحرية الدولية والدعم الفني للأعماق مع القدرات الوطنية السيادية الرائدة في المملكة العربية السعودية. تقديم عمليات الغوص التشبعي حتى عمق ٣٠٠ متر، ومركبات التحكم عن بعد.',
     btnExploreServices: 'استكشف دليل الخدمات البحرية',
-    btnEmergencySupport: 'دعم الطوارئ الفوري 24/7',
+    btnEmergencySupport: 'دعم الطوارئ الفوري',
     btnDownloadPdf: 'تحميل ملف الشركة (PDF)',
     heroHighlight: 'التميز المتكامل في الهندسة البحرية وإصلاح خطوط الأنابيب',
-    heroHighlightDesc: 'مجهزة بتقنيات اللحام الجاف تحت الضغط، الكشط الذكي (ILI)، والتدخل السريع على مدار 24/7.',
+    heroHighlightDesc: 'مجهزة بتقنيات اللحام الجاف تحت الضغط، الكشط الذكي (ILI)، والتدخل السريع.',
     statLegacy: 'معايير بحرية عالمية',
     statRovDepth: 'عمق تشغيل مركبات ROV',
     statSatDepth: 'عمق الغوص التشبعي',
@@ -154,7 +154,7 @@ export const translations = {
     btnDispatchRequestTo: 'إرسال طلب استجابة إلى',
 
     // Footer
-    footerTitle: 'الخط الساخن لنوازل الأنابيب والأعماق على مدار ٢٤/٧',
+    footerTitle: 'الخط الساخن لنوازل الأنابيب والأعماق',
     footerSub: 'خطوط استجابة مباشرة لتسربات الأنابيب البحرية، إنقاذ السفن، وصيانة المنصات الطارئة.',
     footerCall: 'اتصل على 2470 800 13 966+',
     footerSubmitReq: 'تقديم طلب طوارئ',
@@ -163,7 +163,7 @@ export const translations = {
 
     // Pages common
     calloutBannerTitle: 'هل تحتاج إلى دعم بحري فوري أو إصلاح طارئ للأنابيب؟',
-    calloutBannerSub: 'فريق الإرسال الهندسي لدينا متاح على مدار ٢٤/٧ للتعبئة السريعة عبر حقول الطاقة بالمملكة والخليج.',
+    calloutBannerSub: 'فريق الإرسال الهندسي لدينا متاح للتعبئة السريعة عبر حقول الطاقة بالمملكة والخليج.',
   }
 };
 

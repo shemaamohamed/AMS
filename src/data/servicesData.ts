@@ -10,8 +10,8 @@ export const servicesData: ServiceCategory[] = [
     fullDesc: 'AMS Marine provides integrated Subsea IRM services across offshore oil & gas platforms, FPSO vessels, CALM buoys, subsea pipelines, and marine terminals. Our multi-disciplined diving and ROV teams deliver advanced visual inspection (GVI/CVI), cathodic protection (CP) surveys, wall thickness measurements, and underwater wet welding in strict compliance with IMCA and Marine Class regulations.',
     fullDescAr: 'تقدم شركة AMS Marine خدمات الفحص والتصليح والصيانة البحرية (IRM) المتكاملة عبر منصات النفط والغاز، سفن الإنتاج العائمة FPSO، عوامات التحميل CALM، الأنابيب البحرية، والموانئ. توفر فرق الغوص ومركبات الأعماق ROV لدينا الفحص البصري المتقدم، مسوحات الحماية الكاثودية (CP)، قياسات سمك الجدار، واللحام الرطب تحت الماء وفقاً لمعايير IMCA وهياكل التصنيف البحرية.',
     iconName: 'ShieldCheck',
-    maxDepth: '300m Sat / 3,000m ROV',
-    maxDepthAr: 'غوص تشبعي 300م / مركبات ROV 3000م',
+    maxDepth: '300m Sat / ROV',
+    maxDepthAr: 'غوص تشبعي 300م / مركبات ROV',
     deliveryMethods: ['Saturation Diving', 'Air & Nitrox Diving', 'ROV Intervention', 'Rope Access'],
     deliveryMethodsAr: ['الغوص التشبعي', 'الغوص بالهواء والنيتروكس', 'تدخل مركبات ROV', 'الوصول بالحبال'],
     keyCapabilities: [
@@ -109,15 +109,15 @@ export const servicesData: ServiceCategory[] = [
     id: 'rov',
     title: 'ROV Inspection & Survey Systems',
     titleAr: 'أنظمة ROV للمسح والتفتيش البحري',
-    shortDesc: 'Observation and survey-class ROV spreads for pipeline inspection, structural survey, CP assessment, and subsea asset monitoring.',
-    shortDescAr: 'مركبات ROV للمراقبة والمسح البحري لفحص الأنابيب، مسح الهياكل، تقييم الحماية الكاثودية، ومراقبة الأصول تحت الماء.',
-    fullDesc: 'AMS Marine deploys Observation-Class and Survey-Class ROV spreads for offshore pipeline inspection, structural integrity monitoring, cathodic protection (CP) assessment, and subsea visual surveys. Our ROV teams provide high-definition visual documentation, acoustic positioning, and sonar profiling in support of IRM campaigns across the Arabian Gulf and Red Sea.',
-    fullDescAr: 'تنشر AMS Marine مركبات ROV للمراقبة والمسح لفحص الأنابيب البحرية، ومراقبة سلامة الهياكل، وتقييم الحماية الكاثودية (CP)، والمسوحات البصرية تحت الماء. تقدم فرقنا توثيقاً بصرياً عالي الدقة، وتحديد مواقع صوتياً، ومسوحات سونار لدعم حملات IRM في الخليج العربي والبحر الأحمر.',
+    shortDesc: 'ROV spreads for pipeline inspection, structural survey, CP assessment, and subsea asset monitoring.',
+    shortDescAr: 'مركبات ROV لفحص الأنابيب، مسح الهياكل، تقييم الحماية الكاثودية، ومراقبة الأصول تحت الماء.',
+    fullDesc: 'AMS Marine deploys ROV spreads for offshore pipeline inspection, structural integrity monitoring, cathodic protection (CP) assessment, and subsea visual surveys. Our ROV teams provide high-definition visual documentation, acoustic positioning, and sonar profiling in support of IRM campaigns across the Arabian Gulf and Red Sea.',
+    fullDescAr: 'تنشر AMS Marine مركبات ROV لفحص الأنابيب البحرية، ومراقبة سلامة الهياكل، وتقييم الحماية الكاثودية (CP)، والمسوحات البصرية تحت الماء. تقدم فرقنا توثيقاً بصرياً عالي الدقة، وتحديد مواقع صوتياً، ومسوحات سونار لدعم حملات IRM في الخليج العربي والبحر الأحمر.',
     iconName: 'Bot',
-    maxDepth: 'Survey & Inspection Class',
-    maxDepthAr: 'فئة المسح والتفتيش',
-    deliveryMethods: ['Observation ROV', 'Survey ROV Skid', 'CP & NDT Assessment'],
-    deliveryMethodsAr: ['مركبات ROV للمراقبة', 'زلاجات المسح السوناري', 'تقييم CP والفحص اللاهدمي'],
+    maxDepth: 'Inspection & Survey',
+    maxDepthAr: 'المسح والتفتيش',
+    deliveryMethods: ['ROV Systems', 'ROV Skid', 'CP & NDT Assessment'],
+    deliveryMethodsAr: ['مركبات ROV', 'زلاجات المسح السوناري', 'تقييم CP والفحص اللاهدمي'],
     keyCapabilities: [
       'Visual pipeline inspection and free-span survey',
       'Cathodic protection (CP) potential surveys and anode assessment',
@@ -135,13 +135,13 @@ export const servicesData: ServiceCategory[] = [
       'دعم الفحص البصري الهيكلي GVI/CVI للمنصات البحرية'
     ],
     equipmentList: [
-      'Observation-Class & Survey-Class ROV Spreads',
+      'ROV Spreads',
       'High-Definition Multibeam Sonar & USBL Acoustic Positioning',
       'CP Voltmeter Probes & Subsea NDT Attachments',
       'Subsea Camera Systems & HD Video Recording Units'
     ],
     equipmentListAr: [
-      'مركبات ROV للمراقبة والمسح',
+      'مركبات ROV',
       'سونار متعدد الأشعة ونظام التتبع الصوتي USBL',
       'مسابير قياس جهد الحماية الكاثودية وملحقات الفحص اللاهدمي',
       'أنظمة التصوير تحت الماء ووحدات التسجيل بالفيديو عالي الدقة'
@@ -149,8 +149,8 @@ export const servicesData: ServiceCategory[] = [
     caseStudy: {
       title: 'Arabian Gulf Pipeline Free-Span & CP Survey Campaign',
       titleAr: 'حملة مسح الأجزاء المعلقة والحماية الكاثودية بالخليج العربي',
-      description: 'Deployed observation ROV spread for comprehensive pipeline free-span and cathodic protection survey across 80km subsea network.',
-      descriptionAr: 'نشر منظومة ROV للمراقبة لإجراء مسح شامل للأجزاء المعلقة والحماية الكاثودية لشبكة أنابيب بحرية بطول 80 كم.',
+      description: 'Deployed ROV spread for comprehensive pipeline free-span and cathodic protection survey across 80km subsea network.',
+      descriptionAr: 'نشر منظومة ROV لإجراء مسح شامل للأجزاء المعلقة والحماية الكاثودية لشبكة أنابيب بحرية بطول 80 كم.',
       impact: 'Identified 12 critical free-span anomalies and 6 anode replacement zones, enabling targeted maintenance planning.',
       impactAr: 'تحديد 12 شذوذاً حرجاً في الأجزاء المعلقة و6 مناطق تتطلب استبدال الأنودات، مما أتاح تخطيطاً دقيقاً للصيانة.'
     },
@@ -209,19 +209,19 @@ export const servicesData: ServiceCategory[] = [
   },
   {
     id: 'pipeline',
-    title: 'Pipeline Integrity & EPRS Emergency Repair',
-    titleAr: 'سلامة الأنابيب وإصلاح الطوارئ 24/7 (EPRS)',
-    shortDesc: '24/7 emergency call-out, near-shore IO-Cofferdams, smart pigging (PIPECARE), and diverless Morgrip repair clamps (CSS).',
-    shortDescAr: 'استجابة طوارئ 24/7، سدود الكوفركس الجافة، الكشط الذكي (PIPECARE)، ومشابك Morgrip بدون غواصين (CSS).',
-    fullDesc: 'AMS Marine offers complete 4D pipeline integrity monitoring and emergency response solutions. Through strategic partnerships with PIPECARE (Inline Inspection pigs: MFL, UT, EMAT, Geometry) and Connector Subsea Solutions (diverless clamps & Morgrip connectors), we provide rapid 24/7 call-out support to contain subsea leaks, install structural repair clamps, and execute hyperbaric welding.',
-    fullDescAr: 'تقدم AMS Marine حلولاً متكاملة لمراقبة سلامة الأنابيب رباعية الأبعاد والاستجابة للطوارئ. عبر شراكات استراتيجية مع PIPECARE (مكاشط الفحص المباشر MFL, UT, EMAT) و Connector Subsea Solutions (مشابك Morgrip بدون غواصين)، نوفر دعماً طارئاً على مدار الساعة لاحتواء التسربات وتركيب المشابك واللحام تحت الضغط.',
+    title: 'Pipeline Integrity & EPRS Repair',
+    titleAr: 'سلامة الأنابيب وإصلاح الأنابيب (EPRS)',
+    shortDesc: 'Rapid emergency call-out, near-shore IO-Cofferdams, smart pigging (PIPECARE), and diverless Morgrip repair clamps (CSS).',
+    shortDescAr: 'استجابة سريعة، سدود الكوفركس الجافة، الكشط الذكي (PIPECARE)، ومشابك Morgrip بدون غواصين (CSS).',
+    fullDesc: 'AMS Marine offers complete 4D pipeline integrity monitoring and emergency response solutions. Through strategic partnerships with PIPECARE (Inline Inspection pigs: MFL, UT, EMAT, Geometry) and Connector Subsea Solutions (diverless clamps & Morgrip connectors), we provide rapid call-out support to contain subsea leaks, install structural repair clamps, and execute hyperbaric welding.',
+    fullDescAr: 'تقدم AMS Marine حلولاً متكاملة لمراقبة سلامة الأنابيب رباعية الأبعاد والاستجابة للطوارئ. عبر شراكات استراتيجية مع PIPECARE (مكاشط الفحص المباشر MFL, UT, EMAT) و Connector Subsea Solutions (مشابك Morgrip بدون غواصين)، نوفر دعماً سريعاً لاحتواء التسربات وتركيب المشابك واللحام تحت الضغط.',
     iconName: 'Activity',
     maxDepth: '1,300m Diverless / Near-shore Cofferdams',
     maxDepthAr: 'بدون غواصين 1300م / سدود الكوفركس الجافة',
     deliveryMethods: ['IO-Cofferdam', 'Hyperbaric Welding', 'Smart Pigging', 'Morgrip Clamps'],
     deliveryMethodsAr: ['سدود الكوفركس IO', 'اللحام تحت الضغط', 'الكشط الذكي', 'مشابك Morgrip'],
     keyCapabilities: [
-      '24/7 Rapid Incident Callout & Pipeline Repair Response',
+      'Rapid Incident Callout & Pipeline Repair Response',
       'RBI (Risk-Based Inspection) for Pipelines & Asset Integrity Management',
       'IO-Cofferdam deployment for dry subsea welding on active lines',
       'In-line smart pigging (MFL, UT, Geometry, EMAT, Combo)',
@@ -230,7 +230,7 @@ export const servicesData: ServiceCategory[] = [
       'Hyperbaric welding for high-pressure hydrocarbon steel and HDPE lines'
     ],
     keyCapabilitiesAr: [
-      'استجابة سريعة للنوازل وإصلاح الأنابيب البحرية على مدار 24/7',
+      'استجابة سريعة للنوازل وإصلاح الأنابيب البحرية',
       'تقييم التفتيش القائم على المخاطر للأنابيب (RBI for Pipelines)',
       'نشر سدود IO-Cofferdam للحام الجاف على الخطوط النشطة',
       'الفحص الذكي المباشر بالكشط (MFL, UT, Geometry, EMAT)',
@@ -251,8 +251,8 @@ export const servicesData: ServiceCategory[] = [
       'مكاشط PIPECARE الذكية المجهزة بتكنولوجيا MFL و UT'
     ],
     caseStudy: {
-      title: 'Emergency 24/7 Pipeline Leak Isolation & Clamp Installation',
-      titleAr: 'عزل تسرب طارئ وتثبيت مشبك لأنابيب الغاز 24/7',
+      title: 'Pipeline Leak Isolation & Clamp Installation',
+      titleAr: 'عزل تسرب طارئ وتثبيت مشبك لأنابيب الغاز',
       description: 'Dispatched emergency incident response team within 6 hours to isolate high-pressure gas line pinhole leak using Morgrip structural clamp.',
       descriptionAr: 'إرسال فريق استجابة الطوارئ خلال 6 ساعات لعزل تسرب غاز مرتفع الضغط باستخدام مشبك Morgrip الهيكلي.',
       impact: 'Prevented environmental discharge and averted pipeline shutdown costing millions.',
@@ -276,7 +276,7 @@ export const servicesData: ServiceCategory[] = [
     keyCapabilities: [
       'Port and quay wall underwater construction, repair, and piling',
       'Specialized harbour and trench dredging & intake clearing',
-      'Croc-Dock 24/7 harbour plastic & waste recovery',
+      'Croc-Dock harbour plastic & waste recovery',
       'Disruptor-Net river outfall plastic containment',
       'River-Isolator stream plastic interceptor systems',
       'Subsea concrete cutting, demolition, and vessel salvage'
@@ -364,17 +364,17 @@ export const servicesData: ServiceCategory[] = [
     id: 'salvage-emergency-response',
     title: 'Salvage and Emergency Response across the ME and Africa',
     titleAr: 'الإنقاذ والاستجابة للطوارئ في الشرق الأوسط وأفريقيا',
-    shortDesc: '24/7 wreck removal, emergency towing, subsea hull patching, pollution containment, and rapid incident dispatch across the ME & Africa.',
-    shortDescAr: 'استجابة طوارئ 24/7 لإزالة الحطام، القطر الطارئ، سد الهياكل تحت الماء، احتواء التلوث، والتدخل السريع في الشرق الأوسط وأفريقيا.',
+    shortDesc: 'Wreck removal, emergency towing, subsea hull patching, pollution containment, and rapid incident dispatch across the ME & Africa.',
+    shortDescAr: 'إزالة الحطام، القطر الطارئ، سد الهياكل تحت الماء، احتواء التلوث، والتدخل السريع في الشرق الأوسط وأفريقيا.',
     fullDesc: 'Operating emergency response spreads across the Middle East and Africa, AMS Marine provides immediate mobilization for vessel salvage, stranded offshore asset recovery, subsea hydrocarbon leak containment, and emergency wreck removal in full alignment with international maritime salvage conventions.',
     fullDescAr: 'من خلال تشغيل فرق طوارئ متخصصة في الشرق الأوسط وأفريقيا، توفر AMS Marine استجابة فورية لإنقاذ السفن، استعادة الأصول البحرية العالقة، احتواء تسربات الهيدروكربون تحت الماء، وإزالة الحطام الطارئة وفقاً للاتفاقيات الدولية لإنقاذ السفن.',
     iconName: 'LifeBuoy',
-    maxDepth: '24/7 Rapid Regional Dispatch',
-    maxDepthAr: 'استجابة وإرسال إقليمي سريع 24/7',
+    maxDepth: 'Rapid Regional Dispatch',
+    maxDepthAr: 'استجابة وإرسال إقليمي سريع',
     deliveryMethods: ['Emergency Salvage Diving', 'Pumping & Lightering', 'Heavy Lift Rescue', 'Wreck Demolition'],
     deliveryMethodsAr: ['غوص الإنقاذ الطارئ', 'تفريغ وحقن السوائل', 'الرفع الثقيل للإنقاذ', 'تفكيك وإزالة الحطام'],
     keyCapabilities: [
-      '24/7 emergency incident dispatch across Middle East & Africa ports/offshore blocks',
+      'Emergency incident dispatch across Middle East & Africa ports/offshore blocks',
       'Marine vessel salvage, re-floating, and emergency towing support',
       'Subsea hull patching, cofferdam sealing, and underwater damage assessment',
       'Emergency oil spill lightering, pumping, and environmental containment',
@@ -382,7 +382,7 @@ export const servicesData: ServiceCategory[] = [
       'Lloyd’s Open Form (LOF) and commercial salvage contract execution'
     ],
     keyCapabilitiesAr: [
-      'إرسال طوارئ 24/7 عبر موانئ وحقول الشرق الأوسط وأفريقيا',
+      'إرسال طوارئ عبر موانئ وحقول الشرق الأوسط وأفريقيا',
       'إنقاذ السفن البحرية، إعادة التعويم، ودعم القطر الطارئ',
       'سد ثقوب الهياكل تحت الماء، سدود الكوفركس، وتقييم الأضرار',
       'تفريغ النفط في حالات الطوارئ، الضخ، والحماية البيئية',

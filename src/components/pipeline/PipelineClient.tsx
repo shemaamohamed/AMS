@@ -12,13 +12,13 @@ export function PipelineClient() {
 
   const eprsFeatures = isRtl
     ? [
-        { title: 'إرسال الطوارئ 24/7', desc: 'فريق استجابة الطوارئ متاح 24 ساعة يومياً لاحتواء الأضرار المفاجئة في الأنابيب البحرية.' },
+        { title: 'إرسال الطوارئ', desc: 'فريق استجابة الطوارئ متاح لاحتواء الأضرار المفاجئة في الأنابيب البحرية.' },
         { title: 'سدود الكوفركس القريبة من الشاطئ', desc: 'تطبيق سدود IO-Cofferdams المبتكرة لتنفيذ اللحام الجاف دون الحاجة لحوض أحواض الجفاف.' },
         { title: 'مشابك Morgrip المعتمدة من DNV', desc: 'مشابك وتوصيلات دائمة للأنابيب البحرية تتحمل الضغط العالي في نقل الهيدروكربونات.' },
         { title: 'قاعدة بيانات مراقبة الأنابيب 4D', desc: 'قاعدة بيانات ثلاثية الأبعاد لمسارات الأنابيب مزامنة مع الكشط الذكي والحماية الكاثودية.' },
       ]
     : [
-        { title: '24/7 Incident Dispatch', desc: 'Emergency response team on call 24 hours a day for rapid subsea pipeline damage containment.' },
+        { title: 'Incident Dispatch', desc: 'Emergency response team on call for rapid subsea pipeline damage containment.' },
         { title: 'Near-Shore IO-Cofferdams', desc: 'Deployment of specialized IO-Cofferdams to execute dry hyperbaric welding on active lines without drydocking.' },
         { title: 'DNV-Approved Morgrip Connectors', desc: 'Permanent structural repair clamps and connectors rated for high-pressure hydrocarbon service.' },
         { title: '4D Condition Monitoring Database', desc: 'Centralized 3D pipeline route database with synchronized pigging, CP, and soil resistivity data.' },
@@ -35,16 +35,16 @@ export function PipelineClient() {
             {isRtl ? 'حلول سلامة الأنابيب الاستراتيجية' : 'Strategic Pipeline Solutions'}
           </div>
           <h1 className="text-2xl sm:text-3xl md:text-5xl font-black text-slate-900 dark:text-white">
-            {isRtl ? 'سلامة الأنابيب وإصلاح الطوارئ (EPRS) على مدار 24/7' : 'Pipeline Integrity & 24/7 Emergency Repair (EPRS)'}
+            {isRtl ? 'سلامة الأنابيب وإصلاح الطوارئ (EPRS)' : 'Pipeline Integrity & Emergency Repair (EPRS)'}
           </h1>
           <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 max-w-3xl mx-auto leading-relaxed">
             {isRtl
-              ? 'تقديم أنظمة الفحص الذكي للكشط (PIPECARE)، والمشابك بدون غواصين (Connector Subsea Solutions)، وسدود الكوفركس الجافة، ونظام الاستجابة الطارئة للحوادث 24/7 عبر الخليج العربي.'
-              : 'Delivering 4D condition monitoring, smart pigging (PIPECARE), diverless subsea clamps (Connector Subsea Solutions), near-shore IO-Cofferdams, and 24/7 emergency incident dispatch across the Arabian Gulf.'}
+              ? 'تقديم أنظمة الفحص الذكي للكشط (PIPECARE)، والمشابك بدون غواصين (Connector Subsea Solutions)، وسدود الكوفركس الجافة، ونظام الاستجابة الطارئة للحوادث عبر الخليج العربي.'
+              : 'Delivering 4D condition monitoring, smart pigging (PIPECARE), diverless subsea clamps (Connector Subsea Solutions), near-shore IO-Cofferdams, and emergency incident dispatch across the Arabian Gulf.'}
           </p>
         </div>
 
-        {/* 24/7 EPRS System Spotlight */}
+        {/* EPRS System Spotlight */}
         <div className="bg-white/80 dark:bg-[#051826] border border-[#2f7c4c]/40 rounded-2xl p-5 sm:p-8 backdrop-blur-xl space-y-6 sm:space-y-8 shadow-xl shadow-slate-200/40 dark:shadow-2xl">
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-200/80 dark:border-white/10 pb-6">
             <div className="space-y-1">
@@ -52,7 +52,7 @@ export function PipelineClient() {
                 <ShieldAlert className="w-4 h-4 text-[#2f7c4c] dark:text-[#3bd879]" />
                 {isRtl ? 'نظام إصلاح الأنابيب الطارئ' : 'Emergency Pipeline Repair System'}
               </div>
-              <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-slate-900 dark:text-white">{isRtl ? 'بروتوكول دعم طوارئ الأنابيب 24/7 لدى AMS' : 'AMS 24/7 EPRS Support Protocol'}</h2>
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-slate-900 dark:text-white">{isRtl ? 'بروتوكول دعم طوارئ الأنابيب لدى AMS' : 'AMS EPRS Support Protocol'}</h2>
             </div>
 
             <a
@@ -60,7 +60,7 @@ export function PipelineClient() {
               className="w-full sm:w-auto bg-[#2f7c4c] hover:bg-[#25643d] text-white px-6 py-3 rounded-xl font-extrabold text-xs transition-all shadow-lg flex items-center justify-center gap-2 border border-emerald-400/30 self-start md:self-auto"
             >
               <PhoneCall className="w-4 h-4 animate-bounce text-emerald-200" />
-              <span>{isRtl ? 'خط طوارئ 24/7: 2470 800 13 966+' : '24/7 Emergency Call: +966 13 800 2470'}</span>
+              <span>{isRtl ? 'خط طوارئ: 2470 800 13 966+' : 'Emergency Call: +966 13 800 2470'}</span>
             </a>
           </div>
 

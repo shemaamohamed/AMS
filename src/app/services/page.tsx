@@ -6,10 +6,10 @@ import { ServicesClient } from '@/components/services/ServicesClient';
 export const metadata: Metadata = {
   title: 'Subsea Engineering & IRM Services Catalog | AMS Marine',
   description:
-    'Explore AMS Marine subsea services: 3,000m deepwater ROV systems, 300m commercial saturation diving, offshore IRM, subsea construction tie-ins, and marine civils across Saudi Arabia & GCC.',
+    'Explore AMS Marine subsea services: deepwater ROV systems, 300m commercial saturation diving, offshore IRM, subsea construction tie-ins, and marine civils across Saudi Arabia & GCC.',
   keywords: [
     'Subsea IRM Services Saudi Arabia',
-    'Deepwater ROV Systems 3000m',
+    'Deepwater ROV Systems',
     'Saturation Diving Spreads 300m',
     'Subsea Construction Tie-ins',
     'Marine Civils Cofferdam Repair',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     url: `${SITE_URL}/services`,
     title: 'Subsea Engineering & IRM Services Catalog | AMS Marine',
     description:
-      'Technical specifications for 3,000m ROV intervention, 300m saturation diving, pipeline integrity, and subsea construction.',
+      'Technical specifications for ROV intervention, 300m saturation diving, pipeline integrity, and subsea construction.',
     siteName: 'AMS Marine',
     images: defaultOGImages,
   },
@@ -62,7 +62,7 @@ export default function ServicesPage() {
       {
         '@type': 'Service',
         position: 2,
-        name: 'Deepwater ROV Systems (3,000m Rating)',
+        name: 'Deepwater ROV Systems',
         description: 'Work-Class and Inspection ROVs equipped with acoustic multibeam, P&A tools, and diverless cutting skids.',
         provider: { '@id': `${SITE_URL}/#organization` }
       },

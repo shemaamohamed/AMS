@@ -16,7 +16,7 @@ export function BottomCtaSection() {
         <div className={`space-y-2 text-center ${isRtl ? 'md:text-right' : 'md:text-left'}`}>
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-emerald-300 text-xs font-bold uppercase tracking-wider">
             <ShieldAlert className="w-4 h-4 text-emerald-300 shrink-0" />
-            <span>{isRtl ? 'خط طوارئ النوازل 24/7' : 'EMERGENCY INCIDENT HOTLINE 24/7'}</span>
+            <span>{isRtl ? 'خط طوارئ النوازل' : 'EMERGENCY INCIDENT HOTLINE'}</span>
           </div>
           <h3 className="text-xl sm:text-2xl md:text-3xl font-extrabold leading-snug">
             {t('calloutBannerTitle')}

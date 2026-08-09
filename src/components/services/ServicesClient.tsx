@@ -45,8 +45,8 @@ export function ServicesClient() {
           </h1>
           <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 max-w-3xl mx-auto leading-relaxed">
             {isRtl
-              ? 'المواصفات الهندسية التفصيلية لفحص وصيانة وتصليح الأصول البحرية (IRM)، مركبات الأعماق ROV حتى عمق ٣٠٠٠ متر، الغوص التشبعي حتى عمق ٣٠٠ متر، سلامة الأنابيب، الهندسة المدنية البحرية، وعمليات الإنقاذ.'
-              : 'Detailed technical specifications for offshore asset IRM, deepwater ROV systems (3,000m depth rating), commercial saturation diving (300m rating), pipeline integrity, marine civils, and salvage operations.'}
+              ? 'المواصفات الهندسية التفصيلية لفحص وصيانة وتصليح الأصول البحرية (IRM)، مركبات الأعماق ROV، الغوص التشبعي حتى عمق ٣٠٠ متر، سلامة الأنابيب، الهندسة المدنية البحرية، وعمليات الإنقاذ.'
+              : 'Detailed technical specifications for offshore asset IRM, deepwater ROV systems, commercial saturation diving (300m rating), pipeline integrity, marine civils, and salvage operations.'}
           </p>
         </div>
 

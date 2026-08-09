@@ -30,7 +30,7 @@ export function HeroSection() {
       sub: isRtl ? 'فحص وإصلاح وصيانة متكاملة' : 'ILI, RBI & Repair Services'
     },
     {
-      value: '24/7',
+      value: 'Rapid',
       label: t('statEprs'),
       sub: isRtl ? 'استجابة سريعة للنوازل' : 'Rapid Subsea Callout'
     },

@@ -6,9 +6,9 @@ export const defaultSEO = {
   title: 'AMS Marine | Sovereign Subsea Engineering & Deepwater Excellence Across the Arabian Gulf',
   titleAr: 'AMS Marine | خدمات الهندسة البحرية السيادية والتدخل الفني بالأعماق في الخليج العربي',
   description:
-    'AMS Marine (Arabian Marine Services) is a sovereign Joint Venture between Alpha OMQ & OSC Marine Group. Delivering ROV inspection & survey, 300m saturation diving, pipeline integrity, and 24/7 EPRS emergency response across KSA & the GCC.',
+    'AMS Marine (Arabian Marine Services) is a sovereign Joint Venture between Alpha OMQ & OSC Marine Group. Delivering ROV inspection & survey, 300m saturation diving, pipeline integrity, and EPRS emergency response across KSA & the GCC.',
   descriptionAr:
-    'شركة الخدمات البحرية العربية (AMS Marine) مشروع مشترك سيادي بين Alpha OMQ و OSC Marine Group. نقدم خدمات مركبات ROV للمسح والتفتيش، الغوص التشبعي حتى 300م، سلامة الأنابيب، و 24/7 EPRS للتدخل الطارئ.',
+    'شركة الخدمات البحرية العربية (AMS Marine) مشروع مشترك سيادي بين Alpha OMQ و OSC Marine Group. نقدم خدمات مركبات ROV للمسح والتفتيش، الغوص التشبعي حتى 300م، سلامة الأنابيب، و EPRS للتدخل الطارئ.',
   keywords: [
     'Subsea Engineering Saudi Arabia',
     'Saturation Diving GCC',
@@ -27,7 +27,7 @@ export const defaultSEO = {
     'هندسة وإصلاح الأنابيب البحرية',
     'اللحام الجاف تحت الضغط',
     'الفحص المباشر للأنابيب ILI',
-    'إصلاح الأنابيب البحرية 24/7 الخبر',
+    'إصلاح الأنابيب البحرية الخبر',
     'صيانة المنصات البحرية الخليج العربي',
     'Alpha OMQ',
     'OSC Marine Group',
@@ -98,7 +98,7 @@ export function generateOrganizationSchema() {
         contactType: 'emergency hotline',
         areaServed: ['SA', 'AE', 'KW', 'QA', 'BH', 'OM'],
         availableLanguage: ['en', 'ar'],
-        description: '24/7 Subsea & Emergency Pipeline Incident Callout'
+        description: 'Subsea & Emergency Pipeline Incident Callout'
       },
       {
         '@type': 'ContactPoint',

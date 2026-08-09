@@ -87,7 +87,7 @@ export function TechPartners() {
             className="inline-flex items-center gap-2 bg-[#2f7c4c] hover:bg-[#25643d] text-white px-7 py-3 rounded-xl font-bold text-xs transition-all shadow-md shadow-[#2f7c4c]/30"
           >
             <ShieldAlert className="w-4 h-4 text-emerald-200" />
-            <span>{isRtl ? 'استكشف نظام سلامة الأنابيب و 24/7 EPRS' : 'Explore Pipeline Integrity & 24/7 EPRS System'}</span>
+            <span>{isRtl ? 'استكشف نظام سلامة الأنابيب و EPRS' : 'Explore Pipeline Integrity & EPRS System'}</span>
           </Link>
         </div>
 
