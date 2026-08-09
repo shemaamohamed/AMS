@@ -144,18 +144,23 @@ export function AccreditationsClient() {
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4">
             {[
               { name: 'DNV', logo: '/assets/accreditation/DNV_GL_logo.webp' },
-              { name: 'American Bureau of Shipping (ABS)', logo: '/assets/accreditation/image (39).png' },
+              { name: 'ABS', logo: '/assets/accreditation/image (39).png' },
               { name: 'Bureau Veritas (BV)', logo: '/assets/accreditation/image (40).png' },
               { name: "Lloyd's Register (LR)", logo: '/assets/accreditation/image (42).png' },
               { name: 'RINA', logo: '/assets/accreditation/image (38).png' },
               { name: 'ClassNK', logo: null },
               { name: 'CCS', logo: '/assets/accreditation/image (41).png' },
             ].map((cls, i) => (
-              <div key={i} className="bg-slate-50 dark:bg-[#041c2c] p-3 rounded-xl border border-slate-200 dark:border-white/10 flex items-center justify-center h-16 relative">
+              <div key={i} className="bg-slate-50 dark:bg-white/5 rounded-xl border border-slate-200 dark:border-white/10 flex items-center justify-center h-16 px-3 overflow-hidden">
                 {cls.logo ? (
-                  <Image src={cls.logo} alt={cls.name} fill className="object-contain p-2" />
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    src={cls.logo}
+                    alt={cls.name}
+                    className="max-h-10 max-w-full object-contain"
+                  />
                 ) : (
-                  <span className="text-xs font-black text-[#0a66a0] dark:text-sky-300 tracking-widest">ClassNK</span>
+                  <span className="text-sm font-black text-[#0a66a0] dark:text-sky-300 tracking-widest">ClassNK</span>
                 )}
               </div>
             ))}
