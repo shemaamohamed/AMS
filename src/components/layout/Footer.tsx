@@ -38,7 +38,7 @@ export function Footer() {
           </div>
           <div className="flex flex-col sm:flex-row items-center gap-3">
             <a
-              href="tel:+966138002470"
+              href="tel:+966138352296"
               className="w-full sm:w-auto bg-[#2f7c4c] hover:bg-[#25643d] text-white px-6 py-3 rounded-lg font-bold text-sm transition-all shadow-lg flex items-center justify-center gap-2"
             >
               <PhoneCall className="w-4 h-4 animate-bounce" />
@@ -197,7 +197,7 @@ export function Footer() {
             </div>
             <div className="flex items-center gap-2">
               <PhoneCall className="w-4 h-4 text-[#2f7c4c] dark:text-[#3bd879] shrink-0" />
-              <span dir="ltr" className="inline-block font-mono">+966 13 800 2470</span>
+              <span dir="ltr" className="inline-block font-mono">+966 13 835 2296</span>
             </div>
             <div className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-[#0a66a0] dark:text-sky-400 shrink-0" />

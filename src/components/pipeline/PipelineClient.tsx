@@ -56,11 +56,11 @@ export function PipelineClient() {
             </div>
 
             <a
-              href="tel:+966138002470"
+              href="tel:+966138352296"
               className="w-full sm:w-auto bg-[#2f7c4c] hover:bg-[#25643d] text-white px-6 py-3 rounded-xl font-extrabold text-xs transition-all shadow-lg flex items-center justify-center gap-2 border border-emerald-400/30 self-start md:self-auto"
             >
               <PhoneCall className="w-4 h-4 animate-bounce text-emerald-200" />
-              <span>{isRtl ? 'خط طوارئ: 2470 800 13 966+' : 'Emergency Call: +966 13 800 2470'}</span>
+              <span>{isRtl ? 'خط طوارئ: 2296 835 13 966+' : 'Emergency Call: +966 13 835 2296'}</span>
             </a>
           </div>
 

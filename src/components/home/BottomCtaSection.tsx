@@ -27,11 +27,11 @@ export function BottomCtaSection() {
         </div>
         <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4 w-full md:w-auto shrink-0">
           <a
-            href="tel:+966138002470"
+            href="tel:+966138352296"
             className="w-full sm:w-auto bg-[#2f7c4c] hover:bg-[#25643d] text-white px-6 py-3.5 rounded-xl font-bold text-sm transition-all shadow-xl border border-emerald-400/30 text-center whitespace-nowrap"
           >
             <span dir="ltr" className="inline-block font-mono">
-              {isRtl ? '+966 13 800 2470' : 'Call +966 13 800 2470'}
+              {isRtl ? '+966 13 835 2296' : 'Call +966 13 835 2296'}
             </span>
           </a>
           <Link

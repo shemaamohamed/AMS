@@ -6,7 +6,7 @@ import { ContactClient } from '@/components/contact/ContactClient';
 export const metadata: Metadata = {
   title: 'Subsea Incident Hotline & Emergency Dispatch | AMS Marine',
   description:
-    'Contact AMS Marine Headquarters in Al Khobar, Saudi Arabia (+966 13 800 2470). Emergency hotline for subsea pipeline leak repairs, saturation diving callouts, and EPIC project bidding.',
+    'Contact AMS Marine Headquarters in Al Khobar, Saudi Arabia (+966 13 835 2296). Emergency hotline for subsea pipeline leak repairs, saturation diving callouts, and EPIC project bidding.',
   keywords: [
     'Subsea Emergency Hotline Saudi Arabia',
     'AMS Marine Khobar Address',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Emergency Incident Hotline | AMS Marine',
-    description: 'Call +966 13 800 2470 for immediate subsea & pipeline incident dispatch across KSA & GCC.',
+    description: 'Call +966 13 835 2296 for immediate subsea & pipeline incident dispatch across KSA & GCC.',
     images: [
       `${SITE_URL}/og-preview.png`,
       `${SITE_URL}/og-preview-hero.jpg`,
@@ -52,7 +52,7 @@ export default function ContactPage() {
     mainEntity: {
       '@type': 'LocalBusiness',
       name: 'AMS Marine Headquarters Al Khobar',
-      telephone: '+966138002470',
+      telephone: '+966138352296',
       email: 'hq@amsmarine.com.sa',
       address: {
         '@type': 'PostalAddress',

@@ -73,7 +73,7 @@ export const translations = {
     // Footer
     footerTitle: 'Subsea Incident Hotline & EPRS Call-Out',
     footerSub: 'Direct dispatch lines for offshore pipeline leaks, vessel salvage, and platform emergency IRM.',
-    footerCall: 'Call +966 13 800 2470',
+    footerCall: 'Call +966 13 835 2296',
     footerSubmitReq: 'Submit Emergency Request',
     footerVisionNotice: 'Aligned with Saudi Vision 2030 Sovereign Maritime Capability',
     footerHeadquarters: 'Headquarters',
@@ -156,7 +156,7 @@ export const translations = {
     // Footer
     footerTitle: 'الخط الساخن لنوازل الأنابيب والأعماق',
     footerSub: 'خطوط استجابة مباشرة لتسربات الأنابيب البحرية، إنقاذ السفن، وصيانة المنصات الطارئة.',
-    footerCall: 'اتصل على 2470 800 13 966+',
+    footerCall: 'اتصل على 2296 835 13 966+',
     footerSubmitReq: 'تقديم طلب طوارئ',
     footerVisionNotice: 'متوافقة مع القدرات البحرية السيادية لرؤية السعودية 2030',
     footerHeadquarters: 'المقر الرئيسي',

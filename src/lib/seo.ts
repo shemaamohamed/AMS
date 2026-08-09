@@ -89,12 +89,12 @@ export function generateOrganizationSchema() {
       latitude: '26.2172',
       longitude: '50.1971'
     },
-    telephone: '+966138002470',
+    telephone: '+966138352296',
     email: 'hq@amsmarine.com.sa',
     contactPoint: [
       {
         '@type': 'ContactPoint',
-        telephone: '+966138002470',
+        telephone: '+966138352296',
         contactType: 'emergency hotline',
         areaServed: ['SA', 'AE', 'KW', 'QA', 'BH', 'OM'],
         availableLanguage: ['en', 'ar'],
@@ -102,7 +102,7 @@ export function generateOrganizationSchema() {
       },
       {
         '@type': 'ContactPoint',
-        telephone: '+966138002470',
+        telephone: '+966138352296',
         contactType: 'customer service',
         areaServed: 'GCC',
         availableLanguage: ['en', 'ar']
@@ -122,7 +122,7 @@ export function generateLocalBusinessSchema() {
     name: 'AMS Marine Headquarters Al Khobar',
     image: `${SITE_URL}/assets/photos/image (30).png`,
     url: SITE_URL,
-    telephone: '+966138002470',
+    telephone: '+966138352296',
     priceRange: '$$$$',
     address: {
       '@type': 'PostalAddress',

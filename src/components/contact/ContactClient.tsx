@@ -58,11 +58,11 @@ export function ContactClient() {
           </div>
 
           <a
-            href="tel:+966138002470"
+            href="tel:+966138352296"
             className="w-full sm:w-auto bg-[#2f7c4c] hover:bg-[#25643d] text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-black text-base transition-all shadow-xl flex items-center justify-center gap-3 border border-emerald-400/40 shrink-0"
           >
             <PhoneCall className="w-5 h-5 text-emerald-200" />
-            <span>+966 13 800 2470</span>
+            <span>+966 13 835 2296</span>
           </a>
         </div>
 
@@ -206,7 +206,7 @@ export function ContactClient() {
                 </div>
                 <div className="flex items-center gap-2.5">
                   <PhoneCall className="w-4 h-4 text-[#2f7c4c] dark:text-[#3bd879] shrink-0" />
-                  <span className="font-bold text-slate-900 dark:text-white">+966 13 800 2470</span>
+                  <span className="font-bold text-slate-900 dark:text-white">+966 13 835 2296</span>
                 </div>
                 <div className="flex items-center gap-2.5">
                   <Mail className="w-4 h-4 text-[#0a66a0] dark:text-sky-400 shrink-0" />
