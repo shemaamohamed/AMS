@@ -94,7 +94,7 @@ export function JvSection() {
               <ul className="space-y-2.5 text-xs text-slate-700 dark:text-slate-200">
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#0a66a0] dark:text-sky-400 shrink-0 mt-0.5" />
-                  <span>{isRtl ? 'حلول هندسية متكاملة لسلامة الأنابيب والاستجابة للطوارئ واللحام الجاف' : 'Integrated pipeline integrity, salvage, emergency response & hyperbaric welding spreads'}</span>
+                  <span>{isRtl ? 'حلول هندسية متكاملة لسلامة الأنابيب والاستجابة للطوارئ' : 'Integrated pipeline integrity, salvage & emergency response spreads'}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#0a66a0] dark:text-sky-400 shrink-0 mt-0.5" />
@@ -117,7 +117,7 @@ export function JvSection() {
             href="/about"
             className="inline-flex items-center gap-2 bg-slate-100 hover:bg-slate-200 dark:bg-white/10 dark:hover:bg-white/20 text-slate-800 dark:text-white px-6 py-3 rounded-xl font-bold text-xs transition-all border border-slate-200 dark:border-white/10 shadow-sm"
           >
-            <span>{t('btnExploreTimeline')}</span>
+            <span>{t('navAbout')}</span>
             <ChevronIcon className="w-4 h-4 text-[#0a66a0] dark:text-sky-400" />
           </Link>
         </div>

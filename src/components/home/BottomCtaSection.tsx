@@ -14,9 +14,9 @@ export function BottomCtaSection() {
     <section className="py-10 sm:py-16 bg-gradient-to-r from-[#0a66a0] via-[#051826] to-[#2f7c4c] text-white border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6 sm:gap-8">
         <div className={`space-y-2 text-center ${isRtl ? 'md:text-right' : 'md:text-left'}`}>
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-emerald-300 text-xs font-bold uppercase tracking-wider">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-emerald-300 text-xs font-bold uppercase tracking-wider">
             <ShieldAlert className="w-4 h-4 text-emerald-300 shrink-0" />
-            <span>{isRtl ? 'خط طوارئ النوازل' : 'EMERGENCY INCIDENT HOTLINE'}</span>
+            <span>{isRtl ? 'خط الدعم' : 'SUPPORT LINE'}</span>
           </div>
           <h3 className="text-xl sm:text-2xl md:text-3xl font-extrabold leading-snug">
             {t('calloutBannerTitle')}
@@ -27,12 +27,10 @@ export function BottomCtaSection() {
         </div>
         <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4 w-full md:w-auto shrink-0">
           <a
-            href="tel:+966138352296"
-            className="w-full sm:w-auto bg-[#2f7c4c] hover:bg-[#25643d] text-white px-6 py-3.5 rounded-xl font-bold text-sm transition-all shadow-xl border border-emerald-400/30 text-center whitespace-nowrap"
+            href="/contact"
+            className="w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white px-6 py-3.5 rounded-xl font-bold text-sm transition-all shadow-xl border border-white/20 text-center whitespace-nowrap"
           >
-            <span dir="ltr" className="inline-block font-mono">
-              {isRtl ? '+966 13 835 2296' : 'Call +966 13 835 2296'}
-            </span>
+            <span>{isRtl ? 'تقديم طلب دعم' : 'Submit Support Request'}</span>
           </a>
           <Link
             href="/contact"

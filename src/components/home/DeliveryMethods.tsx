@@ -53,7 +53,7 @@ export function DeliveryMethods() {
             'التوافق التام مع معايير السلامة IMCA D014 & D024'
           ]
         : [
-            '12-man hyperbaric saturation system (300m rating)',
+            '12-man saturation system (300m rating)',
             'Surface-supplied air and Nitrox dive control spreads',
             'TUP (Transfer Under Pressure) chamber systems',
             'IMCA D014 & D024 audit compliant spreads'
@@ -106,31 +106,8 @@ export function DeliveryMethods() {
             'Fast precision subsea pipe cutting saws',
             'Diverless Morgrip connector activation frames'
           ]
-    },
-    {
-      id: 'welding',
-      number: '05',
-      title: isRtl ? 'اللحام تحت الضغط' : 'Hyperbaric Welding',
-      subtitle: isRtl ? 'لحام الأنابيب الفولاذية و HDPE' : 'Subsea Steel & HDPE Joint Repair',
-      icon: <Flame className="w-5 h-5 text-rose-600 dark:text-rose-400" />,
-      depth: isRtl ? 'غرف اللحام الجاف والحي' : 'Dry Habitat & Wet Welding',
-      description: isRtl
-        ? 'غرف اللحام الجاف المتخصصة تحت الماء لإصلاح أنابيب الهيدروكربون الفولاذية الحيوية ودمج أنابيب HDPE الغاطسة.'
-        : 'Specialist dry hyperbaric welding habitats for critical hydrocarbon steel pipelines and subsea joint fusion for submerged HDPE pipelines.',
-      points: isRtl
-        ? [
-            'إجراءات لحام جاف في غرف الضغط معتمدة من هيئات التصنيف',
-            'عمليات اللحام الرطب المباشر ضمن نطاق غوص السطح',
-            'إصلاح أنابيب HDPE الغاطسة باستخدام سدود الكوفركس',
-            'أكثر من 25 عاماً من الخبرة التشغيلية في اللحام تحت الماء'
-          ]
-        : [
-            'Class-approved hyperbaric dry habitat welding procedures',
-            'Wet welding in surface air diving range',
-            'In-situ repair of submerged HDPE pipelines with cofferdams',
-            'Over 25 years of hyperbaric design & operational experience'
-          ]
     }
+
   ];
 
   return (

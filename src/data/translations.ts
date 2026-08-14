@@ -22,11 +22,11 @@ export const translations = {
     btnEmergencySupport: 'Emergency Support',
     btnDownloadPdf: 'Download Profile (PDF)',
     heroHighlight: 'Integrated Subsea & Pipeline Engineering Excellence',
-    heroHighlightDesc: 'Equipped with advanced hyperbaric welding, smart pigging ILI, diverless intervention, and rapid incident response spreads.',
+    heroHighlightDesc: 'Equipped with smart pigging ILI, diverless intervention, and rapid incident response spreads.',
     statLegacy: 'Global Subsea Standards',
     statRovDepth: 'Deepwater ROV Depth',
     statSatDepth: 'Saturation Diving Depth',
-    statEprs: 'Emergency EPRS Hotline',
+    statEprs: 'EPRS Support Line',
 
     // JV Section
     jvTag: 'Strategic Joint Venture Alliance',
@@ -39,8 +39,8 @@ export const translations = {
     oscPartner: 'Global Subsea Partner',
     oscTitle: 'OSC Marine Group',
     oscTag: 'Subsea Engineering',
-    oscDesc: 'OSC Marine Group brings specialized subsea engineering, saturation diving, ROV systems, hyperbaric welding, and marine infrastructure excellence to the joint venture.',
-    btnExploreTimeline: 'Explore Alliance History & Vision 2030 Timeline',
+    oscDesc: 'OSC Marine Group brings specialized subsea engineering, saturation diving, ROV Services, and marine infrastructure excellence to the joint venture.',
+    btnExploreTimeline: 'Learn About the Alliance',
 
     // Services Grid
     servicesTag: 'Subsea Engineering Portfolio',
@@ -71,16 +71,16 @@ export const translations = {
     btnDispatchRequestTo: 'Dispatch Request to',
 
     // Footer
-    footerTitle: 'Subsea Incident Hotline & EPRS Call-Out',
-    footerSub: 'Direct dispatch lines for offshore pipeline leaks, vessel salvage, and platform emergency IRM.',
+    footerTitle: 'Contact & EPRS Dispatch',
+    footerSub: 'Dispatch lines for pipeline issues, salvage support, and commercial inquiries.',
     footerCall: 'Call +966 13 835 2296',
-    footerSubmitReq: 'Submit Emergency Request',
+    footerSubmitReq: 'Submit Request',
     footerVisionNotice: 'Aligned with Saudi Vision 2030 Sovereign Maritime Capability',
     footerHeadquarters: 'Headquarters',
 
     // Pages common
-    calloutBannerTitle: 'Need Immediate Subsea Support or Emergency Pipeline Repair?',
-    calloutBannerSub: 'Our engineering dispatch team is available for rapid mobilization across KSA & GCC offshore blocks.',
+    calloutBannerTitle: 'Need Subsea Support or Service Inquiry?',
+    calloutBannerSub: 'Our engineering dispatch team is available for rapid commercial and operational support across KSA & GCC offshore blocks.',
   },
   AR: {
     // Top Banner & Navbar
@@ -109,7 +109,7 @@ export const translations = {
     statLegacy: 'معايير بحرية عالمية',
     statRovDepth: 'عمق تشغيل مركبات ROV',
     statSatDepth: 'عمق الغوص التشبعي',
-    statEprs: 'خط طوارئ إصلاح الأنابيب EPRS',
+    statEprs: 'خط دعم EPRS',
 
     // JV Section
     jvTag: 'تحالف المشروع المشترك الاستراتيجي',
@@ -123,7 +123,7 @@ export const translations = {
     oscTitle: 'OSC Marine Group',
     oscTag: 'هندسة الأعماق',
     oscDesc: 'توفر مجموعة أوشين سابسي (OSC Marine Group) خبرة عالمية متخصصة في الغوص التشبعي، وأنظمة ROV، واللحام الجاف تحت الماء، والحلول الهندسية البحرية المتكاملة.',
-    btnExploreTimeline: 'استكشف تاريخ الشراكة وجدول رؤية 2030',
+    btnExploreTimeline: 'تعرف على التحالف',
 
     // Services Grid
     servicesTag: 'محفظة الهندسة البحرية',

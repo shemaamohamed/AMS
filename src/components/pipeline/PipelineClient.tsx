@@ -18,8 +18,8 @@ export function PipelineClient() {
         { title: 'قاعدة بيانات مراقبة الأنابيب 4D', desc: 'قاعدة بيانات ثلاثية الأبعاد لمسارات الأنابيب مزامنة مع الكشط الذكي والحماية الكاثودية.' },
       ]
     : [
-        { title: 'Incident Dispatch', desc: 'Emergency response team on call for rapid subsea pipeline damage containment.' },
-        { title: 'Near-Shore IO-Cofferdams', desc: 'Deployment of specialized IO-Cofferdams to execute dry hyperbaric welding on active lines without drydocking.' },
+        { title: 'Incident Dispatch', desc: 'Rapid subsea pipeline damage containment and response coordination.' },
+        { title: 'Near-Shore IO-Cofferdams', desc: 'Deployment of specialized IO-Cofferdams to execute dry welding on active lines without drydocking.' },
         { title: 'DNV-Approved Morgrip Connectors', desc: 'Permanent structural repair clamps and connectors rated for high-pressure hydrocarbon service.' },
         { title: '4D Condition Monitoring Database', desc: 'Centralized 3D pipeline route database with synchronized pigging, CP, and soil resistivity data.' },
       ];
@@ -47,20 +47,19 @@ export function PipelineClient() {
         {/* EPRS System Spotlight */}
         <div className="bg-white/80 dark:bg-[#051826] border border-[#2f7c4c]/40 rounded-2xl p-5 sm:p-8 backdrop-blur-xl space-y-6 sm:space-y-8 shadow-xl shadow-slate-200/40 dark:shadow-2xl">
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-200/80 dark:border-white/10 pb-6">
-            <div className="space-y-1">
+              <div className="space-y-1">
               <div className="inline-flex items-center gap-2 px-2.5 py-0.5 rounded bg-[#2f7c4c]/10 dark:bg-[#2f7c4c]/20 text-[#2f7c4c] dark:text-[#3bd879] border border-[#2f7c4c]/30 text-xs font-bold uppercase">
                 <ShieldAlert className="w-4 h-4 text-[#2f7c4c] dark:text-[#3bd879]" />
-                {isRtl ? 'نظام إصلاح الأنابيب الطارئ' : 'Emergency Pipeline Repair System'}
+                {isRtl ? 'نظام إصلاح الأنابيب' : 'Pipeline Repair System'}
               </div>
-              <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-slate-900 dark:text-white">{isRtl ? 'بروتوكول دعم طوارئ الأنابيب لدى AMS' : 'AMS EPRS Support Protocol'}</h2>
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-slate-900 dark:text-white">{isRtl ? 'بروتوكول دعم أنابيب AMS' : 'AMS EPRS Support Protocol'}</h2>
             </div>
 
             <a
-              href="tel:+966138352296"
-              className="w-full sm:w-auto bg-[#2f7c4c] hover:bg-[#25643d] text-white px-6 py-3 rounded-xl font-extrabold text-xs transition-all shadow-lg flex items-center justify-center gap-2 border border-emerald-400/30 self-start md:self-auto"
+              href="/contact"
+              className="w-full sm:w-auto bg-[#0a66a0] hover:bg-[#085282] text-white px-6 py-3 rounded-xl font-extrabold text-xs transition-all shadow-lg flex items-center justify-center gap-2 border border-sky-400/30 self-start md:self-auto"
             >
-              <PhoneCall className="w-4 h-4 animate-bounce text-emerald-200" />
-              <span>{isRtl ? 'خط طوارئ: 2296 835 13 966+' : 'Emergency Call: +966 13 835 2296'}</span>
+              <span>{isRtl ? 'اتصل بفريق الدعم' : 'Contact Support'}</span>
             </a>
           </div>
 

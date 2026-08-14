@@ -49,14 +49,13 @@ export function Navbar() {
           </div>
 
           <div className="flex items-center gap-2 sm:gap-4 shrink-0">
-            <a
-              href="tel:+966138352296"
-              className="flex items-center gap-1.5 text-amber-600 dark:text-amber-400 hover:opacity-80 font-medium transition-colors"
-            >
-              <PhoneCall className="w-3.5 h-3.5 animate-bounce shrink-0" />
-              <span className="hidden sm:inline">{t('emergencyDispatch')} </span>
-              <strong className="font-bold">+966 13 835 2296</strong>
-            </a>
+              <Link
+                href="/contact"
+                className="flex items-center gap-1.5 text-amber-600 dark:text-amber-400 hover:opacity-80 font-medium transition-colors"
+              >
+                <PhoneCall className="w-3.5 h-3.5 animate-bounce shrink-0" />
+                <strong className="font-bold">{t('navContact')}</strong>
+              </Link>
 
             {/* Language Switcher */}
             <button

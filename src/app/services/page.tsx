@@ -6,10 +6,10 @@ import { ServicesClient } from '@/components/services/ServicesClient';
 export const metadata: Metadata = {
   title: 'Subsea Engineering & IRM Services Catalog | AMS Marine',
   description:
-    'Explore AMS Marine subsea services: deepwater ROV systems, 300m commercial saturation diving, offshore IRM, subsea construction tie-ins, and marine civils across Saudi Arabia & GCC.',
+    'Explore AMS Marine subsea services: deepwater ROV Services, 300m commercial saturation diving, offshore IRM, subsea construction tie-ins, and marine civils across Saudi Arabia & GCC.',
   keywords: [
     'Subsea IRM Services Saudi Arabia',
-    'Deepwater ROV Systems',
+    'Deepwater ROV Services',
     'Saturation Diving Spreads 300m',
     'Subsea Construction Tie-ins',
     'Marine Civils Cofferdam Repair',
@@ -62,15 +62,15 @@ export default function ServicesPage() {
       {
         '@type': 'Service',
         position: 2,
-        name: 'Deepwater ROV Systems',
-        description: 'Work-Class and Inspection ROVs equipped with acoustic multibeam, P&A tools, and diverless cutting skids.',
+        name: 'Deepwater ROV Services',
+        description: 'Work-Class and Inspection ROV Services equipped with acoustic multibeam, P&A tools, and diverless cutting skids.',
         provider: { '@id': `${SITE_URL}/#organization` }
       },
       {
         '@type': 'Service',
         position: 3,
         name: 'Commercial & Saturation Diving (300m Rating)',
-        description: 'IMCA D014/D024 compliant 12-man hyperbaric saturation diving system and surface air/Nitrox spreads.',
+        description: 'IMCA D014/D024 compliant 12-man saturation diving system and surface air/Nitrox spreads.',
         provider: { '@id': `${SITE_URL}/#organization` }
       }
     ]

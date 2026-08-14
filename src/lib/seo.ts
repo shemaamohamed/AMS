@@ -16,7 +16,7 @@ export const defaultSEO = {
     'Emergency Salvage and Pipeline Repair ME Africa',
     'Subsea IRM Khobar',
     'Marine Civils Red Sea',
-    'Hyperbaric Welding and Dry Space Engineering',
+    'Dry Space Engineering and Subsea Welding',
     'Inline Inspection ILI Pipecare',
     'Alpha OMQ',
     'OSC Marine Group',
@@ -95,17 +95,10 @@ export function generateOrganizationSchema() {
       {
         '@type': 'ContactPoint',
         telephone: '+966138352296',
-        contactType: 'emergency hotline',
+        contactType: 'customer service',
         areaServed: ['SA', 'AE', 'KW', 'QA', 'BH', 'OM'],
         availableLanguage: ['en', 'ar'],
-        description: 'Subsea & Emergency Pipeline Incident Callout'
-      },
-      {
-        '@type': 'ContactPoint',
-        telephone: '+966138352296',
-        contactType: 'customer service',
-        areaServed: 'GCC',
-        availableLanguage: ['en', 'ar']
+        description: 'Subsea technical support and service inquiries'
       }
     ],
     sameAs: [

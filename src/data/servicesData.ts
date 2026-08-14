@@ -7,8 +7,8 @@ export const servicesData: ServiceCategory[] = [
     titleAr: 'الفحص والتصليح والصيانة البحرية (IRM)',
     shortDesc: 'Comprehensive subsea asset integrity, structural non-destructive testing (NDT), CALM buoy maintenance, and platform retrofit solutions.',
     shortDescAr: 'إدارة سلامة الأصول البحرية المتكاملة، الفحص اللاهدمي للهياكل (NDT)، صيانة عوامات CALM، وحلول تطوير المنصات البحرية.',
-    fullDesc: 'AMS Marine provides integrated Subsea IRM services across offshore oil & gas platforms, FPSO vessels, CALM buoys, subsea pipelines, and marine terminals. Our multi-disciplined diving and ROV teams deliver advanced visual inspection (GVI/CVI), cathodic protection (CP) surveys, wall thickness measurements, and underwater wet welding in strict compliance with IMCA and Marine Class regulations.',
-    fullDescAr: 'تقدم شركة AMS Marine خدمات الفحص والتصليح والصيانة البحرية (IRM) المتكاملة عبر منصات النفط والغاز، سفن الإنتاج العائمة FPSO، عوامات التحميل CALM، الأنابيب البحرية، والموانئ. توفر فرق الغوص ومركبات الأعماق ROV لدينا الفحص البصري المتقدم، مسوحات الحماية الكاثودية (CP)، قياسات سمك الجدار، واللحام الرطب تحت الماء وفقاً لمعايير IMCA وهياكل التصنيف البحرية.',
+    fullDesc: 'AMS Marine provides integrated Subsea IRM services across offshore oil & gas platforms, FPSO vessels, CALM buoys, subsea pipelines, and marine terminals. Our multi-disciplined diving and ROV Services deliver advanced visual inspection (GVI/CVI), cathodic protection (CP) surveys, wall thickness measurements, and underwater wet welding in strict compliance with IMCA and Marine Class regulations.',
+    fullDescAr: 'تقدم شركة AMS Marine خدمات الفحص والتصليح والصيانة البحرية (IRM) المتكاملة عبر منصات النفط والغاز، سفن الإنتاج العائمة FPSO، عوامات التحميل CALM، الأنابيب البحرية، والموانئ. توفر فرق الغوص وخدمات ROV لدينا الفحص البصري المتقدم، مسوحات الحماية الكاثودية (CP)، قياسات سمك الجدار، واللحام الرطب تحت الماء وفقاً لمعايير IMCA وهياكل التصنيف البحرية.',
     iconName: 'ShieldCheck',
     maxDepth: '300m Sat / ROV',
     maxDepthAr: 'غوص تشبعي 300م / مركبات ROV',
@@ -32,7 +32,7 @@ export const servicesData: ServiceCategory[] = [
     ],
     equipmentList: [
       'Air & Nitrox Surface-Supplied Diving Spread',
-      '12-Man Hyperbaric Saturation System (300m rated)',
+      '12-Man Saturation System (300m rated)',
       'Cygnus Underwater Ultrasonic Thickness Gauges',
       'Subsea Hydro-blasting & E300 Cleaning Tooling',
       'CP Voltmeter & Eddy Current Flaw Detectors'
@@ -65,14 +65,14 @@ export const servicesData: ServiceCategory[] = [
     iconName: 'Building2',
     maxDepth: '300m Saturation / 1,300m Diverless',
     maxDepthAr: 'غوص تشبعي 300م / بدون غواصين 1300م',
-    deliveryMethods: ['Diverless Intervention', 'Saturation Diving', 'ROV Heavy Tooling', 'Hyperbaric Welding'],
+    deliveryMethods: ['Diverless Intervention', 'Saturation Diving', 'ROV Heavy Tooling'],
     deliveryMethodsAr: ['التدخل بدون غواصين', 'الغوص التشبعي', 'معدات ROV الثقيلة', 'اللحام تحت الضغط'],
     keyCapabilities: [
       'Subsea manifold, PLET, and SLET structure installation',
       'Inter-field pipeline tie-ins & spool piece metrology',
       'CALM Buoy & CBM turret connector installation and commissioning',
       'FPSO subsea riser hook-up & mooring line attachment',
-      'Certified subsea hyperbaric welding & flange bolt-tensioning',
+      'Certified subsea flange bolt-tensioning',
       'Free span rectification and grout bag installation'
     ],
     keyCapabilitiesAr: [
@@ -107,16 +107,16 @@ export const servicesData: ServiceCategory[] = [
   },
   {
     id: 'rov',
-    title: 'ROV Inspection & Survey Systems',
+    title: 'ROV Inspection & Survey Services',
     titleAr: 'أنظمة ROV للمسح والتفتيش البحري',
     shortDesc: 'ROV spreads for pipeline inspection, structural survey, CP assessment, and subsea asset monitoring.',
     shortDescAr: 'مركبات ROV لفحص الأنابيب، مسح الهياكل، تقييم الحماية الكاثودية، ومراقبة الأصول تحت الماء.',
-    fullDesc: 'AMS Marine deploys ROV spreads for offshore pipeline inspection, structural integrity monitoring, cathodic protection (CP) assessment, and subsea visual surveys. Our ROV teams provide high-definition visual documentation, acoustic positioning, and sonar profiling in support of IRM campaigns across the Arabian Gulf and Red Sea.',
-    fullDescAr: 'تنشر AMS Marine مركبات ROV لفحص الأنابيب البحرية، ومراقبة سلامة الهياكل، وتقييم الحماية الكاثودية (CP)، والمسوحات البصرية تحت الماء. تقدم فرقنا توثيقاً بصرياً عالي الدقة، وتحديد مواقع صوتياً، ومسوحات سونار لدعم حملات IRM في الخليج العربي والبحر الأحمر.',
+    fullDesc: 'AMS Marine deploys ROV spreads for offshore pipeline inspection, structural integrity monitoring, cathodic protection (CP) assessment, and subsea visual surveys. Our ROV Services provide high-definition visual documentation, acoustic positioning, and sonar profiling in support of IRM campaigns across the Arabian Gulf and Red Sea.',
+    fullDescAr: 'تنشر AMS Marine مركبات ROV لفحص الأنابيب البحرية، ومراقبة سلامة الهياكل، وتقييم الحماية الكاثودية (CP)، والمسوحات البصرية تحت الماء. تقدم خدمات ROV لدينا توثيقاً بصرياً عالي الدقة، وتحديد مواقع صوتياً، ومسوحات سونار لدعم حملات IRM في الخليج العربي والبحر الأحمر.',
     iconName: 'Bot',
     maxDepth: 'Inspection & Survey',
     maxDepthAr: 'المسح والتفتيش',
-    deliveryMethods: ['ROV Systems', 'ROV Skid', 'CP & NDT Assessment'],
+    deliveryMethods: ['ROV Services', 'ROV Skid', 'CP & NDT Assessment'],
     deliveryMethodsAr: ['مركبات ROV', 'زلاجات المسح السوناري', 'تقييم CP والفحص اللاهدمي'],
     keyCapabilities: [
       'Visual pipeline inspection and free-span survey',
@@ -160,9 +160,9 @@ export const servicesData: ServiceCategory[] = [
     id: 'diving',
     title: 'Saturation & Commercial Diving Operations',
     titleAr: 'عمليات الغوص التشبعي والتجاري',
-    shortDesc: 'IMCA-compliant Saturation, Air, Nitrox, and TUP diving operations up to 300m water depth with hyperbaric safety protocols.',
+    shortDesc: 'IMCA-compliant Saturation, Air, Nitrox, and TUP diving operations up to 300m water depth with full safety protocols.',
     shortDescAr: 'عمليات الغوص التشبعي والهواء والنيتروكس المعتمدة من IMCA حتى عمق 300م مع بروتوكولات السلامة تحت الضغط.',
-    fullDesc: 'As a full IMCA Contractor Member (Saturation, Air, Nitrox, TUP), AMS Marine upholds the highest safety standards in commercial diving. Operating 12-man hyperbaric saturation spreads and mobile surface-supplied diving systems, our certified diver technicians execute heavy underwater construction, valve replacement, structural repair, and NDT inspections.',
+    fullDesc: 'As a full IMCA Contractor Member (Saturation, Air, Nitrox, TUP), AMS Marine upholds the highest safety standards in commercial diving. Operating 12-man saturation spreads and mobile surface-supplied diving systems, our certified diver technicians execute heavy underwater construction, valve replacement, structural repair, and NDT inspections.',
     fullDescAr: 'بصفتها عضواً كاملاً في منظمة IMCA (الغوص التشبعي، الهواء، النيتروكس، TUP)، تلتزم AMS Marine بأعلى معايير السلامة في الغوص التجاري. من خلال تشغيل غرف الغوص التشبعي لـ 12 غواصاً وأنظمة الغوص السطحية، ينفذ غواصونا المعتمدون التركيبات البحرية الثقيلة، استبدال الصمامات، وإصلاح الهياكل.',
     iconName: 'Anchor',
     maxDepth: '300m Saturation / 50m Air',
@@ -175,7 +175,7 @@ export const servicesData: ServiceCategory[] = [
       'TUP (Transfer Under Pressure) chamber operations',
       'Underwater heavy rigging, valve replacements, and spool tie-ins',
       'Subsea concrete/grout restoration and structural repairs',
-      'IMCA D014 & D024 compliant dive control and hyperbaric rescue'
+      'IMCA D014 & D024 compliant dive control and saturation rescue'
     ],
     keyCapabilitiesAr: [
       'عمليات الغوص التشبعي في المياه العميقة حتى عمق 300 متر',
@@ -188,8 +188,7 @@ export const servicesData: ServiceCategory[] = [
     equipmentList: [
       'Containerized 12-Man Saturation Diving Spread with SPHL',
       'IMCA Air Diving Decompression Control Van',
-      'Diver Gas Reclaim Systems & Hot Water Units',
-      'Hyperbaric Welding Habitat spreads'
+      'Diver Gas Reclaim Systems & Hot Water Units'
     ],
     equipmentListAr: [
       'منظومة غوص تشبعي حاوية لـ 12 غواصاً مع قارب إنقاذ محمول',
@@ -202,7 +201,7 @@ export const servicesData: ServiceCategory[] = [
       titleAr: 'حملة تدخل بالغوص التشبعي على عمق 200 متر',
       description: '60-day continuous saturation dive campaign replacing subsea manifold valves and risers in offshore field.',
       descriptionAr: 'حملة غوص تشبعي مستمرة لمدة 60 يوماً لاستبدال صمامات المجمع البحري والصواعد.',
-      impact: '100% safety record with zero hyperbaric incidents over 1,400 dive bottom-hours.',
+      impact: '100% safety record with zero pressurisation incidents over 1,400 dive bottom-hours.',
       impactAr: 'سجل سلامة بنسبة 100٪ دون أي حوادث ضغط عبر أكثر من 1400 ساعة غوص قاع.'
     },
     datasheetUrl: '#'
@@ -213,12 +212,12 @@ export const servicesData: ServiceCategory[] = [
     titleAr: 'سلامة الأنابيب وإصلاح الأنابيب (EPRS)',
     shortDesc: 'Rapid emergency call-out, near-shore IO-Cofferdams, smart pigging (PIPECARE), and diverless Morgrip repair clamps (CSS).',
     shortDescAr: 'استجابة سريعة، سدود الكوفركس الجافة، الكشط الذكي (PIPECARE)، ومشابك Morgrip بدون غواصين (CSS).',
-    fullDesc: 'AMS Marine offers complete 4D pipeline integrity monitoring and emergency response solutions. Through strategic partnerships with PIPECARE (Inline Inspection pigs: MFL, UT, EMAT, Geometry) and Connector Subsea Solutions (diverless clamps & Morgrip connectors), we provide rapid call-out support to contain subsea leaks, install structural repair clamps, and execute hyperbaric welding.',
+    fullDesc: 'AMS Marine offers complete 4D pipeline integrity monitoring and emergency response solutions. Through strategic partnerships with PIPECARE (Inline Inspection pigs: MFL, UT, EMAT, Geometry) and Connector Subsea Solutions (diverless clamps & Morgrip connectors), we provide rapid call-out support to contain subsea leaks and install structural repair clamps.',
     fullDescAr: 'تقدم AMS Marine حلولاً متكاملة لمراقبة سلامة الأنابيب رباعية الأبعاد والاستجابة للطوارئ. عبر شراكات استراتيجية مع PIPECARE (مكاشط الفحص المباشر MFL, UT, EMAT) و Connector Subsea Solutions (مشابك Morgrip بدون غواصين)، نوفر دعماً سريعاً لاحتواء التسربات وتركيب المشابك واللحام تحت الضغط.',
     iconName: 'Activity',
     maxDepth: '1,300m Diverless / Near-shore Cofferdams',
     maxDepthAr: 'بدون غواصين 1300م / سدود الكوفركس الجافة',
-    deliveryMethods: ['IO-Cofferdam', 'Hyperbaric Welding', 'Smart Pigging', 'Morgrip Clamps'],
+    deliveryMethods: ['IO-Cofferdam', 'Smart Pigging', 'Morgrip Clamps'],
     deliveryMethodsAr: ['سدود الكوفركس IO', 'اللحام تحت الضغط', 'الكشط الذكي', 'مشابك Morgrip'],
     keyCapabilities: [
       'Rapid Incident Callout & Pipeline Repair Response',
@@ -227,7 +226,7 @@ export const servicesData: ServiceCategory[] = [
       'In-line smart pigging (MFL, UT, Geometry, EMAT, Combo)',
       'Diverless pipeline structural clamps (up to 42" OD)',
       '4D condition monitoring data management system',
-      'Hyperbaric welding for high-pressure hydrocarbon steel and HDPE lines'
+      'Welding for high-pressure hydrocarbon steel and HDPE lines'
     ],
     keyCapabilitiesAr: [
       'استجابة سريعة للنوازل وإصلاح الأنابيب البحرية',
@@ -411,57 +410,7 @@ export const servicesData: ServiceCategory[] = [
     },
     datasheetUrl: '#'
   },
-  {
-    id: 'hyperbaric-welding-dry-space',
-    title: 'Hyperbaric Welding and Dry Space Engineering and installations',
-    titleAr: 'اللحام الجاف تحت الضغط وهندسة وتركيبات المساحات المغلقة',
-    shortDesc: 'Class-certified hyperbaric welding habitats, dry space engineering, IO-Cofferdam deployments, and structural repairs on active lines.',
-    shortDescAr: 'مغلفات اللحام الجاف المعتمدة، هندسة المساحات الجافة، سدود الكوفركس، والإصلاحات الهيكلية للخطوط النشطة.',
-    fullDesc: 'AMS Marine provides specialized Hyperbaric Welding and Dry Space Engineering solutions for high-pressure subsea pipelines and offshore structures. By deploying custom-engineered hyperbaric habitats and IO-Cofferdams, our certified welding technicians execute structural dry welds underwater without shutting down critical hydrocarbon production.',
-    fullDescAr: 'تقدم AMS Marine حلولاً متخصصة في اللحام الجاف تحت الضغط وهندسة المساحات المغلقة للأنابيب والهياكل البحرية مرتفعة الضغط. من خلال نشر بيئات اللحام المعزولة وسدود IO-Cofferdams، ينفذ فنيو اللحام المعتمدون لدينا لحامات جافة عالية الدقة تحت الماء دون الحاجة لإيقاف إنتاج الهيدروكربون.',
-    iconName: 'Flame',
-    maxDepth: '300m Sat / Near-shore Cofferdams',
-    maxDepthAr: 'غوص تشبعي 300م / سدود جافة ساحلية',
-    deliveryMethods: ['Hyperbaric Habitat Welding', 'IO-Cofferdam Deployment', 'Dry Space Structural Engineering'],
-    deliveryMethodsAr: ['اللحام داخل المغلفات الجافة', 'نشر سدود IO-Cofferdam', 'هندسة المساحات الجافة الهيكلية'],
-    keyCapabilities: [
-      'Class-certified hyperbaric dry welding habitat setup and environmental control',
-      'Near-shore and platform riser repair using custom IO-Cofferdam systems',
-      'Structural dry welding on live hydrocarbon lines and offshore jackets',
-      'Pre-heating, post-weld heat treatment (PWHT), and subsea NDT inspection',
-      'Dry space engineering & habitat life-support atmospheric monitoring',
-      'AWS D3.6 Class A subsea dry weld procedure qualification'
-    ],
-    keyCapabilitiesAr: [
-      'تثبيت بيئات اللحام الجاف تحت الضغط والتحكم بالبيئة الداخلية',
-      'إصلاح صواعد المنصات والأنابيب القريبة من الشاطئ باستخدام سدود IO-Cofferdam',
-      'اللحام الجاف الهيكلي على خطوط الهيدروكربون النشطة وقواعد المنصات',
-      'التسخين المسبق والمعالجة الحرارية بعد اللحام (PWHT) والفحص اللاهدمي NDT',
-      'هندسة المساحات الجافة ومراقبة أجهزة دعم الحياة داخل غرف اللحام',
-      'تأهيل إجراءات اللحام الجاف المعتمدة وفق معيار AWS D3.6 Class A'
-    ],
-    equipmentList: [
-      'Modular Subsea Hyperbaric Welding Habitat & Gas Control Van',
-      'IO-Cofferdams for Riser & HDPE/Steel Pipeline Repair',
-      'Subsea Pre-Heating & Post-Weld Heat Treatment (PWHT) Units',
-      'Radiographic & Ultrasonic Weld Inspection Equipment'
-    ],
-    equipmentListAr: [
-      'غرف وغطاء اللحام الجاف الحاوية مع كابينة التحكم بالغازات',
-      'سدود IO-Cofferdam لإصلاح الصواعد والأنابيب الفولاذية و HDPE',
-      'وحدات التسخين المسبق والمعالجة الحرارية بعد اللحام تحت الماء',
-      'معدات الفحص الشعاعي والموجات فوق الصوتية للحامات'
-    ],
-    caseStudy: {
-      title: 'Offshore Riser Hyperbaric Dry Weld Repair & Tie-In',
-      titleAr: 'إصلاح وربط صاعد بحري باللحام الجاف تحت الضغط',
-      description: 'Deployed IO-Cofferdam habitat to perform Class A dry welding repair on a 20" gas riser without disrupting oilfield throughput.',
-      descriptionAr: 'نشر بيئة IO-Cofferdam لتنفيذ إصلاح باللحام الجاف درجة A على صاعد غاز قطر 20 بوصة دون إيقاف الإنتاج.',
-      impact: '100% NDT weld pass rate and avoided $4M in field shutdown losses.',
-      impactAr: 'نجاح فحص اللحام بنسبة 100٪ وتجنب خسائر توقف الحقل البالغة 4 ملايين دولار.'
-    },
-    datasheetUrl: '#'
-  },
+  
   {
     id: 'ili-external-inspections',
     title: 'In line Inspections (ILI) and External Pipeline inspections using Intelligent Pigging together with Pipecare',

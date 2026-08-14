@@ -31,40 +31,19 @@ export function ContactClient() {
         {/* Page Hero Header */}
         <div className="bg-white/70 dark:bg-gradient-to-r dark:from-[#051826] dark:via-[#0a66a0]/30 dark:to-[#051826] backdrop-blur-xl border border-slate-200/80 dark:border-[#0a66a0]/40 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-12 text-center space-y-3 sm:space-y-4 shadow-xl shadow-slate-200/50 dark:shadow-2xl relative overflow-hidden">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#2f7c4c]/10 dark:bg-[#2f7c4c]/20 text-[#2f7c4c] dark:text-emerald-300 border border-[#2f7c4c]/30 text-xs font-bold uppercase tracking-wider">
-            <PhoneCall className="w-3.5 h-3.5 animate-bounce text-[#2f7c4c] dark:text-emerald-300" />
-            {isRtl ? 'مصفوفة الاتصال والاستجابة الفورية' : 'Rapid Incident Callout & B2B Inquiry Matrix'}
+            <PhoneCall className="w-3.5 h-3.5 text-[#2f7c4c] dark:text-emerald-300" />
+            {isRtl ? 'مصفوفة الاتصال والاستفسارات' : 'Contact & B2B Inquiry Matrix'}
           </div>
           <h1 className="text-2xl sm:text-3xl md:text-5xl font-black text-slate-900 dark:text-white">
-            {isRtl ? 'دعم الطوارئ البحرية ومصفوفة الاتصال' : 'Emergency Subsea Support & Contact Matrix'}
+            {isRtl ? 'التواصل وطلبات الشركات' : 'Subsea Support & Contact Matrix'}
           </h1>
           <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 max-w-3xl mx-auto leading-relaxed">
             {isRtl
-              ? 'خطوط أولوية استجابة سريعة للمقر الرئيسي في الخبر، وطوارئ تسربات الأنابيب البحرية، وإنقاذ السفن، ومناقصات المشاريع.'
-              : 'Direct priority dispatch lines for Khobar Headquarters, emergency subsea incident callouts, pipeline leak isolation, and EPIC project bidding.'}
+              ? 'اختر فئة الطلب لإرسال استفسارك إلى مكتب الهندسة أو المبيعات.'
+              : 'Select an inquiry type to route your request to our engineering or commercial desk.'}
           </p>
         </div>
-
-        {/* Emergency Dispatch Callout Box */}
-        <div className="bg-gradient-to-r from-[#2f7c4c]/10 via-white/80 to-[#0a66a0]/10 dark:from-[#2f7c4c]/30 dark:via-[#051826] dark:to-[#0a66a0]/30 border-2 border-[#2f7c4c] rounded-2xl p-5 sm:p-8 backdrop-blur-xl flex flex-col md:flex-row items-center justify-between gap-4 sm:gap-6 shadow-xl shadow-slate-200/40 dark:shadow-2xl">
-          <div className="flex items-center gap-4">
-            <div className="p-4 rounded-full bg-[#2f7c4c] text-white shrink-0 shadow-lg animate-pulse">
-              <ShieldAlert className="w-8 h-8" />
-            </div>
-            <div className="space-y-1">
-              <span className="text-xs font-bold text-amber-600 dark:text-amber-400 uppercase tracking-widest">{isRtl ? 'الخط الساخن لنوازل الحوادث البحرية' : 'High Priority Incident Hotline'}</span>
-              <h2 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white">{isRtl ? 'خط استجابة الحوادث الطارئة' : 'Subsea Incident Callout Line'}</h2>
-              <p className="text-xs text-slate-600 dark:text-slate-300">{isRtl ? 'متاح على مدار الساعة، ٣٦٥ يوماً في السنة للتعبئة السريعة عبر حقول النفط والغاز بالخليج.' : 'Available 24 hours a day, 365 days a year for immediate mobilization across KSA & GCC oilfield blocks.'}</p>
-            </div>
-          </div>
-
-          <a
-            href="tel:+966138352296"
-            className="w-full sm:w-auto bg-[#2f7c4c] hover:bg-[#25643d] text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-black text-base transition-all shadow-xl flex items-center justify-center gap-3 border border-emerald-400/40 shrink-0"
-          >
-            <PhoneCall className="w-5 h-5 text-emerald-200" />
-            <span>+966 13 835 2296</span>
-          </a>
-        </div>
+        
 
         {/* Contact Form & Location Matrix Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">

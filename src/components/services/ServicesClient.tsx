@@ -44,9 +44,9 @@ export function ServicesClient() {
             {isRtl ? 'دليل الخدمات البحرية وإدارة سلامة الأصول' : 'Subsea Services & Asset Integrity Catalog'}
           </h1>
           <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 max-w-3xl mx-auto leading-relaxed">
-            {isRtl
+              {isRtl
               ? 'المواصفات الهندسية التفصيلية لفحص وصيانة وتصليح الأصول البحرية (IRM)، مركبات الأعماق ROV، الغوص التشبعي حتى عمق ٣٠٠ متر، سلامة الأنابيب، الهندسة المدنية البحرية، وعمليات الإنقاذ.'
-              : 'Detailed technical specifications for offshore asset IRM, deepwater ROV systems, commercial saturation diving (300m rating), pipeline integrity, marine civils, and salvage operations.'}
+              : 'Detailed technical specifications for offshore asset IRM, deepwater ROV Services, commercial saturation diving (300m rating), pipeline integrity, marine civils, and salvage operations.'}
           </p>
         </div>
 

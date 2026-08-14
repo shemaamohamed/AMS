@@ -1,19 +1,14 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
 import { useLanguage } from '@/context/LanguageContext';
-import { timelineData } from '@/data/timelineData';
 import { Flag, CheckCircle2, History, GraduationCap, Building } from 'lucide-react';
 
 export function AboutClient() {
   const { direction, t } = useLanguage();
   const isRtl = direction === 'rtl';
 
-  const [selectedMilestone, setSelectedMilestone] = useState(timelineData[0]);
-
-  const milestoneTitle = (isRtl && selectedMilestone.titleAr) ? selectedMilestone.titleAr : selectedMilestone.title;
-  const milestoneDesc = (isRtl && selectedMilestone.descriptionAr) ? selectedMilestone.descriptionAr : selectedMilestone.description;
-  const milestoneBadge = (isRtl && selectedMilestone.badgeAr) ? selectedMilestone.badgeAr : selectedMilestone.badge;
+  
 
   return (
     <main className="min-h-screen bg-slate-50 dark:bg-[#041c2c] text-slate-900 dark:text-white py-12 transition-colors duration-300">
@@ -82,7 +77,7 @@ export function AboutClient() {
             <ul className="space-y-2 text-xs text-slate-700 dark:text-slate-200">
               <li className="flex items-start gap-2">
                 <CheckCircle2 className="w-4 h-4 text-[#0a66a0] dark:text-sky-400 shrink-0 mt-0.5" />
-                <span>{isRtl ? 'سجل ناجح في سلامة الأنابيب والإنقاذ والاستجابة للطوارئ واللحام الجاف عبر الشرق الأوسط وأفريقيا' : 'Proven pipeline integrity, hyperbaric welding, salvage & emergency response track record across ME & Africa'}</span>
+                <span>{isRtl ? 'سجل ناجح في سلامة الأنابيب والإنقاذ والاستجابة للطوارئ عبر الشرق الأوسط وأفريقيا' : 'Proven pipeline integrity, salvage & emergency response track record across ME & Africa'}</span>
               </li>
               <li className="flex items-start gap-2">
                 <CheckCircle2 className="w-4 h-4 text-[#0a66a0] dark:text-sky-400 shrink-0 mt-0.5" />
@@ -133,61 +128,7 @@ export function AboutClient() {
           </div>
         </div>
 
-        {/* Interactive History Timeline */}
-        <div className="bg-white dark:bg-[#051826] border border-slate-200 dark:border-[#0a66a0]/40 rounded-2xl p-5 sm:p-8 backdrop-blur-md space-y-6 sm:space-y-8 shadow-xl dark:shadow-2xl">
-          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-200 dark:border-white/10 pb-6">
-            <div>
-              <span className="text-xs font-bold text-[#0a66a0] dark:text-sky-400 uppercase tracking-widest">{isRtl ? 'تاريخ الشركة التفاعلي' : 'Interactive Corporate Heritage'}</span>
-              <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-slate-900 dark:text-white">{isRtl ? 'جدول المحطات التاريخية (تاريخ الأعماق — الحاضر)' : 'History Timeline (Subsea Legacy — Present)'}</h2>
-            </div>
-            <span className="text-xs font-bold text-[#0a66a0] dark:text-sky-300 bg-[#0a66a0]/10 dark:bg-[#0a66a0]/20 px-3 py-1 rounded border border-[#0a66a0]/30">
-              {isRtl ? 'تطور متوافق مع رؤية 2030' : 'Vision 2030 Aligned Evolution'}
-            </span>
-          </div>
-
-          {/* Timeline Buttons Horizontal Slider */}
-          <div className="flex items-center gap-2 overflow-x-auto pb-4 -mx-2 px-2 scrollbar-thin">
-            {timelineData.map((m) => {
-              const isSelected = selectedMilestone.year === m.year;
-              return (
-                <button
-                  key={m.year}
-                  onClick={() => setSelectedMilestone(m)}
-                  className={`px-4 py-2.5 rounded-xl text-xs font-extrabold transition-all shrink-0 border ${
-                    isSelected
-                      ? 'bg-[#0a66a0] border-sky-400 text-white shadow-lg shadow-[#0a66a0]/30'
-                      : 'bg-slate-100 dark:bg-[#041c2c] border-slate-200 dark:border-white/10 text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white'
-                  }`}
-                >
-                  {m.year}
-                </button>
-              );
-            })}
-          </div>
-
-          {/* Selected Milestone Detail Box */}
-          <div className="bg-slate-50 dark:bg-[#041c2c] border border-slate-200 dark:border-[#0a66a0]/50 rounded-xl p-4 sm:p-6 md:p-8 space-y-3 sm:space-y-4 shadow-md">
-            <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-200 dark:border-white/10 pb-3">
-              <div className="flex items-center gap-3">
-                <span className="text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-[#0a66a0] to-[#2f7c4c] dark:from-sky-400 dark:to-emerald-400">
-                  {selectedMilestone.year}
-                </span>
-                <span className="text-xs font-bold px-2.5 py-0.5 rounded bg-slate-200 dark:bg-white/10 text-slate-800 dark:text-sky-300">
-                  {selectedMilestone.entity}
-                </span>
-              </div>
-
-              {milestoneBadge && (
-                <span className="text-[10px] font-bold px-2.5 py-1 rounded bg-[#2f7c4c]/15 text-[#2f7c4c] dark:text-[#3bd879] border border-[#2f7c4c]/30">
-                  {milestoneBadge}
-                </span>
-              )}
-            </div>
-
-            <h3 className="text-xl font-bold text-slate-900 dark:text-white">{milestoneTitle}</h3>
-            <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">{milestoneDesc}</p>
-          </div>
-        </div>
+        
 
       </div>
     </main>

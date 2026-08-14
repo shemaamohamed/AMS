@@ -26,16 +26,7 @@ export interface ServiceCategory {
   datasheetUrl?: string;
 }
 
-export interface TimelineMilestone {
-  year: string;
-  title: string;
-  titleAr?: string;
-  entity: 'Cape Diving' | 'TAG Diving' | 'AMS Mauritius' | 'AMS Ghana' | 'AMS Port Services' | 'AMS Mozambique' | 'AMS Marine KSA';
-  description: string;
-  descriptionAr?: string;
-  badge?: string;
-  badgeAr?: string;
-}
+// TimelineMilestone removed — timeline/history section deprecated
 
 export interface TechPartner {
   name: string;

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     'EPRS Emergency Pipeline Repair System',
     'PIPECARE Smart Pigging MFL UT',
     'Connector Subsea Solutions Morgrip Clamps',
-    'Subsea IO-Cofferdams Hyperbaric Welding',
+    'Subsea IO-Cofferdams Dry Welding',
     'سلامة الأنابيب البحرية الخبر',
     'إصلاح طوارئ الأنابيب البحرية',
     'كشط الأنابيب الذكي بايبكير',

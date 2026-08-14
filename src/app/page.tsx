@@ -6,7 +6,6 @@ import { DeliveryMethods } from '@/components/home/DeliveryMethods';
 import { TechPartners } from '@/components/home/TechPartners';
 import { LogoMarquee } from '@/components/home/LogoMarquee';
 import { MapSection } from '@/components/home/MapSection';
-import { BottomCtaSection } from '@/components/home/BottomCtaSection';
 
 import type { Metadata } from 'next';
 import { SITE_URL, defaultSEO, defaultOGImages } from '@/lib/seo';
@@ -66,8 +65,7 @@ export default function HomePage() {
       {/* 7. Regional GCC Footprint & Operational Map */}
       <MapSection />
 
-      {/* 8. Bottom Emergency Dispatch CTA Banner */}
-      <BottomCtaSection />
+      {/* 8. Bottom Emergency Dispatch CTA Banner - disabled */}
     </main>
   );
 }

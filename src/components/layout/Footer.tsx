@@ -110,13 +110,13 @@ export function Footer() {
             <li>
               <Link href="/services#construction" className="hover:text-[#0a66a0] dark:hover:text-sky-400 transition-colors flex items-center gap-1.5">
                 <ChevronIcon className="w-3 h-3 text-[#0a66a0]" />
-                <span>{isRtl ? 'الانشاءات والربط البحري' : 'Offshore Subsea Construction & Tie-ins'}</span>
+                <span>{isRtl ? 'الإنشاءات والربط البحري' : 'Offshore Subsea Construction & Tie-ins'}</span>
               </Link>
             </li>
             <li>
               <Link href="/services#rov" className="hover:text-[#0a66a0] dark:hover:text-sky-400 transition-colors flex items-center gap-1.5">
                 <ChevronIcon className="w-3 h-3 text-[#0a66a0]" />
-                <span>{isRtl ? 'أنظمة ROV للأعماق' : 'Deepwater ROV Systems'}</span>
+                <span>{isRtl ? 'خدمات ROV للأعماق' : 'Deepwater ROV Services'}</span>
               </Link>
             </li>
             <li>
@@ -216,7 +216,7 @@ export function Footer() {
           <div className="flex gap-6 text-slate-600 dark:text-slate-400">
             <Link href="/about" className="hover:text-slate-900 dark:hover:text-white">{isRtl ? 'رؤية 2030' : 'Vision 2030'}</Link>
             <Link href="/accreditations" className="hover:text-slate-900 dark:hover:text-white">{isRtl ? 'الامتثال والسلامة' : 'Compliance'}</Link>
-            <Link href="/contact" className="hover:text-slate-900 dark:hover:text-white">{isRtl ? 'خط الطوارئ' : 'Emergency Hotline'}</Link>
+            <Link href="/contact" className="hover:text-slate-900 dark:hover:text-white">{t('navContact')}</Link>
           </div>
         </div>
       </div>
