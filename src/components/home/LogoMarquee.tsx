@@ -8,7 +8,8 @@ import { clientsData } from '@/data/clientsData';
 import { Award, ShieldCheck } from 'lucide-react';
 
 export function LogoMarquee() {
-  const { t } = useLanguage();
+  const { t, direction } = useLanguage();
+  const isRtl = direction === 'rtl';
 
   return (
     <section className="py-12 sm:py-20 bg-slate-100 dark:bg-[#03131e] text-slate-900 dark:text-white border-y border-slate-200 dark:border-[#0a66a0]/20 overflow-hidden space-y-10 sm:space-y-16 transition-colors duration-300">
@@ -25,28 +26,45 @@ export function LogoMarquee() {
           </h3>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
-          {accreditationsData.map((item) => (
-            <div
-              key={item.id}
-              className="bg-white dark:bg-[#051826] border border-slate-200 dark:border-white/10 hover:border-[#0a66a0] rounded-xl p-4 flex flex-col items-center justify-center text-center space-y-3 transition-all hover:scale-105 shadow-sm dark:shadow-none"
-            >
-              {item.imageSrc ? (
-                <div className="relative w-24 h-14">
-                  <Image
-                    src={item.imageSrc}
-                    alt={item.title}
-                    fill
-                    className="object-contain filter dark:grayscale hover:grayscale-0 transition-all"
-                  />
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-7 gap-3 sm:gap-4">
+          {accreditationsData.map((item) => {
+            const accTitle = (isRtl && item.titleAr) ? item.titleAr : item.title;
+            const isAramco = item.id === 'aramco_vendor';
+
+            return (
+              <div
+                key={item.id}
+                className={`bg-white dark:bg-[#051826] border ${
+                  isAramco
+                    ? 'border-emerald-500/60 dark:border-emerald-500/50 shadow-md shadow-emerald-500/10'
+                    : 'border-slate-200 dark:border-white/10 hover:border-[#0a66a0]'
+                } rounded-xl p-3 sm:p-4 flex flex-col items-center justify-center text-center space-y-2.5 transition-all hover:scale-105 shadow-sm dark:shadow-none`}
+              >
+                {item.imageSrc ? (
+                  <div className="relative w-20 sm:w-24 h-12 sm:h-14">
+                    <Image
+                      src={item.imageSrc}
+                      alt={item.title}
+                      fill
+                      className={`object-contain ${isAramco ? '' : 'filter dark:grayscale hover:grayscale-0'} transition-all`}
+                    />
+                  </div>
+                ) : (
+                  <ShieldCheck className="w-10 h-10 text-[#0a66a0] dark:text-sky-400" />
+                )}
+                <div className="text-[11px] font-bold text-slate-800 dark:text-slate-200 leading-tight">
+                  {accTitle}
                 </div>
-              ) : (
-                <ShieldCheck className="w-10 h-10 text-[#0a66a0] dark:text-sky-400" />
-              )}
-              <div className="text-[11px] font-bold text-slate-800 dark:text-slate-200">{item.title}</div>
-              <div className="text-[9px] text-slate-500 dark:text-slate-400">{item.category}</div>
-            </div>
-          ))}
+                {item.vendorId ? (
+                  <span className="text-[9px] font-mono font-bold px-2 py-0.5 rounded bg-emerald-500/15 text-[#2f7c4c] dark:text-emerald-400 border border-emerald-500/30">
+                    ID: {item.vendorId}
+                  </span>
+                ) : (
+                  <div className="text-[9px] text-slate-500 dark:text-slate-400">{item.category}</div>
+                )}
+              </div>
+            );
+          })}
         </div>
       </div>
 
@@ -61,25 +79,43 @@ export function LogoMarquee() {
         {/* Scroll Marquee Container */}
         <div className="relative w-full overflow-hidden flex [mask-image:_linear-gradient(to_right,_transparent_0,_black_128px,_black_calc(100%-128px),_transparent_100%)]">
           <div className="flex gap-8 animate-marquee whitespace-nowrap py-4">
-            {clientsData.concat(clientsData).map((client, idx) => (
-              <div
-                key={idx}
-                className="inline-flex items-center gap-3 bg-white dark:bg-[#051826]/80 border border-slate-200 dark:border-white/10 rounded-xl px-6 py-3 shrink-0 shadow-sm dark:shadow-none"
-              >
-                <div className="relative w-10 h-10">
-                  <Image
-                    src={client.logoSrc}
-                    alt={client.name}
-                    fill
-                    className="object-contain"
-                  />
+            {clientsData.concat(clientsData).map((client, idx) => {
+              const clientName = (isRtl && client.nameAr) ? client.nameAr : client.name;
+
+              return (
+                <div
+                  key={idx}
+                  className={`inline-flex items-center gap-3 bg-white dark:bg-[#051826]/80 border ${
+                    client.vendorId
+                      ? 'border-emerald-500/50 dark:border-emerald-500/40 ring-1 ring-emerald-500/20'
+                      : 'border-slate-200 dark:border-white/10'
+                  } rounded-xl px-6 py-3 shrink-0 shadow-sm dark:shadow-none`}
+                >
+                  <div className="relative w-10 h-10">
+                    <Image
+                      src={client.logoSrc}
+                      alt={client.name}
+                      fill
+                      className="object-contain"
+                    />
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-2">
+                      <span className="text-xs font-extrabold text-slate-900 dark:text-white block">
+                        {clientName}
+                      </span>
+                      {client.vendorId && (
+                        <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[9px] font-black bg-emerald-500/15 text-[#2f7c4c] dark:text-emerald-400 border border-emerald-500/30">
+                          <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                          {isRtl ? `مورّد معتمد: ${client.vendorId}` : `Approved Vendor: ${client.vendorId}`}
+                        </span>
+                      )}
+                    </div>
+                    <span className="text-[9px] text-slate-500 dark:text-slate-400">{client.category}</span>
+                  </div>
                 </div>
-                <div>
-                  <span className="text-xs font-extrabold text-slate-900 dark:text-white block">{client.name}</span>
-                  <span className="text-[9px] text-slate-500 dark:text-slate-400">{client.category}</span>
-                </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </div>

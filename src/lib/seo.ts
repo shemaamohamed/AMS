@@ -1,14 +1,14 @@
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://amsmarine.com.sa';
 
 export const defaultSEO = {
-  siteName: 'AMS Marine (Arabian Marine Services)',
-  siteNameAr: 'شركة الخدمات البحرية العربية (AMS Marine)',
-  title: 'AMS Marine | Sovereign Subsea Engineering & Deepwater Excellence Across the Arabian Gulf',
-  titleAr: 'AMS Marine | خدمات الهندسة البحرية السيادية والتدخل الفني بالأعماق في الخليج العربي',
+  siteName: 'Arabian Marine Services AMS Company',
+  siteNameAr: 'شركة أربيان مارين سيرفيسز إيه.إم.إس',
+  title: 'Arabian Marine Services AMS Company | Sovereign Subsea Engineering & Deepwater Excellence Across the Arabian Gulf',
+  titleAr: 'شركة أربيان مارين سيرفيسز إيه.إم.إس | خدمات الهندسة البحرية السيادية والتدخل الفني بالأعماق في الخليج العربي',
   description:
-    'AMS Marine (Arabian Marine Services) is a sovereign Joint Venture between Alpha OMQ & OSC Marine Group. Delivering ROV inspection & survey, 300m saturation diving, pipeline integrity, and EPRS emergency response across KSA & the GCC.',
+    'Arabian Marine Services AMS Company is a sovereign Joint Venture between Alpha OMQ & OSC Marine Group. Delivering ROV inspection & survey, 300m saturation diving, pipeline integrity, and EPRS emergency response across KSA & the GCC.',
   descriptionAr:
-    'شركة الخدمات البحرية العربية (AMS Marine) مشروع مشترك سيادي بين Alpha OMQ و OSC Marine Group. نقدم خدمات مركبات ROV للمسح والتفتيش، الغوص التشبعي حتى 300م، سلامة الأنابيب، و EPRS للتدخل الطارئ.',
+    'شركة أربيان مارين سيرفيسز إيه.إم.إس مشروع مشترك سيادي بين Alpha OMQ و OSC Marine Group. نقدم خدمات مركبات ROV للمسح والتفتيش، الغوص التشبعي حتى 300م، سلامة الأنابيب، و EPRS للتدخل الطارئ.',
   keywords: [
     'Subsea Engineering Saudi Arabia',
     'Saturation Diving GCC',
@@ -31,7 +31,7 @@ export const defaultSEO = {
     'صيانة المنصات البحرية الخليج العربي',
     'Alpha OMQ',
     'OSC Marine Group',
-    'AMS Marine'
+    'Arabian Marine Services AMS Company'
   ]
 };
 
@@ -40,28 +40,28 @@ export const defaultOGImages = [
     url: `${SITE_URL}/og-preview.png`,
     width: 1200,
     height: 630,
-    alt: 'AMS Marine - Sovereign Subsea Engineering & Deepwater Excellence',
+    alt: 'Arabian Marine Services AMS Company - Sovereign Subsea Engineering & Deepwater Excellence',
     type: 'image/png',
   },
   {
     url: `${SITE_URL}/og-preview-hero.jpg`,
     width: 1200,
     height: 630,
-    alt: 'AMS Marine Hero Operations Preview',
+    alt: 'Arabian Marine Services AMS Company Hero Operations Preview',
     type: 'image/jpeg',
   },
   {
     url: `${SITE_URL}/assets/logo/ams_logo_dark.png`,
     width: 1200,
     height: 630,
-    alt: 'AMS Marine Official Brand Logo (Alpha OMQ x OSC Marine)',
+    alt: 'Arabian Marine Services AMS Company Official Brand Logo (Alpha OMQ x OSC Marine)',
     type: 'image/png',
   },
   {
     url: `${SITE_URL}/faviconams.png`,
     width: 512,
     height: 512,
-    alt: 'AMS Marine Icon',
+    alt: 'Arabian Marine Services AMS Company Icon',
     type: 'image/png',
   },
 ];
@@ -71,8 +71,8 @@ export function generateOrganizationSchema() {
     '@context': 'https://schema.org',
     '@type': 'Corporation',
     '@id': `${SITE_URL}/#organization`,
-    name: 'AMS Marine (Arabian Marine Services)',
-    alternateName: 'شركة الخدمات البحرية العربية',
+    name: 'Arabian Marine Services AMS Company',
+    alternateName: 'شركة أربيان مارين سيرفيسز إيه.إم.إس',
     url: SITE_URL,
     logo: `${SITE_URL}/assets/logo/ams_logo_white.png`,
     image: `${SITE_URL}/assets/photos/image (30).png`,
@@ -112,7 +112,7 @@ export function generateLocalBusinessSchema() {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     '@id': `${SITE_URL}/#localbusiness`,
-    name: 'AMS Marine Headquarters Al Khobar',
+    name: 'Arabian Marine Services AMS Company Headquarters Al Khobar',
     image: `${SITE_URL}/assets/photos/image (30).png`,
     url: SITE_URL,
     telephone: '+966138352296',

@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { useLanguage } from '@/context/LanguageContext';
 import { accreditationsData } from '@/data/accreditationsData';
-import { Award, FileCheck, HeartPulse } from 'lucide-react';
+import { Award, FileCheck, HeartPulse, ShieldCheck, CheckCircle2, Lock, Building2 } from 'lucide-react';
 
 export function AccreditationsClient() {
   const { direction, t } = useLanguage();
@@ -25,9 +25,120 @@ export function AccreditationsClient() {
           </h1>
           <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 max-w-3xl mx-auto leading-relaxed">
             {isRtl
-              ? 'تلتزم AMS Marine بعضوية منظمة IMCA الدولية الكاملة، وشهادات IRATA للوصول بالحبال، واعتمادات ISO 9001/14001/45001، وموافقات هيئات التصنيف البحرية العالمية.'
-              : 'AMS Marine maintains full IMCA contractor membership, IRATA certification, ISO 9001/14001/45001 accreditations, and Marine Class approvals across all major global classification societies.'}
+              ? 'تلتزم شركة أربيان مارين سيرفيسز إيه.إم.إس باعتماد أرامكو السعودية كمورد مسجّل (رقم تسجيل المورّد 10121703)، وعضوية منظمة IMCA الدولية الكاملة، وشهادات IRATA للوصول بالحبال، واعتمادات ISO 9001/14001/45001، وموافقات هيئات التصنيف البحرية العالمية.'
+              : 'Arabian Marine Services AMS Company holds official Saudi Aramco Approved Vendor status (Supplier Registration No. 10121703), full IMCA contractor membership, IRATA certification, ISO 9001/14001/45001 accreditations, and Marine Class approvals across all major global classification societies.'}
           </p>
+        </div>
+
+        {/* Saudi Aramco Approved Vendor & CCC Compliance Spotlight Banner */}
+        <div className="relative overflow-hidden bg-gradient-to-br from-white via-emerald-50/40 to-slate-50 dark:from-[#051f2f] dark:via-[#042435] dark:to-[#031521] border-2 border-emerald-500/50 dark:border-emerald-500/40 rounded-2xl sm:rounded-3xl p-6 sm:p-10 shadow-2xl shadow-emerald-950/10 backdrop-blur-xl">
+          <div className="absolute top-0 right-0 w-80 h-80 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
+          <div className="absolute bottom-0 left-0 w-64 h-64 bg-[#0a66a0]/10 rounded-full blur-3xl pointer-events-none" />
+
+          <div className="relative z-10 space-y-6">
+            {/* Header row */}
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-200/80 dark:border-white/10 pb-6">
+              <div className="flex items-center gap-4">
+                <div className="relative w-16 h-16 sm:w-20 sm:h-20 bg-white dark:bg-white/10 rounded-2xl p-2.5 border border-slate-200 dark:border-white/15 flex items-center justify-center shrink-0 shadow-sm">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/assets/clients/aramco_logo.png"
+                    alt="Saudi Aramco Logo"
+                    className="max-h-full max-w-full object-contain"
+                  />
+                </div>
+                <div className="space-y-1">
+                  <div className="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-full bg-emerald-500/15 text-[#2f7c4c] dark:text-emerald-400 border border-emerald-500/30 text-[11px] font-black uppercase tracking-wider">
+                    <CheckCircle2 className="w-3.5 h-3.5" />
+                    <span>{isRtl ? 'اعتماد أرامكو السعودية' : 'Saudi Aramco Approval'}</span>
+                  </div>
+                  <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-slate-900 dark:text-white">
+                    {isRtl ? 'مورّد معتمد لدى أرامكو السعودية' : 'Saudi Aramco Approved Vendor'}
+                  </h2>
+                  <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300">
+                    {isRtl
+                      ? 'مؤهلة لتقديم خدمات الهندسة البحرية، الغوص التجاري، سلامة الأنابيب ومركبات ROV'
+                      : 'Qualified for Offshore Energy Operations, Subsea Engineering & Marine Services'}
+                  </p>
+                </div>
+              </div>
+
+              {/* Vendor ID Chip */}
+              <div className="self-start md:self-auto bg-white/90 dark:bg-white/10 border-2 border-emerald-500/40 rounded-2xl p-4 text-center min-w-[200px] shadow-sm">
+                <span className="text-[10px] uppercase font-bold text-slate-500 dark:text-slate-400 block tracking-wider">
+                  {isRtl ? 'رقم المورّد المعتمد (Vendor ID)' : 'Aramco Vendor ID'}
+                </span>
+                <span className="text-2xl sm:text-3xl font-mono font-black text-[#2f7c4c] dark:text-emerald-400 block tracking-wider">
+                  10121703
+                </span>
+                <span className="text-[10px] text-slate-600 dark:text-slate-300 font-semibold block mt-0.5">
+                  {isRtl ? 'ساري ومعتمد في نظام أرامكو' : 'Active & Verified In System'}
+                </span>
+              </div>
+            </div>
+
+            {/* Description */}
+            <p className="text-xs sm:text-sm text-slate-700 dark:text-slate-200 leading-relaxed">
+              {isRtl
+                ? 'شركة أربيان مارين سيرفيسز إيه.إم.إس مورّد مسجّل ومعتمد رسمياً لدى أرامكو السعودية برقم تسجيل المورّد (SAP Vendor No.) 10121703. معتمدة لتقديم خدمات الطاقة البحرية، الهندسة تحت الماء، الغوص التجاري، والخدمات البحرية في مرافق وأصول أرامكو السعودية البحرية.'
+                : 'Arabian Marine Services AMS Company is an officially registered and approved vendor with Saudi Aramco under SAP Vendor No. 10121703. Qualified and approved for offshore energy operations, subsea engineering, commercial diving, and marine services across Saudi Aramco facilities and offshore assets.'}
+            </p>
+
+            {/* 4 Feature Badges */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 pt-2">
+              <div className="bg-white/80 dark:bg-[#031926] p-4 rounded-xl border border-slate-200/80 dark:border-white/10 space-y-1">
+                <div className="flex items-center gap-1.5 text-xs font-bold text-[#2f7c4c] dark:text-emerald-400">
+                  <ShieldCheck className="w-4 h-4 shrink-0" />
+                  <span>{isRtl ? 'حالة المورّد' : 'Vendor Status'}</span>
+                </div>
+                <div className="text-sm font-black text-slate-900 dark:text-white">
+                  {isRtl ? 'مورّد معتمد رسمياً' : 'Officially Approved'}
+                </div>
+                <div className="text-[11px] text-slate-500 dark:text-slate-400 font-mono">
+                  SAP Vendor No. 10121703
+                </div>
+              </div>
+
+              <div className="bg-white/80 dark:bg-[#031926] p-4 rounded-xl border border-slate-200/80 dark:border-white/10 space-y-1">
+                <div className="flex items-center gap-1.5 text-xs font-bold text-[#0a66a0] dark:text-sky-400">
+                  <CheckCircle2 className="w-4 h-4 shrink-0" />
+                  <span>{isRtl ? 'نوع التسجيل' : 'Registration Type'}</span>
+                </div>
+                <div className="text-sm font-black text-slate-900 dark:text-white">
+                  {isRtl ? 'مورّد أرامكو مسجّل' : 'Aramco Registered Supplier'}
+                </div>
+                <div className="text-[11px] text-slate-500 dark:text-slate-400">
+                  {isRtl ? 'نظام SAP لتسجيل الموردين' : 'SAP Supplier Registration System'}
+                </div>
+              </div>
+
+              <div className="bg-white/80 dark:bg-[#031926] p-4 rounded-xl border border-slate-200/80 dark:border-white/10 space-y-1">
+                <div className="flex items-center gap-1.5 text-xs font-bold text-amber-600 dark:text-amber-400">
+                  <Building2 className="w-4 h-4 shrink-0" />
+                  <span>{isRtl ? 'جهة الإصدار' : 'Issuing Authority'}</span>
+                </div>
+                <div className="text-sm font-black text-slate-900 dark:text-white">
+                  Saudi Aramco
+                </div>
+                <div className="text-[11px] text-slate-500 dark:text-slate-400">
+                  {isRtl ? 'أرامكو السعودية — تسجيل الموردين' : 'Supplier Registration Dept.'}
+                </div>
+              </div>
+
+              <div className="bg-white/80 dark:bg-[#031926] p-4 rounded-xl border border-slate-200/80 dark:border-white/10 space-y-1">
+                <div className="flex items-center gap-1.5 text-xs font-bold text-[#2f7c4c] dark:text-emerald-400">
+                  <Award className="w-4 h-4 shrink-0" />
+                  <span>{isRtl ? 'نطاق الخدمات المعتمدة' : 'Approved Scope'}</span>
+                </div>
+                <div className="text-sm font-black text-slate-900 dark:text-white">
+                  {isRtl ? 'طاقة وهندسة بحرية' : 'Offshore Energy & Marine'}
+                </div>
+                <div className="text-[11px] text-slate-500 dark:text-slate-400">
+                  {isRtl ? 'غوص تجاري — ROV — سلامة أنابيب' : 'Diving · ROV · Pipeline IRM'}
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Zero Harm HSE Policy Banner */}
@@ -68,18 +179,130 @@ export function AccreditationsClient() {
         </div>
 
         {/* Accreditations Grid & Details */}
-        <div className="space-y-8">
+        <div id="certifications" className="space-y-8">
           <div className="text-center max-w-2xl mx-auto space-y-2">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white">
               {isRtl ? 'الشهادات الرسمية وشارات اعتمادات الفئات' : 'Official Certifications & Class Approval Badges'}
             </h2>
             <p className="text-xs text-slate-500 dark:text-slate-400">
-              {isRtl ? 'اضغط على أي بطاقة شهادة أدناه لمعاينة النطاق أو طلب وثائق الاعتماد.' : 'Click any certification card below to inspect scope details or request official certificate documentation.'}
+              {isRtl ? 'معاينة نطاق الاعتماد وتفاصيل الترخيص لكل هيئة معتمدة.' : 'Review certification scope, standard qualifications, and official licensing authorities.'}
             </p>
           </div>
 
+          {/* Aramco Featured Card — full width */}
+          {(() => {
+            const aramcoItem = accreditationsData.find(i => i.id === 'aramco_vendor');
+            if (!aramcoItem) return null;
+            const accTitle = (isRtl && aramcoItem.titleAr) ? aramcoItem.titleAr : aramcoItem.title;
+            const accIssuer = (isRtl && aramcoItem.issuerAr) ? aramcoItem.issuerAr : aramcoItem.issuer;
+            const accScope = (isRtl && aramcoItem.scopeAr) ? aramcoItem.scopeAr : aramcoItem.scope;
+            return (
+              <div
+                id={aramcoItem.id}
+                className="relative overflow-hidden rounded-3xl border-2 border-emerald-500/60 dark:border-emerald-400/50 shadow-2xl shadow-emerald-500/10 dark:shadow-emerald-900/30 group"
+                style={{ background: 'linear-gradient(135deg, #ffffff 0%, #f0fdf4 40%, #ecfdf5 60%, #f0fdf4 100%)' }}
+              >
+                {/* Dark mode bg override */}
+                <div className="absolute inset-0 bg-gradient-to-br from-[#031f12] via-[#04291a] to-[#031521] opacity-0 dark:opacity-100 pointer-events-none" />
+
+                {/* Animated glow border */}
+                <div className="absolute inset-0 rounded-3xl pointer-events-none"
+                  style={{ boxShadow: '0 0 0 2px rgba(52,211,153,0.3), 0 0 40px rgba(52,211,153,0.08) inset' }} />
+
+                {/* Background decorative blobs */}
+                <div className="absolute -top-16 -right-16 w-64 h-64 bg-emerald-400/10 dark:bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
+                <div className="absolute -bottom-12 -left-12 w-48 h-48 bg-[#0a66a0]/10 dark:bg-[#0a66a0]/15 rounded-full blur-3xl pointer-events-none" />
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-32 bg-emerald-300/5 dark:bg-emerald-400/5 rounded-full blur-2xl pointer-events-none" />
+
+                <div className="relative z-10 p-6 sm:p-8 md:p-10">
+                  <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-start lg:items-center">
+
+                    {/* Left: Logo + Badges */}
+                    <div className="flex flex-col items-center gap-5 shrink-0">
+                      {/* Logo showcase */}
+                      <div className="relative">
+                        <div className="absolute inset-0 bg-emerald-400/20 dark:bg-emerald-400/15 rounded-2xl blur-xl scale-110" />
+                        <div className="relative w-48 h-28 bg-white dark:bg-white/95 rounded-2xl border border-emerald-200/80 dark:border-emerald-400/30 flex items-center justify-center p-4 shadow-xl shadow-emerald-500/10">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img
+                            src={aramcoItem.imageSrc!}
+                            alt="Saudi Aramco"
+                            className="max-h-full max-w-full object-contain"
+                          />
+                        </div>
+                      </div>
+
+                      {/* Approved Vendor Badge */}
+                      <div className="flex flex-col items-center gap-2">
+                        <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500 text-white text-xs font-black shadow-lg shadow-emerald-500/30">
+                          <ShieldCheck className="w-3.5 h-3.5" />
+                          <span>{isRtl ? 'مورّد معتمد' : 'Approved Supplier'}</span>
+                        </div>
+                        <div className="flex items-center gap-1.5 text-[11px] font-mono font-bold text-[#2f7c4c] dark:text-emerald-400">
+                          <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse inline-block" />
+                          {isRtl ? 'رقم تسجيل المورّد: 10121703' : 'Supplier Reg No: 10121703'}
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Right: Details */}
+                    <div className="flex-1 space-y-4">
+                      {/* Header */}
+                      <div className="space-y-2">
+                        <div className="flex flex-wrap items-center gap-2">
+                          <span className="text-[10px] font-black px-3 py-1 rounded-full bg-emerald-500/15 text-[#2f7c4c] dark:text-emerald-300 border border-emerald-500/30 uppercase tracking-widest">
+                            {isRtl ? 'مورّد معتمد رسمياً' : 'Official Approved Vendor'}
+                          </span>
+                          <span className="text-[10px] font-bold px-3 py-1 rounded-full bg-[#0a66a0]/10 text-[#0a66a0] dark:text-sky-300 border border-[#0a66a0]/30 uppercase tracking-widest">
+                            {isRtl ? 'نظام SAP لتسجيل الموردين' : 'SAP Supplier Registration'}
+                          </span>
+                        </div>
+                        <h3 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white leading-tight">
+                          {accTitle}
+                        </h3>
+                      </div>
+
+                      {/* Issuing authority */}
+                      <div className="flex items-start gap-2 text-xs">
+                        <span className="text-slate-400 dark:text-slate-500 font-semibold shrink-0 mt-0.5">{isRtl ? 'جهة الإصدار:' : 'Issuing Authority:'}</span>
+                        <span className="text-slate-700 dark:text-slate-200 font-semibold">{accIssuer}</span>
+                      </div>
+
+                      {/* Scope */}
+                      <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed border-l-2 border-emerald-500/50 pl-3">
+                        {accScope}
+                      </p>
+
+                      {/* Meta chips */}
+                      <div className="flex flex-wrap gap-2 pt-1">
+                        {[
+                          isRtl ? 'طاقة بحرية' : 'Offshore Energy',
+                          isRtl ? 'هندسة تحت الماء' : 'Subsea Engineering',
+                          isRtl ? 'غوص تجاري' : 'Commercial Diving',
+                          isRtl ? 'خدمات بحرية' : 'Marine Services',
+                        ].map((chip) => (
+                          <span key={chip} className="text-[10px] px-2.5 py-1 rounded-md bg-slate-100 dark:bg-white/8 text-slate-600 dark:text-slate-300 border border-slate-200/80 dark:border-white/10 font-semibold">
+                            {chip}
+                          </span>
+                        ))}
+                      </div>
+
+                      {/* Ref number */}
+                      {aramcoItem.referenceNo && (
+                        <div className="text-[10px] font-mono text-slate-400 dark:text-slate-500">
+                          {isRtl ? 'رقم المرجع:' : 'Ref No:'} {aramcoItem.referenceNo}
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            );
+          })()}
+
+          {/* Remaining accreditation cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-            {accreditationsData.map((item) => {
+            {accreditationsData.filter(i => i.id !== 'aramco_vendor').map((item) => {
               const accTitle = (isRtl && item.titleAr) ? item.titleAr : item.title;
               const accIssuer = (isRtl && item.issuerAr) ? item.issuerAr : item.issuer;
               const accScope = (isRtl && item.scopeAr) ? item.scopeAr : item.scope;
@@ -87,6 +310,7 @@ export function AccreditationsClient() {
               return (
                 <div
                   key={item.id}
+                  id={item.id}
                   className="bg-white/75 dark:bg-[#051826] backdrop-blur-md border border-slate-200/80 dark:border-white/10 hover:border-[#0a66a0] rounded-2xl p-6 transition-all flex flex-col justify-between space-y-4 shadow-md shadow-slate-200/30 dark:shadow-none group"
                 >
                   <div className="space-y-4">
@@ -137,8 +361,8 @@ export function AccreditationsClient() {
           </h3>
           <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
             {isRtl
-              ? 'تمتلك AMS Marine شهادات اعتراف من جميع هيئات التصنيف البحرية الدولية لإجراء الفحوصات تحت الماء بدلاً من الأحواض الجافة (UWILD)، وفحوصات NDT للهياكل.'
-              : 'AMS Marine holds official class approval certificates from all major international classification societies to conduct certified underwater in-lieu of drydocking (UWILD) surveys, NDT hull flaw detection, thruster recoveries, and cofferdam repairs:'}
+              ? 'تمتلك شركة أربيان مارين سيرفيسز إيه.إم.إس شهادات اعتراف من جميع هيئات التصنيف البحرية الدولية لإجراء الفحوصات تحت الماء بدلاً من الأحواض الجافة (UWILD)، وفحوصات NDT للهياكل.'
+              : 'Arabian Marine Services AMS Company holds official class approval certificates from all major international classification societies to conduct certified underwater in-lieu of drydocking (UWILD) surveys, NDT hull flaw detection, thruster recoveries, and cofferdam repairs:'}
           </p>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4">

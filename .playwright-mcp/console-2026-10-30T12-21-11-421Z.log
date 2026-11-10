@@ -1,0 +1,14 @@
+[     473ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3005/_next/static/chunks/1r5h_next_dist_1px8ib8._.js:2489
+[     515ms] [LOG] [HMR] connected @ http://localhost:3005/_next/static/chunks/1r5h_next_dist_1px8ib8._.js:2489
+[     754ms] [WARNING] Image with src "/assets/logo/ams_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3005/_next/static/chunks/1r5h_next_dist_1px8ib8._.js:2489
+[     800ms] [WARNING] Image with src "/assets/logo/ams_logo_white.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3005/_next/static/chunks/1r5h_next_dist_1px8ib8._.js:2489
+[     804ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3005/_next/static/chunks/1r5h_next_dist_1px8ib8._.js:2489
+[     813ms] [LOG] [Fast Refresh] done in 113ms @ http://localhost:3005/_next/static/chunks/1r5h_next_dist_1px8ib8._.js:2489
+[   34981ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3005/_next/static/chunks/1r5h_next_dist_1px8ib8._.js:2489
+[   34982ms] [LOG] [Fast Refresh] done in 104ms @ http://localhost:3005/_next/static/chunks/1r5h_next_dist_1px8ib8._.js:2489
+[  971017ms] [LOG] [HMR] connected @ http://localhost:3005/_next/static/chunks/1r5h_next_dist_1px8ib8._.js:2489
+[  971127ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3005/_next/static/chunks/1r5h_next_dist_1px8ib8._.js:2489
+[  971316ms] [LOG] [Fast Refresh] done in 290ms @ http://localhost:3005/_next/static/chunks/1r5h_next_dist_1px8ib8._.js:2489
+[ 1503090ms] [LOG] [HMR] connected @ http://localhost:3005/_next/static/chunks/1r5h_next_dist_1px8ib8._.js:2489
+[ 1503794ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3005/_next/static/chunks/1r5h_next_dist_1px8ib8._.js:2489
+[ 1503801ms] [LOG] [Fast Refresh] done in 111ms @ http://localhost:3005/_next/static/chunks/1r5h_next_dist_1px8ib8._.js:2489

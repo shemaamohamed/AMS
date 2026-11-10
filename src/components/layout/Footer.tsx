@@ -61,7 +61,7 @@ export function Footer() {
           <div className="relative w-48 h-12">
             <Image
               src={logoSrc}
-              alt="AMS Marine Logo"
+              alt="Arabian Marine Services AMS Company Logo"
               fill
               className="object-contain filter drop-shadow-[0_2px_8px_rgba(10,102,160,0.3)]"
             />
@@ -69,11 +69,11 @@ export function Footer() {
           <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed pr-4">
             {isRtl ? (
               <>
-                <strong>AMS Marine (شركة الخدمات البحرية العربية)</strong> هي مشروع مشترك سيادي بين <strong>Alpha OMQ</strong> و <strong>OSC Marine Group</strong>. تقدم خدمات الهندسة البحرية، مركبات ROV للمسح والتفتيش، الغوص التشبعي (300م)، وسلامة الأنابيب عبر الخليج العربي.
+                <strong>شركة أربيان مارين سيرفيسز إيه.إم.إس</strong> هي مشروع مشترك سيادي بين <strong>Alpha OMQ</strong> و <strong>OSC Marine Group</strong>. تقدم خدمات الهندسة البحرية، مركبات ROV للمسح والتفتيش، الغوص التشبعي (300م)، وسلامة الأنابيب عبر الخليج العربي.
               </>
             ) : (
               <>
-                <strong>AMS Marine</strong> (Arabian Marine Services) is a sovereign Joint Venture between <strong>Alpha OMQ</strong> (Saudi Arabia subsea authority) and <strong>OSC Marine Group</strong>. Providing subsea engineering, ROV inspection, saturation diving (300m), and pipeline integrity across the Arabian Gulf.
+                <strong>Arabian Marine Services AMS Company</strong> is a sovereign Joint Venture between <strong>Alpha OMQ</strong> (Saudi Arabia subsea authority) and <strong>OSC Marine Group</strong>. Providing subsea engineering, ROV inspection, saturation diving (300m), and pipeline integrity across the Arabian Gulf.
               </>
             )}
           </p>
@@ -88,6 +88,25 @@ export function Footer() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="/saudi-vision.png" alt="Saudi Vision 2030" className="h-8 w-auto object-contain" />
             </a>
+
+            {/* Saudi Aramco Vendor Trust Badge */}
+            <Link
+              href="/accreditations#aramco_vendor"
+              className="inline-flex items-center gap-2.5 px-3 py-1.5 rounded-lg bg-white/90 dark:bg-white/10 border border-emerald-500/40 hover:border-emerald-500 shadow-sm transition-all hover:scale-105"
+              title={isRtl ? 'مورّد معتمد لدى أرامكو السعودية' : 'Saudi Aramco Approved Vendor'}
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/assets/clients/aramco_logo.png" alt="Saudi Aramco" className="h-6 w-auto object-contain" />
+              <div className="text-[11px] leading-tight">
+                <span className="block font-bold text-slate-900 dark:text-white">
+                  {isRtl ? 'مورّد معتمد لدى أرامكو' : 'Aramco Approved Vendor'}
+                </span>
+                <span className="block text-[10px] font-mono text-[#2f7c4c] dark:text-emerald-400 font-bold">
+                  {isRtl ? 'رقم المورّد: 10121703' : 'Vendor ID: 10121703'}
+                </span>
+              </div>
+            </Link>
+
             <div className="flex items-center gap-1.5 text-xs text-[#2f7c4c] dark:text-emerald-400 font-semibold">
               <Award className="w-4 h-4 text-[#2f7c4c] dark:text-emerald-400" />
               <span>{t('footerVisionNotice')}</span>
@@ -146,6 +165,12 @@ export function Footer() {
             {isRtl ? 'الشركاء والمعايير' : 'Partners & Standards'}
           </h5>
           <ul className="space-y-2 text-xs">
+            <li>
+              <Link href="/accreditations#aramco_vendor" className="hover:text-[#0a66a0] dark:hover:text-sky-400 transition-colors flex items-center gap-1.5 font-bold text-slate-900 dark:text-white">
+                <Shield className="w-3.5 h-3.5 text-[#2f7c4c] dark:text-emerald-400 shrink-0" />
+                <span>{isRtl ? 'أرامكو السعودية (مورّد معتمد: 10121703)' : 'Saudi Aramco Approved (Vendor: 10121703)'}</span>
+              </Link>
+            </li>
             <li>
               <Link href="/pipeline-integrity#pipecare" className="hover:text-[#0a66a0] dark:hover:text-sky-400 transition-colors flex items-center gap-1.5">
                 <ExternalLink className="w-3 h-3 text-[#2f7c4c] dark:text-emerald-400" />
@@ -211,7 +236,7 @@ export function Footer() {
       <div className="bg-slate-200 dark:bg-[#020b12] py-4 sm:py-6 border-t border-slate-300 dark:border-white/5 text-xs text-slate-600 dark:text-slate-500">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-4 text-center sm:text-left">
           <div>
-            © {new Date().getFullYear()} AMS Marine. {isRtl ? 'جميع الحقوق محفوظة. مشروع مشترك استراتيجي بين Alpha OMQ و OSC Marine Group.' : 'All rights reserved. Strategic Joint Venture between Alpha OMQ & OSC Marine Group.'}
+            © {new Date().getFullYear()} {isRtl ? 'شركة أربيان مارين سيرفيسز إيه.إم.إس' : 'Arabian Marine Services AMS Company'}. {isRtl ? 'جميع الحقوق محفوظة. مشروع مشترك استراتيجي بين Alpha OMQ و OSC Marine Group.' : 'All rights reserved. Strategic Joint Venture between Alpha OMQ & OSC Marine Group.'}
           </div>
           <div className="flex gap-6 text-slate-600 dark:text-slate-400">
             <Link href="/about" className="hover:text-slate-900 dark:hover:text-white">{isRtl ? 'رؤية 2030' : 'Vision 2030'}</Link>

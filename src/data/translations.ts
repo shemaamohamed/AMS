@@ -31,7 +31,7 @@ export const translations = {
     // JV Section
     jvTag: 'Strategic Joint Venture Alliance',
     jvTitle: 'Sovereign Saudi Authority Meets Global Subsea Excellence',
-    jvDesc: 'AMS Marine bridges global subsea engineering capabilities with localized Saudi national execution, aligned with Saudi Vision 2030 to build sovereign maritime independence.',
+    jvDesc: 'Arabian Marine Services AMS Company bridges global subsea engineering capabilities with localized Saudi national execution, aligned with Saudi Vision 2030 to build sovereign maritime independence.',
     alphaOmqPartner: 'Sovereign Partner',
     alphaOmqTitle: 'Alpha OMQ',
     alphaOmqTag: 'KSA Leader',
@@ -51,17 +51,22 @@ export const translations = {
     // Delivery Methods
     pillarsTag: '5 Pillars of Delivery',
     pillarsTitle: 'Specialized Delivery Systems Engine',
-    pillarsSub: 'Select a pillar below to explore AMS Marine’s core technical delivery mechanisms.',
+    pillarsSub: 'Select a pillar below to explore Arabian Marine Services AMS Company’s core technical delivery mechanisms.',
 
     // Tech Partners
     partnersTag: 'Strategic Alliances & Technology Partnerships',
     partnersTitle: 'World-Class Subsea Innovation Powered by Strategic Alliances',
-    partnersSub: 'AMS Marine partners with global pipeline inspection & repair pioneers to bring cutting-edge technology directly to Arabian Gulf energy operators.',
+    partnersSub: 'Arabian Marine Services AMS Company partners with global pipeline inspection & repair pioneers to bring cutting-edge technology directly to Arabian Gulf energy operators.',
 
     // Accreditations & Clients
     accreditationTag: 'Accreditations & Marine Class Approvals',
     accreditationTitle: 'Audited & Certified to International Marine Standards',
     clientsTag: 'Trusted By Global Offshore Energy Leaders',
+    aramcoApprovedVendor: 'Saudi Aramco Approved Vendor',
+    aramcoVendorIdLabel: 'Supplier Registration No: 10121703',
+    aramcoApprovalBannerTitle: 'Officially Approved Saudi Aramco Vendor',
+    aramcoApprovalBannerSub: 'Arabian Marine Services AMS Company is an officially registered and approved vendor with Saudi Aramco. Supplier Registration Number: 10121703. Approved for offshore energy operations, subsea engineering, and marine services across Saudi Aramco facilities.',
+    aramcoSupplierRegLabel: 'SAP Vendor No. 10121703',
 
     // Map Section
     footprintTag: 'Regional Footprint & Hubs',
@@ -114,7 +119,7 @@ export const translations = {
     // JV Section
     jvTag: 'تحالف المشروع المشترك الاستراتيجي',
     jvTitle: 'السيادة السعودية تلتقي مع التميز البحري العالمي',
-    jvDesc: 'تجمع شركة الخدمات البحرية العربية (AMS Marine) بين قدرات الهندسة البحرية العالمية والتنفيذ الوطني السعودي، تماشياً مع رؤية السعودية ٢٠٣٠ لبناء الاستقلالية البحرية السيادية.',
+    jvDesc: 'تجمع شركة أربيان مارين سيرفيسز إيه.إم.إس بين قدرات الهندسة البحرية العالمية والتنفيذ الوطني السعودي، تماشياً مع رؤية السعودية ٢٠٣٠ لبناء الاستقلالية البحرية السيادية.',
     alphaOmqPartner: 'الشريك السيادي',
     alphaOmqTitle: 'Alpha OMQ',
     alphaOmqTag: 'الرائد الوطني بالمملكة',
@@ -134,17 +139,22 @@ export const translations = {
     // Delivery Methods
     pillarsTag: 'ركائز التسليم الـ ٥',
     pillarsTitle: 'محرك أنظمة التسليم الفنية المتقدمة',
-    pillarsSub: 'اختر إحدى الركائز أدناه لاستكشاف آليات التسليم الفنية الرئيسية لدى AMS Marine.',
+    pillarsSub: 'اختر إحدى الركائز أدناه لاستكشاف آليات التسليم الفنية الرئيسية لدى شركة أربيان مارين سيرفيسز إيه.إم.إس.',
 
     // Tech Partners
     partnersTag: 'التحالفات الاستراتيجية وشراكات التكنولوجيا',
     partnersTitle: 'ابتكارات بحرية عالمية مدعومة بتحالفات استراتيجية',
-    partnersSub: 'تتشارك AMS Marine مع رواد فحص وإصلاح الأنابيب العالميين لنقل أحدث التكنولوجيات مباشرة إلى مشغلي الطاقة في الخليج العربي.',
+    partnersSub: 'تتشارك شركة أربيان مارين سيرفيسز إيه.إم.إس مع رواد فحص وإصلاح الأنابيب العالميين لنقل أحدث التكنولوجيات مباشرة إلى مشغلي الطاقة في الخليج العربي.',
 
     // Accreditations & Clients
     accreditationTag: 'الاعتمادات وتصنيفات هيئات الإشراف البحرية',
     accreditationTitle: 'معتمدة ومفحوصة وفقاً للمعايير البحرية الدولية',
     clientsTag: 'موثوقة من قادة الطاقة البحرية العالمية',
+    aramcoApprovedVendor: 'مورّد معتمد لدى أرامكو السعودية',
+    aramcoVendorIdLabel: 'رقم تسجيل المورّد: 10121703',
+    aramcoApprovalBannerTitle: 'مورّد معتمد رسمياً لدى أرامكو السعودية',
+    aramcoApprovalBannerSub: 'شركة أربيان مارين سيرفيسز إيه.إم.إس مورّد مسجّل ومعتمد رسمياً لدى أرامكو السعودية برقم تسجيل المورّد: 10121703. معتمدة لخدمات الطاقة البحرية والهندسة تحت الماء والخدمات البحرية في مرافق أرامكو.',
+    aramcoSupplierRegLabel: 'رقم المورّد SAP: 10121703',
 
     // Map Section
     footprintTag: 'البصمة الإقليمية والمراكز اللوجستية',

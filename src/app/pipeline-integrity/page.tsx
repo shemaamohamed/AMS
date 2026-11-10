@@ -4,9 +4,9 @@ import { SITE_URL, defaultOGImages } from '@/lib/seo';
 import { PipelineClient } from '@/components/pipeline/PipelineClient';
 
 export const metadata: Metadata = {
-  title: 'Pipeline Integrity & Emergency Repair System (EPRS) | AMS Marine',
+  title: 'Pipeline Integrity & Emergency Repair System (EPRS) | Arabian Marine Services AMS Company',
   description:
-    'AMS Marine delivers 4D condition monitoring, PIPECARE smart pigging (MFL/UT/EMAT), diverless subsea repair tools (CSS Morgrip), IO-Cofferdams, and emergency pipeline repair across Saudi Arabia & the GCC.',
+    'Arabian Marine Services AMS Company delivers 4D condition monitoring, PIPECARE smart pigging (MFL/UT/EMAT), diverless subsea repair tools (CSS Morgrip), IO-Cofferdams, and emergency pipeline repair across Saudi Arabia & the GCC.',
   keywords: [
     'Subsea Pipeline Integrity Saudi Arabia',
     'EPRS Emergency Pipeline Repair System',
@@ -28,15 +28,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: `${SITE_URL}/pipeline-integrity`,
-    title: 'Pipeline Integrity & EPRS Incident Support | AMS Marine',
+    title: 'Pipeline Integrity & EPRS Incident Support | Arabian Marine Services AMS Company',
     description:
       'Emergency Pipeline Incident Callout, PIPECARE Smart Pigging, CSS Diverless Clamps, and IO-Cofferdams.',
-    siteName: 'AMS Marine',
+    siteName: 'Arabian Marine Services AMS Company',
     images: defaultOGImages,
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pipeline Integrity & EPRS | AMS Marine',
+    title: 'Pipeline Integrity & EPRS | Arabian Marine Services AMS Company',
     description: 'Rapid mobilization subsea pipeline damage containment & diverless repair tools across KSA & GCC.',
     images: [
       `${SITE_URL}/og-preview.jpg`,

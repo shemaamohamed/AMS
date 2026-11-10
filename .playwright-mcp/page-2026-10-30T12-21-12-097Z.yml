@@ -1,0 +1,279 @@
+- generic [active] [ref=f4e1]:
+  - banner [ref=f4e2]:
+    - generic [ref=f4e4]:
+      - generic [ref=f4e5]:
+        - generic [ref=f4e6]: Sovereign KSA Joint Venture
+        - generic [ref=f4e8]: Alpha OMQ × OSC Marine Group
+      - generic [ref=f4e9]:
+        - link [ref=f4e10] [cursor=pointer]:
+          - /url: /contact
+          - strong [ref=f4e15]: Contact Us
+        - button "Toggle Language" [ref=f4e16]:
+          - generic [ref=f4e20]: EN
+    - generic [ref=f4e21]:
+      - link "AMS Marine Logo SOVEREIGN SUBSEA Alpha OMQ × OSC Marine" [ref=f4e22] [cursor=pointer]:
+        - /url: /
+        - img "AMS Marine Logo" [ref=f4e24]
+        - generic [ref=f4e25]:
+          - generic [ref=f4e26]: SOVEREIGN SUBSEA
+          - generic [ref=f4e27]: Alpha OMQ × OSC Marine
+      - navigation [ref=f4e28]:
+        - link "Home" [ref=f4e29] [cursor=pointer]:
+          - /url: /
+        - link "Services" [ref=f4e30] [cursor=pointer]:
+          - /url: /services
+        - link "Pipeline Integrity" [ref=f4e31] [cursor=pointer]:
+          - /url: /pipeline-integrity
+        - link "About Us" [ref=f4e32] [cursor=pointer]:
+          - /url: /about
+        - link "Accreditations" [ref=f4e33] [cursor=pointer]:
+          - /url: /accreditations
+        - link "Contact Us" [ref=f4e34] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f4e35]:
+        - link [ref=f4e36] [cursor=pointer]:
+          - /url: https://www.vision2030.gov.sa/ar
+          - img "Saudi Vision 2030" [ref=f4e37]
+        - link "Emergency Response" [ref=f4e39] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=f4e43]:
+    - generic [ref=f4e44]:
+      - generic [ref=f4e45]:
+        - generic [ref=f4e46]: Safety, Compliance & Quality Assurance
+        - heading "Safety Standards & Class Approvals" [level=1] [ref=f4e50]
+        - paragraph [ref=f4e51]: AMS Marine maintains official Saudi Aramco Approved Vendor status (CCC Certified), full IMCA contractor membership, IRATA certification, ISO 9001/14001/45001 accreditations, and Marine Class approvals across all major global classification societies.
+      - generic [ref=f4e53]:
+        - generic [ref=f4e54]:
+          - generic [ref=f4e55]:
+            - img "Saudi Aramco Logo" [ref=f4e57]
+            - generic [ref=f4e58]:
+              - generic [ref=f4e59]: Saudi Aramco Approval
+              - heading "Saudi Aramco Approved Vendor" [level=2] [ref=f4e64]
+              - paragraph [ref=f4e65]: Qualified for Offshore Energy Operations, Subsea Engineering & Marine Services
+          - generic [ref=f4e66]:
+            - generic [ref=f4e67]: Aramco Vendor ID
+            - generic [ref=f4e68]: "10121703"
+            - generic [ref=f4e69]: Active & Verified In System
+        - paragraph [ref=f4e70]: Arabian Marine Services (AMS Marine) has successfully undergone rigorous assessment and audit by Crowe Saudi Arabia, demonstrating full compliance with the Saudi Aramco Third Party Cybersecurity Standard (Feb-2026). Awarded the Cybersecurity Compliance Certificate (CCC - General Requirements), ensuring uncompromising data security, technical resilience, and operational integrity across all Saudi Aramco offshore and subsea assets.
+        - generic [ref=f4e71]:
+          - generic [ref=f4e72]:
+            - generic [ref=f4e73]: Vendor Status
+            - generic [ref=f4e78]: Officially Approved
+            - generic [ref=f4e79]: "ID: 10121703"
+          - generic [ref=f4e80]:
+            - generic [ref=f4e81]: Cybersecurity Standard
+            - generic [ref=f4e86]: CCC Certified
+            - generic [ref=f4e87]: SACS-002 Third Party Standard
+          - generic [ref=f4e88]:
+            - generic [ref=f4e89]: Audit Authority
+            - generic [ref=f4e95]: Crowe Saudi Arabia
+            - generic [ref=f4e96]: Authorized Third Party Assessor
+          - generic [ref=f4e97]:
+            - generic [ref=f4e98]: Classification
+            - generic [ref=f4e104]: General Requirements
+            - generic [ref=f4e105]: "Type: CCC Compliance"
+      - generic [ref=f4e106]:
+        - generic [ref=f4e111]:
+          - text: HSE Culture
+          - heading "Zero Harm & Target Zero Commitment" [level=2] [ref=f4e112]
+        - paragraph [ref=f4e113]: Our Health, Safety & Environmental (HSE) management system is designed to prevent all lost-time incidents, environmental discharges, and equipment failures. Built upon strict IMCA D014 and D024 diving safety guidelines, every subsea operation undergoes rigorous Risk Assessment, Tool Box Talks, and Management of Change (MOC) reviews.
+        - generic [ref=f4e114]:
+          - generic [ref=f4e115]:
+            - generic [ref=f4e116]: Zero LTI
+            - generic [ref=f4e117]: Lost Time Injury Record
+            - paragraph [ref=f4e118]: Target zero philosophy across all diving and ROV spreads.
+          - generic [ref=f4e119]:
+            - generic [ref=f4e120]: IMCA Audited
+            - generic [ref=f4e121]: Full Member Compliance
+            - paragraph [ref=f4e122]: Audited to IMCA D014 & D024 diving spread safety codes.
+          - generic [ref=f4e123]:
+            - generic [ref=f4e124]: IRATA Reg 7020
+            - generic [ref=f4e125]: Rope Access Operator
+            - paragraph [ref=f4e126]: Certified for CAT III & IV topside structure inspections.
+      - generic [ref=f4e127]:
+        - generic [ref=f4e128]:
+          - heading "Official Certifications & Class Approval Badges" [level=2] [ref=f4e129]
+          - paragraph [ref=f4e130]: Review certification scope, standard qualifications, and official licensing authorities.
+        - generic [ref=f4e131]:
+          - generic [ref=f4e133]:
+            - generic [ref=f4e134]: Aramco Approval
+            - img "Saudi Aramco Approved Vendor (CCC Certified)" [ref=f4e140]
+            - heading "Saudi Aramco Approved Vendor (CCC Certified)" [level=3] [ref=f4e141]
+            - generic [ref=f4e142]: "Vendor ID: 10121703"
+            - generic [ref=f4e147]: "Issuing Authority: Saudi Aramco / Crowe Saudi Arabia (Third Party Cybersecurity Standard)"
+            - paragraph [ref=f4e148]: "Approved Vendor (Vendor ID: 10121703) evaluated and certified compliant with Saudi Aramco Third Party Cybersecurity Standard (Feb-2026, Type CCC General Requirements) for offshore energy and subsea services."
+          - generic [ref=f4e150]:
+            - generic [ref=f4e151]: IMCA
+            - generic [ref=f4e157]: IMCA
+            - heading "IMCA Contractor Member" [level=3] [ref=f4e159]
+            - generic [ref=f4e160]: "Issuing Authority: International Marine Contractors Association"
+            - paragraph [ref=f4e161]: Full Contractor Member for Saturation Diving, Surface Supplied Air Diving, Nitrox Diving, TUP Diving, and ROV Operations.
+          - generic [ref=f4e163]:
+            - generic [ref=f4e164]: IRATA
+            - generic [ref=f4e170]: IRATA
+            - 'heading "IRATA Full Member (Reg: 7020/OT)" [level=3] [ref=f4e172]'
+            - generic [ref=f4e173]: "Issuing Authority: Industrial Rope Access Trade Association"
+            - paragraph [ref=f4e174]: Operator, Trainer & Equipment Supplier. CAT III & CAT IV Structure Inspections, Confined Space Rescue & DROPS Surveys.
+          - generic [ref=f4e176]:
+            - generic [ref=f4e177]: ISO
+            - img "ISO 9001:2015 Certification" [ref=f4e184]
+            - heading "ISO 9001:2015 Certification" [level=3] [ref=f4e185]
+            - generic [ref=f4e186]: "Issuing Authority: ISO / Lloyd's Register Quality Assurance"
+            - paragraph [ref=f4e187]: Quality Management Systems for Subsea Engineering, Commercial Diving, Offshore Construction & Marine Support.
+          - generic [ref=f4e189]:
+            - generic [ref=f4e190]: ISO
+            - img "ISO 14001:2015 Environmental Management" [ref=f4e197]
+            - heading "ISO 14001:2015 Environmental Management" [level=3] [ref=f4e198]
+            - generic [ref=f4e199]: "Issuing Authority: ISO Certification Body"
+            - paragraph [ref=f4e200]: Environmental Protection Protocols for Marine Operations, Subsea Leak Prevention & Zero-Emission Hull Cleaning.
+          - generic [ref=f4e202]:
+            - generic [ref=f4e203]: ISO
+            - img "ISO 45001:2018 Occupational Health & Safety" [ref=f4e210]
+            - heading "ISO 45001:2018 Occupational Health & Safety" [level=3] [ref=f4e211]
+            - generic [ref=f4e212]: "Issuing Authority: ISO Certification Body"
+            - paragraph [ref=f4e213]: Comprehensive Safety Management across Saturation Diving, ROV Operations & Subsea Construction.
+          - generic [ref=f4e215]:
+            - generic [ref=f4e216]: Class Approval
+            - img "DNV Marine Class Approval" [ref=f4e223]
+            - heading "DNV Marine Class Approval" [level=3] [ref=f4e224]
+            - generic [ref=f4e225]: "Issuing Authority: DNV (Det Norske Veritas)"
+            - paragraph [ref=f4e226]: Class Certified for In-Water Surveys (UWILD), Subsea Hull NDT Inspections, Morgrip Pipeline Connectors & Cofferdam Welding.
+          - generic [ref=f4e228]:
+            - generic [ref=f4e229]: Class Approval
+            - img "ABS Marine Class Approval" [ref=f4e236]
+            - heading "ABS Marine Class Approval" [level=3] [ref=f4e237]
+            - generic [ref=f4e238]: "Issuing Authority: American Bureau of Shipping (ABS)"
+            - paragraph [ref=f4e239]: Recognized External Specialist for In-Water Hull Surveys (UWILD), Subsea Hull Flaw Detection & Asset Integrity Inspections.
+          - generic [ref=f4e241]:
+            - generic [ref=f4e242]: Class Approval
+            - img "Bureau Veritas (BV) Class Approval" [ref=f4e249]
+            - heading "Bureau Veritas (BV) Class Approval" [level=3] [ref=f4e250]
+            - generic [ref=f4e251]: "Issuing Authority: Bureau Veritas (BV)"
+            - paragraph [ref=f4e252]: OSC Group BV Class Certification for UWILD in-water surveys, thruster recoveries, subsea cofferdam repairs & structural NDT.
+          - generic [ref=f4e254]:
+            - generic [ref=f4e255]: Class Approval
+            - img "Lloyd's Register (LR) Class Approval" [ref=f4e262]
+            - heading "Lloyd's Register (LR) Class Approval" [level=3] [ref=f4e263]
+            - generic [ref=f4e264]: "Issuing Authority: Lloyd's Register (LR)"
+            - paragraph [ref=f4e265]: OSC Group LR Class Certification for underwater hull inspections (UWILD), offshore structural NDT & subsea cofferdam welding.
+          - generic [ref=f4e267]:
+            - generic [ref=f4e268]: Class Approval
+            - img "RINA Class Approval" [ref=f4e275]
+            - heading "RINA Class Approval" [level=3] [ref=f4e276]
+            - generic [ref=f4e277]: "Issuing Authority: RINA (Registro Italiano Navale)"
+            - paragraph [ref=f4e278]: OSC Group RINA Class Certification for in-water hull surveys (UWILD), subsea NDT inspections & marine asset integrity.
+          - generic [ref=f4e280]:
+            - generic [ref=f4e281]: Class Approval
+            - generic [ref=f4e287]: Class Approval
+            - heading "ClassNK Class Approval" [level=3] [ref=f4e289]
+            - generic [ref=f4e290]: "Issuing Authority: ClassNK (Nippon Kaiji Kyokai)"
+            - paragraph [ref=f4e291]: OSC Group ClassNK Certification for in-water surveys, thruster recoveries, subsea structural inspections & cofferdam repairs.
+          - generic [ref=f4e293]:
+            - generic [ref=f4e294]: Class Approval
+            - img "CCS Class Approval" [ref=f4e301]
+            - heading "CCS Class Approval" [level=3] [ref=f4e302]
+            - generic [ref=f4e303]: "Issuing Authority: China Classification Society (CCS)"
+            - paragraph [ref=f4e304]: OSC Group CCS Class Certification for underwater hull inspections (UWILD), offshore NDT & subsea asset integrity services.
+      - generic [ref=f4e305]:
+        - heading "Recognized Classification Societies for In-Water UWILD & Hull IRM" [level=3] [ref=f4e306]
+        - paragraph [ref=f4e307]: "AMS Marine holds official class approval certificates from all major international classification societies to conduct certified underwater in-lieu of drydocking (UWILD) surveys, NDT hull flaw detection, thruster recoveries, and cofferdam repairs:"
+        - generic [ref=f4e308]:
+          - img "DNV" [ref=f4e310]
+          - img "ABS" [ref=f4e312]
+          - img "Bureau Veritas (BV)" [ref=f4e314]
+          - img "Lloyd's Register (LR)" [ref=f4e316]
+          - img "RINA" [ref=f4e318]
+          - generic [ref=f4e319]: ClassNK
+          - img "CCS" [ref=f4e322]
+  - contentinfo [ref=f4e323]:
+    - generic [ref=f4e325]:
+      - generic [ref=f4e330]:
+        - heading "Contact & EPRS Dispatch" [level=4] [ref=f4e331]
+        - paragraph [ref=f4e332]: Dispatch lines for pipeline issues, salvage support, and commercial inquiries.
+      - generic [ref=f4e333]:
+        - link "Call +966 13 835 2296" [ref=f4e334] [cursor=pointer]:
+          - /url: tel:+966138352296
+        - link "Submit Request" [ref=f4e340] [cursor=pointer]:
+          - /url: /contact
+    - generic [ref=f4e341]:
+      - generic [ref=f4e342]:
+        - img "AMS Marine Logo" [ref=f4e344]
+        - paragraph [ref=f4e345]:
+          - strong [ref=f4e346]: AMS Marine
+          - text: (Arabian Marine Services) is a sovereign Joint Venture between
+          - strong [ref=f4e347]: Alpha OMQ
+          - text: (Saudi Arabia subsea authority) and
+          - strong [ref=f4e348]: OSC Marine Group
+          - text: . Providing subsea engineering, ROV inspection, saturation diving (300m), and pipeline integrity across the Arabian Gulf.
+        - generic [ref=f4e349]:
+          - link [ref=f4e350] [cursor=pointer]:
+            - /url: https://www.vision2030.gov.sa/ar
+            - img "Saudi Vision 2030" [ref=f4e351]
+          - 'link "Saudi Aramco Aramco Approved Vendor Vendor ID: 10121703" [ref=f4e352] [cursor=pointer]':
+            - /url: /accreditations#aramco_vendor
+            - img "Saudi Aramco" [ref=f4e353]
+            - generic [ref=f4e354]:
+              - generic [ref=f4e355]: Aramco Approved Vendor
+              - generic [ref=f4e356]: "Vendor ID: 10121703"
+          - generic [ref=f4e357]: Aligned with Saudi Vision 2030 Sovereign Maritime Capability
+      - generic [ref=f4e362]:
+        - heading "Services" [level=5] [ref=f4e363]
+        - list [ref=f4e364]:
+          - listitem [ref=f4e365]:
+            - link "Inspection, Repair & Maintenance (IRM)" [ref=f4e366] [cursor=pointer]:
+              - /url: /services#irm
+          - listitem [ref=f4e370]:
+            - link "Offshore Subsea Construction & Tie-ins" [ref=f4e371] [cursor=pointer]:
+              - /url: /services#construction
+          - listitem [ref=f4e375]:
+            - link "Deepwater ROV Services" [ref=f4e376] [cursor=pointer]:
+              - /url: /services#rov
+          - listitem [ref=f4e380]:
+            - link "Saturation & Commercial Diving (300m)" [ref=f4e381] [cursor=pointer]:
+              - /url: /services#diving
+          - listitem [ref=f4e385]:
+            - link "Pipeline Integrity & EPRS" [ref=f4e386] [cursor=pointer]:
+              - /url: /pipeline-integrity
+          - listitem [ref=f4e390]:
+            - link "Marine Civils & Croc-Dock Plastics" [ref=f4e391] [cursor=pointer]:
+              - /url: /services#civils
+      - generic [ref=f4e395]:
+        - heading "Partners & Standards" [level=5] [ref=f4e396]
+        - list [ref=f4e397]:
+          - listitem [ref=f4e398]:
+            - 'link "Saudi Aramco Approved (Vendor: 10121703)" [ref=f4e399] [cursor=pointer]':
+              - /url: /accreditations#aramco_vendor
+          - listitem [ref=f4e403]:
+            - link "PIPECARE Smart Pigging (MFL/UT)" [ref=f4e404] [cursor=pointer]:
+              - /url: /pipeline-integrity#pipecare
+          - listitem [ref=f4e410]:
+            - link "Connector Subsea Solutions (Morgrip)" [ref=f4e411] [cursor=pointer]:
+              - /url: /pipeline-integrity#css
+          - listitem [ref=f4e417]:
+            - link "IMCA Member (Sat, Air, Nitrox, ROV)" [ref=f4e418] [cursor=pointer]:
+              - /url: /accreditations#imca
+          - listitem [ref=f4e422]:
+            - 'link "IRATA Rope Access (Reg: 7020/OT)" [ref=f4e423] [cursor=pointer]':
+              - /url: /accreditations#irata
+          - listitem [ref=f4e427]:
+            - link "ISO 9001 / 14001 / 45001" [ref=f4e428] [cursor=pointer]:
+              - /url: /accreditations#iso
+          - listitem [ref=f4e432]:
+            - link "Class Approvals (DNV GL, ABS, BV, LR)" [ref=f4e433] [cursor=pointer]:
+              - /url: /accreditations#class
+      - generic [ref=f4e437]:
+        - heading "Headquarters" [level=5] [ref=f4e438]
+        - generic [ref=f4e439]:
+          - generic [ref=f4e440]: King Fahd Road, Enterprise Tower, L14, Al Khobar 31952, KSA
+          - generic [ref=f4e445]: +966 13 835 2296
+          - generic [ref=f4e451]: hq@amsmarine.com.sa
+    - generic [ref=f4e457]:
+      - generic [ref=f4e458]: © 2026 AMS Marine. All rights reserved. Strategic Joint Venture between Alpha OMQ & OSC Marine Group.
+      - generic [ref=f4e459]:
+        - link "Vision 2030" [ref=f4e460] [cursor=pointer]:
+          - /url: /about
+        - link "Compliance" [ref=f4e461] [cursor=pointer]:
+          - /url: /accreditations
+        - link "Contact Us" [ref=f4e462] [cursor=pointer]:
+          - /url: /contact
+  - button "Open Next.js Dev Tools" [ref=f4e468] [cursor=pointer]

@@ -4,16 +4,16 @@ import { SITE_URL, defaultOGImages } from '@/lib/seo';
 import { AboutClient } from '@/components/about/AboutClient';
 
 export const metadata: Metadata = {
-  title: 'About AMS Marine | Sovereign Joint Venture & Vision 2030 Alignment',
+  title: 'About Arabian Marine Services AMS Company | Sovereign Joint Venture & Vision 2030 Alignment',
   description:
-    'Discover AMS Marine (Alpha OMQ × OSC Marine Group alliance). International subsea engineering excellence, Saudi Arabia subsea autonomy, and Saudi Vision 2030 alignment.',
+    'Discover Arabian Marine Services AMS Company (Alpha OMQ × OSC Marine Group alliance). International subsea engineering excellence, Saudi Arabia subsea autonomy, and Saudi Vision 2030 alignment.',
   keywords: [
-    'About AMS Marine',
+    'About Arabian Marine Services AMS Company',
     'Alpha OMQ Joint Venture',
     'OSC Marine Group Alliance',
     'Saudi Subsea Sovereignty',
     'Saudi Vision 2030 Maritime Autonomy',
-    'عن AMS Marine',
+    'شركة أربيان مارين سيرفيسز إيه.إم.إس',
     'Alpha OMQ',
     'OSC Marine Group',
     'الغوص التجاري السعودية'
@@ -28,14 +28,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: `${SITE_URL}/about`,
-    title: 'About AMS Marine | Sovereign JV & Vision 2030 Alignment',
+    title: 'About Arabian Marine Services AMS Company | Sovereign JV & Vision 2030 Alignment',
     description: 'Uniting Saudi commercial diving leadership with international subsea engineering excellence.',
-    siteName: 'AMS Marine',
+    siteName: 'Arabian Marine Services AMS Company',
     images: defaultOGImages,
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'About AMS Marine | Sovereign Subsea Excellence',
+    title: 'About Arabian Marine Services AMS Company | Sovereign Subsea Excellence',
     description: 'Alpha OMQ & OSC Marine Group alliance. Building subsea autonomy across KSA.',
     images: [
       `${SITE_URL}/og-preview.png`,

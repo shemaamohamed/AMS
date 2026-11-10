@@ -111,7 +111,11 @@ export function HeroSection() {
             </div>
 
             {/* Micro Highlights */}
-            <div className="pt-4 flex flex-wrap items-center gap-6 text-xs text-slate-500 dark:text-slate-400 border-t border-slate-200/80 dark:border-white/10">
+            <div className="pt-4 flex flex-wrap items-center gap-4 sm:gap-6 text-xs text-slate-500 dark:text-slate-400 border-t border-slate-200/80 dark:border-white/10">
+              <span className="flex items-center gap-1.5 font-bold text-slate-900 dark:text-white">
+                <ShieldCheck className="w-4 h-4 text-[#2f7c4c] dark:text-emerald-400" />
+                {isRtl ? 'مورّد معتمد لدى أرامكو (ID: 10121703)' : 'Aramco Approved Vendor (ID: 10121703)'}
+              </span>
               <span className="flex items-center gap-1.5">
                 <ShieldCheck className="w-4 h-4 text-[#0a66a0] dark:text-sky-400" />
                 {isRtl ? 'عضو IMCA وشهادة IRATA' : 'IMCA Member & IRATA Certified'}

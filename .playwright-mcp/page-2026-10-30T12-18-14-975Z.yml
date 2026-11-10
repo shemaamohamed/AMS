@@ -1,0 +1,685 @@
+- generic [active] [ref=f2e1]:
+  - banner [ref=f2e2]:
+    - generic [ref=f2e4]:
+      - generic [ref=f2e5]:
+        - generic [ref=f2e6]: Sovereign KSA Joint Venture
+        - generic [ref=f2e8]: Alpha OMQ × OSC Marine Group
+      - generic [ref=f2e9]:
+        - link [ref=f2e10] [cursor=pointer]:
+          - /url: /contact
+          - strong [ref=f2e15]: Contact Us
+        - button "Toggle Language" [ref=f2e16]:
+          - generic [ref=f2e20]: EN
+    - generic [ref=f2e21]:
+      - link "AMS Marine Logo SOVEREIGN SUBSEA Alpha OMQ × OSC Marine" [ref=f2e22] [cursor=pointer]:
+        - /url: /
+        - img "AMS Marine Logo" [ref=f2e24]
+        - generic [ref=f2e25]:
+          - generic [ref=f2e26]: SOVEREIGN SUBSEA
+          - generic [ref=f2e27]: Alpha OMQ × OSC Marine
+      - navigation [ref=f2e28]:
+        - link "Home" [ref=f2e29] [cursor=pointer]:
+          - /url: /
+        - link "Services" [ref=f2e30] [cursor=pointer]:
+          - /url: /services
+        - link "Pipeline Integrity" [ref=f2e31] [cursor=pointer]:
+          - /url: /pipeline-integrity
+        - link "About Us" [ref=f2e32] [cursor=pointer]:
+          - /url: /about
+        - link "Accreditations" [ref=f2e33] [cursor=pointer]:
+          - /url: /accreditations
+        - link "Contact Us" [ref=f2e34] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f2e35]:
+        - link [ref=f2e36] [cursor=pointer]:
+          - /url: https://www.vision2030.gov.sa/ar
+          - img "Saudi Vision 2030" [ref=f2e37]
+        - link "Emergency Response" [ref=f2e39] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=f2e43]:
+    - generic [ref=f2e45]:
+      - generic [ref=f2e46]:
+        - generic [ref=f2e47]:
+          - generic [ref=f2e48]:
+            - generic [ref=f2e49]: ALPHA OMQ × OSC MARINE GROUP
+            - link [ref=f2e52] [cursor=pointer]:
+              - /url: https://www.vision2030.gov.sa/ar
+              - img "Saudi Vision 2030" [ref=f2e53]
+          - heading "Sovereign Subsea Engineering & Deepwater Excellence" [level=1] [ref=f2e54]
+          - paragraph [ref=f2e55]: Combining international subsea engineering excellence with Saudi Arabia’s premier sovereign commercial diving capabilities. Delivering IMCA-compliant ROV intervention and saturation diving up to 300m.
+          - generic [ref=f2e56]:
+            - link "Explore Subsea Catalog" [ref=f2e57] [cursor=pointer]:
+              - /url: /services
+            - link "Emergency Support" [ref=f2e61] [cursor=pointer]:
+              - /url: /contact
+          - generic [ref=f2e67]:
+            - generic [ref=f2e68]: "Aramco Approved Vendor (ID: 10121703)"
+            - generic [ref=f2e72]: IMCA Member & IRATA Certified
+            - generic [ref=f2e76]: DNV-GL / ABS Class Approved
+            - generic [ref=f2e80]: ISO 9001 / 14001 / 45001
+        - generic [ref=f2e84]:
+          - img "AMS Subsea ROV Operations" [ref=f2e86]
+          - generic [ref=f2e87]:
+            - generic [ref=f2e88]:
+              - generic [ref=f2e89]: Operational Highlight
+              - generic [ref=f2e90]: Deepwater Subsea Intervention
+            - heading "Integrated Subsea & Pipeline Engineering Excellence" [level=3] [ref=f2e91]
+            - paragraph [ref=f2e92]: Equipped with smart pigging ILI, diverless intervention, and rapid incident response spreads.
+      - generic [ref=f2e93]:
+        - generic [ref=f2e94]:
+          - generic [ref=f2e95]: "2030"
+          - generic [ref=f2e96]: Saudi Vision 2030
+          - generic [ref=f2e97]: Sovereign KSA Alignment
+        - generic [ref=f2e98]:
+          - generic [ref=f2e99]: 300m
+          - generic [ref=f2e100]: Saturation Diving Depth
+          - generic [ref=f2e101]: IMCA Member Compliant
+        - generic [ref=f2e102]:
+          - generic [ref=f2e103]: IRM
+          - generic [ref=f2e104]: Pipeline Integrity
+          - generic [ref=f2e105]: ILI, RBI & Repair Services
+        - generic [ref=f2e106]:
+          - generic [ref=f2e107]: Rapid
+          - generic [ref=f2e108]: EPRS Support Line
+          - generic [ref=f2e109]: Rapid Subsea Callout
+    - generic [ref=f2e111]:
+      - generic [ref=f2e112]:
+        - generic [ref=f2e113]: Strategic Joint Venture Alliance
+        - heading "Sovereign Saudi Authority Meets Global Subsea Excellence" [level=2] [ref=f2e116]
+        - paragraph [ref=f2e117]: AMS Marine bridges global subsea engineering capabilities with localized Saudi national execution, aligned with Saudi Vision 2030 to build sovereign maritime independence.
+      - generic [ref=f2e118]:
+        - generic [ref=f2e119]:
+          - generic [ref=f2e120]:
+            - generic [ref=f2e121]:
+              - generic [ref=f2e122]:
+                - text: Sovereign Partner
+                - heading "Alpha OMQ" [level=3] [ref=f2e123]
+              - generic [ref=f2e124]: KSA Leader
+            - paragraph [ref=f2e125]: Saudi Arabia’s national subsea and commercial diving authority, driving local workforce development, Saudization, and sovereign subsea execution across the Kingdom’s offshore energy assets.
+            - list [ref=f2e126]:
+              - listitem [ref=f2e127]:
+                - generic [ref=f2e131]: Aligned with Saudi Vision 2030 sovereign maritime initiatives
+              - listitem [ref=f2e132]:
+                - generic [ref=f2e136]: "Officially Approved Saudi Aramco Vendor (Vendor ID: 10121703) & CCC Certified"
+              - listitem [ref=f2e137]:
+                - generic [ref=f2e141]: Strategic bases in Khobar, Dammam, Jubail & Red Sea / Jeddah
+          - generic [ref=f2e142]: Saudi Arabia Subsea Leadership
+        - generic [ref=f2e147]:
+          - generic [ref=f2e148]:
+            - generic [ref=f2e149]:
+              - generic [ref=f2e150]:
+                - text: Global Subsea Partner
+                - heading "OSC Marine Group" [level=3] [ref=f2e151]
+              - generic [ref=f2e152]: Subsea Engineering
+            - paragraph [ref=f2e153]: OSC Marine Group brings specialized subsea engineering, saturation diving, ROV Services, and marine infrastructure excellence to the joint venture.
+            - list [ref=f2e154]:
+              - listitem [ref=f2e155]:
+                - generic [ref=f2e159]: Integrated pipeline integrity, salvage & emergency response spreads
+              - listitem [ref=f2e160]:
+                - generic [ref=f2e164]: ILI smart pigging partnership with PIPECARE across ME & Africa pipeline networks
+          - generic [ref=f2e165]: International Deepwater Heritage
+      - link "About Us" [ref=f2e171] [cursor=pointer]:
+        - /url: /about
+    - generic [ref=f2e176]:
+      - generic [ref=f2e177]:
+        - generic [ref=f2e178]:
+          - text: Subsea Engineering Portfolio
+          - heading "End-to-End Subsea Solutions Across the Energy & Maritime Value Chain" [level=2] [ref=f2e179]
+        - link "View Complete Engineering Specs" [ref=f2e180] [cursor=pointer]:
+          - /url: /services
+      - generic [ref=f2e184]:
+        - generic [ref=f2e185]:
+          - generic [ref=f2e186]:
+            - generic [ref=f2e187]: 300m Sat / ROV
+            - heading "Inspection, Repair & Maintenance (IRM)" [level=3] [ref=f2e193]
+            - paragraph [ref=f2e194]: Comprehensive subsea asset integrity, structural non-destructive testing (NDT), CALM buoy maintenance, and platform retrofit solutions.
+            - generic [ref=f2e195]:
+              - generic [ref=f2e196]: Saturation Diving
+              - generic [ref=f2e197]: Air & Nitrox Diving
+              - generic [ref=f2e198]: ROV Intervention
+          - generic [ref=f2e199]:
+            - button "Technical Specs & Dialog" [ref=f2e200]
+            - generic [ref=f2e204]: "01"
+        - generic [ref=f2e205]:
+          - generic [ref=f2e206]:
+            - generic [ref=f2e207]: 300m Saturation / 1,300m Diverless
+            - heading "Offshore Construction & Subsea Tie-Ins" [level=3] [ref=f2e214]
+            - paragraph [ref=f2e215]: EPIC subsea installation support, pipeline tie-ins, spool piece connections, CALM buoy commissioning, and subsea completion hook-ups.
+            - generic [ref=f2e216]:
+              - generic [ref=f2e217]: Diverless Intervention
+              - generic [ref=f2e218]: Saturation Diving
+              - generic [ref=f2e219]: ROV Heavy Tooling
+          - generic [ref=f2e220]:
+            - button "Technical Specs & Dialog" [ref=f2e221]
+            - generic [ref=f2e225]: "02"
+        - generic [ref=f2e226]:
+          - generic [ref=f2e227]:
+            - generic [ref=f2e228]: Inspection & Survey
+            - heading "ROV Inspection & Survey Services" [level=3] [ref=f2e234]
+            - paragraph [ref=f2e235]: ROV spreads for pipeline inspection, structural survey, CP assessment, and subsea asset monitoring.
+            - generic [ref=f2e236]:
+              - generic [ref=f2e237]: ROV Services
+              - generic [ref=f2e238]: ROV Skid
+              - generic [ref=f2e239]: CP & NDT Assessment
+          - generic [ref=f2e240]:
+            - button "Technical Specs & Dialog" [ref=f2e241]
+            - generic [ref=f2e245]: "03"
+        - generic [ref=f2e246]:
+          - generic [ref=f2e247]:
+            - generic [ref=f2e248]: 300m Saturation / 50m Air
+            - heading "Saturation & Commercial Diving Operations" [level=3] [ref=f2e254]
+            - paragraph [ref=f2e255]: IMCA-compliant Saturation, Air, Nitrox, and TUP diving operations up to 300m water depth with full safety protocols.
+            - generic [ref=f2e256]:
+              - generic [ref=f2e257]: 12-Man Saturation Spread
+              - generic [ref=f2e258]: Surface Supplied Air
+              - generic [ref=f2e259]: Nitrox Diving
+          - generic [ref=f2e260]:
+            - button "Technical Specs & Dialog" [ref=f2e261]
+            - generic [ref=f2e265]: "04"
+        - generic [ref=f2e266]:
+          - generic [ref=f2e267]:
+            - generic [ref=f2e268]: 1,300m Diverless / Near-shore Cofferdams
+            - heading "Pipeline Integrity & EPRS Repair" [level=3] [ref=f2e273]
+            - paragraph [ref=f2e274]: Rapid emergency call-out, near-shore IO-Cofferdams, smart pigging (PIPECARE), and diverless Morgrip repair clamps (CSS).
+            - generic [ref=f2e275]:
+              - generic [ref=f2e276]: IO-Cofferdam
+              - generic [ref=f2e277]: Smart Pigging
+              - generic [ref=f2e278]: Morgrip Clamps
+          - generic [ref=f2e279]:
+            - button "Technical Specs & Dialog" [ref=f2e280]
+            - generic [ref=f2e284]: "05"
+        - generic [ref=f2e285]:
+          - generic [ref=f2e286]:
+            - generic [ref=f2e287]: Near-shore & Harbour Waters
+            - heading "Marine Civils, Dredging & Pollution Control" [level=3] [ref=f2e294]
+            - paragraph [ref=f2e295]: Port construction, specialized dredging, Croc-Dock plastic recovery, Disruptor-Net waste containment, and salvage.
+            - generic [ref=f2e296]:
+              - generic [ref=f2e297]: Croc-Dock Recovery
+              - generic [ref=f2e298]: Disruptor-Net Systems
+              - generic [ref=f2e299]: Specialized Dredging
+          - generic [ref=f2e300]:
+            - button "Technical Specs & Dialog" [ref=f2e301]
+            - generic [ref=f2e305]: "06"
+        - generic [ref=f2e306]:
+          - generic [ref=f2e307]:
+            - generic [ref=f2e308]: Full Field Engineering Range
+            - heading "Subsea and Pipeline Engineering" [level=3] [ref=f2e313]
+            - paragraph [ref=f2e314]: Front-end subsea engineering, structural analysis, pipeline routing, hydrodynamic modeling, and Risk-Based Inspection (RBI).
+            - generic [ref=f2e315]:
+              - generic [ref=f2e316]: Front-End Engineering Design (FEED)
+              - generic [ref=f2e317]: RBI Modeling
+              - generic [ref=f2e318]: FEA & Dynamic Analysis
+          - generic [ref=f2e319]:
+            - button "Technical Specs & Dialog" [ref=f2e320]
+            - generic [ref=f2e324]: "07"
+        - generic [ref=f2e325]:
+          - generic [ref=f2e326]:
+            - generic [ref=f2e327]: Rapid Regional Dispatch
+            - heading "Salvage and Emergency Response across the ME and Africa" [level=3] [ref=f2e337]
+            - paragraph [ref=f2e338]: Wreck removal, emergency towing, subsea hull patching, pollution containment, and rapid incident dispatch across the ME & Africa.
+            - generic [ref=f2e339]:
+              - generic [ref=f2e340]: Emergency Salvage Diving
+              - generic [ref=f2e341]: Pumping & Lightering
+              - generic [ref=f2e342]: Heavy Lift Rescue
+          - generic [ref=f2e343]:
+            - button "Technical Specs & Dialog" [ref=f2e344]
+            - generic [ref=f2e348]: "08"
+        - generic [ref=f2e349]:
+          - generic [ref=f2e350]:
+            - generic [ref=f2e351]: Full Offshore Pipeline Network
+            - heading "In line Inspections (ILI) and External Pipeline inspections using Intelligent Pigging together with Pipecare" [level=3] [ref=f2e357]
+            - paragraph [ref=f2e358]: Comprehensive ILI intelligent pigging (MFL, UT, EMAT, Geometry) and external pipeline flaw detection delivered with PIPECARE.
+            - generic [ref=f2e359]:
+              - generic [ref=f2e360]: Intelligent Pigging (MFL/UT/EMAT)
+              - generic [ref=f2e361]: External Subsea NDT
+              - generic [ref=f2e362]: 4D Integrity Profiling
+          - generic [ref=f2e363]:
+            - button "Technical Specs & Dialog" [ref=f2e364]
+            - generic [ref=f2e368]: "09"
+    - generic [ref=f2e370]:
+      - generic [ref=f2e371]:
+        - text: 5 Pillars of Delivery
+        - heading "Specialized Delivery Systems Engine" [level=2] [ref=f2e372]
+        - paragraph [ref=f2e373]: Select a pillar below to explore AMS Marine’s core technical delivery mechanisms.
+      - generic [ref=f2e374]:
+        - button "01 ROV Inspection & Survey Pipeline & Structural Survey" [ref=f2e375]:
+          - generic [ref=f2e376]: "01"
+          - generic [ref=f2e381]:
+            - generic [ref=f2e382]: ROV Inspection & Survey
+            - generic [ref=f2e383]: Pipeline & Structural Survey
+        - button "02 Commercial Diving Saturation / Air / Nitrox / TUP" [ref=f2e384]:
+          - generic [ref=f2e385]: "02"
+          - generic [ref=f2e390]:
+            - generic [ref=f2e391]: Commercial Diving
+            - generic [ref=f2e392]: Saturation / Air / Nitrox / TUP
+        - 'button "03 Rope Access IRATA Reg: 7020/OT CAT III/IV" [ref=f2e393]':
+          - generic [ref=f2e394]: "03"
+          - generic [ref=f2e398]:
+            - generic [ref=f2e399]: Rope Access
+            - generic [ref=f2e400]: "IRATA Reg: 7020/OT CAT III/IV"
+        - button "04 Remote Systems Diverless Pipeline Repair Tools" [ref=f2e401]:
+          - generic [ref=f2e402]: "04"
+          - generic [ref=f2e407]:
+            - generic [ref=f2e408]: Remote Systems
+            - generic [ref=f2e409]: Diverless Pipeline Repair Tools
+      - generic [ref=f2e410]:
+        - generic [ref=f2e411]:
+          - generic [ref=f2e412]:
+            - generic [ref=f2e413]: Pillar 01
+            - generic [ref=f2e414]: Inspection & Survey
+          - heading "ROV Inspection & Survey — Pipeline & Structural Survey" [level=3] [ref=f2e415]
+          - paragraph [ref=f2e416]: ROVs equipped with high-definition sonar, USBL positioning, and CP probe attachments for pipeline and structural inspections across the Arabian Gulf and Red Sea.
+          - generic [ref=f2e417]:
+            - generic [ref=f2e418]: Visual pipeline inspection and free-span survey
+            - generic [ref=f2e423]: Cathodic protection (CP) surveys and anode assessment
+            - generic [ref=f2e428]: Multibeam sonar seabed profiling and 3D mapping
+            - generic [ref=f2e433]: Structural GVI/CVI inspection support
+        - generic [ref=f2e438]:
+          - heading "Pillar Operational Metrics" [level=4] [ref=f2e439]
+          - generic [ref=f2e440]:
+            - generic [ref=f2e441]:
+              - generic [ref=f2e442]: IMCA / IRATA Standard
+              - generic [ref=f2e443]: Audited & Certified
+            - generic [ref=f2e444]:
+              - generic [ref=f2e445]: Deployment Status
+              - generic [ref=f2e446]: Rapid Mobilization
+            - generic [ref=f2e447]:
+              - generic [ref=f2e448]: Geographic Coverage
+              - generic [ref=f2e449]: KSA & GCC Offshore Blocks
+    - generic [ref=f2e451]:
+      - generic [ref=f2e452]:
+        - text: Strategic Alliances & Technology Partnerships
+        - heading "World-Class Subsea Innovation Powered by Strategic Alliances" [level=2] [ref=f2e453]
+        - paragraph [ref=f2e454]: AMS Marine partners with global pipeline inspection & repair pioneers to bring cutting-edge technology directly to Arabian Gulf energy operators.
+      - generic [ref=f2e455]:
+        - generic [ref=f2e456]:
+          - generic [ref=f2e457]:
+            - generic [ref=f2e459]:
+              - text: Technology Partner
+              - heading "PIPECARE (formerly LINSCAN)" [level=3] [ref=f2e460]
+            - paragraph [ref=f2e464]: Global Leader in In-Line Inspection (ILI) & Smart Pigging
+            - paragraph [ref=f2e465]: PIPECARE brings decades of intelligent pipeline diagnostic expertise, supplying state-of-the-art MFL, Ultrasonic, Geometry, and EMAT smart pigs to inspect and protect critical hydrocarbon transmission pipelines across the Middle East and worldwide.
+            - generic [ref=f2e466]:
+              - heading "Core Capabilities & Tools:" [level=4] [ref=f2e467]
+              - generic [ref=f2e468]:
+                - generic [ref=f2e469]: Magnetic Flux Leakage (MFL & MFL-TFI)
+                - generic [ref=f2e474]: Ultrasonic Wall Thickness & Crack Detection (UTWM & UTCD)
+                - generic [ref=f2e479]: Electromagnetic Acoustic Transducer (EMAT)
+                - generic [ref=f2e484]: High-Resolution Geometry / Caliper Pigs
+          - generic [ref=f2e489]:
+            - link "Explore Deep-Dive Technical Page" [ref=f2e490] [cursor=pointer]:
+              - /url: /pipeline-integrity
+            - generic [ref=f2e494]: 01 Alliance
+        - generic [ref=f2e495]:
+          - generic [ref=f2e496]:
+            - generic [ref=f2e498]:
+              - text: Technology Partner
+              - heading "Connector Subsea Solutions (CSS)" [level=3] [ref=f2e499]
+            - paragraph [ref=f2e503]: Norway Deepwater Repair & Diverless Subsea Tooling Pioneer
+            - paragraph [ref=f2e504]: Headquartered in Norway with global operational hubs, Connector Subsea Solutions supplies high-specification diverless clamps, Morgrip permanent connectors, pipe handling frames, and subsea installation tooling engineered for extreme deepwater environments up to 1,300m MWD.
+            - generic [ref=f2e505]:
+              - heading "Core Capabilities & Tools:" [level=4] [ref=f2e506]
+              - generic [ref=f2e507]:
+                - generic [ref=f2e508]: Morgrip DNV-GL Approved Pipeline Connectors (up to 42" OD)
+                - generic [ref=f2e513]: ROV-Operated "H" Frames & Handling Systems
+                - generic [ref=f2e518]: Diverless Coating Removal & Pipe Cutting Skids
+                - generic [ref=f2e523]: High-Pressure Structural Repair Clamps & Morsmart Collet Connectors
+          - generic [ref=f2e528]:
+            - link "Explore Deep-Dive Technical Page" [ref=f2e529] [cursor=pointer]:
+              - /url: /pipeline-integrity
+            - generic [ref=f2e533]: 02 Alliance
+      - link "Explore Pipeline Integrity & EPRS System" [ref=f2e535] [cursor=pointer]:
+        - /url: /pipeline-integrity
+    - generic [ref=f2e539]:
+      - generic [ref=f2e540]:
+        - generic [ref=f2e541]:
+          - generic [ref=f2e542]: Accreditations & Marine Class Approvals
+          - heading "Audited & Certified to International Marine Standards" [level=3] [ref=f2e546]
+        - generic [ref=f2e547]:
+          - generic [ref=f2e548]:
+            - img "Saudi Aramco Approved Vendor (CCC Certified)" [ref=f2e550]
+            - generic [ref=f2e551]: Saudi Aramco Approved Vendor (CCC Certified)
+            - generic [ref=f2e552]: "ID: 10121703"
+          - generic [ref=f2e553]:
+            - generic [ref=f2e557]: IMCA Contractor Member
+            - generic [ref=f2e558]: IMCA
+          - generic [ref=f2e559]:
+            - generic [ref=f2e563]: "IRATA Full Member (Reg: 7020/OT)"
+            - generic [ref=f2e564]: IRATA
+          - generic [ref=f2e565]:
+            - img "ISO 9001:2015 Certification" [ref=f2e567]
+            - generic [ref=f2e568]: ISO 9001:2015 Certification
+            - generic [ref=f2e569]: ISO
+          - generic [ref=f2e570]:
+            - img "ISO 14001:2015 Environmental Management" [ref=f2e572]
+            - generic [ref=f2e573]: ISO 14001:2015 Environmental Management
+            - generic [ref=f2e574]: ISO
+          - generic [ref=f2e575]:
+            - img "ISO 45001:2018 Occupational Health & Safety" [ref=f2e577]
+            - generic [ref=f2e578]: ISO 45001:2018 Occupational Health & Safety
+            - generic [ref=f2e579]: ISO
+          - generic [ref=f2e580]:
+            - img "DNV Marine Class Approval" [ref=f2e582]
+            - generic [ref=f2e583]: DNV Marine Class Approval
+            - generic [ref=f2e584]: Class Approval
+          - generic [ref=f2e585]:
+            - img "ABS Marine Class Approval" [ref=f2e587]
+            - generic [ref=f2e588]: ABS Marine Class Approval
+            - generic [ref=f2e589]: Class Approval
+          - generic [ref=f2e590]:
+            - img "Bureau Veritas (BV) Class Approval" [ref=f2e592]
+            - generic [ref=f2e593]: Bureau Veritas (BV) Class Approval
+            - generic [ref=f2e594]: Class Approval
+          - generic [ref=f2e595]:
+            - img "Lloyd's Register (LR) Class Approval" [ref=f2e597]
+            - generic [ref=f2e598]: Lloyd's Register (LR) Class Approval
+            - generic [ref=f2e599]: Class Approval
+          - generic [ref=f2e600]:
+            - img "RINA Class Approval" [ref=f2e602]
+            - generic [ref=f2e603]: RINA Class Approval
+            - generic [ref=f2e604]: Class Approval
+          - generic [ref=f2e605]:
+            - generic [ref=f2e609]: ClassNK Class Approval
+            - generic [ref=f2e610]: Class Approval
+          - generic [ref=f2e611]:
+            - img "CCS Class Approval" [ref=f2e613]
+            - generic [ref=f2e614]: CCS Class Approval
+            - generic [ref=f2e615]: Class Approval
+      - generic [ref=f2e616]:
+        - generic [ref=f2e617]: Trusted By Global Offshore Energy Leaders
+        - generic [ref=f2e619]:
+          - generic [ref=f2e620]:
+            - img "Saudi Aramco" [ref=f2e622]
+            - generic [ref=f2e623]:
+              - generic [ref=f2e624]:
+                - generic [ref=f2e625]: Saudi Aramco
+                - generic [ref=f2e626]: "Approved Vendor: 10121703"
+              - text: National Energy
+          - generic [ref=f2e628]:
+            - img "ADNOC" [ref=f2e630]
+            - generic [ref=f2e631]:
+              - generic [ref=f2e632]: ADNOC
+              - text: National Energy
+          - generic [ref=f2e634]:
+            - img "Chevron" [ref=f2e636]
+            - generic [ref=f2e637]:
+              - generic [ref=f2e638]: Chevron
+              - text: International Oil Major
+          - generic [ref=f2e640]:
+            - img "ConocoPhillips" [ref=f2e642]
+            - generic [ref=f2e643]:
+              - generic [ref=f2e644]: ConocoPhillips
+              - text: International Oil Major
+          - generic [ref=f2e646]:
+            - img "ExxonMobil" [ref=f2e648]
+            - generic [ref=f2e649]:
+              - generic [ref=f2e650]: ExxonMobil
+              - text: International Oil Major
+          - generic [ref=f2e652]:
+            - img "TotalEnergies" [ref=f2e654]
+            - generic [ref=f2e655]:
+              - generic [ref=f2e656]: TotalEnergies
+              - text: International Oil Major
+          - generic [ref=f2e658]:
+            - img "Occidental (OXY)" [ref=f2e660]
+            - generic [ref=f2e661]:
+              - generic [ref=f2e662]: Occidental (OXY)
+              - text: International Oil Major
+          - generic [ref=f2e664]:
+            - img "LUKOIL" [ref=f2e666]
+            - generic [ref=f2e667]:
+              - generic [ref=f2e668]: LUKOIL
+              - text: International Oil Major
+          - generic [ref=f2e670]:
+            - img "Gazprom" [ref=f2e672]
+            - generic [ref=f2e673]:
+              - generic [ref=f2e674]: Gazprom
+              - text: International Oil Major
+          - generic [ref=f2e676]:
+            - img "Eni" [ref=f2e678]
+            - generic [ref=f2e679]:
+              - generic [ref=f2e680]: Eni
+              - text: International Oil Major
+          - generic [ref=f2e682]:
+            - img "BG Group / Shell" [ref=f2e684]
+            - generic [ref=f2e685]:
+              - generic [ref=f2e686]: BG Group / Shell
+              - text: International Oil Major
+          - generic [ref=f2e688]:
+            - img "PetroSA" [ref=f2e690]
+            - generic [ref=f2e691]:
+              - generic [ref=f2e692]: PetroSA
+              - text: National Energy
+          - generic [ref=f2e694]:
+            - img "Van Oord" [ref=f2e696]
+            - generic [ref=f2e697]:
+              - generic [ref=f2e698]: Van Oord
+              - text: EPC & Maritime
+          - generic [ref=f2e700]:
+            - img "Group 5" [ref=f2e702]
+            - generic [ref=f2e703]:
+              - generic [ref=f2e704]: Group 5
+              - text: EPC & Maritime
+          - generic [ref=f2e706]:
+            - img "McDermott International" [ref=f2e708]
+            - generic [ref=f2e709]:
+              - generic [ref=f2e710]: McDermott International
+              - text: EPC & Maritime
+          - generic [ref=f2e712]:
+            - img "Saudi Aramco" [ref=f2e714]
+            - generic [ref=f2e715]:
+              - generic [ref=f2e716]:
+                - generic [ref=f2e717]: Saudi Aramco
+                - generic [ref=f2e718]: "Approved Vendor: 10121703"
+              - text: National Energy
+          - generic [ref=f2e720]:
+            - img "ADNOC" [ref=f2e722]
+            - generic [ref=f2e723]:
+              - generic [ref=f2e724]: ADNOC
+              - text: National Energy
+          - generic [ref=f2e726]:
+            - img "Chevron" [ref=f2e728]
+            - generic [ref=f2e729]:
+              - generic [ref=f2e730]: Chevron
+              - text: International Oil Major
+          - generic [ref=f2e732]:
+            - img "ConocoPhillips" [ref=f2e734]
+            - generic [ref=f2e735]:
+              - generic [ref=f2e736]: ConocoPhillips
+              - text: International Oil Major
+          - generic [ref=f2e738]:
+            - img "ExxonMobil" [ref=f2e740]
+            - generic [ref=f2e741]:
+              - generic [ref=f2e742]: ExxonMobil
+              - text: International Oil Major
+          - generic [ref=f2e744]:
+            - img "TotalEnergies" [ref=f2e746]
+            - generic [ref=f2e747]:
+              - generic [ref=f2e748]: TotalEnergies
+              - text: International Oil Major
+          - generic [ref=f2e750]:
+            - img "Occidental (OXY)" [ref=f2e752]
+            - generic [ref=f2e753]:
+              - generic [ref=f2e754]: Occidental (OXY)
+              - text: International Oil Major
+          - generic [ref=f2e756]:
+            - img "LUKOIL" [ref=f2e758]
+            - generic [ref=f2e759]:
+              - generic [ref=f2e760]: LUKOIL
+              - text: International Oil Major
+          - generic [ref=f2e762]:
+            - img "Gazprom" [ref=f2e764]
+            - generic [ref=f2e765]:
+              - generic [ref=f2e766]: Gazprom
+              - text: International Oil Major
+          - generic [ref=f2e768]:
+            - img "Eni" [ref=f2e770]
+            - generic [ref=f2e771]:
+              - generic [ref=f2e772]: Eni
+              - text: International Oil Major
+          - generic [ref=f2e774]:
+            - img "BG Group / Shell" [ref=f2e776]
+            - generic [ref=f2e777]:
+              - generic [ref=f2e778]: BG Group / Shell
+              - text: International Oil Major
+          - generic [ref=f2e780]:
+            - img "PetroSA" [ref=f2e782]
+            - generic [ref=f2e783]:
+              - generic [ref=f2e784]: PetroSA
+              - text: National Energy
+          - generic [ref=f2e786]:
+            - img "Van Oord" [ref=f2e788]
+            - generic [ref=f2e789]:
+              - generic [ref=f2e790]: Van Oord
+              - text: EPC & Maritime
+          - generic [ref=f2e792]:
+            - img "Group 5" [ref=f2e794]
+            - generic [ref=f2e795]:
+              - generic [ref=f2e796]: Group 5
+              - text: EPC & Maritime
+          - generic [ref=f2e798]:
+            - img "McDermott International" [ref=f2e800]
+            - generic [ref=f2e801]:
+              - generic [ref=f2e802]: McDermott International
+              - text: EPC & Maritime
+    - generic [ref=f2e805]:
+      - generic [ref=f2e806]:
+        - text: Regional Footprint & Hubs
+        - heading "Strategic Bases Across Saudi Arabia & The Arabian Gulf" [level=2] [ref=f2e807]
+        - paragraph [ref=f2e808]: Headquartered in Al Khobar with active operational bases across Dammam, Jubail, Riyadh, Jeddah / Red Sea, and GCC oilfield blocks.
+      - generic [ref=f2e809]:
+        - generic [ref=f2e810]:
+          - generic [ref=f2e811]:
+            - generic [ref=f2e812]: Arabian Gulf & KSA Operational Footprint
+            - generic [ref=f2e816]: Active Bases
+          - generic [ref=f2e817]:
+            - img "Arabian Gulf Operational Map" [ref=f2e818]
+            - button "Al Khobar Headquarters" [ref=f2e819]
+            - button "Dammam & Jubail Base" [ref=f2e823]
+            - button "Jeddah / Red Sea Base" [ref=f2e827]
+            - button "Riyadh Corporate Office" [ref=f2e831]
+            - button "Abu Dhabi & Dubai Operations" [ref=f2e835]
+            - button "Doha Marine Base" [ref=f2e839]
+          - paragraph [ref=f2e843]: Click pins or list items to inspect regional contact details and operational capabilities.
+        - generic [ref=f2e844]:
+          - heading "Select Regional Hub:" [level=3] [ref=f2e845]
+          - generic [ref=f2e846]:
+            - button "Al Khobar Headquarters HQ" [ref=f2e847]:
+              - generic [ref=f2e848]: Al Khobar Headquarters
+              - generic [ref=f2e853]: HQ
+            - button "Dammam & Jubail Base Hub" [ref=f2e854]:
+              - generic [ref=f2e855]: Dammam & Jubail Base
+              - generic [ref=f2e860]: Hub
+            - button "Jeddah / Red Sea Base Hub" [ref=f2e861]:
+              - generic [ref=f2e862]: Jeddah / Red Sea Base
+              - generic [ref=f2e867]: Hub
+            - button "Riyadh Corporate Office Hub" [ref=f2e868]:
+              - generic [ref=f2e869]: Riyadh Corporate Office
+              - generic [ref=f2e874]: Hub
+            - button "Abu Dhabi & Dubai Operations Hub" [ref=f2e875]:
+              - generic [ref=f2e876]: Abu Dhabi & Dubai Operations
+              - generic [ref=f2e881]: Hub
+            - button "Doha Marine Base Hub" [ref=f2e882]:
+              - generic [ref=f2e883]: Doha Marine Base
+              - generic [ref=f2e888]: Hub
+          - generic [ref=f2e889]:
+            - generic [ref=f2e891]:
+              - text: Headquarters
+              - heading "Al Khobar Headquarters" [level=4] [ref=f2e892]
+            - generic [ref=f2e895]:
+              - generic [ref=f2e896]: King Fahd Road, Enterprise Tower, Level 14, Al Khobar 31952, KSA
+              - generic [ref=f2e901]: +966 13 835 2296
+              - generic [ref=f2e907]: hq@amsmarine.com.sa
+            - link "Dispatch Request to Al Khobar Headquarters" [ref=f2e913] [cursor=pointer]:
+              - /url: /contact
+  - contentinfo [ref=f2e917]:
+    - generic [ref=f2e919]:
+      - generic [ref=f2e924]:
+        - heading "Contact & EPRS Dispatch" [level=4] [ref=f2e925]
+        - paragraph [ref=f2e926]: Dispatch lines for pipeline issues, salvage support, and commercial inquiries.
+      - generic [ref=f2e927]:
+        - link "Call +966 13 835 2296" [ref=f2e928] [cursor=pointer]:
+          - /url: tel:+966138352296
+        - link "Submit Request" [ref=f2e934] [cursor=pointer]:
+          - /url: /contact
+    - generic [ref=f2e935]:
+      - generic [ref=f2e936]:
+        - img "AMS Marine Logo" [ref=f2e938]
+        - paragraph [ref=f2e939]:
+          - strong [ref=f2e940]: AMS Marine
+          - text: (Arabian Marine Services) is a sovereign Joint Venture between
+          - strong [ref=f2e941]: Alpha OMQ
+          - text: (Saudi Arabia subsea authority) and
+          - strong [ref=f2e942]: OSC Marine Group
+          - text: . Providing subsea engineering, ROV inspection, saturation diving (300m), and pipeline integrity across the Arabian Gulf.
+        - generic [ref=f2e943]:
+          - link [ref=f2e944] [cursor=pointer]:
+            - /url: https://www.vision2030.gov.sa/ar
+            - img "Saudi Vision 2030" [ref=f2e945]
+          - 'link "Saudi Aramco Aramco Approved Vendor Vendor ID: 10121703" [ref=f2e946] [cursor=pointer]':
+            - /url: /accreditations#aramco_vendor
+            - img "Saudi Aramco" [ref=f2e947]
+            - generic [ref=f2e948]:
+              - generic [ref=f2e949]: Aramco Approved Vendor
+              - generic [ref=f2e950]: "Vendor ID: 10121703"
+          - generic [ref=f2e951]: Aligned with Saudi Vision 2030 Sovereign Maritime Capability
+      - generic [ref=f2e956]:
+        - heading "Services" [level=5] [ref=f2e957]
+        - list [ref=f2e958]:
+          - listitem [ref=f2e959]:
+            - link "Inspection, Repair & Maintenance (IRM)" [ref=f2e960] [cursor=pointer]:
+              - /url: /services#irm
+          - listitem [ref=f2e964]:
+            - link "Offshore Subsea Construction & Tie-ins" [ref=f2e965] [cursor=pointer]:
+              - /url: /services#construction
+          - listitem [ref=f2e969]:
+            - link "Deepwater ROV Services" [ref=f2e970] [cursor=pointer]:
+              - /url: /services#rov
+          - listitem [ref=f2e974]:
+            - link "Saturation & Commercial Diving (300m)" [ref=f2e975] [cursor=pointer]:
+              - /url: /services#diving
+          - listitem [ref=f2e979]:
+            - link "Pipeline Integrity & EPRS" [ref=f2e980] [cursor=pointer]:
+              - /url: /pipeline-integrity
+          - listitem [ref=f2e984]:
+            - link "Marine Civils & Croc-Dock Plastics" [ref=f2e985] [cursor=pointer]:
+              - /url: /services#civils
+      - generic [ref=f2e989]:
+        - heading "Partners & Standards" [level=5] [ref=f2e990]
+        - list [ref=f2e991]:
+          - listitem [ref=f2e992]:
+            - 'link "Saudi Aramco Approved (Vendor: 10121703)" [ref=f2e993] [cursor=pointer]':
+              - /url: /accreditations#aramco_vendor
+          - listitem [ref=f2e997]:
+            - link "PIPECARE Smart Pigging (MFL/UT)" [ref=f2e998] [cursor=pointer]:
+              - /url: /pipeline-integrity#pipecare
+          - listitem [ref=f2e1004]:
+            - link "Connector Subsea Solutions (Morgrip)" [ref=f2e1005] [cursor=pointer]:
+              - /url: /pipeline-integrity#css
+          - listitem [ref=f2e1011]:
+            - link "IMCA Member (Sat, Air, Nitrox, ROV)" [ref=f2e1012] [cursor=pointer]:
+              - /url: /accreditations#imca
+          - listitem [ref=f2e1016]:
+            - 'link "IRATA Rope Access (Reg: 7020/OT)" [ref=f2e1017] [cursor=pointer]':
+              - /url: /accreditations#irata
+          - listitem [ref=f2e1021]:
+            - link "ISO 9001 / 14001 / 45001" [ref=f2e1022] [cursor=pointer]:
+              - /url: /accreditations#iso
+          - listitem [ref=f2e1026]:
+            - link "Class Approvals (DNV GL, ABS, BV, LR)" [ref=f2e1027] [cursor=pointer]:
+              - /url: /accreditations#class
+      - generic [ref=f2e1031]:
+        - heading "Headquarters" [level=5] [ref=f2e1032]
+        - generic [ref=f2e1033]:
+          - generic [ref=f2e1034]: King Fahd Road, Enterprise Tower, L14, Al Khobar 31952, KSA
+          - generic [ref=f2e1039]: +966 13 835 2296
+          - generic [ref=f2e1045]: hq@amsmarine.com.sa
+    - generic [ref=f2e1051]:
+      - generic [ref=f2e1052]: © 2026 AMS Marine. All rights reserved. Strategic Joint Venture between Alpha OMQ & OSC Marine Group.
+      - generic [ref=f2e1053]:
+        - link "Vision 2030" [ref=f2e1054] [cursor=pointer]:
+          - /url: /about
+        - link "Compliance" [ref=f2e1055] [cursor=pointer]:
+          - /url: /accreditations
+        - link "Contact Us" [ref=f2e1056] [cursor=pointer]:
+          - /url: /contact

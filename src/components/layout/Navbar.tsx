@@ -80,7 +80,7 @@ export function Navbar() {
           <div className="relative w-32 sm:w-48 h-10 sm:h-12 flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
             <Image
               src={logoSrc}
-              alt="AMS Marine Logo"
+              alt="Arabian Marine Services AMS Company Logo"
               fill
               className="object-contain filter drop-shadow-[0_2px_8px_rgba(10,102,160,0.3)]"
               priority

@@ -57,7 +57,7 @@ export function JvSection() {
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#2f7c4c] dark:text-[#3bd879] shrink-0 mt-0.5" />
-                  <span>{isRtl ? 'تأهيل كامل كمورد لدى أرامكو السعودية مع شبكة إقليمية واسعة' : 'Unrivaled Saudi Aramco vendor compliance & regional network'}</span>
+                  <span>{isRtl ? 'مورّد معتمد رسمياً لدى أرامكو السعودية (Vendor ID: 10121703) وشهادة الامتثال السيبراني CCC' : 'Officially Approved Saudi Aramco Vendor (Vendor ID: 10121703) & CCC Certified'}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#2f7c4c] dark:text-[#3bd879] shrink-0 mt-0.5" />

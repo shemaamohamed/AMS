@@ -4,17 +4,17 @@ import { SITE_URL, defaultOGImages } from '@/lib/seo';
 import { ContactClient } from '@/components/contact/ContactClient';
 
 export const metadata: Metadata = {
-  title: 'Contact & Subsea Support | AMS Marine',
+  title: 'Contact & Subsea Support | Arabian Marine Services AMS Company',
   description:
-    'Contact AMS Marine Headquarters in Al Khobar, Saudi Arabia for commercial enquiries, engineering support, and subsea service requests.',
+    'Contact Arabian Marine Services AMS Company Headquarters in Al Khobar, Saudi Arabia for commercial enquiries, engineering support, and subsea service requests.',
     keywords: [
-    'AMS Marine Contact Saudi Arabia',
-    'AMS Marine Khobar Address',
+    'Arabian Marine Services AMS Company Contact Saudi Arabia',
+    'Arabian Marine Services AMS Company Khobar Address',
     'Pipeline Repair Dispatch',
     'Subsea B2B Inquiry Matrix',
-    'اتصال AMS Marine الخبر',
+    'اتصال شركة أربيان مارين سيرفيسز إيه.إم.إس الخبر',
     'طلبات دعم هندسي',
-    'رقم هاتف AMS Marine الخبر'
+    'رقم هاتف شركة أربيان مارين سيرفيسز إيه.إم.إس الخبر'
   ],
   alternates: {
     canonical: `${SITE_URL}/contact`,
@@ -26,14 +26,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: `${SITE_URL}/contact`,
-    title: 'Contact & Subsea Support | AMS Marine',
+    title: 'Contact & Subsea Support | Arabian Marine Services AMS Company',
     description: 'Contact our Khobar headquarters for commercial inquiries, engineering support, and subsea services.',
-    siteName: 'AMS Marine',
+    siteName: 'Arabian Marine Services AMS Company',
     images: defaultOGImages,
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Contact | AMS Marine',
+    title: 'Contact | Arabian Marine Services AMS Company',
     description: 'Contact +966 13 835 2296 for corporate and subsea service enquiries across KSA & GCC.',
     images: [
       `${SITE_URL}/og-preview.png`,
@@ -47,11 +47,11 @@ export default function ContactPage() {
   const contactPageSchema = {
     '@context': 'https://schema.org',
     '@type': 'ContactPage',
-    name: 'AMS Marine Contact & Corporate Matrix',
+    name: 'Arabian Marine Services AMS Company Contact & Corporate Matrix',
     url: `${SITE_URL}/contact`,
     mainEntity: {
       '@type': 'LocalBusiness',
-      name: 'AMS Marine Headquarters Al Khobar',
+      name: 'Arabian Marine Services AMS Company Headquarters Al Khobar',
       telephone: '+966138352296',
       email: 'hq@amsmarine.com.sa',
       address: {

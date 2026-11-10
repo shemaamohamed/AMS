@@ -2,6 +2,19 @@ import { AccreditationItem } from '@/types';
 
 export const accreditationsData: AccreditationItem[] = [
   {
+    id: 'aramco_vendor',
+    title: 'Saudi Aramco Approved Vendor',
+    titleAr: 'مورّد معتمد لدى أرامكو السعودية',
+    category: 'Aramco Approval',
+    issuer: 'Saudi Aramco — Supplier Registration',
+    issuerAr: 'أرامكو السعودية — تسجيل الموردين',
+    imageSrc: '/assets/clients/aramco_logo.png',
+    vendorId: '10121703',
+    referenceNo: 'SAP Vendor No. 10121703',
+    scope: 'Arabian Marine Services AMS Company is an officially registered and approved vendor with Saudi Aramco under Supplier Registration Number 10121703. Qualified and approved for offshore energy operations, subsea engineering, commercial diving, and marine services across Saudi Aramco facilities and offshore assets.',
+    scopeAr: 'شركة أربيان مارين سيرفيسز إيه.إم.إس مورّد مسجّل ومعتمد رسمياً لدى أرامكو السعودية برقم تسجيل المورّد 10121703. معتمدة لتقديم خدمات الطاقة البحرية، الهندسة تحت الماء، الغوص التجاري، والخدمات البحرية في مرافق وأصول أرامكو السعودية البحرية.'
+  },
+  {
     id: 'imca',
     title: 'IMCA Contractor Member',
     titleAr: 'عضوية المقاولين في منظمة IMCA الدولية',

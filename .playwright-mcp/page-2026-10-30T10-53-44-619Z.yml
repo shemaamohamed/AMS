@@ -1,0 +1,412 @@
+- generic [active] [ref=e1]:
+  - navigation:
+    - generic [ref=e3]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Alpha OMQ" [ref=e5]
+      - generic [ref=e6]:
+        - link "الرئيسية" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - link "المركز المائي" [ref=e8] [cursor=pointer]:
+          - /url: /aquatic-center
+        - button "من نحن" [ref=e10] [cursor=pointer]
+        - link "الخدمات" [ref=e13] [cursor=pointer]:
+          - /url: /services
+        - link "شركاؤنا" [ref=e14] [cursor=pointer]:
+          - /url: /partners
+        - link "اتصل بنا" [ref=e15] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=e16]:
+        - button "EN" [ref=e18] [cursor=pointer]
+        - generic [ref=e23]:
+          - link [ref=e24] [cursor=pointer]:
+            - /url: /cart
+          - button [ref=e30] [cursor=pointer]
+  - main [ref=e34]:
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - img "مسبح ألفا أوإمكيو الداخلي الفاخر" [ref=e38]
+        - generic [ref=e42]:
+          - heading "المركز المائي الأول للغوص والسباحة في مسبح داخلي طوال العام" [level=1] [ref=e43]:
+            - generic [ref=e44]: المركز المائي الأول
+            - generic [ref=e45]: للغوص والسباحة في
+            - generic [ref=e46]: مسبح داخلي طوال العام
+          - paragraph [ref=e48]: صُمِّم المسبح بأعلى معايير الجودة والفرادة، مع أنظمة تنقية حديثة ودرجة حرارة مثالية، لتجربة آمنة وممتعة طوال العام.
+          - button "اكتشف خدماتنا" [ref=e50] [cursor=pointer]
+        - generic [ref=e55]:
+          - generic [ref=e56]: بيئة عالية الجودة
+          - generic [ref=e60]: أنظمة تنقية متقدمة
+          - generic [ref=e65]: درجة حرارة مثالية
+          - generic [ref=e72]: أمان وراحة
+      - generic [ref=e78]:
+        - generic [ref=e79]:
+          - generic [ref=e80]: البرامج والمسارات التدريبية
+          - heading "ثلاثة برامج مائية متخصصة مصممة بأعلى درجات الاحترافية" [level=2] [ref=e86]
+          - paragraph [ref=e87]: سواء كنت ترغب في استكشاف أعماق البحار، أو تعليم طفلك السباحة في بيئة آمنة ودافئة، أو تبحثين عن تدريب نسائي راقٍ بخصوصية تامة، نوفر لك التجربة المثالية.
+          - generic [ref=e88]:
+            - button "جميع البرامج" [ref=e89] [cursor=pointer]
+            - button "الغوص الترفيهي (PADI)" [ref=e90] [cursor=pointer]
+            - button "سباحة الأطفال" [ref=e91] [cursor=pointer]
+            - button "مسار السيدات" [ref=e92] [cursor=pointer]
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - generic [ref=e95]:
+              - img "الغوص الترفيهي المعتمد دولياً (PADI)" [ref=e96]
+              - generic [ref=e97]: اعتماد PADI دولي
+            - generic [ref=e99]:
+              - generic [ref=e100]:
+                - paragraph [ref=e101]: مركز غوص معتمد PADI Dive Center - S30833
+                - heading "الغوص الترفيهي المعتمد دولياً (PADI)" [level=3] [ref=e102]
+                - paragraph [ref=e103]: برامج ودورات تدريبية متكاملة للغوص الترفيهي والسكوبا من المستوى المبتدئ (Discover Scuba & Open Water) وحتى المستويات المتقدمة والإنقاذ، بإشراف مدربين معتمدين في مسبح دافئ وعميق مجهز بأعلى معايير الأمان.
+                - generic [ref=e104]:
+                  - generic [ref=e105]: مدربون ومساعدو مدربين معتمدون من PADI و SSI
+                  - generic [ref=e110]: جميع المعدات وأسطوانات الهواء ومنظمات التنفس مشمولة ومجهزة
+                  - generic [ref=e115]: حوض غوص عميق ومخصص لتمارين الطفو ومعادلة الضغط
+                  - generic [ref=e120]: شهادة دولية معتمدة ورخصة غوص صالحة في جميع أنحاء العالم
+              - button "احجز تجربة الغوص" [ref=e126] [cursor=pointer]
+          - generic [ref=e128]:
+            - generic [ref=e129]:
+              - img "أكاديمية السباحة للأطفال" [ref=e130]
+              - generic [ref=e131]: من عمر 4 إلى 14 سنة
+            - generic [ref=e133]:
+              - generic [ref=e134]:
+                - paragraph [ref=e135]: أمان، مرح، وتعليم بأسلوب تربوي مشوق
+                - heading "أكاديمية السباحة للأطفال" [level=3] [ref=e136]
+                - paragraph [ref=e137]: حصص سباحة مصممة خصيصاً للأطفال تركز على بناء الثقة وكسر حاجز الخوف من الماء، وتعليم مهارات النجاة الأساسية وحركات السباحة الصحيحة في مسبح دافئ يمنع قشعريرة البرد تماماً.
+                - generic [ref=e138]:
+                  - generic [ref=e139]: إشراف المدربة ابتسام وكادر متخصص في تدريب الأطفال بالتشجيع الإيجابي
+                  - generic [ref=e144]: مسبح مدفأ لدرجة حرارة مريحة تمنع رجفة البرد نهائياً
+                  - generic [ref=e149]: نسبة آمنة لا تتجاوز 4 أطفال لكل مدرب لمتابعة لصيقة وفردية
+                  - generic [ref=e154]: مستويات متدرجة وشارات إنجاز وشهادات تحفيزية عند إتقان كل مستوى
+              - button "سجّل طفلك الآن" [ref=e160] [cursor=pointer]
+          - generic [ref=e162]:
+            - generic [ref=e163]:
+              - img "تدريب السباحة للسيدات (خصوصية تامة)" [ref=e164]
+              - generic [ref=e165]: خصوصية كاملة 100%
+            - generic [ref=e167]:
+              - generic [ref=e168]:
+                - paragraph [ref=e169]: بيئة مغلقة ومحمية 100% بكادر نسائي معتمد
+                - heading "تدريب السباحة للسيدات (خصوصية تامة)" [level=3] [ref=e170]
+                - paragraph [ref=e171]: جلسات وتدريبات سباحة مخصصة للسيدات في أجواء مريحة وآمنة ومغلقة تماماً عن الأنظار، بإشراف وتدريب الكابتن ابتسام مع باقات للياقة وتخفيف التوتر في مسبحنا المدفأ.
+                - generic [ref=e172]:
+                  - generic [ref=e173]: تدريب نسائي معتمد بقيادة المدربة ابتسام وبخصوصية كاملة وبدون أي تواجد رجالي
+                  - generic [ref=e178]: غرف تبديل وشاورات خاصة ومغلقة بأعلى معايير النظافة والرفاهية
+                  - generic [ref=e183]: "برامج متنوعة: تعليم سباحة، أكوا آيروبيكس، وتفريغ طاقة ولياقة بدنية"
+                  - generic [ref=e188]: مواعيد صباحية ومسائية مرنة تناسب مواعيد العمل والأسرة
+              - button "حجز حصص السيدات" [ref=e194] [cursor=pointer]
+      - generic [ref=e199]:
+        - generic [ref=e200]:
+          - generic [ref=e201]:
+            - paragraph [ref=e202]:
+              - generic [ref=e204]: مركز غوص معتمد PADI DIVE CENTER - S30833
+            - heading "— دورات الغوص —" [level=2] [ref=e206]:
+              - generic [ref=e207]: —
+              - generic [ref=e208]: دورات الغوص
+              - generic [ref=e209]: —
+            - paragraph [ref=e210]: استكشف. تعلّم. اغص.
+          - generic [ref=e211]:
+            - generic [ref=e212]:
+              - button "جميع الدورات (7)" [ref=e213] [cursor=pointer]
+              - button "مبتدئ (1-2)" [ref=e214] [cursor=pointer]
+              - button "متقدم وإسعاف (3-4)" [ref=e215] [cursor=pointer]
+              - button "إنقاذ (5)" [ref=e216] [cursor=pointer]
+              - button "احترافي (6-7)" [ref=e217] [cursor=pointer]
+            - generic [ref=e218]:
+              - button "جدول" [ref=e219] [cursor=pointer]
+              - button "بطاقات" [ref=e223] [cursor=pointer]
+        - generic [ref=e230]:
+          - generic [ref=e231]:
+            - generic [ref=e232]: "#"
+            - generic [ref=e233]: اسم الدورة التدريبية
+            - generic [ref=e240]: الإجراءات
+          - generic [ref=e241]:
+            - generic [ref=e242]:
+              - generic [ref=e243]: "1"
+              - generic [ref=e252]:
+                - link "اكتشف غوص السكوبا الترفيهي (Discover Scuba Diving)" [ref=e253] [cursor=pointer]:
+                  - /url: /diving-courses/discover-scuba-diving
+                - paragraph [ref=e254]: تجربة الغوص الترفيهي الأولى للمبتدئين في مسبح دافئ مع المدربة ابتسام
+              - generic [ref=e255]:
+                - link "التفاصيل" [ref=e256] [cursor=pointer]:
+                  - /url: /diving-courses/discover-scuba-diving
+                - button "حجز" [ref=e260] [cursor=pointer]
+            - generic [ref=e262]:
+              - generic [ref=e263]: "2"
+              - generic [ref=e271]:
+                - link "غواص المياه المفتوحة الترفيهي (Open Water Diver)" [ref=e272] [cursor=pointer]:
+                  - /url: /diving-courses/open-water-diver
+                - paragraph [ref=e273]: الرخصة الدولية المعتمدة الأولى للغوص الترفيهي حول العالم
+              - generic [ref=e274]:
+                - link "التفاصيل" [ref=e275] [cursor=pointer]:
+                  - /url: /diving-courses/open-water-diver
+                - button "حجز" [ref=e279] [cursor=pointer]
+            - generic [ref=e281]:
+              - generic [ref=e282]: "3"
+              - generic [ref=e289]:
+                - link "غواص المياه المفتوحة المتقدم الترفيهي (Advanced Diver)" [ref=e290] [cursor=pointer]:
+                  - /url: /diving-courses/advanced-open-water-diver
+                - paragraph [ref=e291]: مغامرات الغوص الترفيهي واستكشاف الشعاب المرجانية والحطام
+              - generic [ref=e292]:
+                - link "التفاصيل" [ref=e293] [cursor=pointer]:
+                  - /url: /diving-courses/advanced-open-water-diver
+                - button "حجز" [ref=e297] [cursor=pointer]
+            - generic [ref=e299]:
+              - generic [ref=e300]: "4"
+              - generic [ref=e307]:
+                - link "الإسعافات الأولية وتدريب الطوارئ الترفيهي (EFR)" [ref=e308] [cursor=pointer]:
+                  - /url: /diving-courses/efr-emergency-first-response
+                - paragraph [ref=e309]: مهارات الإنعاش القلبي والرعاية الأولية لغواصي الترفيه والمجتمع
+              - generic [ref=e310]:
+                - link "التفاصيل" [ref=e311] [cursor=pointer]:
+                  - /url: /diving-courses/efr-emergency-first-response
+                - button "حجز" [ref=e315] [cursor=pointer]
+            - generic [ref=e317]:
+              - generic [ref=e318]: "5"
+              - generic [ref=e329]:
+                - link "غواص الإنقاذ الترفيهي (Rescue Diver)" [ref=e330] [cursor=pointer]:
+                  - /url: /diving-courses/rescue-diver
+                - paragraph [ref=e331]: الدورة الترفيهية الأكثر متعة وثقة في إدارة سلامة الغواصين
+              - generic [ref=e332]:
+                - link "التفاصيل" [ref=e333] [cursor=pointer]:
+                  - /url: /diving-courses/rescue-diver
+                - button "حجز" [ref=e337] [cursor=pointer]
+            - generic [ref=e339]:
+              - generic [ref=e340]: "6"
+              - generic [ref=e347]:
+                - link "مرشد الغوص الترفيهي (PADI Divemaster)" [ref=e348] [cursor=pointer]:
+                  - /url: /diving-courses/dive-master
+                - paragraph [ref=e349]: القيادة الاحترافية لرحلات ومجموعات الغوص الترفيهي حول العالم
+              - generic [ref=e350]:
+                - link "التفاصيل" [ref=e351] [cursor=pointer]:
+                  - /url: /diving-courses/dive-master
+                - button "حجز" [ref=e355] [cursor=pointer]
+            - generic [ref=e357]:
+              - generic [ref=e358]: "7"
+              - generic [ref=e365]:
+                - link "معاينة مهارات مرشد الغوص الترفيهي (Divemaster Skills)" [ref=e366] [cursor=pointer]:
+                  - /url: /diving-courses/discover-dive-master-skills
+                - paragraph [ref=e367]: ورشة صقل مهارات الغوص الترفيهي النموذجية في مسبح الشركة المدفأ
+              - generic [ref=e368]:
+                - link "التفاصيل" [ref=e369] [cursor=pointer]:
+                  - /url: /diving-courses/discover-dive-master-skills
+                - button "حجز" [ref=e373] [cursor=pointer]
+        - generic [ref=e376]:
+          - paragraph [ref=e377]: انطلق في المغامرة. ابنِ الثقة. اصنع الذكريات.
+          - paragraph [ref=e378]: شركة ألفا أوإمكيو • مركز غوص معتمد PADI Dive Center S30833 • مسبح مدفأ بالخبر
+      - generic [ref=e380]:
+        - generic [ref=e381]:
+          - generic [ref=e382]: ميزة المسبح المدفأ الحصرية
+          - heading "لماذا يُحدث المسبح المدفأ (Heated Pool) فارقاً حقيقياً؟" [level=2] [ref=e386]
+          - paragraph [ref=e387]: السباحة في الماء البارد تسبب توتر العضلات ورجفة سريعة للأطفال. نظامنا الحراري الذكي يضمن بيئة تدريب استشفائية ودافئة على مدار 365 يوماً في السنة.
+        - generic [ref=e388]:
+          - generic [ref=e389]:
+            - heading "سباحة مريحة طوال الشتاء والطقس البارد" [level=3] [ref=e394]
+            - paragraph [ref=e395]: لا داعي لتأجيل أو إلغاء تدريباتك بسبب برودة الطقس. مسبحنا يعمل بنظام تسخين ذكي يحافظ على دفء الماء المثالي (29°C - 31°C) في أبرد شهور السنة ليمنحك شعوراً فورياً بالراحة والنشاط.
+          - generic [ref=e396]:
+            - heading "استرخاء عضلي فائق ومنع التقلصات" [level=3] [ref=e401]
+            - paragraph [ref=e402]: الماء الدافئ يحفز الدورة الدموية، يقلل من تصلب المفاصل، ويمنع الشد العضلي المفاجئ. هذا يتيح للأطفال والمتدربين البقاء في الماء لفترات أطول وممارسة التمارين بكفاءة وبدون إجهاد.
+          - generic [ref=e403]:
+            - heading "بيئة مثالية لتدريب الغوص ومعادلة الضغط" [level=3] [ref=e409]
+            - paragraph [ref=e410]: برودة الماء تزيد من استهلاك الهواء وسرعة التنفس تحت الماء. المسبح المدفأ يمنح غواص السكوبا هدوءاً ذهنياً وتحكماً مثالياً في معدل التنفس والطفو المحايد ومعادلة ضغط الأذنين.
+          - generic [ref=e411]:
+            - heading "تنقية فائقة متعددة المراحل بالـ UV والأوزون" [level=3] [ref=e417]
+            - paragraph [ref=e418]: مياه كريستالية نقية تخضع لدورات فلترة مستمرة على مدار الساعة مع تعقيم بالأشعة فوق البنفسجية لتقليل مستويات الكلور بنسبة 70%، مما يحمي عيون وبشرة وشعر المتدربين من أي تحسس.
+        - generic [ref=e420]:
+          - generic [ref=e421]:
+            - generic [ref=e422]: معايير الراحة الحرارية
+            - heading "درجة حرارة ثابتة بين 29°C و 31°C - معتمدة طبياً ورياضياً" [level=4] [ref=e429]
+            - paragraph [ref=e430]: تساعد هذه الحرارة في إفراز هرمونات الاسترخاء، وتسهيل تمدد العضلات، وتحفيز الأطفال على التفاعل والمرح دون أي خوف من الماء أو شعور بالبرودة، مع صالة مكيفة بدرجة 26°C لمنع أي صدمة حرارية عند الخروج.
+          - generic [ref=e431]:
+            - generic [ref=e432]: 30.0°C
+            - generic [ref=e433]: الحرارة المستهدفة على مدار الساعة
+            - generic [ref=e436]: نظام مراقبة وضبط أوتوماتيكي مستمر
+      - generic [ref=e438]:
+        - generic [ref=e439]:
+          - generic [ref=e440]: لماذا يختارنا المتدربون والعائلات؟
+          - heading "معايير عالمية في السلامة، التدريب، والراحة الفندقية" [level=2] [ref=e445]
+          - paragraph [ref=e446]: نجمع بين احترافية العمليات البحرية والخبرة الميدانية لشركة ألفا أوإمكيو، لنقدم لك أفضل تجربة تدريب مائي في المنطقة الشرقية.
+        - generic [ref=e447]:
+          - generic [ref=e448]:
+            - heading "مدربون ومدربات معتمدون دولياً" [level=3] [ref=e453]
+            - paragraph [ref=e454]: كادر متخصص يحمل أعلى الشهادات الاحترافية من منظمة PADI و SSI للغوص، وشهادات الاتحاد الدولي للسباحة، مع سنوات من الخبرة الميدانية والتدريبية.
+          - generic [ref=e455]:
+            - heading "معايير أمان صارمة ورقابة مستمرة" [level=3] [ref=e460]
+            - paragraph [ref=e461]: منقذون مرخصون متواجدون على حافة المسبح طوال أوقات التشغيل، مع توفر حقائب الإسعافات وأجهزة الأكسجين الطبي وأجهزة الإنعاش القلبي (AED).
+          - generic [ref=e462]:
+            - heading "مرافق فاخرة وغرف تبديل خاصة" [level=3] [ref=e467]
+            - paragraph [ref=e468]: غرف تبديل ملابس فندقية نظيفة، شاورات بماء دافئ، خزائن ذكية آمنة، واستراحة عائلية مريحة مطلة على المسبح مع إنترنت فائق السرعة.
+          - generic [ref=e469]:
+            - heading "مجموعات تدريب صغيرة واهتمام فردي" [level=3] [ref=e476]
+            - paragraph [ref=e477]: نحرص على ألا يتجاوز عدد المتدربين في الحصة الحدود الموصى بها لضمان نيل كل متدرب وكل طفل التركيز والتصحيح الدقيق والتقدم السريع.
+          - generic [ref=e478]:
+            - heading "مواعيد وجداول مرنة وسهولة تعويض" [level=3] [ref=e483]
+            - paragraph [ref=e484]: فترات صباحية ومسائية تناسب دوامك وجدول عائلتك، مع إمكانية تعويض الحصص في حال الظروف الطارئة بكل يسر وسهولة.
+          - generic [ref=e485]:
+            - heading "ضمان دفء الماء 365 يوماً بالعام" [level=3] [ref=e492]
+            - paragraph [ref=e493]: نظام تدفئة أوتوماتيكي متطور يضمن بقاء حرارة المسبح عند 30 درجة مئوية دائماً دون تذبذب، لراحة تامة وأداء تدريبي لا ينقطع.
+      - generic [ref=e495]:
+        - generic [ref=e496]:
+          - heading "الأسئلة الشائعة حول المسبح والدورات" [level=3] [ref=e497]
+          - paragraph [ref=e498]: إليك أبرز الاستفسارات التي تهم المتدربين والزوار حول خدماتنا المائية.
+        - generic [ref=e499]:
+          - generic [ref=e500]:
+            - button "ما هي درجة حرارة المسبح، وهل هو مدفأ بالفعل طوال العام؟" [ref=e501] [cursor=pointer]
+            - generic [ref=e505]: نعم، مسبحنا مدفأ بنظام تدفئة ومبادلات حرارية رقمية تعمل باستمرار للمحافظة على درجة حرارة تتراوح بين 29°C إلى 31°C، وهي الدرجة الطبية المثالية لاسترخاء العضلات والسباحة المريحة حتى في أبرد أيام الشتاء.
+          - button "ما هي الفئات العمرية المسموح بها في تدريب السباحة للأطفال؟" [ref=e507] [cursor=pointer]
+          - button "كيف تضمنون الخصوصية التامة في أوقات تدريب السيدات؟" [ref=e512] [cursor=pointer]
+          - button "هل أحتاج لإحضار أو شراء معدات غوص قبل التسجيل في دورات السكوبا؟" [ref=e517] [cursor=pointer]
+          - button "أين يقع المركز المائي وكيف يمكنني تأكيد موعد الحجز؟" [ref=e522] [cursor=pointer]
+      - generic [ref=e527]:
+        - generic [ref=e528]:
+          - generic [ref=e529]: الحجز والتواصل المباشر
+          - heading "ابدأ رحلتك المائية معنا اليوم في مسبحنا المدفأ" [level=2] [ref=e533]
+          - paragraph [ref=e534]: سواء كنت ترغب بحجز دورة غوص، تسجيل أطفالك، أو الانضمام لحصص السيدات، املأ النموذج وسيقوم المنسق بالتواصل معك فوراً لتأكيد الحصة.
+        - generic [ref=e535]:
+          - generic [ref=e536]:
+            - heading "نموذج حجز الجلسات والدورات" [level=3] [ref=e537]
+            - paragraph [ref=e538]: البيانات مؤمنة وتُعامل بسرية وخصوصية تامة.
+            - generic [ref=e539]:
+              - generic [ref=e540]:
+                - generic [ref=e541]:
+                  - generic [ref=e542]: الاسم الكريم *
+                  - 'textbox "مثال: عبد الله السعدون" [ref=e547]'
+                - generic [ref=e548]:
+                  - generic [ref=e549]: رقم الجوال / الواتساب *
+                  - textbox "05XXXXXXXX" [ref=e553]
+              - generic [ref=e554]:
+                - generic [ref=e555]: البريد الإلكتروني (اختياري)
+                - textbox "name@example.com" [ref=e560]
+              - generic [ref=e561]:
+                - generic [ref=e562]:
+                  - text: البرنامج المطلوب *
+                  - combobox [ref=e563] [cursor=pointer]:
+                    - option "الغوص الترفيهي (PADI)" [selected]
+                    - option "أكاديمية السباحة للأطفال"
+                    - option "تدريب السيدات (خصوصية تامة)"
+                    - option "دخول مسبح مدفأ (يومي)"
+                - generic [ref=e564]:
+                  - text: المستوى الحالي *
+                  - combobox [ref=e565] [cursor=pointer]:
+                    - option "مبتدئ تماماً (أول مرة)" [selected]
+                    - option "متوسط (معرفة أساسية بالسباحة)"
+                    - option "متقدم (تطوير سرعة ومهارات)"
+              - generic [ref=e566]:
+                - text: الفترة المفضلة للحصص
+                - generic [ref=e567]:
+                  - button "صباحية (09:00 - 12:00)" [ref=e568] [cursor=pointer]
+                  - button "عصرية (14:00 - 17:00)" [ref=e569] [cursor=pointer]
+                  - button "مسائية (17:00 - 21:00)" [ref=e570] [cursor=pointer]
+              - generic [ref=e571]:
+                - text: ملاحظات أو استفسار خاص
+                - 'textbox "مثال: تحديد موعد معين أو دورة غوص محددة..." [ref=e572]'
+              - button "تأكيد طلب الحجز المبدئي" [ref=e573] [cursor=pointer]
+              - link "أو تواصل فوراً عبر واتساب المباشر (+966 53 835 2062)" [ref=e576] [cursor=pointer]:
+                - /url: https://wa.me/966538352062?text=مرحباً،%20أرغب%20في%20الاستفسار%20عن%20برامج%20المركز%20المائي%20والمسبح%20المدفأ
+          - generic [ref=e580]:
+            - generic [ref=e581]:
+              - heading "قنوات التواصل السريع" [level=4] [ref=e582]
+              - link [ref=e583] [cursor=pointer]:
+                - /url: tel:+966138352296
+                - generic [ref=e586]:
+                  - paragraph [ref=e587]: الهاتف الثابت
+                  - paragraph [ref=e588]: +966 13 835 2296
+              - link [ref=e589] [cursor=pointer]:
+                - /url: mailto:alibrahim@alphaomq.sa
+                - generic [ref=e593]:
+                  - paragraph [ref=e594]: البريد الإلكتروني
+                  - paragraph [ref=e595]: alibrahim@alphaomq.sa
+              - generic [ref=e600]:
+                - paragraph [ref=e601]: العنوان
+                - paragraph [ref=e602]: 2920 شارع الأمير تركي، حي الساحل، الخبر 34611، المملكة العربية السعودية
+            - iframe [ref=e604]
+  - contentinfo [ref=e608]:
+    - generic [ref=e614]:
+      - generic [ref=e616]:
+        - generic [ref=e617]:
+          - img "OMQ" [ref=e619]
+          - paragraph [ref=e620]: الشركة الوطنية الرائدة في عمليات الغوص السيادية لحماية البنية التحتية والموارد البحرية للمملكة
+          - generic [ref=e623] [cursor=pointer]:
+            - img "PADI Logo" [ref=e625]
+            - generic [ref=e626]:
+              - generic [ref=e627]: غوص ترفيهي وتدريب بحري
+              - generic [ref=e628]: PADI Dive Center - S30833
+          - generic [ref=e629]:
+            - link "+966 13 835 2296" [ref=e630] [cursor=pointer]:
+              - /url: tel:+966138352296
+            - link "alibrahim@alphaomq.sa" [ref=e634] [cursor=pointer]:
+              - /url: mailto:alibrahim@alphaomq.sa
+            - link "2920 شارع الأمير تركي، حي الساحل، 8494 الخبر 34611، المملكة العربية السعودية" [ref=e639] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/%D8%B4%D8%B1%D9%83%D8%A9+%D8%A3%D9%84%D9%81%D8%A7%D8%A3%D9%88%D8%A5%D9%85%D9%83%D9%8A%D9%88%E2%80%AD/@26.273533,50.217485,17z/data=!3m1!4b1!4m6!3m5!1s0x3e49c300651cbf6f:0x180a817dce4364f3!8m2!3d26.273533!4d50.217485!16s%2Fg%2F11yxwcdd2s!17m2!4m1!1e3!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDMyOS4wIKXMDSoASAFQAw%3D%3D
+        - generic [ref=e644]:
+          - heading "روابط سريعة" [level=3] [ref=e645]
+          - list [ref=e646]:
+            - listitem [ref=e647]:
+              - link "من نحن" [ref=e648] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e650]:
+              - link "الخدمات" [ref=e651] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e653]:
+              - link "المنتجات" [ref=e654] [cursor=pointer]:
+                - /url: /products
+            - listitem [ref=e656]:
+              - link "شركاؤنا" [ref=e657] [cursor=pointer]:
+                - /url: /partners
+        - generic [ref=e659]:
+          - heading "خدماتنا" [level=3] [ref=e660]
+          - list [ref=e661]:
+            - listitem [ref=e662]:
+              - link "المركز المائي والمسبح المدفأ" [ref=e663] [cursor=pointer]:
+                - /url: /aquatic-center
+            - listitem [ref=e665]:
+              - link "دورات الغوص PADI" [ref=e666] [cursor=pointer]:
+                - /url: /diving-courses
+            - listitem [ref=e668]:
+              - link "الغوص التجاري" [ref=e669] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e671]:
+              - link "الدعم البحري" [ref=e672] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e674]:
+              - link "البنية التحتية البحرية" [ref=e675] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e677]:
+              - link "الاستشارات البحرية" [ref=e678] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=e680]:
+          - heading "الدعم" [level=3] [ref=e681]
+          - list [ref=e682]:
+            - listitem [ref=e683]:
+              - link "اتصل بنا" [ref=e684] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e686]:
+              - link "سياسة الخصوصية" [ref=e687] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=e689]:
+              - link "شروط الاستخدام" [ref=e690] [cursor=pointer]:
+                - /url: /terms
+          - generic [ref=e692]:
+            - heading "تابعنا" [level=4] [ref=e693]
+            - generic [ref=e694]:
+              - link "Facebook" [ref=e695] [cursor=pointer]:
+                - /url: https://www.facebook.com/profile.php?id=61593921752059
+              - link "Instagram" [ref=e698] [cursor=pointer]:
+                - /url: https://www.instagram.com/alphaomq.sa/
+              - link "TikTok" [ref=e702] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@alpha_omq
+              - link "LinkedIn" [ref=e705] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/alpha-omq
+      - generic [ref=e712]:
+        - generic [ref=e713]: © 2026 ألفا أوإمكيو. جميع الحقوق محفوظة
+        - generic [ref=e714]:
+          - text: تطوير بواسطة
+          - link "Soft Masters" [ref=e715] [cursor=pointer]:
+            - /url: https://shimaamohamed.bio.link/
+        - generic [ref=e716]:
+          - generic [ref=e718] [cursor=pointer]:
+            - img "PADI Logo" [ref=e720]
+            - generic [ref=e721]: PADI Dive Center - S30833
+          - generic [ref=e722]: معتمد
+          - generic [ref=e726]: آمن
+          - generic [ref=e731]: موثوق
+  - region "Notifications alt+T"

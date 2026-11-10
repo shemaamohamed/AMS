@@ -1,0 +1,269 @@
+- generic [active] [ref=f6e1]:
+  - navigation:
+    - generic [ref=f6e3]:
+      - link [ref=f6e4] [cursor=pointer]:
+        - /url: /
+        - img "Alpha OMQ" [ref=f6e5]
+      - generic [ref=f6e6]:
+        - link "الرئيسية" [ref=f6e7] [cursor=pointer]:
+          - /url: /
+        - link "المركز المائي" [ref=f6e8] [cursor=pointer]:
+          - /url: /aquatic-center
+        - button "من نحن" [ref=f6e10] [cursor=pointer]
+        - link "الخدمات" [ref=f6e13] [cursor=pointer]:
+          - /url: /services
+        - link "شركاؤنا" [ref=f6e14] [cursor=pointer]:
+          - /url: /partners
+        - link "اتصل بنا" [ref=f6e15] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f6e16]:
+        - button "EN" [ref=f6e18] [cursor=pointer]
+        - generic [ref=f6e23]:
+          - link [ref=f6e24] [cursor=pointer]:
+            - /url: /cart
+          - button [ref=f6e30] [cursor=pointer]
+  - main [ref=f6e34]:
+    - generic [ref=f6e35]:
+      - generic [ref=f6e37]:
+        - generic [ref=f6e38]:
+          - link "الرئيسية" [ref=f6e39] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f6e40]: /
+          - link "دورات الغوص" [ref=f6e41] [cursor=pointer]:
+            - /url: /diving-courses
+          - generic [ref=f6e42]: /
+          - generic [ref=f6e43]: غواص الإنقاذ الترفيهي (Rescue Diver)
+        - generic [ref=f6e44]:
+          - generic [ref=f6e45]:
+            - heading "من حماية نفسك إلى حماية الآخرين PADI Rescue Diver" [level=1] [ref=f6e46]:
+              - text: من حماية نفسك إلى حماية الآخرين
+              - generic [ref=f6e47]: PADI Rescue Diver
+            - paragraph [ref=f6e48]: الدورة التي يصفها الغواصون بأنها الأكثر متعة ومكافأة وبناءً للثقة في مسار الغوص الترفيهي. تحول تركيزك من نفسك إلى رعاية ومساندة زملائك الغواصين في الماء، وتدربك على توقع المشكلات وتفاديها قبل وقوعها، وتنفيذ سيناريوهات مساعدة واقعية وودية في مسبح شركتنا ومياه البحر بإشراف المدربة ابتسام.
+            - generic [ref=f6e49]:
+              - generic [ref=f6e50]: إدارة الذعر وإنقاذ الغواصين
+              - generic [ref=f6e54]: سيناريوهات طوارئ واقعية
+              - generic [ref=f6e62]: متطلب إلزامي للدايف ماستر
+            - generic [ref=f6e68]:
+              - link "انضم لدورة غواص الإنقاذ" [ref=f6e69] [cursor=pointer]:
+                - /url: "#booking-section"
+              - link "مهمات الإنقاذ التدريبية" [ref=f6e73] [cursor=pointer]:
+                - /url: "#missions"
+          - generic [ref=f6e75]:
+            - generic [ref=f6e76]:
+              - img "المدربة ابتسام في سيناريو تدريب غواص الإنقاذ" [ref=f6e77]
+              - generic [ref=f6e79]: تدريب واقعي مع المدربة ابتسام
+            - generic [ref=f6e84]:
+              - heading "بناء شخصية الغواص الحامي (The Guardian Diver)" [level=4] [ref=f6e85]
+              - paragraph [ref=f6e86]: الدورة الأكثر متعة وثقة في الغوص الترفيهي؛ تبني فيك سرعة البديهة والقدرة على مساعدة الزميل وتأمين السلامة في مسبح الشركة ومياه البحر.
+      - generic [ref=f6e87]:
+        - generic [ref=f6e88]:
+          - text: المهام التدريبية الميدانية
+          - heading "المهمات التدريبية لغواص الإنقاذ" [level=2] [ref=f6e89]
+          - paragraph [ref=f6e90]: سلسلة سيناريوهات مائية مكثفة في مسبحنا المدفأ وبحر الخليج لتطوير استجابتك التلقائية.
+        - generic [ref=f6e91]:
+          - generic [ref=f6e92]:
+            - generic [ref=f6e93]:
+              - generic [ref=f6e94]:
+                - img "الإنقاذ الذاتي وإدارة توتر الغواصين" [ref=f6e95]
+                - generic [ref=f6e96]: إدارة التوتر والمعدات
+              - generic [ref=f6e97]:
+                - generic [ref=f6e98]: "01"
+                - generic [ref=f6e99]: المهمة 01
+              - heading "الإنقاذ الذاتي وإدارة توتر الغواصين" [level=3] [ref=f6e100]
+              - paragraph [ref=f6e101]: فهم نفسية الغواص والتعرف على بوادر التوتر والإجهاد لمعالجة المشكلات قبل تفاقمها.
+            - generic [ref=f6e102]:
+              - generic [ref=f6e103]: التغلب على التوتر وحل مشاكل المعدات ذاتياً
+              - generic [ref=f6e107]: التعامل مع التشنجات العضلية وفقدان الزعانف
+              - generic [ref=f6e111]: مساعدة الغواص المجهد على السطح
+          - generic [ref=f6e115]:
+            - generic [ref=f6e116]:
+              - generic [ref=f6e117]:
+                - img "التعامل مع الغواص المذعور والفاقد للوعي" [ref=f6e118]
+                - generic [ref=f6e119]: محاكاة مسبح الشركة
+              - generic [ref=f6e120]:
+                - generic [ref=f6e121]: "02"
+                - generic [ref=f6e122]: المهمة 02
+              - heading "التعامل مع الغواص المذعور والفاقد للوعي" [level=3] [ref=f6e123]
+              - paragraph [ref=f6e124]: تدريب مكثف على الاقتراب الآمن من الغواص المذعور وتفادي تشبثه، وإنقاذ الغواص غير المتنفس.
+            - generic [ref=f6e125]:
+              - generic [ref=f6e126]: تقنيات الاقتراب الدفاعي والتخلص من التشبث
+              - generic [ref=f6e130]: الصعود الآمن بغواص فاقد للوعي من القاع
+              - generic [ref=f6e134]: إعطاء التنفس الإنقاذي أثناء السحب بالماء
+          - generic [ref=f6e138]:
+            - generic [ref=f6e139]:
+              - generic [ref=f6e140]:
+                - img "سيناريوهات الطوارئ الشاملة (Rescue Scenarios)" [ref=f6e141]
+                - generic [ref=f6e142]: سيناريوهات البحر المفتوح
+              - generic [ref=f6e143]:
+                - generic [ref=f6e144]: "03"
+                - generic [ref=f6e145]: المهمة 03
+              - heading "سيناريوهات الطوارئ الشاملة (Rescue Scenarios)" [level=3] [ref=f6e146]
+              - paragraph [ref=f6e147]: تطبيق سيناريوهات طوارئ كاملة ومفاجئة تنظمها كوادرنا لاختبار جاهزيتك الميدانية في البحر.
+            - generic [ref=f6e148]:
+              - generic [ref=f6e149]: البحث عن غواص مفقود بنمط ملاحة منظم
+              - generic [ref=f6e153]: إدارة أطقم الأكسجين الطبي في موقع الحادث
+              - generic [ref=f6e157]: إدارة وتنسيق الإخلاء والإسعاف الميداني
+      - generic [ref=f6e162]:
+        - generic [ref=f6e163]:
+          - generic [ref=f6e164]:
+            - generic [ref=f6e165]:
+              - heading "محتويات باقة غواص الإنقاذ الكاملة:" [level=3] [ref=f6e166]
+              - generic [ref=f6e171]:
+                - generic [ref=f6e172]:
+                  - generic [ref=f6e173]: ✓
+                  - generic [ref=f6e174]: حقيبة PADI Rescue Diver الرقمية التفاعلية
+                - generic [ref=f6e175]:
+                  - generic [ref=f6e176]: ✓
+                  - generic [ref=f6e177]: تدريبات المسبح المدفأ المكثفة لكافة مهارات الإنقاذ
+                - generic [ref=f6e178]:
+                  - generic [ref=f6e179]: ✓
+                  - generic [ref=f6e180]: سيناريوهات البحر المفتوح الواقعية مع فرق الإنقاذ
+                - generic [ref=f6e181]:
+                  - generic [ref=f6e182]: ✓
+                  - generic [ref=f6e183]: استخدام أقنعة الجيب للإنعاش (Pocket Masks) ومعدات التدريب
+                - generic [ref=f6e184]:
+                  - generic [ref=f6e185]: ✓
+                  - generic [ref=f6e186]: إصدار رخصة غواص الإنقاذ الدولية المعتمدة PADI
+            - generic [ref=f6e187]:
+              - heading "لمن تناسب هذه الدورة؟" [level=3] [ref=f6e188]
+              - generic [ref=f6e189]:
+                - generic [ref=f6e190]: الغواصون المتقدمون الراغبون في أن يكونوا رفقاء غوص موثوقين وقادرين على حماية غيرهم
+                - generic [ref=f6e199]: كل من يسعى لاكتساب الثقة الكاملة وكسر أي مخاوف في البيئات البحرية المفتوحة
+                - generic [ref=f6e208]: الراغبون في الانتقال إلى الاحتراف المهني والقيادي كمرشد غوص (Divemaster)
+            - generic [ref=f6e217]:
+              - heading "الأسئلة الشائعة حول دورة Rescue Diver" [level=3] [ref=f6e218]
+              - generic [ref=f6e223]:
+                - generic [ref=f6e224]:
+                  - heading "ما هي المتطلبات السابقة للتسجيل في دورة Rescue Diver؟" [level=4] [ref=f6e225]
+                  - paragraph [ref=f6e226]: يشترط الحصول على رخصة غواص متقدم (Advanced Open Water) وشهادة إسعافات أولية وإنعاش قلبي (EFR) سارية خلال آخر 24 شهراً.
+                - generic [ref=f6e227]:
+                  - heading "هل تتطلب الدورة لياقة بدنية خارقة؟" [level=4] [ref=f6e228]
+                  - paragraph [ref=f6e229]: لا تشترط بنية خارقة، فالإنقاذ يعتمد على التكنيك الذكي واستخدام المعدات وقوة الملاحظة أكثر من القوة العضلية المجردة. سندربك على أساليب تمنحك كفاءة عالية بجهد مدروس.
+          - generic [ref=f6e231]:
+            - generic [ref=f6e232]:
+              - generic [ref=f6e233]: تسجيل فوري ومرن
+              - heading "احجز مقعدك في الدورة الآن" [level=3] [ref=f6e238]
+              - paragraph [ref=f6e239]: سجل بياناتك وسيتم التواصل معك لترتيب جدولك المائي في مسبحنا المدفأ بالخبر.
+            - generic [ref=f6e240]:
+              - generic [ref=f6e241]:
+                - generic [ref=f6e242]: الاسم الكريم *
+                - 'textbox "مثال: عبدالله الشمري" [ref=f6e247]'
+              - generic [ref=f6e248]:
+                - generic [ref=f6e249]: رقم الجوال (واتساب) *
+                - textbox "05XXXXXXXX" [ref=f6e253]
+              - generic [ref=f6e254]:
+                - generic [ref=f6e255]: الموعد التدريبي المفضل
+                - generic [ref=f6e256]:
+                  - button "فترة مسائية" [ref=f6e257] [cursor=pointer]
+                  - button "عطلة نهاية الأسبوع" [ref=f6e262] [cursor=pointer]
+              - generic [ref=f6e267]:
+                - generic [ref=f6e268]: ملاحظات أو أسئلة إضافية (اختياري)
+                - textbox "هل لديك أي استفسار حول المعدات أو التدريب في المسبح المدفأ؟" [ref=f6e269]
+              - generic [ref=f6e270]:
+                - button "تأكيد طلب التسجيل" [ref=f6e271] [cursor=pointer]
+                - link "محادثة فورية مع الكابتن عبر واتساب" [ref=f6e273] [cursor=pointer]:
+                  - /url: https://wa.me/966555123456?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D9%88%D8%A7%D9%84%D8%AA%D8%B3%D8%AC%D9%8A%D9%84%20%D9%81%D9%8A%20%D8%AF%D9%88%D8%B1%D8%A9%3A%20%D8%BA%D9%88%D8%A7%D8%B5%20%D8%A7%D9%84%D8%A5%D9%86%D9%82%D8%A7%D8%B0%20%D8%A7%D9%84%D8%AA%D8%B1%D9%81%D9%8A%D9%87%D9%8A%20(Rescue%20Diver)%20%D9%84%D8%AF%D9%89%20%D8%A3%D9%84%D9%81%D8%A7%20%D8%A3%D9%88%D8%A5%D9%85%D9%83%D9%8A%D9%88.
+        - generic [ref=f6e278]:
+          - link "الدورة السابقة الإسعافات الأولية وتدريب الطوارئ الترفيهي (EFR)" [ref=f6e279] [cursor=pointer]:
+            - /url: /diving-courses/efr-emergency-first-response
+            - generic [ref=f6e283]:
+              - generic [ref=f6e284]: الدورة السابقة
+              - generic [ref=f6e285]: الإسعافات الأولية وتدريب الطوارئ الترفيهي (EFR)
+          - link "دليل جميع الدورات (7)" [ref=f6e286] [cursor=pointer]:
+            - /url: /diving-courses
+          - link "الدورة التالية مرشد الغوص الترفيهي (PADI Divemaster)" [ref=f6e291] [cursor=pointer]:
+            - /url: /diving-courses/dive-master
+            - generic [ref=f6e292]:
+              - generic [ref=f6e293]: الدورة التالية
+              - generic [ref=f6e294]: مرشد الغوص الترفيهي (PADI Divemaster)
+  - contentinfo [ref=f6e301]:
+    - generic [ref=f6e307]:
+      - generic [ref=f6e309]:
+        - generic [ref=f6e310]:
+          - img "OMQ" [ref=f6e312]
+          - paragraph [ref=f6e313]: الشركة الوطنية الرائدة في عمليات الغوص السيادية لحماية البنية التحتية والموارد البحرية للمملكة
+          - generic [ref=f6e316] [cursor=pointer]:
+            - img "PADI Logo" [ref=f6e318]
+            - generic [ref=f6e319]:
+              - generic [ref=f6e320]: غوص ترفيهي وتدريب بحري
+              - generic [ref=f6e321]: PADI Dive Center - S30833
+          - generic [ref=f6e322]:
+            - link "+966 13 835 2296" [ref=f6e323] [cursor=pointer]:
+              - /url: tel:+966138352296
+            - link "alibrahim@alphaomq.sa" [ref=f6e327] [cursor=pointer]:
+              - /url: mailto:alibrahim@alphaomq.sa
+            - link "2920 شارع الأمير تركي، حي الساحل، 8494 الخبر 34611، المملكة العربية السعودية" [ref=f6e332] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/%D8%B4%D8%B1%D9%83%D8%A9+%D8%A3%D9%84%D9%81%D8%A7%D8%A3%D9%88%D8%A5%D9%85%D9%83%D9%8A%D9%88%E2%80%AD/@26.273533,50.217485,17z/data=!3m1!4b1!4m6!3m5!1s0x3e49c300651cbf6f:0x180a817dce4364f3!8m2!3d26.273533!4d50.217485!16s%2Fg%2F11yxwcdd2s!17m2!4m1!1e3!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDMyOS4wIKXMDSoASAFQAw%3D%3D
+        - generic [ref=f6e337]:
+          - heading "روابط سريعة" [level=3] [ref=f6e338]
+          - list [ref=f6e339]:
+            - listitem [ref=f6e340]:
+              - link "من نحن" [ref=f6e341] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f6e343]:
+              - link "الخدمات" [ref=f6e344] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=f6e346]:
+              - link "المنتجات" [ref=f6e347] [cursor=pointer]:
+                - /url: /products
+            - listitem [ref=f6e349]:
+              - link "شركاؤنا" [ref=f6e350] [cursor=pointer]:
+                - /url: /partners
+        - generic [ref=f6e352]:
+          - heading "خدماتنا" [level=3] [ref=f6e353]
+          - list [ref=f6e354]:
+            - listitem [ref=f6e355]:
+              - link "المركز المائي والمسبح المدفأ" [ref=f6e356] [cursor=pointer]:
+                - /url: /aquatic-center
+            - listitem [ref=f6e358]:
+              - link "دورات الغوص PADI" [ref=f6e359] [cursor=pointer]:
+                - /url: /diving-courses
+            - listitem [ref=f6e361]:
+              - link "الغوص التجاري" [ref=f6e362] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=f6e364]:
+              - link "الدعم البحري" [ref=f6e365] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=f6e367]:
+              - link "البنية التحتية البحرية" [ref=f6e368] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=f6e370]:
+              - link "الاستشارات البحرية" [ref=f6e371] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=f6e373]:
+          - heading "الدعم" [level=3] [ref=f6e374]
+          - list [ref=f6e375]:
+            - listitem [ref=f6e376]:
+              - link "اتصل بنا" [ref=f6e377] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=f6e379]:
+              - link "سياسة الخصوصية" [ref=f6e380] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=f6e382]:
+              - link "شروط الاستخدام" [ref=f6e383] [cursor=pointer]:
+                - /url: /terms
+          - generic [ref=f6e385]:
+            - heading "تابعنا" [level=4] [ref=f6e386]
+            - generic [ref=f6e387]:
+              - link "Facebook" [ref=f6e388] [cursor=pointer]:
+                - /url: https://www.facebook.com/profile.php?id=61593921752059
+              - link "Instagram" [ref=f6e391] [cursor=pointer]:
+                - /url: https://www.instagram.com/alphaomq.sa/
+              - link "TikTok" [ref=f6e395] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@alpha_omq
+              - link "LinkedIn" [ref=f6e398] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/alpha-omq
+      - generic [ref=f6e405]:
+        - generic [ref=f6e406]: © 2026 ألفا أوإمكيو. جميع الحقوق محفوظة
+        - generic [ref=f6e407]:
+          - text: تطوير بواسطة
+          - link "Soft Masters" [ref=f6e408] [cursor=pointer]:
+            - /url: https://shimaamohamed.bio.link/
+        - generic [ref=f6e409]:
+          - generic [ref=f6e411] [cursor=pointer]:
+            - img "PADI Logo" [ref=f6e413]
+            - generic [ref=f6e414]: PADI Dive Center - S30833
+          - generic [ref=f6e415]: معتمد
+          - generic [ref=f6e419]: آمن
+          - generic [ref=f6e424]: موثوق
+  - region "Notifications alt+T"

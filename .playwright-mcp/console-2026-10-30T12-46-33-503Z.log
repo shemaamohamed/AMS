@@ -1,0 +1,10 @@
+[    3074ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_compiled_react-dom_ecf723e8._.js:14537
+[    3592ms] [WARNING] Image with src "/images/courses/ibtisam-efr-training-v2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_e3cfcfa6._.js:968
+[    3747ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_client_a16e87b1._.js:5949
+[    3790ms] [ERROR] API GET Error (/api/integrations/storefront/flash-alerts/active): Network Error @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_e3cfcfa6._.js:2359
+[    3791ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ http://app.alphaomq.sa/api/integrations/storefront/flash-alerts/active:0
+[    3793ms] [ERROR] API GET Error (/api/auth/session): Network Error @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_e3cfcfa6._.js:2359
+[    3793ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ http://app.alphaomq.sa/api/auth/session:0
+[    3950ms] [LOG] [Fast Refresh] done in 311ms @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_client_a16e87b1._.js:5809
+[    4260ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_client_a16e87b1._.js:5949
+[    4849ms] [LOG] [Fast Refresh] done in 691ms @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_client_a16e87b1._.js:5809

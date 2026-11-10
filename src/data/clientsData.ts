@@ -1,7 +1,15 @@
 import { ClientItem } from '@/types';
 
 export const clientsData: ClientItem[] = [
-  { name: 'Saudi Aramco', logoSrc: '/assets/clients/image (5).png', category: 'National Energy' },
+  {
+    name: 'Saudi Aramco',
+    nameAr: 'أرامكو السعودية',
+    logoSrc: '/assets/clients/aramco_logo.png',
+    category: 'National Energy',
+    vendorId: '10121703',
+    badge: 'Approved Vendor #10121703',
+    badgeAr: 'مورّد معتمد رقم 10121703'
+  },
   { name: 'ADNOC', logoSrc: '/assets/clients/image (6).png', category: 'National Energy' },
   { name: 'Chevron', logoSrc: '/assets/clients/image (8).png', category: 'International Oil Major' },
   { name: 'ConocoPhillips', logoSrc: '/assets/clients/image (10).png', category: 'International Oil Major' },

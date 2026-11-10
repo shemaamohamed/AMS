@@ -33,13 +33,13 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: defaultSEO.title,
-    template: "%s | AMS Marine",
+    template: "%s | Arabian Marine Services AMS Company",
   },
   description: defaultSEO.description,
   keywords: defaultSEO.keywords,
-  authors: [{ name: "AMS Marine", url: SITE_URL }],
-  creator: "AMS Marine (Arabian Marine Services)",
-  publisher: "AMS Marine",
+  authors: [{ name: "Arabian Marine Services AMS Company", url: SITE_URL }],
+  creator: "Arabian Marine Services AMS Company",
+  publisher: "Arabian Marine Services AMS Company",
   icons: {
     icon: [
       { url: "/faviconams.png", type: "image/png" },
@@ -119,4 +119,3 @@ export default function RootLayout({
     </html>
   );
 }
-

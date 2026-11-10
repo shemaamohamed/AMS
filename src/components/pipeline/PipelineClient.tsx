@@ -88,8 +88,8 @@ export function PipelineClient() {
 
           <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
             {isRtl
-              ? 'من خلال شراكتنا مع PIPECARE، تقدم AMS Marine مكاشط ذكية متطورة لاكتشاف انبعاجات الأنابيب، والتآكل الداخلي، ونقص سمك الجدار، والشقوق الهيكلية قبل وقوع أي أعطال طارئة.'
-              : 'Through our partnership with PIPECARE (formerly LINSCAN), AMS Marine deploys advanced smart pigs to detect pipeline dents, internal corrosion, wall thickness reduction, and structural flaws before catastrophic failures occur.'}
+              ? 'من خلال شراكتنا مع PIPECARE، تقدم شركة أربيان مارين سيرفيسز إيه.إم.إس مكاشط ذكية متطورة لاكتشاف انبعاجات الأنابيب، والتآكل الداخلي، ونقص سمك الجدار، والشقوق الهيكلية قبل وقوع أي أعطال طارئة.'
+              : 'Through our partnership with PIPECARE (formerly LINSCAN), Arabian Marine Services AMS Company deploys advanced smart pigs to detect pipeline dents, internal corrosion, wall thickness reduction, and structural flaws before catastrophic failures occur.'}
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">

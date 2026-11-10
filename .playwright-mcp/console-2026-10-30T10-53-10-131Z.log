@@ -1,0 +1,19 @@
+[    4284ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_compiled_react-dom_ecf723e8._.js:14537
+[    6512ms] [ERROR] API GET Error (/api/integrations/storefront/flash-alerts/active): Network Error @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_e3cfcfa6._.js:2359
+[    6512ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ http://app.alphaomq.sa/api/integrations/storefront/flash-alerts/active:0
+[    6513ms] [ERROR] API GET Error (/api/auth/session): Network Error @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_e3cfcfa6._.js:2359
+[    6514ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ http://app.alphaomq.sa/api/auth/session:0
+[    6737ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_client_a16e87b1._.js:5949
+[    7836ms] [LOG] [Fast Refresh] done in 1221ms @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_client_a16e87b1._.js:5809
+[  944877ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_client_a16e87b1._.js:5949
+[  946750ms] [LOG] [Fast Refresh] done in 2189ms @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_client_a16e87b1._.js:5809
+[  948141ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_client_a16e87b1._.js:5949
+[  948332ms] [LOG] [Fast Refresh] done in 293ms @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_client_a16e87b1._.js:5809
+[  948753ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_client_a16e87b1._.js:5949
+[  950003ms] [LOG] [Fast Refresh] done in 1354ms @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_client_a16e87b1._.js:5809
+[ 1047331ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_client_a16e87b1._.js:5949
+[ 1048950ms] [LOG] [Fast Refresh] done in 1582ms @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_client_a16e87b1._.js:5809
+[ 3805050ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_client_a16e87b1._.js:5949
+[ 3806052ms] [LOG] [Fast Refresh] done in 1118ms @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_client_a16e87b1._.js:5809
+[ 4298805ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_client_a16e87b1._.js:5949
+[ 4299502ms] [LOG] [Fast Refresh] done in 802ms @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_client_a16e87b1._.js:5809

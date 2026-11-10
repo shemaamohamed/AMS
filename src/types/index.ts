@@ -47,12 +47,14 @@ export interface AccreditationItem {
   id: string;
   title: string;
   titleAr?: string;
-  category: 'ISO' | 'IMCA' | 'IRATA' | 'Class Approval';
+  category: 'ISO' | 'IMCA' | 'IRATA' | 'Class Approval' | 'Aramco Approval';
   issuer: string;
   issuerAr?: string;
   imageSrc?: string | null;
   scope: string;
   scopeAr?: string;
+  vendorId?: string;
+  referenceNo?: string;
 }
 
 export interface ClientItem {
@@ -60,6 +62,9 @@ export interface ClientItem {
   nameAr?: string;
   logoSrc: string;
   category: 'National Energy' | 'International Oil Major' | 'EPC & Maritime';
+  vendorId?: string;
+  badge?: string;
+  badgeAr?: string;
 }
 
 export interface LocationHub {

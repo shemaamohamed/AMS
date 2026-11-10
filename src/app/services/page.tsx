@@ -4,9 +4,9 @@ import { SITE_URL, defaultOGImages } from '@/lib/seo';
 import { ServicesClient } from '@/components/services/ServicesClient';
 
 export const metadata: Metadata = {
-  title: 'Subsea Engineering & IRM Services Catalog | AMS Marine',
+  title: 'Subsea Engineering & IRM Services Catalog | Arabian Marine Services AMS Company',
   description:
-    'Explore AMS Marine subsea services: deepwater ROV Services, 300m commercial saturation diving, offshore IRM, subsea construction tie-ins, and marine civils across Saudi Arabia & GCC.',
+    'Explore Arabian Marine Services AMS Company subsea services: deepwater ROV Services, 300m commercial saturation diving, offshore IRM, subsea construction tie-ins, and marine civils across Saudi Arabia & GCC.',
   keywords: [
     'Subsea IRM Services Saudi Arabia',
     'Deepwater ROV Services',
@@ -28,15 +28,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: `${SITE_URL}/services`,
-    title: 'Subsea Engineering & IRM Services Catalog | AMS Marine',
+    title: 'Subsea Engineering & IRM Services Catalog | Arabian Marine Services AMS Company',
     description:
       'Technical specifications for ROV intervention, 300m saturation diving, pipeline integrity, and subsea construction.',
-    siteName: 'AMS Marine',
+    siteName: 'Arabian Marine Services AMS Company',
     images: defaultOGImages,
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Subsea Services & Asset Integrity Catalog | AMS Marine',
+    title: 'Subsea Services & Asset Integrity Catalog | Arabian Marine Services AMS Company',
     description: 'Detailed specs for offshore asset IRM, deepwater ROVs, and saturation diving.',
     images: [
       `${SITE_URL}/og-preview.png`,
@@ -50,7 +50,7 @@ export default function ServicesPage() {
   const serviceSchema = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
-    name: 'AMS Marine Subsea Engineering Services',
+    name: 'Arabian Marine Services AMS Company Subsea Engineering Services',
     itemListElement: [
       {
         '@type': 'Service',

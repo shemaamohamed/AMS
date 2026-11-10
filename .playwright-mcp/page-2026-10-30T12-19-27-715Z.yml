@@ -1,0 +1,120 @@
+- generic [active] [ref=f3e1]:
+  - navigation:
+    - generic [ref=f3e3]:
+      - link [ref=f3e4] [cursor=pointer]:
+        - /url: /
+        - img "Alpha OMQ" [ref=f3e5]
+      - generic [ref=f3e6]:
+        - link "الرئيسية" [ref=f3e7] [cursor=pointer]:
+          - /url: /
+        - link "المركز المائي" [ref=f3e8] [cursor=pointer]:
+          - /url: /aquatic-center
+        - button "من نحن" [ref=f3e10] [cursor=pointer]
+        - link "الخدمات" [ref=f3e13] [cursor=pointer]:
+          - /url: /services
+        - link "شركاؤنا" [ref=f3e14] [cursor=pointer]:
+          - /url: /partners
+        - link "اتصل بنا" [ref=f3e15] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f3e16]:
+        - button "EN" [ref=f3e18] [cursor=pointer]
+        - generic [ref=f3e23]:
+          - link [ref=f3e24] [cursor=pointer]:
+            - /url: /cart
+          - button [ref=f3e30] [cursor=pointer]
+  - main [ref=f3e34]:
+    - generic [ref=f3e36]:
+      - heading "404" [level=1] [ref=f3e37]
+      - heading "This page could not be found." [level=2] [ref=f3e39]
+  - contentinfo [ref=f3e43]:
+    - generic [ref=f3e49]:
+      - generic [ref=f3e51]:
+        - generic [ref=f3e52]:
+          - img "OMQ" [ref=f3e54]
+          - paragraph [ref=f3e55]: الشركة الوطنية الرائدة في عمليات الغوص السيادية لحماية البنية التحتية والموارد البحرية للمملكة
+          - generic [ref=f3e58] [cursor=pointer]:
+            - img "PADI Logo" [ref=f3e60]
+            - generic [ref=f3e61]:
+              - generic [ref=f3e62]: غوص ترفيهي وتدريب بحري
+              - generic [ref=f3e63]: PADI Dive Center - S30833
+          - generic [ref=f3e64]:
+            - link "+966 13 835 2296" [ref=f3e65] [cursor=pointer]:
+              - /url: tel:+966138352296
+            - link "alibrahim@alphaomq.sa" [ref=f3e69] [cursor=pointer]:
+              - /url: mailto:alibrahim@alphaomq.sa
+            - link "2920 شارع الأمير تركي، حي الساحل، 8494 الخبر 34611، المملكة العربية السعودية" [ref=f3e74] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/%D8%B4%D8%B1%D9%83%D8%A9+%D8%A3%D9%84%D9%81%D8%A7%D8%A3%D9%88%D8%A5%D9%85%D9%83%D9%8A%D9%88%E2%80%AD/@26.273533,50.217485,17z/data=!3m1!4b1!4m6!3m5!1s0x3e49c300651cbf6f:0x180a817dce4364f3!8m2!3d26.273533!4d50.217485!16s%2Fg%2F11yxwcdd2s!17m2!4m1!1e3!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDMyOS4wIKXMDSoASAFQAw%3D%3D
+        - generic [ref=f3e79]:
+          - heading "روابط سريعة" [level=3] [ref=f3e80]
+          - list [ref=f3e81]:
+            - listitem [ref=f3e82]:
+              - link "من نحن" [ref=f3e83] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f3e85]:
+              - link "الخدمات" [ref=f3e86] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=f3e88]:
+              - link "المنتجات" [ref=f3e89] [cursor=pointer]:
+                - /url: /products
+            - listitem [ref=f3e91]:
+              - link "شركاؤنا" [ref=f3e92] [cursor=pointer]:
+                - /url: /partners
+        - generic [ref=f3e94]:
+          - heading "خدماتنا" [level=3] [ref=f3e95]
+          - list [ref=f3e96]:
+            - listitem [ref=f3e97]:
+              - link "المركز المائي والمسبح المدفأ" [ref=f3e98] [cursor=pointer]:
+                - /url: /aquatic-center
+            - listitem [ref=f3e100]:
+              - link "دورات الغوص PADI" [ref=f3e101] [cursor=pointer]:
+                - /url: /diving-courses
+            - listitem [ref=f3e103]:
+              - link "الغوص التجاري" [ref=f3e104] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=f3e106]:
+              - link "الدعم البحري" [ref=f3e107] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=f3e109]:
+              - link "البنية التحتية البحرية" [ref=f3e110] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=f3e112]:
+              - link "الاستشارات البحرية" [ref=f3e113] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=f3e115]:
+          - heading "الدعم" [level=3] [ref=f3e116]
+          - list [ref=f3e117]:
+            - listitem [ref=f3e118]:
+              - link "اتصل بنا" [ref=f3e119] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=f3e121]:
+              - link "سياسة الخصوصية" [ref=f3e122] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=f3e124]:
+              - link "شروط الاستخدام" [ref=f3e125] [cursor=pointer]:
+                - /url: /terms
+          - generic [ref=f3e127]:
+            - heading "تابعنا" [level=4] [ref=f3e128]
+            - generic [ref=f3e129]:
+              - link "Facebook" [ref=f3e130] [cursor=pointer]:
+                - /url: https://www.facebook.com/profile.php?id=61593921752059
+              - link "Instagram" [ref=f3e133] [cursor=pointer]:
+                - /url: https://www.instagram.com/alphaomq.sa/
+              - link "TikTok" [ref=f3e137] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@alpha_omq
+              - link "LinkedIn" [ref=f3e140] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/alpha-omq
+      - generic [ref=f3e147]:
+        - generic [ref=f3e148]: © 2026 ألفا أوإمكيو. جميع الحقوق محفوظة
+        - generic [ref=f3e149]:
+          - text: تطوير بواسطة
+          - link "Soft Masters" [ref=f3e150] [cursor=pointer]:
+            - /url: https://shimaamohamed.bio.link/
+        - generic [ref=f3e151]:
+          - generic [ref=f3e153] [cursor=pointer]:
+            - img "PADI Logo" [ref=f3e155]
+            - generic [ref=f3e156]: PADI Dive Center - S30833
+          - generic [ref=f3e157]: معتمد
+          - generic [ref=f3e161]: آمن
+          - generic [ref=f3e166]: موثوق
+  - region "Notifications alt+T"
+  - alert [ref=f3e172]

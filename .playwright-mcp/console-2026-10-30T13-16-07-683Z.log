@@ -1,0 +1,13 @@
+[    2213ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_compiled_react-dom_ecf723e8._.js:14537
+[    2852ms] [WARNING] Image with src "/images/courses/ibtisam-rescue-diver-v2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_e3cfcfa6._.js:968
+[    2853ms] [WARNING] Image with src "/images/courses/ibtisam-poolside-gear.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_e3cfcfa6._.js:968
+[    2866ms] [WARNING] Image with src "/images/courses/company-real-pool.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_e3cfcfa6._.js:968
+[    2872ms] [WARNING] Image with src "/images/courses/ibtisam-underwater-portrait.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_e3cfcfa6._.js:968
+[    2992ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_client_a16e87b1._.js:5949
+[    3073ms] [ERROR] API GET Error (/api/integrations/storefront/flash-alerts/active): Network Error @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_e3cfcfa6._.js:2359
+[    3074ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ http://app.alphaomq.sa/api/integrations/storefront/flash-alerts/active:0
+[    3075ms] [ERROR] API GET Error (/api/auth/session): Network Error @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_e3cfcfa6._.js:2359
+[    3075ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ http://app.alphaomq.sa/api/auth/session:0
+[    3179ms] [LOG] [Fast Refresh] done in 295ms @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_client_a16e87b1._.js:5809
+[    3377ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_client_a16e87b1._.js:5949
+[    4312ms] [LOG] [Fast Refresh] done in 1038ms @ http://localhost:3000/_next/static/chunks/3aa45_next_dist_client_a16e87b1._.js:5809

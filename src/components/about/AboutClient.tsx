@@ -52,6 +52,10 @@ export function AboutClient() {
               </li>
               <li className="flex items-start gap-2">
                 <CheckCircle2 className="w-4 h-4 text-[#2f7c4c] dark:text-[#3bd879] shrink-0 mt-0.5" />
+                <span>{isRtl ? 'مورّد معتمد رسمياً لدى أرامكو السعودية (Vendor ID: 10121703) وشهادة الامتثال السيبراني CCC' : 'Officially Approved Saudi Aramco Vendor (Vendor ID: 10121703) & CCC Certified'}</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <CheckCircle2 className="w-4 h-4 text-[#2f7c4c] dark:text-[#3bd879] shrink-0 mt-0.5" />
                 <span>{isRtl ? 'تدريب وتطوير الكوادر السعودية في مجالات الغوص التجاري والهندسة البحرية' : 'Local commercial diver training and engineering workforce development'}</span>
               </li>
               <li className="flex items-start gap-2">
